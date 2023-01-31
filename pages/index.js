@@ -1,58 +1,53 @@
 import Head from 'next/head';
-import styles from '../styles/Home.module.css';
+//import styles from '../styles/Home.css';
 import Link from 'next/link'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+<div id='app'>
       {/* <Head>
         Header??
       </Head> */}
 
       {/* <main> */}
-      <div>
-  <div class="hello">
-    <h1 style={{zIndex:2}}>The Waldgrave Welcomes You</h1>
-    <div style={{margin: '-2em 0'}}><img class="bigw" src="../assets/transparentw.png"/></div>
+  <div>
+    <div className="hello">
+      <h1 style={{zIndex:2}}>The Waldgrave Welcomes You</h1>
+      <div style={{margin: '-2em 0'}}><img className="bigw" src="/transparentw.png"/>
+      </div>
 
-    <h2>Core Values</h2>
-    <ul>
-      <li>
-        <a href="https://youtu.be/zNHDTvqbUm4">Creativity</a>
-      </li>
-      <li style={{display: 'flex', flexDirection: 'column'}}>
-        <span>Weird</span>
-        <a href="https://youtu.be/esayi49OAk4?t=548" target="_blank"
-        style={{fontSize: '12px'}}>TWF</a>
-      </li>
-      <li>
-        <a href="https://youtu.be/a_YR4dKArgo">Effort</a>
-      </li>
-    </ul>
-    {/* <!-- <div class="purple-circle-container">
-      <Link href="/thepurplecircle"><img class="purple-circle" src="../assets/thepurplecircle.jpg"></Link>
-    </div> --> */}
-    <Link href="/2023-update">
-      <h2>2023 Update</h2>
-    </Link>
-
-    <h2>Goals</h2>
+      <h2>Core Values</h2>
+      <ul>
+        <li>
+          <a href="https://youtu.be/zNHDTvqbUm4">Creativity</a>
+        </li>
+        <li style={{display: 'flex', flexDirection: 'column'}}>
+          <span>Weird</span>
+          <a href="https://youtu.be/esayi49OAk4?t=548" target="_blank"
+          style={{fontSize: '12px'}}>TWF</a>
+        </li>
+        <li>
+          <a href="https://youtu.be/a_YR4dKArgo">Effort</a>
+        </li>
+      </ul>
+        <h2><Link href="/2023-update">2023 Update </Link></h2>
+      <h2>Goals</h2>
         {/* <!-- We are creatures of creation and expression, but our everyday
           lives do not always give us outlets, so we must create spaces that do.
           The Waldgrave aims to provide the tools to create those spaces for you and your friends,
           and to promote the creation and capture of ideas. --> */}
-    <div>
+      <div>
         <p>The current projects and goals of the Waldgrave include <Link href="/teganandsara"> a music blog</Link>,
         {/* <!-- <Link href="/readtogether">a bookclub app</Link>,  --> */}
         <Link href="/brainstree"> a notes/habits app</Link>, <Link href="/openchicago"> turning Chicago into a global leader and eventual Great Lakes Supercity center</Link> (featuring BUBI), <Link href="/fixingsocialsecurity">fixing social security</Link>, reducing income equality, <Link href="/climatechangestrats">combatting climate change</Link>,<Link href="/endoftheuniverse">how to find aliens inside black holes and survive the heat death of the universe</Link>, and a <Link href="/golfgolf">mini-golf revolution</Link> centered on proving the superiority of profit-minimizing business structures.
         </p>
-    </div>
-    <div>
-      <a href="https://ko-fi.com/waldgrave">
-        <img style={{width: '3rem'}} src="../assets/thew1.png"/>
-      </a>
-    </div>
-    <h2>Wacky Wednesday FAQ</h2>
+      </div>
+      <div>
+        <a href="https://ko-fi.com/waldgrave">
+          <img style={{width: '3rem'}} src="/thew1.png"/>
+        </a>
+      </div>
+      <h2>Wacky Wednesday FAQ</h2>
       <div>
         <h4>Why is Wacky Wednesday?</h4>
         <p>Open creativity needs you to create an open space for it. And it is a fun way to hang out with friends and talk. </p>
@@ -71,22 +66,22 @@ export default function Home() {
       </div>
       <h2>What is the Waldgrave?</h2>
       <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'start', textAlign: 'left'}}>
-        <div class="defList">
-        1) An officer having jurisdiction over a royal forest
+        <div className="defList">
+          1) An officer having jurisdiction over a royal forest
         </div>
-        <div class="defList">
+        <div className="defList">
           2) The area in your brain where the different forms of consciousness meet. Your understanding how to manage your own waldgrave determines which of your selves tend to get expressed.
         </div>
-        <div class="defList">
+        <div className="defList">
           3) When you listen to someone talk, their words shape your neurons. A form of them exists in you. On the larger scale, we are a gigabrain. You have ~86 billion neurons, the gigabrain has 8 billion of us.
         </div>
-        <div class="defList">
+        <div className="defList">
           4) The Waldgrave stands for giving all 8 billion brains the ability to thrive. I believe we can do that through BUBI, and our projects to get there aim to operate with an at-cost or less pricing model. Science and technology can transform the world, but big tech got greedy so now they need me, the name's B and I make tech freely, I'm a rapper in training, RIT's me.
         </div>
       </div>
       <div>
         <Link href="/story">
-          <img style={{width:'2rem'}} src="../assets/thew2.png"/>
+          <img style={{width:'2rem'}} src="/thew2.png"/>
         </Link>
       </div>
       <div>
@@ -104,50 +99,29 @@ export default function Home() {
           Additionally, you are a biological computer that is constantly re-programming itself based on neural paths taken. We have limited processing power that we manage, 'we' are not the full brain, we are a part at the top front that connects to the rest, and seems to make decisions. How we think actively shapes our brains, the repeated surges through neurons are like the strings vibrating to create the base waves of our universe. 86 billion little splashes shape the seas of your mind. Meditation has you focus on a background wave that is always there, the in and out flow of your breath. As a new thought rises out of an inner wave peaking, you acknowledge it, understand where it came from, and let it go. You find its amplitude and frequency, get in sync with it, and hug it away with some deconstructive acceptance. You accept that your brain is a product of the past so this thought is a reaction you cannot control. What you can control is your reaction to your brain's default reaction, and in meditation your reaction is to focus back on your breath. But outside of meditation, this enables you to react to your immediate reactions and evaluate the output of your brain, which in turn shapes your brain for the next time. This is where I think conscousness and free will live. Through this, I believe meditation enables you to be more intentionally you.
         </p> --> */}
       </div>
-  </div>
+    </div>
   </div>
       {/* </main> */}
 
-      <footer>
-          The Wacky Wednesday Waldgrave - Carl's Isle Productions
-      </footer>
+  <footer style={{margin: '2em'}}>
+      The Wacky Wednesday Waldgrave - Carl's Isle Productions
+  </footer>
 
       <style jsx>{
-        // main {
-        //   padding: 5rem 0;
-        //   flex: 1;
-        //   display: flex;
-        //   flex-direction: column;
-        //   justify-content: center;
-        //   align-items: center;
-        // }
-        // footer {
-        //   width: 100%;
-        //   height: 100px;
-        //   border-top: 1px solid #eaeaea;
-        //   display: flex;
-        //   justify-content: center;
-        //   align-items: center;
-        // }
-        // footer img {
-        //   margin-left: 0.5rem;
-        // }
-        // footer a {
-        //   display: flex;
-        //   justify-content: center;
-        //   align-items: center;
-        //   text-decoration: none;
-        //   color: inherit;
-        // }
-        // code {
-        //   background: #fafafa;
-        //   border-radius: 5px;
-        //   padding: 0.75rem;
-        //   font-size: 1.1rem;
-        //   font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-        //     DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-        // }
-        `h1, h2 {
+        `#app {
+          font-family: 'Avenir', Helvetica, Arial, sans-serif;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+          text-align: center;
+          color: #2c3e50;
+        }
+        p {
+          margin: 1% 5%;
+          text-align: left;
+        }
+
+
+        h1, h2 {
           font-weight: normal;
         }
         ul {
@@ -208,13 +182,13 @@ export default function Home() {
           margin: 7px 15%;
         }
       `}</style>
-
+{/*
       <style jsx global>
         {
         `
 
       `}
-      </style>
+      </style> */}
     </div>
   )
 }

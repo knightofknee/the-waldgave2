@@ -3,11 +3,16 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "gog": "git add . && git commit -m 'gog' && git push && git push heroku master",
+    "gogg": "git push heroku master",
+    "gogo": "npm run build && npm run start",
+    "go": "npm run dev"
   },
   "dependencies": {
     "next": "latest",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "styled-jsx": "^5.1.2"
   }
 }
