@@ -30,16 +30,16 @@ export default function Home() {
           <a href="https://youtu.be/a_YR4dKArgo">Effort</a>
         </li>
       </ul>
-        <h2><Link href="/2023-update">2023 Update </Link></h2>
+        <h2><Link href="/2023-Update">2023 Update </Link></h2>
       <h2>Goals</h2>
         {/* <!-- We are creatures of creation and expression, but our everyday
           lives do not always give us outlets, so we must create spaces that do.
           The Waldgrave aims to provide the tools to create those spaces for you and your friends,
           and to promote the creation and capture of ideas. --> */}
       <div>
-        <p>The current projects and goals of the Waldgrave include <Link href="/teganandsara"> a music blog</Link>,
+        <p>The current projects and goals of the Waldgrave include <Link href="/TeganAndSara"> a music blog</Link>,
         {/* <!-- <Link href="/readtogether">a bookclub app</Link>,  --> */}
-        <Link href="/brainstree"> a notes/habits app</Link>, <Link href="/openchicago"> turning Chicago into a global leader and eventual Great Lakes Supercity center</Link> (featuring BUBI), <Link href="/fixingsocialsecurity">fixing social security</Link>, reducing income equality, <Link href="/climatechangestrats">combatting climate change</Link>,<Link href="/endoftheuniverse">how to find aliens inside black holes and survive the heat death of the universe</Link>, and a <Link href="/golfgolf">mini-golf revolution</Link> centered on proving the superiority of profit-minimizing business structures.
+        <Link href="/Brainstree"> a notes/habits app</Link>, <Link href="/OpenChicago"> turning Chicago into a global leader and eventual Great Lakes Supercity center</Link> (featuring BUBI), <Link href="/SocialSecurityFix">fixing social security</Link>, reducing income equality, <Link href="/ClimateChangeStrats">combatting climate change</Link>,<Link href="/EndOfTheUniverse">how to find aliens inside black holes and survive the heat death of the universe</Link>, and a <Link href="/GolfGolf">mini-golf revolution</Link> centered on proving the superiority of profit-minimizing business structures.
         </p>
       </div>
       <div>
@@ -80,7 +80,7 @@ export default function Home() {
         </div>
       </div>
       <div>
-        <Link href="/story">
+        <Link href="/Story">
           <img style={{width:'2rem'}} src="/thew2.png"/>
         </Link>
       </div>
