@@ -1,6 +1,6 @@
 export default function Story() {
   return (<div>
-  <div style="display:flex;flexDirection:column;justifyContent:center">
+  <div style={{display:'flex', flexDirection:'column', justifyContent:'center'}}>
 
 <h3>New Chapter 1</h3>
 <p>

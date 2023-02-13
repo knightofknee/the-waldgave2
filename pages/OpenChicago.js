@@ -2,7 +2,7 @@
 export default function OpenChicago() {
   return (
 <div>
-  <div style={{display:'flex',flexDirection:'column',justifyContent:'center'}}>
+  <div style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center'}}>
   <h2>Chicago Initiatives- order is not prioritized</h2>
   <p>
     Carbon Check- it's like a carbon tax but it isn't a tax because the government gets nothing. We check how much harm people are putting in the air and we charge them. That money goes to a fund, and every month that fund is divided evenly between every citizen. Everyone bears the consequences of these actions, so everyone should be paid to compensate. This can immediately correct incentives.

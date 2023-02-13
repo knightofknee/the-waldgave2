@@ -2,7 +2,7 @@
 export default function PresidentialPlans () {
     return(
 <div>
-  <div style="display:flex;justify-content:center;flex-direction:column">
+  <div style={{display:'flex', justifyContent:'center', flexDirection:'column'}}>
     <h3>
       Some day 1 and going forward plans
     </h3>

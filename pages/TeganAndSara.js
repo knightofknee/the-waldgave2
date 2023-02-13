@@ -1,5 +1,5 @@
 import songsData from '../public/TandSSongs'
-import Song from './Song'
+import Song from '../components/Song'
 import { useEffect, useState } from 'react';
 
 export default function TeganAndSara() {
