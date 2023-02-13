@@ -36,7 +36,7 @@ Columbus, in his own words, considered Arabic to be "the mother of all languages
     <h5>
       Arm massaging for lifting
     </h5>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/Jx-Bw97XHoA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Jx-Bw97XHoA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
     <p>
       I've had problems with lifting and basketball causing elbow pain. I'm hoping to get similar benefits from this as I do from yoga, to improve muscle growth and flexibility. I think it makes your other work more efficient and prevents injury. Will report back-- do PT instead, did that and it helped a lot, but still might be good
     </p>

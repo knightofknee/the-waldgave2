@@ -58,7 +58,7 @@ export default function OpenChicago() {
     Violence in the city: the new police oversight system paired with the increased budget we need to hire and keep a competent police force will give us some basic tools we need. The real wins will come from building up. The education system needs an overhaul, new teachers need a support system to help them flourish where they are now suffering. Singapore has many best practices to learn from. New teachers should be taught by successful teachers who now focus on teaching teachers. Another big win comes in the form of Universal Basic Income, establishing a minimum income floor for all residents. I want all residents of Chicago to have access to a roof and a floor. This should provide means and hope to the kids out there currently mired by all this violence. This can start small, and as the budget gets balanced and we can afford it, it will rise. Imagine if a family member of yours found themselves homeless, or infirmed and in medical debt? I'd feel much better if I knew they had the simple bear necessities. Chicago is my family, I believe that together we can support our most vulnerable.
   </p>
   <p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/OWhsVwVy9yg?start=830&end=848" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OWhsVwVy9yg?start=830&end=848" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
   </p>
   <h3>Long term plan for Chicago and Illinois</h3>
   <p>

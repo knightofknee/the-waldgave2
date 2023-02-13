@@ -16,7 +16,7 @@ export default function PresidentialPlans () {
 
         {/* <!-- Congress should be the leading force for setting the goals, outside of the core issues that a President chooses to define their platform by, subject to change. Congress simply has the democratic mandate, they are the connection to all of the people and their situations and opinions. --> */}
     </p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/3LfPv1U7MpQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3LfPv1U7MpQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
   </div>
 
 <style jsx >
