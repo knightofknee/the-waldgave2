@@ -65,19 +65,30 @@ export default function Home() {
         <p>It is an event in which you and any number of friends gather together for some creativity and socializing. I recommend some open art and/or music time as a base, ideally with a creative event of any sort. The event can be whatever, some past examples include an improv excercises, painting, song writing and karaoke. Anything that involves creativity or learning works. Besides that, the only other major element is creating a space where everyone involved feels as comfortable as possible to create and share with no judgement. Improv group exercises can be a great first or second Wacky Wednesday to help the group get in the "yes and..." mindset. Process over product, the goal is to give everyone space to explore.</p>
       </div>
       <h2>What is the Waldgrave?</h2>
-      <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'start', textAlign: 'left'}}>
-        <div className="defList">
-          1) An officer having jurisdiction over a royal forest
+      <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'start', textAlign: 'left',margin: '0 auto', width: '80%'}}>
+        <div style={{display:'flex', alignItems:'center'}}>
+          <div className='defNum'>1)</div>
+          <div className="defList">
+            Originally used to refer to an officer having jurisdiction over a royal forest during the times of the Holy Roman Empire.
+          </div>
         </div>
-        <div className="defList">
-          2) The area in your brain where the different forms of consciousness meet. Your understanding how to manage your own waldgrave determines which of your selves tend to get expressed.
+        <div style={{display:'flex', alignItems:'center'}}>
+          <div className='defNum'>2)</div>
+          <div className="defList">
+            The area in your brain where the different forms of consciousness meet. Your understanding how to manage your own waldgrave determines which of your selves tend to get expressed.
+          </div>
         </div>
-        <div className="defList">
-          3) When you listen to someone talk, their words shape your neurons. A form of them exists in you. On the larger scale, we are a gigabrain. You have ~86 billion neurons, the gigabrain has 8 billion of us.
+        <div style={{display:'flex', alignItems:'center'}}>
+          <div className='defNum'>3)</div>
+          <div className="defList">
+            When you listen to someone talk, their words shape your neurons. A form of them exists in you. On the larger scale, we are a gigabrain. You have ~86 billion neurons, the gigabrain has 8 billion of us.
+          </div>
         </div>
-        <div className="defList">
-          4) The Waldgrave stands for giving all brains the ability to thrive. We want to provide tools for free or at cost. We want to learn as much as we can and then to share the best of what we find. We want to enable individuals to pursue whatever they think they can do that will most benefit humanity.
-
+        <div style={{display:'flex', alignItems:'center'}}>
+          <div className='defNum'>4)</div>
+          <div className="defList">
+            The Waldgrave stands for giving all brains the ability to thrive. We want to provide tools for free or at cost. We want to learn as much as we can and then to share the best of what we find. We want to enable individuals to pursue whatever they think they can do that will most benefit humanity.
+          </div>
         </div>
       </div>
       <div>

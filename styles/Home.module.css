@@ -55,6 +55,16 @@ a {
 }
 
 .defList {
-  display: inline-block;
-  margin: 7px 15%;
+  display: flex;
+  margin: 7px 5%;
+  flex-grow: 1;
+}
+
+.defNum {
+  margin-right: 10px;
+}
+
+.listItemContainer {
+  display: flex;
+  align-items: center;
 }
