@@ -76,7 +76,8 @@ export default function Home() {
           3) When you listen to someone talk, their words shape your neurons. A form of them exists in you. On the larger scale, we are a gigabrain. You have ~86 billion neurons, the gigabrain has 8 billion of us.
         </div>
         <div className="defList">
-          4) The Waldgrave stands for giving all 8 billion brains the ability to thrive. I believe we can do that through BUBI, and our projects to get there aim to operate with an at-cost or less pricing model. Science and technology can transform the world, but big tech got greedy so now they need me, the name's B and I make tech freely, I'm a rapper in training, RIT's me.
+          4) The Waldgrave stands for giving all brains the ability to thrive. We want to provide tools for free or at cost. We want to learn as much as we can and then to share the best of what we find. We want to enable individuals to pursue whatever they think they can do that will most benefit humanity.
+
         </div>
       </div>
       <div>
