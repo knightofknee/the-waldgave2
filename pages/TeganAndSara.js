@@ -21,7 +21,72 @@ export default function TeganAndSara() {
       Carl's Cut- Chance's Big Day and why you should listen again
     </h2>
     <p>
-      This is one of my favorite rap albums of the past few years, but it didn't have a ton of popular success. Many attribute it to Chance talking about marriage, and maybe that doesn't do the same as sex and drugs. I attribute it primarily to the song order. Start the album on Roo and you are treated with 5 absolute bangers in a row, capturing your attention. Then a fun Ballin Flossin mixup for the central skit and a serious banger in 5 Year Plan. From there, I include everything in order except "Town on the Hill", it is super slow and I don't really get much from it. Zanies and Fools is amazing, then I go back to the original start of the album for those songs we skipped. We skipped them because they didn't have the strong initial hook, but they close out the album well. <a href="https://open.spotify.com/playlist/0Vb7mU97NeAp1FN8EixQN5?si=10917f8fef234c58">(Link to Playlist)</a>
+      This is one of my favorite rap albums of the past few years, but it didn't have a ton of popular success. Many attribute it to Chance talking about marriage, and maybe that doesn't do the same as sex and drugs. I attribute it primarily to the song order. Let me walk you through what I hear in my order:
+      </p>
+      <ol>
+        <li>
+      1- Roo. Immediately he establishes where he is from, and is focused on his confidence and love for his brother. There is self love and brotherly love. Not a marriage album yet. C1
+      </li>
+      <li>
+      2- The Big Day. Deceptively named, this song screams self love to me. "I can't believe it, must be the luckiest guy alive, somehow <i>I arrived</i>.", "But we're only going to survive if we go crazy" -an initial warning. Later he is glad "you arrived". He later goes "Fuck money, shit, fuck, shit, tell 'em, burn it, I don't wanna, get it, fuck it, fuck it, fuck it, fuck it, fuck it, Fuck it, Yeah, uh, uh, Still wanna, drink it, fuck it, drink it, drink it, fuck it, shoot it, I don't wanna, just get it, get it, get it, get it (That shit is so hard) Oh, Lord". This is him struggling with the urges. Throughout this song theoretically about a wedding, there is no proof of a bride yet, or anything outside of this man's mind. This may seem a bit out there to you, but here is the end of the song: "In the simulation, This is the only part I like, Or I might just be a molecule of Christ, Folding in a universe of dust and light, Or maybe we're just molecules in the body of Christ". Not a marriage album yet. C2
+      </li>
+      <li>3- Let's Go On The Run. This one has Chance mainly singing to a girl, and is trying to run away with her. And a woman singing back who wants to run away. Not a marriage album yet.</li>
+      <li>
+        4- Handsome. This is mostly bravado club-romance rap. Chance talking about his wild past. Not a marriage album yet.C3
+      </li>
+      <li>5- Big Fish. This is the "switch". He ends the first part by calling out labels for not supporting marriage as a concept that he can sing about. Like Kanye in Jesus Walks, "That means guns, sex, lies, videotape, But if I talk about God my record won't get played?". This song explains the transition to a marriage album. Chance felt like a big fish in a small pond, wild like in the previous songs, "I've seen hoes, I was always like "which witch?"". Then he was caught by something bigger and taken out of the pond. Definitely a marriage song.M1, C4</li>
+      <li></li>
+      <li>
+        6- Ballin Flossin. A romance song, no marriage references though. The confidence is a theme as well. C5
+      </li>
+      <li>
+        7- 4 quarters in the black skit. It sounds like a dad undercutting and criticizing his son. Taking credit. This is a self love skit, the setup. Dealing with the critics. C6
+      </li>
+      <li>
+        8- 5 Year Plan. Self love and self confidence song, Chance gives us advice on how to believe in ourselves. C7
+      </li>
+      <li>
+        9- Get a Bag. Bravado and Romance again. C8
+      </li>
+      <li>
+        10- Slide Around. Bravado and Romance, long term relationship leaning. M2 C9
+      </li>
+      <li>
+        11- Sun Come Down. Romance and talking about his own death, and confidence in oneself. M3 C10
+      </li>
+      <li>
+        12- A Good One. About not being single no more. M4
+      </li>
+      <li>
+        13- Our House skit (I don't include Town On the Hill, too slow and doesn't seem to fit). Celebrates mom and dad being married. M5
+      </li>
+      <li>
+        14- Zanies and Fools. Talks more directly about the Confidence given to him through his Relationship. Self love and embracing great hope. M6, C11
+      </li>
+      <li>
+        15- All Day Long. Confidence. C12
+      </li>
+      <li>
+        16- Do you Remember? Nostalgic Confidence. C13
+      </li>
+      <li>
+        17- Eternal. Romance and Confidence. C14
+      </li>
+      <li>
+        18- Hot Shower. Fun song but doesn't really fit the album outside of the Confidence theme. C15
+      </li>
+      <li>
+        19- We Go High. Chance has his ego humbled through his failures in his relationship. As we go to the end of the album, he reveals the final conflict in this ego saga. He is humbled and is able to explain "I had to let go of the flesh first". C16, M6
+      </li>
+      <li>
+        20- I Got You. This is a Love Victory song, celebrating an always and forever bond. This is my last song. M7
+      </li>
+      <li>
+        12- Photo Ops skit. This does not fit as a final song, but it does serve as a great transition into Roo and a restart of this playlist. It grounds you back into the perspective of Chance and his brother as children getting torn down verbally.
+      </li>
+      </ol>
+      <p>
+       <a href="https://open.spotify.com/playlist/0Vb7mU97NeAp1FN8EixQN5?si=10917f8fef234c58">(Link to Playlist)</a>
     </p>
     <iframe style={{borderRadius:'12px'}} src="https://open.spotify.com/embed/playlist/0Vb7mU97NeAp1FN8EixQN5?utm_source=generator" width="100%" height="380" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
     <h2>
