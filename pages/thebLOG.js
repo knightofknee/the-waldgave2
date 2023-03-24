@@ -1,6 +1,22 @@
-export default function Update2023() {
+export default function thebLOG() {
   return (<div>
 <div>
+  <h1>the bLOG</h1>
+  <h2>Cutting off trains of thought, 2 techniques and some theorizing</h2>
+  <p>So blocking out everything and resetting your mind is one of the most powerful tools you can have. When you don't restart your computer it fills up with junk and works slower. So to get back to full capacity, you do your mental reset.
+</p>
+<p>
+Mental reset- listen to music and follow the lyrics. At the same time sing a different song in your head, I often just repeat 'its gone be aaalright!' from Kendrick. On top of that, imagine yourself somewhere you feel very comfortable, maybe it's raining there. You can add smell, feel the humid/crisp air. Once you have it all going, you are clear.** How many layers you need varies
+</p>
+<p>
+**I'm not sure yet on how long is ideal to sit in that state. In the hospital when I felt the most physically depressed on the roller coaster day of them changing my meds, this technique worked instantly for me, it seemed like magic. But I think the female brain can hold more things at once, so they might need to use more layers.***
+</p>
+<p>
+*** What if that causes the bell curve differences for male and female performance. They have a harder time resetting their brain but that means they can stay on task better. They hold more things at once because they keep their trains of thought alive. While men, they are better at being 'dumb', not thinking about anything. We can more easily cut off our trains of thought, which is a tool that can help us come up with new ideas and be mindful, or trap us in the desires of the body, more easily pulled away from focus, impulsive. At the highest level of intelligence though, I suspect that logic matters more than hardware. Women can use techniques like these, men can strengthen their focus. But when we look at the distribution differences, something as small as this could be responsible for the full difference, because this is the foundation of thought. Do you let your brain traversed by continuous trains of thought that occupy most of the time? Or are you continually reacting to the world around you and tying it back other things on your mind as you go? It can be scary to stop a train of thought you like. But if you can put it down and pick it up later from an expected cue or a quick note, your brain will be working in the background and whatever you experience can help you lay new tracks for that train, so it can go down more paths than if it had just raced down the one.
+</p>
+<p>
+Mental reset 2- Focusing on your peripheral vision. When you do so, part of your brain happens to turn off, and your inner monologue is turned off. I am still new to this one
+</p>
   <h2>2023 Update</h2>
   <p>
     In 2022 I focused on improving my habits and designing them around my knowledge of neuroscience and psychology. I started the year targeting 7 daily habits (including this website I'm up to 8). My concept is I want to fill my day up with the things I want to do long term. I am also working on a vice tracking model, but I've been primarily concerned with filling time with positive actions. Here is where they stand:

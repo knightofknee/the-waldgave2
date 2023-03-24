@@ -30,7 +30,7 @@ export default function Home() {
           <a href="https://youtu.be/a_YR4dKArgo">Effort</a>
         </li>
       </ul>
-        <h2><Link href="/2023-Update">2023 Update </Link></h2>
+        <h2><Link href="/thebLOG">the bLOG </Link></h2>
       <h2>Goals</h2>
         {/* <!-- We are creatures of creation and expression, but our everyday
           lives do not always give us outlets, so we must create spaces that do.
