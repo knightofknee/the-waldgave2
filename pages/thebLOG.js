@@ -2,6 +2,12 @@ export default function thebLOG() {
   return (<div>
 <div>
   <h1>the bLOG</h1>
+  <h2>Monday Night Review</h2>
+  <p>For about 8 years now, I have been trying to write down any ideas or thoughts I have or encounter that stand out as being better, worth remembering. Or trains of thought that sound promising but you don't have the time to ride them out right now. You can put down a thread and pick it up at any point. Your brain's memory process is not intentional, it generally just does its job without discrimination. You can take agency in your own memory by taking quick notes in your phone* whenever you hear or think of something you find worthwhile. These can be 1-3 words, just enough to trigger your memory.</p>
+  <p>
+    Monday Night Review is a practice I have been doing occasionally where I will look at recent notes and highlight the standouts, and expand on whatever seems interesting. My current plan is to make a youtube series out of this, and include written notes here as part of that.
+  </p>
+  <p>*app in progress</p>
   <h2>Cutting off trains of thought, 2 techniques and some theorizing</h2>
   <p>So blocking out everything and resetting your mind is one of the most powerful tools you can have. When you don't restart your computer it fills up with junk and works slower. So to get back to full capacity, you do your mental reset.
 </p>
@@ -49,5 +55,11 @@ Mental reset 2- Focusing on your peripheral vision. When you do so, part of your
     I have a weekly habit that I have neglected called 'Monday Night Review'. Here I look at all notes of the past week and select the ones that seem interesting. Before I have elaborated on those ideas or shared them with a friend. I am considering doing it as a youtube series and including them here.
   </p>
 </div>
-
+<style jsx>
+{`
+p {
+  margin: 1% 5%;
+}
+`}
+</style>
 </div>)}
