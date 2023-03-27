@@ -8,7 +8,8 @@
     "gogg": "git push heroku",
     "gogo": "npm run build && npm run start",
     "go": "npm run dev",
-    "g": "git add . && git commit -m 'g' && git push"
+    "g": "git add . && git commit -m 'g' && git push",
+    "goo": "git add . && git commit -m 'goo' && git push heroku"
   },
   "dependencies": {
     "next": "latest",
