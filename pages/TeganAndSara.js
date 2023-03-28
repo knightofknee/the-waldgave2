@@ -23,7 +23,7 @@ export default function TeganAndSara() {
     <p>
       I am a big fan of this artist, especially this album. It fits the self love theme of this blog because it is about growth. It explores the term kaizen, which describes incremental change. "An abundance of elegance in the ways that I've grown, The omittance of arrogance, I've corrected my tone"... "I'm in love with the process, not the contents 'cause I know my identity". KAAN is focused on process over product. He's not concerned about the result because he is confident in his vision, he knows that he will be just fine if he continues on his path.
     </p>
-    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/6qRwmIJRj0ZTCg2kFsM3b3?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <iframe style={{borderRadius:'12px'}} src="https://open.spotify.com/embed/album/6qRwmIJRj0ZTCg2kFsM3b3?utm_source=generator" width="100%" height="352" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     <h2>
       Carl's Cut- Chance's Big Day and why you should listen again
     </h2>
