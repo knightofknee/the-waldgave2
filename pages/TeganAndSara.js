@@ -21,7 +21,7 @@ export default function TeganAndSara() {
       Mello Music's Bushido
     </h2>
     <p>
-      Great rap album, this has been my go-to for a few months now.
+      Great rap album, this has been my go-to for a few months now. One of the standout songs for me is Yours Truly, for the lyrics and the distinctive beat.
     </p>
     <iframe style={{borderRadius:'12px'}} src="https://open.spotify.com/embed/album/5kCNU9ouaRoRtQNJrtfavl?utm_source=generator" width="100%" height="352" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     <h2>
