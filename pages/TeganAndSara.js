@@ -18,6 +18,13 @@ export default function TeganAndSara() {
 <div id="newOuterShell" style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
   <div style={{display:'flex',justifyContent:'center',flexDirection:'column',alignItems:'center'}}>
     <h2>
+      Mello Music's Bushido
+    </h2>
+    <p>
+      Great rap album, this has been my go-to for a few months now.
+    </p>
+    <iframe style={{borderRadius:'12px'}} src="https://open.spotify.com/embed/album/5kCNU9ouaRoRtQNJrtfavl?utm_source=generator" width="100%" height="352" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <h2>
       Carl's Cut- Chance's Big Day and why you should listen again
     </h2>
     <p>
