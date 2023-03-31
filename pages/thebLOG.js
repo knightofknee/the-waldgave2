@@ -5,7 +5,7 @@ export default function thebLOG() {
   <h2>Monday Night Review</h2>
   <p>For about 8 years now, I have been trying to write down any ideas or thoughts I have or encounter that stand out as being better, worth remembering. Or trains of thought that sound promising but you don't have the time to ride them out right now. You can put down a thread and pick it up at any point. Your brain's memory process is not intentional, it generally just does its job without discrimination. You can take agency in your own memory by taking quick notes in your phone* whenever you hear or think of something you find worthwhile. These can be 1-3 words, just enough to trigger your memory.</p>
   <p>
-    Monday Night Review is a practice I have been doing occasionally where I will look at recent notes and highlight the standouts, and expand on whatever seems interesting. My current plan is to make a youtube series out of this, and include written notes here as part of that.
+    Monday Night Review is a practice I have been doing occasionally where I will look at recent notes and highlight the standouts, and expand on whatever seems interesting. My current plan is to make a youtube series out of this, and include written notes here as part of that. I have been successfully creating notes continuously, now I want to focus on filtering, expanding and sharing these ideas regularly. This is a way for me to generally work on expression, I am hoping to develop some video editing skills and to improve my communication by condensing and simplifying my logic.
   </p>
   <p>*app in progress</p>
   <h2>Cutting off trains of thought, 2 techniques and some theorizing</h2>
