@@ -60,6 +60,14 @@ Mental reset 2- Focusing on your peripheral vision. When you do so, part of your
 p {
   margin: 1% 5%;
 }
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
 `}
 </style>
 </div>)}
