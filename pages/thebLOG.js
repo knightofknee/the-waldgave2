@@ -2,6 +2,54 @@ export default function thebLOG() {
   return (<div>
 <div>
   <h1>the bLOG</h1>
+  <h2>MNR- a quickie</h2>
+  <p>
+  A little late at night so speed mode. Here are some notes, with somes notes on top of that.
+</p>
+<p>
+99% of matter is from energy trapped inside the strong force.
+</p>
+<p>
+“I like the idea that all advanced civilizations disappear into the micro world. They find simulations to be a pathway towards immortality and exploration. There is a bit of a time race and then it gets to a point where to exit a simulation level is to leave it for millennia, if you ever do return. So there are “real” people and then there is this massive pool of the would-be dead inside these simulations. The real people have an inherent information advantage, but they lose that quickly as the simulators have years to study for what is days on the outside. The reals anticipate this and put the simulators on guard, wanting to be safe of anyone trying to come out, as unlikely as that may seem.”
+</p>
+<p>
+I like this concept a lot because it gives a good reason for why we don't see advanced civilizations. They are so small that they don't show up on our telescopes, and most of the population is in the sims. It also means that we could be invaded easily by such a civilization, as they would react to us using their time and size advantage to get in unnoticed.
+</p>
+<p>
+Is insomnia cookie an inherently evil empire?
+</p>
+<p>
+“Carl decides not to rush time travel. He learns from an early visitor when he had his original breakthrough. To keep continuity, Carl decides to not invent it again before the same time. He ignores time travelers and pretends they are crazy“    - Electric Forest-centered time traveler. He keeps coming back to certain places, but because he keeps his cool and sticks to his plan, he doesn't disrupt the timeline. He is super careful. Once he finally does discover time travel though, at the proper time, he has a lot of dope plans. Post-invention Carl doesn't hold back though, he is all over the place and completely unpredictable. So many, many times different Carls past come along to try to subtly give advice, wallow in their own misery, or to battle other time travelers. OG Carl is unfazed, he may be the youngest but he has the latest and best advice to draw from. The character development ends up focusing on the different future’s past Carls and their philosophical differences.
+</p>
+<p>
+“Space themed show like star trek but it exists at the cellular level. They are the People's Navy, they sail only inside of people mainly. There is much risk turning large again so a race of little people is born.
+</p>
+<p>
+Our character is new to the mini mission and thinks he will be transformed back. No one told him the odds of surviving were 1/10 and the odds of not having debilitating pain were 0/768 trials so far on record. So when he is captured, he willingly adapts and learns the new life.
+</p>
+<p>
+MC brings promise of a "cure", a new revival technique his boss was working on. He believed the lies because he thought the corporation would be way ahead of them, not decades behind. MC teaches the concepts to the little people and their tech army finishes the job. The little people gain the ability to transform at will and they have invaded every politically or militarily significant person, maybe even every person. Tracking them is difficult, no one has ever scanned negative, or would if they could make such a scan. The little people seize power instantly, a globally televised event via hacking the visual cortexes of the world. Most of the globe capitulates in the first 30 seconds, we ask if anyone wants to test us, please ask how so that we may limit violent waste. They have the eyes of every key target, anyone who reaches for the proverbial gun explodes into thousands of pieces, destroyed from within. Hesitation is permitted, the rest are engaged in personal debate by the people living inside of them. the operators who have seen everything, more than the people themselves.
+</p>
+<p>
+MC is disillusioned so they give the tech to the other side. This let's them kill and extract the little people inside them. It's like murdering a planet each time in terms of sentient lives lost.
+</p>
+<p>
+MC sees that they are worse and goes back to the little people. They get ahold of the global mini network and learn how to transport people out. They evacuate whole people who are then murdered for the cause.“
+</p>
+<p>
+scientology fan fiction (basically my psychological thriller but with Shelly as MC)
+</p>
+<p>
+Shelly finds a secret left by Hubbard and escapes down the rabbit hole of this sci fi discovery. I gotta read a scientology summary and make up her story based on that. Like mix in Hubbard's wacky aliens with brainwaves and neural patterns. The idea that if the brain is a computer, someone else could write code in your brain and you would ride those thought paths. But how you react to them is still yours and yours alone. The active thought process is still a complex operation using so many parts together.
+</p>
+<p>
+Shelly achieves what L. Ron only discovered in theory, she programs an alien pattern into her brain and begins to gain an enhanced consciousness which proceeds to solve any problem it is presented with. At first it gives her self defense and she escapes into the night. Then it kept her safe and hidden, isolated in peace. Here Shelly sits with her new brain. She understands how L Ron abused this power to create his cult. Shelly takes the mantle not to destroy Scientology, though she vows to do that as well. She takes it to show that this power could be used for anyone.
+</p>
+<p>
+What does Shelly offer people? A science fiction book that ties in meditation and buddhist techniques for understanding and controlling your brain, with brain tech that helps people control their base brain functionality. Like you could have something that can flash a little light in front of your eye paired with a slim headset that measures brain waves. It lets you turn on “focus/learn” mode when you want to focus alone on a task, you could have others that keep you awake or help regulate your circadian rhythm. It is a central technology in her blockbuster hit. Maybe the alien storyline has snow crash types of more 'archaic' brain hacks, phrasing and language first shaping human thought immensely.”
+</p>
+<p>
+  </p>
   <h2>Monday Night Review</h2>
   <p>For about 8 years now, I have been trying to write down any ideas or thoughts I have or encounter that stand out as being better, worth remembering. Or trains of thought that sound promising but you don't have the time to ride them out right now. You can put down a thread and pick it up at any point. Your brain's memory process is not intentional, it generally just does its job without discrimination. You can take agency in your own memory by taking quick notes in your phone* whenever you hear or think of something you find worthwhile. These can be 1-3 words, just enough to trigger your memory.</p>
   <p>
