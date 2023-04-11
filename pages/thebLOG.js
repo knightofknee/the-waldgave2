@@ -2,6 +2,53 @@ export default function thebLOG() {
   return (<div>
 <div>
   <h1>the bLOG</h1>
+  <h2>MNR- another late night speedrun</h2>
+  <h5>A few random notes from the week then my latest Harry Potter fan fic, Snape's Unspeakable Appendix (I edited it a little but it is too late for more. also probably assumed for HP fanfic but nsfw warning)</h5>
+  <p>
+  "O'Hare cell phone lot secret base. You park over one of the right spaces and you can sneak through the bottom of your car into the base. The car adds a fake you via screens on the windows."
+  </p>
+  <p>
+  "Plot: MC is trying to beat chatgpt, to upgrade it so they cannot be detected. They find a way to fool all current types of tests, but there is an inherent flaw, the patterns just have a different paradigm. MC is still able to detect their own work, so they consider it a failure at first, they couldn't sell a product as better if it was reliably detectable as well.
+
+Out of curiosity, MC has their trained AI evaluate some current data. The numbers are staggering, how?! How could this many people be using a tech that isn't even publicly known?? The implications: a secret organization of some form is recruiting or taking over in mass. Aliens? Illuminati? At this rate Whoever will have the majority of human communication under control within the week.
+
+How do we stop this? It's a secret war by their choice, we need to go public but how? Their takeover is focused on who is grabbing eyeballs, so most news stations risk exposure and capture. We need to send out a message that has no trace. One which anyone can listen to and confirm the truth of our words. The proof is a better than a signature.
+
+I don't know what we are fighting, but if I can make sure everyone at least knows we are in a fight, then I know someone can do something."
+  </p>
+  <p>
+  "Moving in time isn't inherent, we have momentum in time. Thus, we could slow down our time in exchange for massive energy gains. Like with hydrogen fusion and the strong force but our local spacetime is already in motion, so we would have it turn our spacetime turbine like a windmill.
+
+There are 2 main rewards, first is the energy, it could be massive. And second is that we gain access to 2 timelines of influence. We can send out robots to experiment, harvest and build across the galaxy outside of our slowed down bubble. People can choose to come and go as well, so a researcher inside the bubble could make a generational breakthrough and get generations's worth of feedback and additions and corrections. Before a top researchers might have been lucky to see peers or students advance their theories, but the Inside researchers and entertainers see their works as they hold up to successive generations. Most is inevitably trashed, much to the dismay of the Inners. The Inners are basically seen as a mix of revered and reviled gods, reality tv fame hunters, and legitimate reality tv gold. The modest ones often end up with their own cult following and thus fall into the diety type. Most of the Inner world is still a mystery though, as you only hear from whoever chooses to broadcast and that isn't most people.
+
+Endgame is simulations because then you have no time constraints, just energy, limiting your ability to speed up and create more time through that enhanced processing. And because the source is the "field" of time"
+  </p>
+  <h5>
+  Snape's unspeakable appendix.
+  </h5>
+  <p>
+
+Snape actually found a spell similar to the horcrux diary but without a piece of soul. This magical intelligence evaluated the reader's morality like the marauders map, sorting hat or room of requirements. If you appear morally good, the book shares all its pro tips and advice. If the book likes you, if it feels friendship towards you, you are given a special offer: "take an unbreakable vow to never share this information and receive my darkest teachings. Otherwise I will erase your memory of this moment and you will go back to thinking there is no appendix."
+</p>
+<p>
+"We lurk in the dark to hunt the Dark."
+</p>
+<p>
+Welcome. This appendix is curiosity explored with guidance of my dark arts code.
+</p>
+<p>
+Knowledge is power. Magic is too mysterious to be calculated in theory, so the newest and most dangerous magic is not discovered by the Dumbledore's of the world. DD has a fatal flaw, he mastered all magic he used, but his code keeps him in the dark. He gained a tremendous amount of power and knowledge by learning from past wizards through cryptic readings hidden within Howarts and whatever secret hoards it holds. But when it came to the big, dangerous stuff like magical fusion reactors, his own research was forced to be theoretical only. No one would let a student do that, so young DD just told his friend Grindelwald this instead, among many other explosive ideas. Convinced DD's ideas must be pursued on a grand scale, GW organizes his war. Either GW takes over and forces people to do them, or DD stops him and gets the clout to make a difference. Say what you will about ole Grindy, he understood humans and strategy far better. Dumbledore is stuck wearing a mask all the time, says I was the first in a while to see through it. He really is brilliant, but he’s far too kind for the dark arts. So I will be his source of knowledge of the dark arts. I will
+</p>
+<p>
+Knowledge comes from everywhere. So we must be everywhere and listen. I found out how the potter prick and his friends sneak around so easily, a tracking map! The tech is insane, there's no way those dumb jocks made it. How can someone lose track of something like that? In any case, I slipped the fat one a potion and took the map off of him, and imperious'ed him into a lovely drinking spree throughout hogsmeade and the girls dormitory of each house, ending in the prefects' bath with an eclectic group of hooligans. Felix Felicis is the first secret potion I will teach you. It's rare because anyone that has a better method keeps it secret, like most high end potions. It's a scary thing to abuse any potion though. So I have been testing it on other students. This is Pig's 3rd time, maybe I should be more careful, but I needed to study that map with an excuse for it to be anyone. Literally anywhere, I had him go out on an apparating trip to pick me up black market materials.
+</p>
+<p>
+But back to the map, knowledge is ours. I've extended the mapping technology, magical computing is being explored with it and we have eyes and ears on any target, anywhere in the world. It seems like magic is creating a quantum link between the map and any region of spacetime. Jormungand, I present to you the World Serpent. we can see and hear anywhere, and can search through everywhere. This is your power to use how you see fit. Your use of this book means you are fundamentally worthy, but know that I am cold blooded, calculated, a bit sadistic. I have no shame, I see what I want to see, I invite you to do the same.
+</p>
+<p>
+No shame does not mean no respect. If you fall in love with a girl, don't use a love potion if she doesn't love you back. Instead, get a time turner, polyjuice potion and some of her hair. Walk into a room, set the materials to the side, note the time and close your eyes. Open them as your crush walks in, fuck them. Then clean yourself up, polyjuice yourself and change clothes, exit the room, time turn, walk in and enjoy the fucking you just delivered. Optionally, you can cast a temporary memory charm and imperius curse on yourself so you think you are the girl and don't remember it. This is beneficial for the time stability side, you won't have to worry about creating a continuous loop because you will just be reacting, you won't be using the knowledge you gained from going back in time. Otherwise you risk fraying spacetime and being vaporized (don't ask how I know). Each time you fuck yourself a new way, you cause yourself to fuck yourself in yet a new way. And you don't know if you succeed, because you go forward with your life while the old version of you that you just fucked needs to do what you just did. Spacetime is having difficulty resolving exactly where you should be amid a potentially infinite parallel threads of spacetime. All of that pressure means you can explode. As for me, I fucked myself as Lily Potter. Carefully at first, but then I tried without the memory charm. I felt the magical resonance of my soul in thousands of timelines simultaneously. I believe I wasn't vaporized because I had faith and leaned into the moment and my feelings. I eventually converged on a stable loop. (Redacted) didn't really trust the process... The memories don't overlap though, it feels like I experienced that night hundreds of times. It is much easier to cheer on James now, I identify with Lily more after wearing her skin and just want the best for her. James is my prize pig now, I've taught him manners and a few tricks.
+  </p>
+  <p></p>
   <h2>MNR- a quickie</h2>
   <p>
   A little late at night so speed mode. Here are some notes, with somes notes on top of that.

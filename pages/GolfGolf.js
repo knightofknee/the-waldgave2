@@ -34,10 +34,10 @@ export default function GolfGolf () {
         Yeti Slopes ski hill. Unique challenge: putting downhill. Staying with the familiar with plinko here. There is a safer green route that bends down the mountain with curves that catch you. There is a blue route down through the trees, where you can end up on the green route, or you can continue all the way down the mountain in one go. Or you can go the black diamond route and aim for a skinny ramp that leads to the bonus point. Missing on the ramp puts you at a disadvantage compared to the plinko players on the green. Ideally this green is super fast, like it is ice.
       </li>
       <li>
-
+        Tyler the Creator- Who Dat Boy Hole. Horror themed hole. First part is the first 52 seconds of the song on repeat until everyone is in the Haunted house, either through the front door or through the graveyard for a potential bonus point and superior p2 (part 2) positioning with a risk of hitting a tombstone and getting the worst p2 spot, the basement or something. Part 2 is beyond a black veil, and only after everyone has hit into it do you proceed. Here the music switches to the rest of the song on loop. The course shakes to with the bass of the song to an impactful degree, and later shakes to other instruments as well. The art in this part is like p1 except instead of scary, it's a Monster Mash.
       </li>
       <li>
-
+        Tyler the Creator- Pothole. Pothole themed hole. Borrowing from the maze idea, set up a hole where you have a funnel ramp connected to a foot pedal. So it is like a cannon, you can nudge it left and right with your foot and then step on it to angle it more upwards. You take your first shot from there, if you go through a hoop some basketball celebration music plays, this could be one of the few hole in one with a bonus opportunities, the rare 0 hole! p2 is a street with various degrees of bumps and a few tragically large potholes.
       </li>
       <li>
 
