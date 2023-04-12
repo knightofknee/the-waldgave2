@@ -12,7 +12,7 @@ export default function GolfGolf () {
         Every hole is a banger. no straight shot, no phoning it in. This is the foundation for our claim for best minigolf course in the galaxy.
         </li>
       <li>
-        Cheapest Beer in the City. We are all about the golf. So if we get a liquor license for a tap or for selling cans, we sell at a price to cover the cost of the beer plus one dollar. If someone sells cheaper than that, we undercut their price unless it takes us below cost. But if we can sell out of kegs, I don't think anyone would be anywhere close to us.
+        Cheapest Beer in the City. We are all about the golf. So if we get a liquor license for a tap or for selling cans, we sell at a price to cover the cost of the beer plus one dollar. If someone sells cheaper than that, we undercut their price unless it takes us below cost. But if we can sell out of kegs, I don't think anyone would be anywhere close to us. And if they do, we promise to note their name alongside our new claim of second-cheapest beer in Chicago (This strategy would even if we weren't the actual cheapest but I still want to aim for cheapest)
       </li>
       <li>
         Your money goes towards better golf. My personal profit is publicly capped, so your money goes towards improving the course or paying the employees.
