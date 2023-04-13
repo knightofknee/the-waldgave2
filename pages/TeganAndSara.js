@@ -18,6 +18,12 @@ export default function TeganAndSara() {
 <div id="newOuterShell" style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
   <div style={{display:'flex',justifyContent:'center',flexDirection:'column',alignItems:'center'}}>
     <h2>
+      NF has a new album
+    </h2>
+    <p>
+      "Hope" is the title of his latest album. I am a big fan of this and his past 2 albums. "Clouds" (the mixtape) is the shortest and most accessible of the 3, on repeat I only skip "Story" because it is a story song about a robbery. NF is a very introspective rapper, "The Search" has smooth production and delivery, and in his self-development arc he is at a middle point where he has already confronted his issues and been working through them. "Hope" follows in the mold of The Search, except NF is further along his development path, and the music is not as pop-friendly.
+    </p>
+    <h2>
       Mello Music's Bushido
     </h2>
     <p>
