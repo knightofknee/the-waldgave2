@@ -18,6 +18,16 @@ export default function TeganAndSara() {
 <div id="newOuterShell" style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
   <div style={{display:'flex',justifyContent:'center',flexDirection:'column',alignItems:'center'}}>
     <h2>
+      Why I only listen to K-Love positivity radio, and my modern music equivalent
+    </h2>
+    <p>
+      Positivity and positive self talk is more than a pleasant notion or wishful advice. Your brain is a computer that is constantly editing itself based upon your interactions with the thoughts and feelings that it throws at you. You are what you think. You don't have to be an optimist to take advantage of the scienifically-proven value of positivity. You don't have to be religious. You just have to give your thoughts space and ask if they are helpful or not. If not, there is no benefit to engaging. All you do by ruminating is further imprint your problems into your brain.
+    </p>
+    <p>
+      To further the positivity cause, <a href="https://open.spotify.com/playlist/6X77zXdWc1PWEYtFNxjVYF?si=1407d72b7af34930">I have created a playlist</a> that looks to do the same as K-love but with music I love. It is a lot of introspective/positive hiphop. There is something special about rap swagger, advocating supreme confidence. To me, it's a more accesible christian rock. It is much better music, and it doesn't ask you to put your faith in god, it tells you to believe in you. To reflect this, the playlist is called "The Chosen One". You should have a massive ego, a humble one, that understands empathy. We are more than human, we are gods in the making. Love, Beezus.
+    </p>
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6X77zXdWc1PWEYtFNxjVYF?utm_source=generator" width="100%" height="352" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <h2>
       NF has a new album
     </h2>
     <p>
