@@ -26,7 +26,7 @@ export default function TeganAndSara() {
     <p>
       To further the positivity cause, <a href="https://open.spotify.com/playlist/6X77zXdWc1PWEYtFNxjVYF?si=1407d72b7af34930">I have created a playlist</a> that looks to do the same as K-love but with music I love. It is a lot of introspective/positive hiphop. There is something special about rap swagger, advocating supreme confidence. To me, it's a more accesible christian rock. It is much better music, and it doesn't ask you to put your faith in god, it tells you to believe in you. To reflect this, the playlist is called "The Chosen One". You should have a massive ego, a humble one, that understands empathy. We are more than human, we are gods in the making. Love, Beezus.
     </p>
-    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6X77zXdWc1PWEYtFNxjVYF?utm_source=generator" width="100%" height="352" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <iframe style={{borderRadius:'12px'}} src="https://open.spotify.com/embed/playlist/6X77zXdWc1PWEYtFNxjVYF?utm_source=generator" width="100%" height="352" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     <h2>
       NF has a new album
     </h2>
@@ -252,7 +252,7 @@ Go ahead and choose"
   <div style={{position:'sticky',top:0,bottom:0}}>
     <Song lyrics={song}/>
   </div>
-  </div>
+</div>
 
   {/* <script crossOrigin="" src='//genius.com/songs/4726856/embed.js'></script> */}
 
