@@ -23,12 +23,21 @@ export default function GolfGolf () {
       <li>
         Hole order is flexible and controlled so that you aren't needlessly waiting.
       </li>
+      <li>
+        New mechanics are introduced gradually and can return, so the holes can climb in complexity. Ideally the front 9 introduces new concepts, and the back 9 uses those concepts as its base tools to combine with a theme. (-) Indicates a mechanics hole for now.
+      </li>
     </ol>
     <h2>GolfGolf mini-Golf Initial Hole Concepts</h2>
     <h5>Front 9</h5>
     <ol>
       <li>
-        The Windmill. Unique challenge: timing. We begin with our take on a classic. Straight ahead of the start is a giant windmill with half of it being covered with a wheel of fortune. If you hit the jackpot, your ball gets caught on the wheel and lifted up to the first bonus point. This gives you -1 stroke and is only available on the first swing. Near misses at the jackpot get bumped back, and other parts could pick you up still and put you in a less advantageous position in part 2 of the hole. Further away but more directly towards the hole, there is a smaller, faster windmill. It is structured such that it funnels your ball and pads it to be forgiving, so if you miss the timing, you are guranteed to have a decent shot. The bonus point route requires aim and speed to be just right, and if you fail you are punished by being placed far away from the hole on part 2, the 'green'. (The definition of green here is wherever you can putt at the hole directly. Every hole here will have you start off the green. Some hole in one's will be possible, but they will more closer resemble the frequency of regular golf hole in one's) If you get past the small windmill, you are in an advantageous part of the green. You can't hit a hole in one, but you can get closer than where the bonus point drops off the ball, which pretty close(10ft?), with a straight shot and favorable backdrop.
+        -Timing Gates. The exact nature of these is TBD but the idea is a small rapberry pi computer or something similar controls doors that have timings that fit the scenario, whether that be consistent, matched to music, or following a pattern. Is that better than a bunch of windmills? Ideally, we would have the theme of the hole dictate what the timing gate looks like.
+      </li>
+      <li>
+        -Magnets. So we put magnets in the balls, and then magnets on the hole. The magnets will be hidden, but their field will (usually) be indicated visually with color or field lines. On other holes these can provide excitement to the 'greens' sections. Every hole has a start that lands you somewhere on the green if you get past part 1. The magnets will help use create more varied greens.
+      </li>
+      <li>
+        -Skee-Ball Start. So the actual shape of the skee-board with buckets to hit can vary endlessly, along with your ramp(s) towards it. It is a fun shot because you get to hit without really caring about where it goes if you miss, similar to a drive, a more powerful shot that only happens at the beginning of holes sometimes.
       </li>
       <li>
         Yeti Slopes ski hill. Unique challenge: putting downhill. Staying with the familiar with plinko here. There is a safer green route that bends down the mountain with curves that catch you. There is a blue route down through the trees, where you can end up on the green route, or you can continue all the way down the mountain in one go. Or you can go the black diamond route and aim for a skinny ramp that leads to the bonus point. Missing on the ramp puts you at a disadvantage compared to the plinko players on the green. Ideally this green is super fast, like it is ice.
@@ -48,12 +57,6 @@ export default function GolfGolf () {
       <li>
 
       </li>
-      <li>
-
-      </li>
-      <li>
-
-      </li>
     </ol>
     <h5>Back 9</h5>
     <ol start={10}>
@@ -61,7 +64,7 @@ export default function GolfGolf () {
       Hole where you can hit your ball into a ramp that goes horizontal to vertical along the wall and your ball goes into one of those maze boxes where you control horizontal and vertical, and there are holes to avoid. There is a bonus in there, and you can see where it will take you. Also different paths give you different number of strokes.
       </li>
       <li>
-
+      The Windmill. Unique challenge: timing. We begin with our take on a classic. Straight ahead of the start is a giant windmill with half of it being covered with a wheel of fortune. If you hit the jackpot, your ball gets caught on the wheel and lifted up to the first bonus point. This gives you -1 stroke and is only available on the first swing. Near misses at the jackpot get bumped back, and other parts could pick you up still and put you in a less advantageous position in part 2 of the hole. Further away but more directly towards the hole, there is a smaller, faster windmill. It is structured such that it funnels your ball and pads it to be forgiving, so if you miss the timing, you are guranteed to have a decent shot. The bonus point route requires aim and speed to be just right, and if you fail you are punished by being placed far away from the hole on part 2, the 'green'. (The definition of green here is wherever you can putt at the hole directly. Every hole here will have you start off the green. Some hole in one's will be possible, but they will more closer resemble the frequency of regular golf hole in one's) If you get past the small windmill, you are in an advantageous part of the green. You can't hit a hole in one, but you can get closer than where the bonus point drops off the ball, which pretty close(10ft?), with a straight shot and favorable backdrop.
       </li>
       <li>
 
