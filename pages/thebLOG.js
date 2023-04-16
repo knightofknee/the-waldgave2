@@ -2,6 +2,9 @@ export default function thebLOG() {
   return (<div>
 <div>
   <h1>the bLOG</h1>
+  {/* <h2>Monday Night Review- 4/17/23</h2>
+  <p>MNR TLDR: I try to record the best ideas I have or that I hear. The base concept is that your memory has no magic that makes you remember your best ideas and forget all your bad ideas. But with just a few words, you can create a memory file for yourself. A quick note in your phone can bring you back to a train of thought at any time. Monday Night Review is my process for reviewing these notes on a regular basis. My volume of ideas far exceeds my capacity to execute them, so I want to develop the habit of sharing them. I want to get more elaborate over time and make youtube videos, but for now I'm just going to focus on sharing what content I can and Auto-GPT will fill in the rest.</p>
+  <p></p> */}
   <h2>MNR- another late night speedrun</h2>
   <h5>A few random notes from the week then my latest Harry Potter fan fic, Snape's Unspeakable Appendix (I edited it a little but it is too late for more. also probably assumed for HP fanfic but nsfw warning)</h5>
   <p>
@@ -160,7 +163,7 @@ h1 {
   text-align: center;
 }
 
-h2 {
+h2, h3, h4, h5 {
   text-align: center;
 }
 `}
