@@ -5,6 +5,94 @@ export default function thebLOG() {
   {/* <h2>Monday Night Review- 4/17/23</h2>
   <p>MNR TLDR: I try to record the best ideas I have or that I hear. The base concept is that your memory has no magic that makes you remember your best ideas and forget all your bad ideas. But with just a few words, you can create a memory file for yourself. A quick note in your phone can bring you back to a train of thought at any time. Monday Night Review is my process for reviewing these notes on a regular basis. My volume of ideas far exceeds my capacity to execute them, so I want to develop the habit of sharing them. I want to get more elaborate over time and make youtube videos, but for now I'm just going to focus on sharing what content I can and Auto-GPT will fill in the rest.</p>
   <p></p> */}
+
+
+  {/* <h2>Monday Night Review- stories</h2>
+  <p>(explain mnr again, and list stories)</p>
+
+
+  <h5>The Purple Power Ranger</h5>
+  <p>
+    Zordon has the team, and the green solo ranger, and has them work together sometimes too.
+  </p>
+  <p>
+
+    The Purple ranger is given full reign with the alien technology and incorporates it into modern technology. It's like a zordon operating system so he focuses on putting observation bots everywhere, to be used in combination with an artillery system on the moon and in various satellites in orbit.
+  </p>
+  <p>
+    The tv show rangers are just zordon trying to see if humans could do it themselves. Several times the team actually fails and the world is at risk, but the orbital strike comes in right as they fail, causing the classic explosions when a villain is killed. They assume they won though.
+  </p>
+
+  <h5>Scott Foster Conspiracy</h5>
+  <p>
+    The reason Donahue didn't talk to Scott Foster in front of his gambling partners (Donny shared hookers in the same bed as these men). He was afraid of Scott Foster. Scott doesn't fuck around. They were great friends, but Scott makes sure you have every reason to never cross him. Scott has been much more careful than Donny. He slowly expanded his network, only ever opening up after gaining significant leverage. At that point he makes a strong offer, giving you a large chunk of what you make for the Business. All you have to do is make calls to slightly favor a team or a player. Scott Foster is playing the long game, before the recent betting revolution, they only bet on teams. They would roll dice to decide which games to influence, and they would try to make it happen with calls. Thanks to long term view, they can influence only a few plays a game and affect the betting line. But that is pre-gambling revolution. Now thanks to prop bets and everything, Scott Foster just runs an algorithm which gives them different bets to influence so they can operate without any visible traces.
+
+
+    Conspiracy, Scott Foster set up a system to control all refs through a variety of methods, bribery, extortion, threats. Before he ever trusts anyone, he holds their life in his hands. So they can't say no. But he's good at what he does, they usually want to be involved. They hate the NBA players so they want to stick it to them.
+  </p>
+
+  <h5>ttt</h5>
+  <p>
+  The B-side of Buddha
+
+This is my book name, dibs (the wayback machine will record this dibs and store it until humanity perishes so respect it)
+
+The Buddha left 2 instructions, the first is his direct teachings for the masses. He discovered a path towards enlightenment that worked when he tested it with his students.
+
+The second is for people who seek their own path in the way he did. It's a somewhat obvious gap when you think about it, he teaches the path but doesn't teach finding your own path. Teaching that openly would hurt his primary cause though and confuse his students, he wants to share his path. But we are talking about the Buddha, he didn't let that stop him from trying. That is why I believe he used reincarnation. Someone finding their own path is continually experiencing death and rebirth as they grow. They leave their past selves behind.
+
+Reincarnation is one of the tools for this, we live and die constantly, every day with every new train of thought.
+
+
+I don't believe in reincarnation to the extent that I don't believe anyone can know it exists from within the system. If the Buddha had knowledge of past lives he could prove it and it would be a significant cornerstone. He didn't
+  </p>
+
+  <h5>fff</h5>
+  <p>
+  The half-blood prince's Unspeakable Appendix
+
+So James and his friends learn how to transform into animals. Snape hated them and refused to be outdone. So he delves into dark magic and perfects transfiguration. Instead Snape learns how to transform himself completely, he focuses on transforming into other humans. He uses this to spend time with Lily as James.
+
+Memory charm mastery. He doesn't just knock out James, he gives James his own memories so no one figures out the substitution. He gets pretty used to stuffing James in a trunk, making up excuses to disappear so he can live James's life.
+
+
+Dumbledore is the only one who notices. DD also has a distaste for the cocky James and has had his fair share of fucked up experiments. Snape actually molds James into a good person through the memory implants and other experiments. DD recognizes Snapes brilliance and recruits him. Because the reality of magic is that Hogwarts is a sham ever since they stopped teaching dark magic.
+
+Don't get me confused, DD didn't endorse evil, but magic is magic, and an evil wizard has no limits. They would have no chance if they followed ministry law, Grindelwald would have been the best case scenario. The rest are scrubbed from collective memory, their knowledge would otherwise guarantee mass destruction. So the Headmaster has a secret responsibility to develop students in secret, to find trustworthy talents, to give them dangerous knowledge and to supervise their experiments.
+
+Dumbledore gave out some of this knowledge, but Snape is the only one to fully earn his trust. DD leaves behind tips for harry and others, but they only get the real access if Snape and DD die. So when Harry goes to face Voldemort in the forest, the deathly hallows are misdirection. Within Harry's right brain is all of DD and Snapes knowledge, designed to only be available as needed. What really lets Harry win is not some matching phoenix feather, it is magic beyond the knowledge of any living being.
+
+Snape gets into Harry's head during their ocxlumency lessons, making it easy. DD does most of his work while Harry is 'recovering' from one of his many disasters. Each time he stays a week longer just for DD to do his work
+
+
+
+I like the idea that Snape is weird because A he wants to hide himself, and 2 because he spends so much time as other people
+
+
+
+What else to teach?
+
+DD and Snape are the wealthiest people in the world thanks to abusing arbitrage, maybe they have fancy vacations together. Like Snape is a James bond with a country's power behind him, but it's an extremely small operation. Like gringotts doesn't abuse arbitrage just because this group tells them not to, the head goblin is part of the group. Power respects power. So Snape starts small and is always running into DD without knowing it. Like stories of god coming as different people but it's DD.
+
+
+DD develops a reincarnation spell, like Buddha immortality. He is Merlin, or was once. Each time he slowly finds memories he hid. Not every lifetime manages to activate the DNA memory though, its epigenetic magic. The Dark Ages had no Merlin, because he was raised with too much violence and too little curiosity.
+
+For this appendix I used a similar magic. I opened for you because you had the requisite epigenetic activation. Don't worry though, I'm the "good" one, that's why DD needs me. He's too damn old, morality has changed a bit since he started. I won't take over your body, I am just using memory for information transfer.
+
+
+Don't trust DD. Listen to him, do what he says. But never trust. Trust yourself, your instinct, your morality. That is not a man, that is an abomination. I considered keeping my own secrets, but what happens if the Merlin experiment goes rogue? So Welcome to Snape's Secrets. You are now burdened with the care of the most dangerous being ever.
+
+
+Have you been to the dungeons yet? If you wander long enough looking for darkness, the hallway will end at a wall with 2 unlit torches. Light that with the ameratsu dark flame spell from chapter 12. Salazar's labs lie beyond. Generation after generation of Hogwarts students passed through here without knowing thanks to memory charms. DD has been building this up for a while. The information disparity compared to Hogwarts libraries is massive. It's as if the knowledge of quantum physics were hidden away. The difference is that the nuclear bomb equivalent in magic could threaten spacetime itself, so I can't blame the guy. No one should know some of the things I know.
+
+  </p> */}
+
+
+
+
+
+
+
   <h2>MNR- another late night speedrun</h2>
   <h5>A few random notes from the week then my latest Harry Potter fan fic, Snape's Unspeakable Appendix (I edited it a little but it is too late for more. also probably assumed for HP fanfic but nsfw warning)</h5>
   <p>
@@ -161,6 +249,10 @@ p {
 
 h1 {
   text-align: center;
+}
+
+h5 {
+  margin: 1% 10%
 }
 
 h2, h3, h4, h5 {
