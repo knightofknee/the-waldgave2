@@ -5,6 +5,9 @@ export default function OpenChicago() {
   <div style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center'}}>
   <h2>Chicago Initiatives- order is not prioritized</h2>
   <p>
+    The More Perfect Platform. This is a web platform that we are developing, the goal is to provide a format to collectively improve public policy through the sharing of proposals in a structured forum. All of my future plans for Chicago will be up there and open to criticism and suggestions before I run. Hopefully, we can find some designs that make debate a game of finding exactly where to candidates disagree, as opposed to emphasizing rhetoric and storylines. Eventually I think this can help bring direct democracy to Chicago as well.
+  </p>
+  <p>
     Carbon Check- it's like a carbon tax but it isn't a tax because the government gets nothing. We check how much harm people are putting in the air and we charge them. That money goes to a fund, and every month that fund is divided evenly between every citizen. Everyone bears the consequences of these actions, so everyone should be paid to compensate. This can immediately correct incentives.
   </p>
   <p>

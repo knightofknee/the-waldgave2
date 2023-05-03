@@ -43,9 +43,9 @@ export default function Home() {
         </p>
       </div>
       <div>
-        <a href="https://ko-fi.com/waldgrave">
+        {/* <a href="https://ko-fi.com/waldgrave"> */}
           <img style={{width: '3rem'}} src="/thew1.png"/>
-        </a>
+        {/* </a> */}
       </div>
       <h2>Wacky Wednesday FAQ</h2>
       <div>
