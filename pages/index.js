@@ -125,7 +125,7 @@ export default function Home() {
           -webkit-font-smoothing: antialiased;
           -moz-osx-font-smoothing: grayscale;
           text-align: center;
-          color: #2c3e50;
+          color: #D8BFD8;
         }
         p {
           margin: 1% 5%;

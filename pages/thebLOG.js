@@ -12,6 +12,7 @@ export default function thebLOG() {
 
 
   <h5>The Purple Power Ranger</h5>
+  <div className="story">
   <p>
     Zordon has the team, and the green solo ranger, and has them work together sometimes too.
   </p>
@@ -22,8 +23,10 @@ export default function thebLOG() {
   <p>
     The tv show rangers are just Zordon trying to see if humans could do it themselves. Several times the team actually fails and the world is at risk, but the orbital strike comes in right as they fail, causing the classic explosions when a villain is killed. They assume they won though.
   </p>
+  </div>
 
   <h5>Scott Foster Conspiracy (Current NBA referee, made 134 phone calls to the only ref caught for gambling, Tim Donaghy)</h5>
+  <div className="story">
   <p>
     The reason Donaghy didn't talk to Scott Foster in front of his gambling partners (Donny shared hookers in the same bed as these men). He was afraid of Scott Foster. Scotty don't fuck around. They were great friends, but Scott makes sure you have every reason to never cross him. Scott has been much more careful than Donny. He slowly expanded his network, only ever opening up after gaining significant leverage. At that point he makes a strong offer, giving you a large chunk of what you make for the Business. All you have to do is make calls to slightly favor a team or a player. Scott Foster is playing the long game, before the recent betting revolution, they only bet on teams. They would roll dice to decide which games to influence, and they would try to make it happen with calls. Thanks to long term view, they could influence only a few plays a game and affect the betting line.
     </p>
@@ -31,9 +34,11 @@ export default function thebLOG() {
 
     But that is pre-gambling revolution. Now thanks to prop bets and everything, Scott Foster just runs an algorithm which gives them different bets to influence so they can operate without any visible traces. The refs are given prop bets that they choose from. They need to be randomized, but they can still choose favorites within that, the high volume of sports betting makes that easier for them. They only need to win more than they lose. Scott Foster used the NBA's coverup of the gambling problem as his in. Scott Foster is the NBA now, this is his game. He gets his cut from every game, and has blackmailed and wooed his way into firm control over his boss, ensuring he and his silent partners keep the operation running smoothly.
   </p>
+  </div>
 
 
   <h5>The B-side of Buddha</h5>
+  <div className="story">
   <p>
 
 This is my book name, dibs (the wayback machine will record this dibs eternally, storing it until humanity perishes so respect it)
@@ -53,8 +58,10 @@ The second is for people who seek their own path in the way the Buddha did. It's
   <p>
   So the Buddha included reincarnation, but I believe he was able to speak to both audiences by talking about consciousness in its base components. We are trains of thought and the mechanisms for navigating between those trains and stopping and starting them. As we grow and learn (good karma) or forget and neglect (bad karma), we edit the tracks and connections of our brains. So for major growth, one has to be willing to die to become someone new. If you work hard to be a kind person, you will wake up inside a kinder mind. So if you see something about reincarnation, consider it within the context of neuroscience and neuroplasticity.
   </p>
+  </div>
 
   <h5>The Half-Blood Prince's Unspeakable Appendix (maybe the author of this story is the book?)</h5>
+  <div className="story">
   <p>
 
 So James and his friends learn how to transform into animals. This was a fairly remarkable feat for a Hogwarts student, especially after the ban on underage magic. Most students didn't have the time, but James and Sirius didn't care much for grades, and the lot of them were animals already. Snape hated them, but he hated being outdone more. So he delves into dark magic in order to perfect transfiguration. Instead of becoming one animal, Snape learns how to transform himself completely. He focuses on transforming into other humans. He eventually masters the two he secretly observed the most, and he uses this to spend time with Lily as James.
@@ -99,6 +106,7 @@ Dumbledore develops a reincarnation spell, like Buddha immortality. He is Merlin
 "Have you been to the dungeons yet? If you wander long enough looking for darkness, the hallway will end at a wall with 2 unlit torches. Light that with the ameratsu dark flame spell from chapter 12. Salazar's labs lie beyond. Generation after generation of Hogwarts students passed through here without knowing thanks to memory charms. Dumbledore has been building this up for a while. The information disparity compared to Hogwarts libraries is massive. It's as if the knowledge of quantum physics were hidden away. The difference is that the nuclear bomb equivalent in magic could threaten spacetime itself, so I can't blame the guy. No one should know some of the things I know."
 
   </p>
+  </div>
 
 
 
@@ -270,6 +278,11 @@ h5 {
 
 h2, h3, h4, h5 {
   text-align: center;
+  background-image: linear-gradient(-40deg, #354882, transparent 100%);
+}
+
+.story {
+  background-image: linear-gradient(-5deg, #AA336A, transparent 100%);
 }
 `}
 </style>
