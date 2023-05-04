@@ -274,6 +274,7 @@ h1 {
 
 h5 {
   margin: 1% 0% 1% 10%
+  padding-right: 10%
 }
 
 h2, h3, h4, h5 {
