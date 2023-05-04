@@ -282,7 +282,7 @@ h2, h3, h4, h5 {
 }
 
 .story {
-  background-image: linear-gradient(-5deg, #AA336A, transparent 100%);
+  background-image: linear-gradient(-5deg, rgb(220, 130, 210), transparent 100%);
 }
 `}
 </style>
