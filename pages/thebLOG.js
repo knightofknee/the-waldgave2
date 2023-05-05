@@ -1,3 +1,5 @@
+import StoryBlock from "../components/StoryBlock";
+
 export default function thebLOG() {
   return (<div>
 <div>
@@ -35,7 +37,6 @@ export default function thebLOG() {
     But that is pre-gambling revolution. Now thanks to prop bets and everything, Scott Foster just runs an algorithm which gives them different bets to influence so they can operate without any visible traces. The refs are given prop bets that they choose from. They need to be randomized, but they can still choose favorites within that, the high volume of sports betting makes that easier for them. They only need to win more than they lose. Scott Foster used the NBA's coverup of the gambling problem as his in. Scott Foster is the NBA now, this is his game. He gets his cut from every game, and has blackmailed and wooed his way into firm control over his boss, ensuring he and his silent partners keep the operation running smoothly.
   </p>
   </div>
-
 
   <h5>The B-side of Buddha</h5>
   <div className="story">
@@ -261,6 +262,7 @@ Mental reset 2- Focusing on your peripheral vision. When you do so, part of your
   <p>
     I have a weekly habit that I have neglected called 'Monday Night Review'. Here I look at all notes of the past week and select the ones that seem interesting. Before I have elaborated on those ideas or shared them with a friend. I am considering doing it as a youtube series and including them here.
   </p>
+  <StoryBlock title={"testIn"} paragraphArray={["para1", "another one"]} />
 </div>
 <style jsx>
 {`
@@ -273,8 +275,8 @@ h1 {
 }
 
 h5 {
-  margin: 1% 0% 1% 10%
-  padding-right: 10%
+  margin: 1% 0% 1% 10%;
+  padding-right: 10%;
 }
 
 h2, h3, h4, h5 {
