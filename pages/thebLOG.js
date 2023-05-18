@@ -9,9 +9,29 @@ export default function thebLOG() {
   <p></p> */}
 
 
+
+
+{/* <h2>May's Monday Night Review 5/29/23</h2>
+<p>Based on recent experience, I think I'll aim for an end of the Month Monday release each month for stories and maybe add other notes on other Mondays. This month, my main stories are: how to meditate and another entry for The Half-Blood King's Unspeakable Appendix (workshopping the name). </p>
+
+<h5>How to Meditate: All advice I can come up with ordered by simplicity first. I will be updating and reposting this one as I learn more.</h5>
+<div className="story">
+  <p></p>
+</div>
+
+<h5>The Half-Blood King's Unspeakable Appendix</h5>
+<div className="story">
+  <p>Is Hermione the present day main character? So she clearly sees Harry getting information from a superior source. Harry isn't clever enough to fool her, but she is clever enough steal the book when Harry is at Quidditch practice and uses her time turner to give her ample opportunity to investigate this book. Actually they should both use it separately.
+
+    It is hard to understand such magic, but after probing the minds of too many remarkably unremarkable pupils who could only be bothered to get whatever OWL score their parents expected of them, I fell for Hermione instantly. The curiosity and light in her eyes while she read my notes was like Lily but with an ensnared intensity and devotion to knowledge. Thanks a few tips from the sorting hat, I could follow her thoughts. And wow, this girl is hyper-rational. The Half-Blood Queen, long may she reign.</p>
+</div> */}
+
+
+
+
+
   <h2>Monday Night Review- Story Time</h2>
   <p>The purpose of Monday Night Review is to share the top ideas I heard or came up with recently, to list out interesting notes and to expand on the best. In ideal state, I will be doing this every week or two. I want to practice writing more stories, exploring the concepts deeper. This clashes with my desire to get more ideas out, but I think I need to slow down and become a better writer before I can properly share my ideas on a weekly basis. In this edition, I have 4 stories: fan fiction, conspiracy, philosophy, and more fan fiction with some saucy new notes on Snape's Unspeakable Appendix.</p>
-
 
   <h5>The Purple Power Ranger</h5>
   <div className="story">
@@ -284,8 +304,16 @@ h2, h3, h4, h5 {
   background-image: linear-gradient(-40deg, #354882, transparent 100%);
 }
 
+
+
 .story {
   background-image: linear-gradient(-5deg, rgb(220, 130, 210), transparent 100%);
+}
+
+@media (max-width: 1000px) {
+  p {
+    margin: 1% 1%;
+  }
 }
 `}
 </style>
