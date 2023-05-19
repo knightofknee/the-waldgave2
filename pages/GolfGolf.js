@@ -15,7 +15,7 @@ export default function GolfGolf () {
         Cheapest Beer in the City. We are all about the golf. So if we get a liquor license for a tap or for selling cans, we sell at a price to cover the cost of the beer plus one dollar. If someone sells cheaper than that, we undercut their price unless it takes us below cost. But if we can sell out of kegs, I don't think anyone would be anywhere close to us. And if they do, we promise to note their name alongside our new claim of second-cheapest beer in Chicago (This strategy would even if we weren't the actual cheapest but I still want to aim for cheapest)
       </li>
       <li>
-        Your money goes towards better golf. My personal profit is publicly capped, so your money goes towards improving the course or paying the employees.
+        Your money goes towards better golf. My personal profit is capped, so your money goes towards improving the course or to the employees making it happen.
       </li>
       <li>
         Every hole has a bonus point and unique golf challenge, so a perfect score is achievable but very difficult. (in full form, these trigger special effects)
@@ -40,6 +40,9 @@ export default function GolfGolf () {
         -Skee-Ball Start. So the actual shape of the skee-board with buckets to hit can vary endlessly, along with your ramp(s) towards it. It is a fun shot because you get to hit without really caring about where it goes if you miss, similar to a drive, a more powerful shot that only happens at the beginning of holes sometimes.
       </li>
       <li>
+        -Varied wall textures. Different holes could have different wall types to match the play style and theme. Some are extra bouncy, some are extra dampening. Some walls are a variety. Bouncy walls could be used to go through areas with lots of walls. Walls that catch balls can be used on the wackier water holes and around other hazards. These can let you worry less about power versus aim.
+      </li>
+      <li>
         Yeti Slopes ski hill. Unique challenge: putting downhill. Staying with the familiar with plinko here. There is a safer green route that bends down the mountain with curves that catch you. There is a blue route down through the trees, where you can end up on the green route, or you can continue all the way down the mountain in one go. Or you can go the black diamond route and aim for a skinny ramp that leads to the bonus point. Missing on the ramp puts you at a disadvantage compared to the plinko players on the green. Ideally this green is super fast, like it is ice.
       </li>
       <li>
@@ -47,9 +50,6 @@ export default function GolfGolf () {
       </li>
       <li>
         Tyler the Creator- Pothole. Pothole themed hole. Borrowing from the maze idea, set up a hole where you have a funnel ramp connected to a foot pedal. So it is like a cannon, you can nudge it left and right with your foot and then step on it to angle it more upwards. You take your first shot from there, if you go through a hoop some basketball celebration music plays, this could be one of the few hole in one with a bonus opportunities, the rare 0 hole! p2 is a street with various degrees of bumps and a few tragically large potholes.
-      </li>
-      <li>
-
       </li>
       <li>
 
