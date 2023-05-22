@@ -97,12 +97,13 @@ export default function GolfGolf () {
     </ol>
     <h2>Other Ideas</h2>
     <p>GolfGolf will not give ownership to any investor. If we take money, we will charge a higher price until the investor gets X% return on their money and we will then lower prices. This format seems simple but it means that capital doesn't own anything, and they don't get anything until we make money. This is a healthy exchange. Capital can assess the risk and bet a fixed amount of money on a venture that guarantees a fixed rate if it succeeds.</p>
+    <p>For now, feedback can be submitted <a href="https://forms.gle/MqrbNVa29HF1C1pq7">here</a></p>
   </div>
 
 <style jsx>
 {`
 p {
-  margin: 0 5%;
+  margin: 1% 5%;
 }
 
 iframe {
