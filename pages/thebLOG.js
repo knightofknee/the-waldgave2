@@ -11,9 +11,10 @@ export default function thebLOG() {
 
 
 
-{/* <h2>May's Monday Night Review 5/29/23</h2>
-<p>Based on recent experience, I think I'll aim for an end of the Month Monday release each month for stories and maybe add other notes on other Mondays. This month, my main stories are: how to meditate and another entry for The Half-Blood King's Unspeakable Appendix (workshopping the name). </p>
+<h2>May's Monday Night Review 5/23</h2>
+<p>Based on recent experience, I'm going to aim for an end of the Month Review release each month for stories. This means my releases will be at the end of the month and not on mondays, but my review process will continue on Mondays, so the name remains. This month, my main stories are how to meditate, and another entry for The Half-Blood King's Unspeakable Appendix (workshopping the name). </p>
 
+{/*
 <h5>How to Meditate: All advice I can come up with ordered by simplicity first. I will be updating this note as I learn more.</h5>
 <div className="story">
   <p>Short Form: Breathe in and out through your nose, count your breaths to 5. Focus on the sensations of your breath. As your mind wanders to thoughts that pop up, accept the thought, and bring your attention back to your breath. 5 minutes a day, every day.
