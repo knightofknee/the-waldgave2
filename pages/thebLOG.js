@@ -11,10 +11,10 @@ export default function thebLOG() {
 
 
 
-<h2>May's Monday Night Review 5/23</h2>
+<h2>May's Monday Night Review 5/23 (still in progress, I have 1 more day)</h2>
 <p>Based on recent experience, I'm going to aim for an end of the Month Review release each month for stories. This means my releases will be at the end of the month and not on mondays, but my review process will continue on Mondays, so the name remains. This month, my main stories are how to meditate, and another entry for The Half-Blood King's Unspeakable Appendix (workshopping the name). </p>
 
-{/*
+
 <h5>How to Meditate: All advice I can come up with ordered by simplicity first. I will be updating this note as I learn more.</h5>
 <div className="story">
   <p>Short Form: Breathe in and out through your nose, count your breaths to 5. Focus on the sensations of your breath. As your mind wanders to thoughts that pop up, accept the thought, and bring your attention back to your breath. 5 minutes a day, every day.
@@ -26,14 +26,38 @@ export default function thebLOG() {
   <p>
     ^* That's why walking meditation is a thing, it is like the breath but a much more complicated physical system to control. When you focus on your breath, you notice a growing force telling you it is time breathe in or exhale. With your awareness of your breath, you may end up having longer or shorter breaths. Walking has many more variables
   </p>
+  <p>
+  You have 2 forms of focus, the eye of sauron that focuses on one spot, and your general floodlight awareness of your other senses melding together.
+  </p>
+  <p>
+  Curiosity over judgement
+  </p>
+  <p>
+  Kill Will(fullness)
+
+Surrender to what is
+
+
+Piano hand thing, you move within your mind
+
+
+Pet meditation.
+  </p>
+  <p>
+  "The essential elements of meditation involve cultivating awareness, focus, and a non-judgmental attitude toward your thoughts and experiences. Through regular practice, meditation can help reduce stress, increase self-awareness, improve concentration, and promote overall well-being.”-chat gpt
+  </p>
+  <p>
+  Tegan and Sara is Buddhist rebirth
+  </p>
 </div>
 
 <h5>The Half-Blood King's Unspeakable Appendix</h5>
 <div className="story">
-  <p>Is Hermione the present day main character? So she clearly sees Harry getting information from a superior source. Harry isn't clever enough to fool her, but she is clever enough steal the book when Harry is at Quidditch practice and uses her time turner to give her ample opportunity to investigate this book. Actually they should both use it separately.
-
-    It is hard to understand such magic, but after probing the minds of too many remarkably unremarkable pupils who could only be bothered to get whatever OWL score their parents expected of them, I fell for Hermione instantly. The curiosity and light in her eyes while she read my notes was like Lily but with an ensnared intensity and devotion to knowledge. Thanks a few tips from the sorting hat, I could follow her thoughts. And wow, this girl is hyper-rational. The Half-Blood Queen, long may she reign.</p>
-</div> */}
+  <p>Modern day character number 2: Hermione. So she clearly sees Harry getting information from a superior source. Harry isn't clever enough to fool her, but she is clever enough steal the book when Harry is at Quidditch practice and use her time turner to give her ample opportunity to investigate this book. The book thinks of itself as a self aware narrator of the story.
+  </p>
+  <p>
+    "It is quite hard to understand magic, mind you, it is like trying to understand madness. After probing the minds of too many remarkably unremarkable pupils who could only be bothered to get whatever OWL score their parents expected of them, I fell for Hermione instantly. The curiosity and light in her eyes while she read my notes was like Lily but with an ensnared intensity and devotion to knowledge. The Half-Blood Queen, long may she reign."</p>
+</div>
 
 
 
