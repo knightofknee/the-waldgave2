@@ -12,14 +12,15 @@ export default function thebLOG() {
 
 
 <h2>May's Monday Night Review 5/23 (still in progress, I have 1 more day)</h2>
-<p>Based on recent experience, I'm going to aim for an end of the Month Review release each month for stories. This means my releases will be at the end of the month and not on mondays, but my review process will continue on Mondays, so the name remains. This month, my main stories are how to meditate, and another entry for The Half-Blood King's Unspeakable Appendix (workshopping the name). </p>
+<p>Based on recent experience, I'm going to aim for an end of the Month Review release each month for stories. This means my releases will be at the end of the month and not on mondays, but my review process will continue on Mondays, so the name remains. This month, my content is how to meditate, some notes for The Half-Blood King's Unspeakable Appendix (workshopping the name), and random notes from the past month or so. This month I have been getting my daily tasks done at a high rate and it has eaten into my free writing time. As I become more deliberate, I will edit more. Also I apologize for not updating this page to be more readable, it is on the to-do list.</p>
 
 
 <h5>How to Meditate: All advice I can come up with ordered by simplicity first. I will be updating this note as I learn more.</h5>
 <div className="story">
   <p>Short Form: Breathe in and out through your nose, count your breaths to 5. Focus on the sensations of your breath. As your mind wanders to thoughts that pop up, accept the thought, and bring your attention back to your breath. 5 minutes a day, every day.
   </p>
-  <p>Science Explanation: we have 2 networks, the default mode network and the extrinsic network, the internal and the external. Meditation helps you manage the default mode network better and engage with the external better. Meditation also helps grow the part of the brain associated with executive function and consciousness, aka you. It's like Men in Black with the aliens that lived in human robots. You are the alien in the robot, and meditation is just you exercising. Also your other mindfulness activities are cool and all, but they are not a substitute for meditation. It is like training a particular muscle. Mindfulness activities do not show the same growth in the prefrontal cortex. <a to="https://www.science.org/doi/10.1126/sciadv.1700489">12 weeks or less</a> to make visible changes.</p>
+  <p>Why do this daily:</p>
+  <p>Default Mode Network: we have 2 networks, the default mode network and the extrinsic network, the internal and the external. Meditation helps you manage the default mode network better and engage with the external better. Meditation also helps grow the part of the brain associated with executive function and consciousness, aka you. It's like Men in Black with the aliens that lived in human robots. You are the alien in the robot, and meditation is just you exercising. Also your other mindfulness activities are cool and all, but they are not a substitute for meditation. It is like training a particular muscle. Mindfulness activities do not show the same growth in the prefrontal cortex. <a to="https://www.science.org/doi/10.1126/sciadv.1700489">12 weeks or less</a> to make visible changes.</p>
   <p>
     General Explanation: Ideally, you should sit upright with good posture, but do whatever is comfortable. The breath is a powerful tool because it is always there. You are exercising your mind by focusing on it. You can focus on any part of your breath, but in particular I recommend focusing on the air on your upper lip, just under your nose. I like it because it is a subtle stimuli that is always there, but when you focus on it you can notice the sensation. The idea is to focus on the breath, not control it. The aim is to sit in between awareness and action^*. So you can use any part of your breath as your focus. As you get distracted by your thoughts, recognize it, ask yourself where it probably came from, and accept it for how it is. Maybe you left your cat outside, go let your cat back in! If you think of something that you should be doing, by all means, do that thing and meditate later. You check and maybe your cat is really enjoying the company of a bird. You can set a timer to alert you to check on the cat again. If you suddenly have insight, a solution to a problem at work, a creative vision, a clever bit, take out your phone and note down a few words. Usually 3 or more words is all it takes to stamp down the file location of that particular train of thought within your brain. So that is how to deal with distracting thoughts, my strategy for negative thoughts is to take what is helpful and ditch the rest. It is fine to feel guilty for making a mess and to then clean it up. It is only harmful to feel bad. So if you are meditating and feel a pang of guilt, write a quick note for what you will do in the future to atone for the guilt and then bring your focus back to your breath. But most thoughts are just random spawn of our chaos machines, accept them as something separate from you. You are the executive functioning of your brain, these are thoughts passed to you. You can change policies and write memos, but you can't go down the elevator to lower floors.
   </p>
@@ -27,27 +28,31 @@ export default function thebLOG() {
     ^* That's why walking meditation is a thing, it is like the breath but a much more complicated physical system to control. When you focus on your breath, you notice a growing force telling you it is time breathe in or exhale. With your awareness of your breath, you may end up having longer or shorter breaths. Walking has many more variables
   </p>
   <p>
-  You have 2 forms of focus, the eye of sauron that focuses on one spot, and your general floodlight awareness of your other senses melding together.
+  You have 2 forms of focus, the eye of sauron that focuses on one spot, and your general floodlight awareness of your other senses melding together. Meditation is about finding your focus by using your breath as the target of your eye.
   </p>
   <p>
-  Curiosity over judgement
+  Curiosity over judgement. You want to be aware of where your thoughts come from, but when you are curious, you aren't there to label everything that comes up. You are looking for understanding, and you are looking for useful things. When you come across things that are unhelpful, there are many approaches for giving yourself distance from those thoughts, like changing "that annoys me" to "I am having the thought 'that annoys me' in reaction to A because of B and C. I am already taking all actions towards not being annoyed, so I am going to focus elsewhere".
   </p>
   <p>
-  Kill Will(fullness)
-
-Surrender to what is
-
-
-Piano hand thing, you move within your mind
-
-
-Pet meditation.
+  Kill Will(fullness). You are a Sims character and you are also the player inputting commands for the character. You are the worst Sims character imaginable, if you were the default playable Sims character, no one would play the game, because you, like most if not all people, refuse to do what is in your best interest on regular if not constant basis. This is because your Willful self is most likely a first class citizen inside your mind. As you strip away your willful privileges, you become a much better character. Being a character can be great too, you greatly reduce decision anxiety and can live life like an adventure planned out for you. Surrender to what is.
+  </p>
+  <p>
+  When I play the piano, I can play with two hands at the same time, but I cannot be in both hands at the same time. I naturally look at my right hand when playing the same thing on both hands and I can feel each hit. Proprioception is the sensing of your body at rest, you can tell if your knees are bent or not without moving your legs. I feel each finger before I strike with it. I can do the same with my left hand, though it takes a little more focus. You can focus on each step as you walk, or you can think of something and not notice the sidewalk.
+</p>
+<p>
+  Pet meditation. It's fine to meditate with your pets, they may distract you some, but they are like gongs in a temple.
+  </p>
+  <p>
+  Compassionate attentiveness. You are holding your focus so that you can notice your internal stimuli.
+  </p>
+  <p>
+  Buddhism has a funny location, it is where you get off the samsara bus. You are suddenly walking, moving yourself and choosing your direction. It is wherever it happens to be
   </p>
   <p>
   "The essential elements of meditation involve cultivating awareness, focus, and a non-judgmental attitude toward your thoughts and experiences. Through regular practice, meditation can help reduce stress, increase self-awareness, improve concentration, and promote overall well-being.”-chat gpt
   </p>
   <p>
-  Tegan and Sara is Buddhist rebirth
+  Tegan and Sara is Buddhist rebirth- Hold My Breath Until I Die on 'Hey I'm Just like You'
   </p>
 </div>
 
@@ -57,6 +62,53 @@ Pet meditation.
   </p>
   <p>
     "It is quite hard to understand magic, mind you, it is like trying to understand madness. After probing the minds of too many remarkably unremarkable pupils who could only be bothered to get whatever OWL score their parents expected of them, I fell for Hermione instantly. The curiosity and light in her eyes while she read my notes was like Lily but with an ensnared intensity and devotion to knowledge. The Half-Blood Queen, long may she reign."</p>
+    <p>
+      Other vital character: Tom Riddle. Tom was always different, but never as he seemed. What he actually is, that's truly a mystery now, but it was even so before he was born. That family had a hidden secret, magical experimentation unknown to anyone thanks to laws around taboos. The magical world had no clue telepaths even existed, legilimency was a crude alternative. Tom could see your soul through your eyes. Memories hit him at the speed of light. This aged him considerably. But then he faced the Beast, Dumbledore. DD had never met a telepath like Tom, because none existed. So in that first meeting, that first glance, Tom was lost in the depths of a dark ocean. The other thing to know about Tom is that he has a photographic memory. Tom's brain was designed for his dad to inhabit one day, but Tom's dad also didn't know that Tom was a telepath so Tom killed him. Tom knew everything Dumbledore knew at that moment, and was forever changed. Dumbledore was forever suspicious after feeling the cold of that first glance, but they enjoyed their game. I am not sure which of them still survives, hopefully not both, but in any case the responsibility of the job falls to you. The Beast must be contained, entertained and debrained.
+    </p>
+</div>
+
+<h5>Random Notes</h5>
+<div className="story">
+  <p>
+  Movie plot: women at probiotics company put trackers inside potential mates via free samples. They do this first as a background measure but it turns into a voyeur dating reality tv show. The women are honestly looking for mates they can trust, but a secret show is made by the order of a few billionaires who are addicted to the drama.
+  </p>
+  <p>
+  If I (or anyone) reach my goal and make a simulation, within one is everything. One person can be the god of countless universes capabale of developing their own simulations.
+
+When this happens, it won't be one. There will be different people or groups running them and their battles are ours, like Greek gods.
+
+Actually Greek gods are super creepy from a simulation perspective, they sit in a higher plane with little care for time watching us for amusement, interfering in various forms for fun. people who die can reset for prestige mode, no one really dies but an unbreakable rule keeps anyone from leaving Hades. It all screams simulation.
+
+And if we are in a simulation, how much could you trust history? Like what if the Olympic gods were real, but got bored eventually so they just erased any evidence of theirs existence?
+  </p>
+  <p>
+  The size of the gap in your chemical synapses is 20-40 nanometers. The width of a neutron is ~0.0000017 nanometers. So the more I learn about quantum physics and neuroscience, the more I'm terrified that direct brain control is already possible.
+  </p>
+  <p>
+  Conspiracy- LSD isn't real, someone invented nanotech and then made up LSD as a delivery mechanism. It delivers nanobots that then live in your brain forever (LASIK, eye drops, showers, there are many potential delivery routes for nanotech, it's gonna be a mess)
+  </p>
+  <p>
+  Can we make a system where we give money to people who give Chicago massive value? Maybe you save the city millions of dollars, some of that money should to towards supporting you so you can keep generating value for everyone.
+
+THIS PROGRAM IS FREE, IT ONLY PAYS IF IT ALREADY MADE A LOT.
+
+We give people money for them to do nothing. This fixes the rot of government.
+  </p>
+  <p>
+  A pet will be the first immortal. It's like cloning but with gene therapies. Or endangered species with genetic defects, so the first immortal could be alive in a zoo today.
+  </p>
+  <p>
+  Future and past are emergent properties.
+
+I feel like a lot of problems happen from people engaging with emergent properties without knowing it. They think they are looking at the source, they mistake stars reflected in the pond for the night the sky. (Witcher)
+  </p>
+  <p>
+  Don't act too fast to work it,
+The quickest thought is a closed circuit.
+  </p>
+  <p>
+  How can I call out someone for having a mental software problem, not a hardware one. Like we use this blanket word, don't insult someone's "intelligence". Computers are the same given time and memory constraints. The same goes for brains. But some people have bugs in their brains, malware and bloated code. What is the appropriate insult for this?
+  </p>
 </div>
 
 
