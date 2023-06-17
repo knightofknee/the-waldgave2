@@ -80,7 +80,7 @@ export default function GolfGolf () {
       Tyler the Creator- Who Dat Boy Hole. Horror themed hole. First part is the first 52 seconds of the song on repeat until everyone is in the Haunted house, either through the front door or through the graveyard for a potential bonus point and superior p2 (part 2) positioning with a risk of hitting a tombstone and getting the worst p2 spot, the basement or something. Part 2 is beyond a black veil, and only after everyone has hit into it do you proceed. Here the music switches to the rest of the song on loop. The course shakes to with the bass of the song to an impactful degree, and later shakes to other instruments as well. The art in this part is like p1 except instead of scary, it's a Monster Mash.
       </li>
       <li>
-
+      Water Park hole. Starts with ball being placed on jet-tee (maybe a later upgrade). Water jet that can curve the perfect shot.
       </li>
       <li>
 
