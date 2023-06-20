@@ -8,6 +8,14 @@ export default function thebLOG() {
   <p>MNR TLDR: I try to record the best ideas I have or that I hear. The base concept is that your memory has no magic that makes you remember your best ideas and forget all your bad ideas. But with just a few words, you can create a memory file for yourself. A quick note in your phone can bring you back to a train of thought at any time. Monday Night Review is my process for reviewing these notes on a regular basis. My volume of ideas far exceeds my capacity to execute them, so I want to develop the habit of sharing them. I want to get more elaborate over time and make youtube videos, but for now I'm just going to focus on sharing what content I can and Auto-GPT will fill in the rest.</p>
   <p></p> */}
 
+{/* <h2>Monday Night Review: June</h2>
+<p>Note taking and regular notes reviews are something I recommend everyone do. It's part of being a proper cyborg, utilizing your long term memory banks. I haven't been using reddit and the cutting off of the flood of new information has let me spend more time following up on the many information trails I left myself in the form of notes, open browser tabs, and books placed strategically around my house. This month I think I have a few fun ideas to explore.</p>
+
+<div className="story">
+  <p>
+    List of qualifying ideas here. maybe noble truths, aggregates and impermanence/nonself discussion to start. Weird below
+  </p>
+</div> */}
 
 
 
