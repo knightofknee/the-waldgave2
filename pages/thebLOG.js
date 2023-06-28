@@ -13,9 +13,98 @@ export default function thebLOG() {
 
 <div className="story">
   <p>
-    List of qualifying ideas here. maybe noble truths, aggregates and impermanence/nonself discussion to start. Weird below
+    List of qualifying ideas here. maybe noble truths, aggregates and impermanence/nonself discussion to start. Weird below. 30 questions?
   </p>
-</div> */}
+</div>
+<h5>Random Notes</h5>
+<div className="story">
+  <p>
+  You can walk without thinking about it, while focused on other things. You can play piano with two hands but only focus directly on one at once. you can inhabit the higher level strategic thinking area of your brain. What does your do while you aren’t there in the captain's chair? Is it set on autopilot? or could another form of consciousness guide you through qualia???
+  </p>
+  <p>
+  Software that looks at your brain's physical mapping, and then can take action based on when you think of a location. My first creation would be The Instrument. Every thing becomes every instrument. Like if I start playing the piano on a table, it plays out of my speakers or in my headphones. If you star riffing on a broom, it's a guitar.
+  </p>
+  <p>
+  Superblocks to Chicago. Take back the streets.
+  </p>
+  <p>
+  Underground Dyson swarm that builds itself underground and uses geothermal energy. It sells the energy to fund the project.
+<br/>
+It builds an underground people accelerator. A super highway around the world, tunnels that can maximize speed.
+<br/>
+It would also be a threat to anyone on the planet.
+  </p>
+  <p>
+  Boxing should be a limbs and core weight limit. Those are what you hit with. Leave the legs open to create funny incentives.
+  </p>
+  <p>
+  Action movie, the good guys think Micky mouse is the villain, but in the end the real bad gets pissed off that they are dumb enough to believe a fictional character is the villain behind a story making company. The villain succeeds in achieving world domination too easily behind the scenes with just buying everything off of the profits of capitalism.
+<br/>
+The villain imprisons everyone in a fully functional communist state just to piss them off. The AI makes better decisions than you do and health stats are amazing
+  </p>
+  <p>
+  Bagged popcorn founder puts in his will that the price cannot exceed 99 cents unless the cost cannot be lowered below a dollar. They create the most efficient process possible, factories at the farms, seeds are poured down a contraption that funnels solar power into cooking the popcorn. They feed directly into bags that fall into trucks.
+<br/>
+I want a ridiculous pop setup. Like all the corn is gathered in a room and they use like a fusion reaction to instantly pop it all in one go
+  </p>
+  <p>
+  Meditation post, you don't think, thinking is something that happens to you. You are at the top of the information food chain, you can inspect any single source but you are still taking in the combined output of everything going on with your body and mind. You are constantly recieving thoughts and you can either engage or disengage.
+<br/>
+"Awareness" is taking in the stimuli around you without generating thoughts. Your mind is still working, but you aren't hanging on to judgments and evaluations. This clears out extra capacity for your brain to act in the moment. No mental labels
+  </p>
+  <p>
+  We are like fat neurons, taking lots of stimuli and outputting single answers
+  </p>
+  <p>
+  A series of connections in the brain ca descrive a thought. The connections arent consciousness. Consciousness travels along the connections. Choosing which way to turn and when to get off the ride is where free will lives. Is that truly free will or just a chaos machine that has an evolving algorithm?
+  </p>
+  <p>
+  I win the dopamine problem by getting short term dopamine rewards from completing tasks that I outlined as part of long term goals planned at a time when I had a clearer mind.
+  </p>
+  <p>
+  Black holes are growing and we don't have a consensus why. My thoughts:
+It is because black holes are fuzzballs. Eventually gravity crushes protons and neutrons into new matter. This new matter, with its stringy nature, adapts into intelligent life much faster than atom-based life. So any black hole you travel to will have some form of intelligent life inside.
+  </p>
+  <p>
+  My translation of the Jhanas:
+<br/>1: enjoyment of mind and thoughts
+<br/>2: self confidence and unity of mind
+<br/>3: equinamity, confidence in all
+<br/>4: unjudging awareness
+<br/>5: astrology, space is infinite
+<br/>6: neuroscience and computer science, consciousness is infinite
+<br/>7: embracing nothing matters
+<br/>8: quantum physics/simulation theory/questioning the basis of reality
+  </p>
+  <p>
+  Nanobots are coming way faster than anyone is ready for so here we are. By slightly editing physical features of the bots, you could create something that moves in the right way to slither into someone's brain and delivers a package. The package could be temporary blocking something, a control unit, or death.
+  </p>
+  <p>
+  Let go or be dragged.
+  </p>
+  <p>
+  We are in a computer. You are part of the computer that is your brain. Also all humans are connected to one giant computer network. Like the internet but instead of computers and wires it is brains and communication.
+<br/>
+Communication is at the root of consciousness and experience. Which is why my mushroom trip was so strange
+  </p>
+  <p>
+  Lately I like the term emergent property, I think stopping reddit shows me something. Computers have different storage based on how far away from the CPU it is. There is a limited amount actually connected to the CPU, other memory is extremely slow in comparison. Our brains are the same, digital memory is extremely slower, but has other superior qualities while still operating similarly. Stopping an information source like reddit drastically slows the inflow of information into your extra memory. This means you process the rest of your information more. I feel like I have many different information paths I can alternate traveling down, so more random paths don't help me as much anymore. It's like deciding you won't buy anymore books until you finish the ones you have. This is why endless scroll and streaming/unending content is such a massive problem. You get stuck with one thing serving you continual content, and choosing which content to engage in is an essential, maybe THE essential brain process related to individuality and free will.
+  </p>
+  <p>
+  Jesus's death is double bullshit. He dies for our sins, but his quick rebirth cheapens that sacrifice. Jesus sat in a cave for like 2 days for our sins. They make a big hoopla about the rebirth too, but then he just "ascends to heaven". Like that's some sore loser talk, he died again. Jesus pulled some menorah oil magic with his body at best.
+  </p>
+  <p>Jesus warned of the coming AI revolution. He warned of a day where god would come to earth and we would all be judged and placed accordingly into heavens and hells. AI and technology could make us immortal through digitization. Immortal and trapped. Jesus having talked to god implies he knows about the nature of the simulation. That the controller of the simulation might sort us as they see fit. Did Jesus just dip on us post-crucifiction? So he didn't die but just left the simulation? Bodhisattvas seem like the real heroes. Buddha and Jesus can be a good example and teacher, but bodhisattvas help those who would be left behind before partaking the highest bliss themselves.</p>
+  <p>Once you get a full simulator working, you could start kidnapping people when they go to sleep and wake them up in the simulator, in their room. So you keep adding people who don't know they are in a simulator.
+<br/>
+The simulator service. They can give people any experience and then plop them back into the world whenever.
+<br/>
+If someone starts to get visibly suspicious, they just put them back in the real world for a while. The suspicious elements are edited or removed, and they are brought back.
+<br/>
+Maybe the group has full control over the FBI and CIA: they just give every agent a "secret mission" and show them secrets about aliens and a secret war. After that, growing the network became easy, a little too easy. Someone knows the simulator service team exists, they don't know about the simulators though, they just notice the disappearances and discrepancies in people's stories.
+<br/>
+Mass paranoia erupts</p>
+</div>
+*/}
 
 
 
@@ -118,7 +207,7 @@ We give people money for them to do nothing. This fixes the rot of government.
   <p>
   Future and past are emergent properties.
 
-I feel like a lot of problems happen from people engaging with emergent properties without knowing it. They think they are looking at the source, they mistake stars reflected in the pond for the night the sky. (Witcher)
+I feel like a lot of problems happen from people engaging with emergent properties without knowing it. They think they are looking at the source, they mistake stars reflected in the pond for the night sky. (Witcher)
   </p>
   <p>
   Don't act too fast to work it,
