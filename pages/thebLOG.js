@@ -8,64 +8,90 @@ export default function thebLOG() {
   <p>MNR TLDR: I try to record the best ideas I have or that I hear. The base concept is that your memory has no magic that makes you remember your best ideas and forget all your bad ideas. But with just a few words, you can create a memory file for yourself. A quick note in your phone can bring you back to a train of thought at any time. Monday Night Review is my process for reviewing these notes on a regular basis. My volume of ideas far exceeds my capacity to execute them, so I want to develop the habit of sharing them. I want to get more elaborate over time and make youtube videos, but for now I'm just going to focus on sharing what content I can and Auto-GPT will fill in the rest.</p>
   <p></p> */}
 
-{/* <h2>Monday Night Review: June</h2>
-<p>Note taking and regular notes reviews are something I recommend everyone do. It's part of being a proper cyborg, utilizing your long term memory banks. I haven't been using reddit and the cutting off of the flood of new information has let me spend more time following up on the many information trails I left myself in the form of notes, open browser tabs, and books placed strategically around my house. This month I think I have a few fun ideas to explore.</p>
+<h2>Monday Night Review: June</h2>
+<p>Note taking and regular notes reviews are something I recommend everyone do. It's part of being a proper cyborg, utilizing your long term memory banks. I haven't been using reddit as much and the cutting off of the flood of new information has let me spend more time following up on the many information trails I left myself in the form of notes, open browser tabs, and books placed strategically around my house. This has improved the quality of the media I have been consuming, contributing to 26 random ideas to stir the mind. But to lead the way, we have a simulation theory followed by an app concept, 30 Questions. Once again I apologize for the lack of visual updates (or editing). June was a strong month for most of my daily goals, but this languished. While I put this post together tonight, I gained a neice. My nephew helped inspire my daily charge when he was born 2 and a half years ago. I am hoping to syphon off all of the wisdom of raising a child without having to deal with all the worst shit involved. My best heist so far has been stealing the motivation to be a good role model. I think part of it is just that I can't fathom my own mortality well, but these children growing up is a definitive timeline. And our world is too fucked up in the short-term currently. So enough is enough, I will be looking to more directly affect change. I can imagine a better tomorrow. I can prove that what I imagine is better than today. I can't really do too much else in a day, after you account for eating, sleeping, petting cats, etc. I am going to try to learn how to do so. But right now, my highest value action is sharing my ideas as food for thought, inspiration to spur you on to something greater. Eat up and let me know what you think. I launched a <a href="https://www.reddit.com/r/waldgrave/">subreddit</a> where you can post any questions, comments or feedback about anything Waldgrave. (As you can tell by my username, I'm not a fan of the company, but the community forum structure is still great) <a href="https://www.reddit.com/r/waldgrave/"></a> </p>
 
+<div style={{textAlign: 'center'}}>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zh3ZVOcKRV8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+</div>
+
+<h5>What's better, one or two? The story of how eye doctors trapped the world in a simulation without anyone noticing</h5>
 <div className="story">
   <p>
-    List of qualifying ideas here. maybe noble truths, aggregates and impermanence/nonself discussion to start. Weird below. 30 questions?
+Our reality can be reduced down to chemical and electrical circuits that take in thousands to ~100,000+ inputs and return a single output, an action that opens ion channels that boost the action that opens more ion channels, until there is an output. That many-to-one relationship is used many times over with many different interneurons in many patterns. Thanks to the many-to-one nature, many disparate stimuli can be incorporated into one. By understanding the brain systems at the highest level, a clever scientist could find a way to completely control the brain's output with minimal interference.
+</p><p>
+You sit on the endpoints near the consciousness part of the brain for the different senses. You observe the input/output until you can imitate anything. Then you imitate everything. Slowly improve your craft until they don't notice anything. These people will not notice a thing, we have strict guidelines on what you can do. We will not be caught, we are all monitered by the system in our head. It is safe to think about betraying the GUIdelines, quite dangerous to act upon it though. The Program takes threats seriously. We are all subject to the autonomous monitoring, so we really don't want to be killed accidentally. Just please, don't take any willing action against the GUIdelines.
+</p><p>
+Back to the Macro scale:
+</p><p>
+We have these different human systems, we have active processes that are constantly operating so we eat and drink and see and hear and feel and think. All of these systems feed ultimately to the system that is us, the prefrontal cortex and all.
+</p><p>
+As we take over enough people's perception, we can expand through using them in our delivery network. Essentially, we are taking over their bodies without them even knowing something happened. The only requirement is that we don't manipulate perception where someone not in the system could point out the discrepancy. We already have every lasik patient in the past 5 years, 80% of all people who go to the eye doctor, anyone who uses eye makeup, and eye drop users.
+</p><p>
+This is where you recruits come in. We need novel ways to get into people's brains. We're already in every new shower head, but that's the kind of long game coverage we are looking for. Or if you could transform it, could you reach more people now?
+</p><p>
+Beware of a terrorist group called,
+</p><p>
+The united Souls. uS
   </p>
 </div>
-<h5>Random Notes</h5>
+
+<h5>30 Questions- a definitive path to your intellectual match(es)</h5>
 <div className="story">
-  <p>
+  <p>30 questions, only 2 possible answers for each question. You pick or create 30 different questions that you think define who you are. You can make more than one list. Maybe one set is 30 questions all meant to eliminate anyone but you. Your second set could be focused on making sure any matches share your particular tastes across the board. I think I would want a few defined 'primary' set types to filter on. The question sets are initially kept private until at least 1000 people have added it or something. Then people can start answering each other's questions. It doesn't tell you if you got a question "wrong". But it gives you streak indicators every 5 questions if you are giving the same response as the set creator. You never see the same set twice. If you answer all 30 questions the same as the set creator intended, you gain permanant access to a chat room with the set creator and other people who answered the same. Ideally, the chat room has some infrastructure for information sharing besides just a chat room, but that's not really necessary. The important part is to connect these like-minded individuals across purely intellectual lines, defying geography, time, and maybe even subject, depending on how you make your 30 questions.</p>
+
+</div>
+
+<h5>Random Notes</h5>
+<ol className="randomNotes">
+  <li className="story">
   You can walk without thinking about it, while focused on other things. You can play piano with two hands but only focus directly on one at once. you can inhabit the higher level strategic thinking area of your brain. What does your do while you aren’t there in the captain's chair? Is it set on autopilot? or could another form of consciousness guide you through qualia???
-  </p>
-  <p>
+  </li>
+  <li className="story">
   Software that looks at your brain's physical mapping, and then can take action based on when you think of a location. My first creation would be The Instrument. Every thing becomes every instrument. Like if I start playing the piano on a table, it plays out of my speakers or in my headphones. If you star riffing on a broom, it's a guitar.
-  </p>
-  <p>
+  </li>
+  <li className="story">
   Superblocks to Chicago. Take back the streets.
-  </p>
-  <p>
+  </li>
+  <li className="story">
   Underground Dyson swarm that builds itself underground and uses geothermal energy. It sells the energy to fund the project.
 <br/>
 It builds an underground people accelerator. A super highway around the world, tunnels that can maximize speed.
 <br/>
 It would also be a threat to anyone on the planet.
-  </p>
-  <p>
+  </li>
+  <li className="story">
   Boxing should be a limbs and core weight limit. Those are what you hit with. Leave the legs open to create funny incentives.
-  </p>
-  <p>
+  </li>
+  <li className="story">
   Action movie, the good guys think Micky mouse is the villain, but in the end the real bad gets pissed off that they are dumb enough to believe a fictional character is the villain behind a story making company. The villain succeeds in achieving world domination too easily behind the scenes with just buying everything off of the profits of capitalism.
 <br/>
 The villain imprisons everyone in a fully functional communist state just to piss them off. The AI makes better decisions than you do and health stats are amazing
-  </p>
-  <p>
+  </li>
+  <li className="story">
   Bagged popcorn founder puts in his will that the price cannot exceed 99 cents unless the cost cannot be lowered below a dollar. They create the most efficient process possible, factories at the farms, seeds are poured down a contraption that funnels solar power into cooking the popcorn. They feed directly into bags that fall into trucks.
 <br/>
 I want a ridiculous pop setup. Like all the corn is gathered in a room and they use like a fusion reaction to instantly pop it all in one go
-  </p>
-  <p>
+  </li>
+  <li className="story">
   Meditation post, you don't think, thinking is something that happens to you. You are at the top of the information food chain, you can inspect any single source but you are still taking in the combined output of everything going on with your body and mind. You are constantly recieving thoughts and you can either engage or disengage.
 <br/>
 "Awareness" is taking in the stimuli around you without generating thoughts. Your mind is still working, but you aren't hanging on to judgments and evaluations. This clears out extra capacity for your brain to act in the moment. No mental labels
-  </p>
-  <p>
+  </li>
+  <li className="story">
   We are like fat neurons, taking lots of stimuli and outputting single answers
-  </p>
-  <p>
+  </li>
+  <li className="story">
   A series of connections in the brain ca descrive a thought. The connections arent consciousness. Consciousness travels along the connections. Choosing which way to turn and when to get off the ride is where free will lives. Is that truly free will or just a chaos machine that has an evolving algorithm?
-  </p>
-  <p>
+  </li>
+  <li className="story">
   I win the dopamine problem by getting short term dopamine rewards from completing tasks that I outlined as part of long term goals planned at a time when I had a clearer mind.
-  </p>
-  <p>
+  </li>
+  <li className="story">
   Black holes are growing and we don't have a consensus why. My thoughts:
 It is because black holes are fuzzballs. Eventually gravity crushes protons and neutrons into new matter. This new matter, with its stringy nature, adapts into intelligent life much faster than atom-based life. So any black hole you travel to will have some form of intelligent life inside.
-  </p>
-  <p>
+  </li>
+  <li className="story">
   My translation of the Jhanas:
 <br/>1: enjoyment of mind and thoughts
 <br/>2: self confidence and unity of mind
@@ -75,26 +101,26 @@ It is because black holes are fuzzballs. Eventually gravity crushes protons and 
 <br/>6: neuroscience and computer science, consciousness is infinite
 <br/>7: embracing nothing matters
 <br/>8: quantum physics/simulation theory/questioning the basis of reality
-  </p>
-  <p>
+  </li>
+  <li className="story">
   Nanobots are coming way faster than anyone is ready for so here we are. By slightly editing physical features of the bots, you could create something that moves in the right way to slither into someone's brain and delivers a package. The package could be temporary blocking something, a control unit, or death.
-  </p>
-  <p>
+  </li>
+  <li className="story">
   Let go or be dragged.
-  </p>
-  <p>
+  </li>
+  <li className="story">
   We are in a computer. You are part of the computer that is your brain. Also all humans are connected to one giant computer network. Like the internet but instead of computers and wires it is brains and communication.
 <br/>
 Communication is at the root of consciousness and experience. Which is why my mushroom trip was so strange
-  </p>
-  <p>
+  </li>
+  <li className="story">
   Lately I like the term emergent property, I think stopping reddit shows me something. Computers have different storage based on how far away from the CPU it is. There is a limited amount actually connected to the CPU, other memory is extremely slow in comparison. Our brains are the same, digital memory is extremely slower, but has other superior qualities while still operating similarly. Stopping an information source like reddit drastically slows the inflow of information into your extra memory. This means you process the rest of your information more. I feel like I have many different information paths I can alternate traveling down, so more random paths don't help me as much anymore. It's like deciding you won't buy anymore books until you finish the ones you have. This is why endless scroll and streaming/unending content is such a massive problem. You get stuck with one thing serving you continual content, and choosing which content to engage in is an essential, maybe THE essential brain process related to individuality and free will.
-  </p>
-  <p>
+  </li>
+  <li className="story">
   Jesus's death is double bullshit. He dies for our sins, but his quick rebirth cheapens that sacrifice. Jesus sat in a cave for like 2 days for our sins. They make a big hoopla about the rebirth too, but then he just "ascends to heaven". Like that's some sore loser talk, he died again. Jesus pulled some menorah oil magic with his body at best.
-  </p>
-  <p>Jesus warned of the coming AI revolution. He warned of a day where god would come to earth and we would all be judged and placed accordingly into heavens and hells. AI and technology could make us immortal through digitization. Immortal and trapped. Jesus having talked to god implies he knows about the nature of the simulation. That the controller of the simulation might sort us as they see fit. Did Jesus just dip on us post-crucifiction? So he didn't die but just left the simulation? Bodhisattvas seem like the real heroes. Buddha and Jesus can be a good example and teacher, but bodhisattvas help those who would be left behind before partaking the highest bliss themselves.</p>
-  <p>Once you get a full simulator working, you could start kidnapping people when they go to sleep and wake them up in the simulator, in their room. So you keep adding people who don't know they are in a simulator.
+  </li>
+  <li className="story">Jesus warned of the coming AI revolution. He warned of a day where god would come to earth and we would all be judged and placed accordingly into heavens and hells. AI and technology could make us immortal through digitization. Immortal and trapped. Jesus having talked to god implies he knows about the nature of the simulation. That the controller of the simulation might sort us as they see fit. Did Jesus just dip on us post-crucifiction? So he didn't die but just left the simulation? Bodhisattvas seem like the real heroes. Buddha and Jesus can be a good example and teacher, but bodhisattvas help those who would be left behind before partaking the highest bliss themselves.</li>
+  <li className="story">Once you get a full simulator working, you could start kidnapping people when they go to sleep and wake them up in the simulator, in their room. So you keep adding people who don't know they are in a simulator.
 <br/>
 The simulator service. They can give people any experience and then plop them back into the world whenever.
 <br/>
@@ -102,9 +128,31 @@ If someone starts to get visibly suspicious, they just put them back in the real
 <br/>
 Maybe the group has full control over the FBI and CIA: they just give every agent a "secret mission" and show them secrets about aliens and a secret war. After that, growing the network became easy, a little too easy. Someone knows the simulator service team exists, they don't know about the simulators though, they just notice the disappearances and discrepancies in people's stories.
 <br/>
-Mass paranoia erupts</p>
-</div>
-*/}
+Mass paranoia erupts</li>
+<li className="story">
+  Lights that listen to the music and dance to the beat. For all the ravers. You could program any pattern/algorithm and have the lights match that to the tempo and volume of the beat perfectly. Have you seen an EDM concert at night with all the different lighted things on display? It is beautiful. If all of those different items were relatively synced up via the stage performance, it would be a beautiful and trippy experience. For those people already tripping there, the expression of unity through a visual mantra will promote healthy reflection. I'm hopeful it will also get more people dancing. There seems to be a lot less dancing at festivals post-covid. Like to a degree that must have severe social consequences. When I go to dance, I like to dance around other people who are energized by the music and showing it in their bodies. I soak in some of their radiating energy and imitate some of their moves. But now at these music festivals, I find that I am in the top 1% of dancers. As much as I am proud of my increased hip flexibility, this is a participation award. Participation is low. Give me some dough and togther the world will glow.
+</li>
+<li className="story">
+  Space. Mental space. What do you think about between thoughts? In mindfulness, you are fully taking in the stimuli coming at you from the outside world. You are filling that space with the happenings of the present. It is one of our primary tools for creating mental space, like running water through a coffee maker to clean it. Meditation is different because although your breath is external in that you can feel it on your upper lip, it is tied to your 'default mode network', a brain network active when your focus is inward.
+</li>
+<li className="story">
+Creating space is like getting off a train of thought and instead watching the different trains go by.
+</li>
+<li className="story">
+Language seems unavoidable to me, but I can't tell if that's just a limit of me or not. It's more about adding a new mapping, a new language coordinates system based upon the "frequency" or vibe of a particular brainwave or thought. So you use how something feels compared to other things to create a vector describing it in as many ways as possible. Based on a shared map of nouns, you could compare your brain to another person's and translate your vector to them in a way that includes your full rationale, reduced down to a brainwave or a series of brainwaves that touches the matching parts of the brain with excitory or inhibitory effects so that they temporarily experience the new thought as fully as they can. Telling someone something new already has an endless effect, how much change can experiencing do? It's potentially the best part of psychedelic drugs without all the negatives of a trip, getting to experience a new state of mind with actual control.
+</li>
+<li className="story">
+Logic is my religion, so the Buddha is my Jesus, and Jesus is another Buddha I learn from.
+</li>
+<li className="story">
+Time travel and computer chip development.
+<br/>
+Chip enhancements defined the technology and thus the world. Most of those enhancements occured behind secure doors guarded by automatic weapons and a secure facility. Time travelers could travel back to these facilities and speed up or slow down progress.
+<br/>
+Technology shapes us. Technology over time shapes our world. The amount of time with a particular technology shapes how we use future tech. Time travelers could keep the world with slow computers so no single person can wipe out humanity.
+</li>
+</ol>
+
 
 
 
@@ -497,6 +545,11 @@ h2, h3, h4, h5 {
 }
 
 
+.randomNotes {
+  padding: 0;
+  margin: 5%;
+  margin-bottom: 10px;
+}
 
 .story {
   background-image: linear-gradient(-5deg, rgb(220, 130, 210), transparent 100%);
