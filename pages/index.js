@@ -87,7 +87,7 @@ export default function Home() {
         <div style={{display:'flex', alignItems:'center'}}>
           <div className='defNum'>4)</div>
           <div className="defList">
-            The Waldgrave stands for giving all brains the ability to thrive. We want to provide tools for free or at cost. We want to learn as much as we can and then to share the best of what we find. We want to enable individuals to pursue whatever they think they can do that will most benefit humanity.
+            The Waldgrave stands for giving all brains the ability to thrive. We want to provide tools for free or at cost. We want to learn as much as we can and then to share the best of what we find. We want to enable individuals to pursue whatever they think they can do that will most benefit humanity. To help others help themselves and others however we can.
           </div>
         </div>
       </div>
