@@ -111,7 +111,7 @@ It is because black holes are fuzzballs. Eventually gravity crushes protons and 
   <li className="story">
   We are in a computer. You are part of the computer that is your brain. Also all humans are connected to one giant computer network. Like the internet but instead of computers and wires it is brains and communication.
 <br/>
-Communication is at the root of consciousness and experience. Which is why my mushroom trip was so strange
+Communication is at the root of consciousness and experience. (forest of thought analogy in progress)
   </li>
   <li className="story">
   Lately I like the term emergent property, I think stopping reddit shows me something. Computers have different storage based on how far away from the CPU it is. There is a limited amount actually connected to the CPU, other memory is extremely slow in comparison. Our brains are the same, digital memory is extremely slower, but has other superior qualities while still operating similarly. Stopping an information source like reddit drastically slows the inflow of information into your extra memory. This means you process the rest of your information more. I feel like I have many different information paths I can alternate traveling down, so more random paths don't help me as much anymore. It's like deciding you won't buy anymore books until you finish the ones you have. This is why endless scroll and streaming/unending content is such a massive problem. You get stuck with one thing serving you continual content, and choosing which content to engage in is an essential, maybe THE essential brain process related to individuality and free will.
