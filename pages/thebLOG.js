@@ -8,9 +8,9 @@ export default function thebLOG() {
   <p>MNR TLDR: I try to record the best ideas I have or that I hear. The base concept is that your memory has no magic that makes you remember your best ideas and forget all your bad ideas. But with just a few words, you can create a memory file for yourself. A quick note in your phone can bring you back to a train of thought at any time. Monday Night Review is my process for reviewing these notes on a regular basis. My volume of ideas far exceeds my capacity to execute them, so I want to develop the habit of sharing them. I want to get more elaborate over time and make youtube videos, but for now I'm just going to focus on sharing what content I can and Auto-GPT will fill in the rest.</p>
   <p></p> */}
 
-{/* <h2>Monday Night Review: July 23, storylines?</h2>
-<p>18 month change advocacy? Talk about tracking process. bring in itw???</p> */}
-{/* <h5>Meditation round 2: practical explanation</h5>
+<h2>Monday Night Review: July 2023</h2>
+<p>I may edit or add to this still, I'm giving myself up to 1 week into a month to write on ideas of the previous month. I was pretty busy this month, I have a lot of notes that don't fit this format (a chunk have to do with a forest-consciousness analogy I'm cooking up, I also made progress on my Dune fan-fic: Ghanima's Embrace (name pending)). Here are some of my digestible notes:</p> {/* 18 month change advocacy? Talk about tracking process. bring in itw??? */}
+<h5>Meditation round 2: practical explanation</h5>
 <p>
   Meditate 5 minutes a day, focus on your breath and count your breaths to 5. Concentration is the goal, this is focus training. As thoughts come to you, acknowledge that they are separate from you. Maybe you remember something you need to do, go do that thing. Maybe you need to plan what you will do. Take care of your shit, then accept that you have done or will do what you need to do. Meditation is about raising awareness. As you raise your awareness, it's like turning on the lights. You see the mess you have made, the entirely avoidable things that you have been tripping over repeatedly.
 </p>
@@ -19,7 +19,109 @@ export default function thebLOG() {
 </p>
 <p>
   <a href="https://youtu.be/-asOA1QMGtg">This video</a> covers why you should take notes to create and maintain your second brain. I'll let Tiago advocate for notes this month. Commonplace book for yourself. The Waldgrave aims to be a collective commonplace book. Please add a list of the best of the best, the things you most recommend to another person. It can be a book, a quote, an idea, anything. As long as it's that good shit.
-</p> */}
+</p>
+<h5>Random Notes</h5>
+<ol className="randomNotes">
+  <li>
+    Brain Day. I propose this as a day of celebration and recognition, the day your brain has finished growing. Maybe we learn to identify that with a simple scan at your checkup, for now it can be your 25th birthday. It is an important distinction that we should recognize. You didn't make your brain, you came into existence within it at some point during its development and joined in the development process. Brain day is about recognizing when a vital biological process is complete. I don't think we help young people appropriately because of a lack of awareness of brain growth.
+  </li>
+  <li className="story">
+  what if the human brain conducts simulations with versions of “you” being passed different thoughts and perceptions. So it may decide to imagine trying out both types of soup, and then “you” would experience soup but no memory is stored. Your brain could constantly be creating fake you’s. Like ‘Joan is Awful’, but it is you inside of you. As long as your brain has the processing power, it could trap you in simulations.
+  </li>
+  <li>
+  Free the algorithms. No one should force you to search data with particular obscured searched alone. New law.
+  </li>
+  <li>
+  Public bar cart app. So if you have friends over, they can check what you already have on tap and ready for guests. And public pantry for dinner parties.
+  </li>
+  <li>
+  For 5 minutes a day, don't let anybody or anything run your brain. Create space to hear your brain.
+  </li>
+  <li>
+  Big newspaper is behind deep fakes. The destruction of online truth makes them relevant again, except there might be some protected networks hosting mini-internets everywhere. The danger is that your system can be hacked without you knowing it. Delivery boys will be a critical service like never before.
+  </li>
+  <li>
+    Science still doesn't know where the mind is. The mind plays the brain like a piano and we can observe the brain, but the mind remains a mystery. Your mind is an organ, your brain is your physical karma.
+  </li>
+  <li>
+  Cicadas are the first small bots to be feared. During bloom, they are perfect cover.
+  </li>
+  <li>
+  Mario party infinite
+<br/>
+Every mario party game exists in the same board universe. What happens in your games shapes the boards forever. So the board universe is both changing and growing over time. Games abandoned halfway through create chaos because side characters escape and roam as unchecked, neglected npc's.
+<br/>
+There are an infinite, ever-growing number of copies of every character in the game. Every time you play, you create new ones. But the geography is dynamically changing in response to in-game decisions and outcomes.
+  </li>
+  <li>
+  I think the ability to launch to a black hole and live forever (or to the big end) with the energy of a black hole and simulate universes is a seed that lives in all humans now. That's what makes us potential gods.
+  </li>
+  <li>
+  So someone attacks Japan, and the ninjas are finally called upon. They got real good with new technology, no one is safe.
+  </li>
+  <li>
+    Goals are the future affecting the present, the sibling of history.
+  </li>
+  <li>
+  B-connect
+<br/>
+Turn all messaging systems into one messaging system of your choice
+<br/>
+Do you prefer texting for some things and slack for other things, but the people you communicate with have different preferences?
+<br/>
+Those two things are needlessly connected currently. But you are recieving the data, how you handle that data should be your choice.
+<br/>
+
+Whether something goes into one type of message platform or another should be set by you, along with how and when you were notified about these messages. Message sources point at notification rules.
+  </li>
+  <li>
+  Thinking is the collapsing of your brainwave function. You have all these potential paths, and they shape which path you end up taking. By creating space, you open yourself to the wave of possibilities. Meditation helps you quiet the mind.
+  </li>
+  <li>
+  If you jump off one train of thought and then get on another, what's the in-between?
+  </li>
+  <li>
+  So fungus wins the extinction event, has a massive feast and spawns a consciousness. This being awakens to a dead world. They create spores so that they can one day awaken again in a world with more life to consume.
+  </li>
+  <li>
+  What if you progressively took over one neuron at a time by taking out the sodium and potassium and replacing it with an electric source controlled by a computer? The sodium and potassium only have an effect through the electrical output they produce.
+  </li>
+  <li>
+  my proposal is  that galaxies are eventually spread out enough that the space in between them “breaks”, it no longer has the energy to support the new space. it is like the end of the universe, I think the result is that the galaxies collapse into its own new big bang. mid bangs?
+  <br/>
+  So each galaxy collapses separately but not to a point. The whole galaxy falls into the supermassive black hole at the center.
+  <br/>
+We have detected galaxies "too big" too far away. Some suggest the universe is older than we thought. I propose that our universe was once a galaxy in a larger universe, it collapsed into a black hole and the X event occurs. The distribution of everything causes new clumps to form as the X event explodes outwards. Energy is concentrated enough to spontaneously create new spacetime. It expands in all directions until it cools again.
+<br/>
+Aliens with black hole technology could have created our universe around themselves.
+<br/>
+Our universe isn't infinite, the aliens were at true center. But every other point also looks like true center, spacetime expanded equally in all directions, between all points. The "walls" of our universe is running away from us faster than our speed of causality, it's infinite from our perspective, but the edge still always exists.
+<br/>
+Eventually, energy is too spread out to power more spacetime so the outward pressure stops. Maybe it begins collapsing, maybe it stays there, maybe it just slows down a bit. WHAT IF OUR UNIVERSE NEEDS A HIGH PRESSURE TO MAINTAIN ITS integrity?
+<br/>
+We need a space ark asap. We should build it inside earth. Call it Plan B. We can get the religious right on board with an ark.
+<br/>
+This also gets people underground in enough numbers and supplies to survive an unexpected event.
+<br/>
+
+Potential bwahh-
+<br/>
+The stars hold up the sky. They power the vacuum.
+  </li>
+  <li>
+  Does time travel involve a break or a branch? Branching seems more realistic. If timelines are like a plant then, are there benefits to pruning? If there is some shared resource for the multiverse, maybe spacetime and energy, maybe computing power, how would a pruning process develop? How would it manifest?
+<br/>
+We hit this limit much faster with the branching of time travel. The Pruners take out any sections that are growing too fast. That is why we must stop these time travelers, no matter the cost. It's nothing personal, we prune the worst offenders ourselves, before we are all destroyed.
+  </li>
+  <li>
+  Augmented reality kills ads and brands. They can no longer force themselves into your field of view.
+  </li>
+
+</ol>
+
+
+
+
 
 <h2>Monday Night Review: June</h2>
 <p>Note taking and regular notes reviews are something I recommend everyone do. It's part of being a proper cyborg, utilizing your long term memory banks. I haven't been using reddit as much and the cutting off of the flood of new information has let me spend more time following up on the many information trails I left myself in the form of notes, open browser tabs, and books placed strategically around my house. This has improved the quality of the media I have been consuming, contributing to 26 random ideas to stir the mind. But to lead the way, we have a simulation theory followed by an app concept, 30 Questions. Once again I apologize for the lack of visual updates (or editing). June was a strong month for most of my daily goals, but this languished. While I put this post together tonight, I gained a neice. My nephew helped inspire my daily charge when he was born 2 and a half years ago. I am hoping to syphon off all of the wisdom of raising a child without having to deal with all the worst shit involved. My best heist so far has been stealing the motivation to be a good role model. I think part of it is just that I can't fathom my own mortality well, but these children growing up is a definitive timeline. And our world is too fucked up in the short-term currently. So enough is enough, I will be looking to more directly affect change. I can imagine a better tomorrow. I can prove that what I imagine is better than today. I can't really do too much else in a day, after you account for eating, sleeping, petting cats, etc. I am going to try to learn how to do so. But right now, my highest value action is sharing my ideas as food for thought, inspiration to spur you on to something greater. Eat up and let me know what you think. I launched a <a href="https://www.reddit.com/r/waldgrave/">subreddit</a> where you can post any questions, comments or feedback about anything Waldgrave. (As you can tell by my username, I'm not a fan of the company, but the community forum structure is still great) <a href="https://www.reddit.com/r/waldgrave/">reddit.com/r/waldgrave</a> </p>

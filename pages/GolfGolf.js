@@ -83,7 +83,7 @@ export default function GolfGolf () {
       Water Park hole. Starts with ball being placed on jet-tee (maybe a later upgrade). Water jet that can curve the perfect shot.
       </li>
       <li>
-
+      Cat themed hole. Use cat toys and cat-based decision-making.
       </li>
       <li>
 
