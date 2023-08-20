@@ -141,7 +141,10 @@ The stars hold up the sky. They power the vacuum.
 We hit this limit much faster with the branching of time travel. The Pruners take out any sections that are growing too fast. That is why we must stop these time travelers, no matter the cost. It's nothing personal, we prune the worst offenders ourselves, before we are all destroyed.
   </li>
   <li>
-  Augmented reality kills ads and brands. They can no longer force themselves into your field of view.
+  Augmented reality eventually kills ads and brands. They can no longer force themselves into your field of view. Though if you let them, they can control your everything.
+  </li>
+  <li>
+    If you watched the Oppenheimer movie, <a href="https://en.wikipedia.org/wiki/Discovery_of_the_neutron">here is the prequel</a>. There is no action like a bomb, though there is drama. One duo of scientists in Germany discovered a new particle but think it may be gamma radiation, 2 years later a second duo in Paris runs a follow-up experiment and proves that it isn't gamma radiation. The Paris duo says a new neutral particle is required. Then a British scientist, after seeing this, copies the Paris experiment and adds in his expertise for measuring ejected protons to confirm that the new neutral particle is also the size of a proton. It's only the last guy that got the Nobel Prize and the credit for 'discovering' the neutron. James motherfucking Chadwick (he only has like 3 pictures online and he looks unhappy in all of them). That's enough for another go, right?
   </li>
 
 </ol>
