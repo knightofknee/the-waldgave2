@@ -12,6 +12,7 @@
     "goo": "git add . && git commit -m 'goo' && git push heroku"
   },
   "dependencies": {
+    "firebase": "^10.1.0",
     "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0",

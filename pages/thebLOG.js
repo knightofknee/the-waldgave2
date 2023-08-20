@@ -1,6 +1,33 @@
 import StoryBlock from "../components/StoryBlock";
 
-export default function thebLOG() {
+import { getFirestore } from "firebase/firestore";
+import './firebase.js';
+import { collection, getDocs, setDoc } from "firebase/firestore";
+
+addingToTheTable = async () => {
+  try {
+    const docRef = await setDoc(collection(db, "users"), {
+      first: "Alan",
+      middle: "Mathison",
+      last: "Turing",
+      born: 1912
+    });
+
+    console.log("Document written with ID: ", docRef.id);
+  } catch (e) {
+    console.error("Error adding document: ", e);
+  }
+}
+
+export default async function thebLOG() {
+
+  const fireStore = getFirestore();
+
+  const querySnapshot = await getDocs(collection(db, "public-users"));
+querySnapshot.forEach((doc) => {
+  console.log(`${doc.id} => ${doc.data()}`);
+});
+
   return (<div>
 <div>
   <h1>the bLOG</h1>
@@ -18,7 +45,7 @@ export default function thebLOG() {
   There is this thing that Zen buddhism focuses on, emptying yourself and the rewards that follow. We are so far gone from that, we carry an infinite source of bullshit wherever we go. Some call this reason for pessimism, but I see something else. We are massive, overflowing jugs. Stop pouring more in and you have great nourishment in front of you. But you can't drink if you keep pouring. Meditation is the act of stopping the pour and drinking. So it will be 'more difficult' for someone with an overflowing cup, but the rewards are that much greater. (That said, there are supposedly wonderful benefits of stopping the pouring entirely, as your focus is honed by the lack of bullshit). What media sources do you consume? How long can you stop the pouring into your cup? That's why the Buddha just told everyone to go fuck off into the forest on their own. No one can pour into your cup there.
 </p>
 <p>
-  <a href="https://youtu.be/-asOA1QMGtg">This video</a> covers why you should take notes to create and maintain your second brain. I'll let Tiago advocate for notes this month. Commonplace book for yourself. The Waldgrave aims to be a collective commonplace book. Please add a list of the best of the best, the things you most recommend to another person. It can be a book, a quote, an idea, anything. As long as it's that good shit.
+  <a href="https://youtu.be/-asOA1QMGtg">This video</a> covers why you should take notes to create and maintain your second brain. I'll let Tiago advocate for notes this month. Commonplace book for yourself. The Waldgrave aims to be a collective commonplace book. Please add a list of the best of the best, the things you most recommend to another person. It can be a book, a quote, an idea, anything. As long as it's that good shit. (functionality in progress, starting with the og internet, text and hyperlinks only)
 </p>
 <h5>Random Notes</h5>
 <ol className="randomNotes">
