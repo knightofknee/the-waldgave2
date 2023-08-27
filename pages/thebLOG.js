@@ -1,32 +1,25 @@
 import StoryBlock from "../components/StoryBlock";
 
-import { getFirestore } from "firebase/firestore";
-import '../firebase.js';
-import { collection, getDocs, setDoc } from "firebase/firestore";
+//import { getFirestore } from "firebase/firestore";
+//import '../firebase.js';
+//import { collection, getDocs, setDoc } from "firebase/firestore";
 
-addingToTheTable = async () => {
-  try {
-    const docRef = await setDoc(collection(db, "users"), {
-      first: "Alan",
-      middle: "Mathison",
-      last: "Turing",
-      born: 1912
-    });
+export default function thebLOG() {
 
-    console.log("Document written with ID: ", docRef.id);
-  } catch (e) {
-    console.error("Error adding document: ", e);
-  }
-}
+  // addingToTheTable = async () => {
+  //   try {
+  //     const docRef = await setDoc(collection(db, "users"), {
+  //       first: "Alan",
+  //       middle: "Mathison",
+  //       last: "Turing",
+  //       born: 1912
+  //     });
 
-export default async function thebLOG() {
-
-  const fireStore = getFirestore();
-
-  const querySnapshot = await getDocs(collection(db, "public-users"));
-querySnapshot.forEach((doc) => {
-  console.log(`${doc.id} => ${doc.data()}`);
-});
+  //     console.log("Document written with ID: ", docRef.id);
+  //   } catch (e) {
+  //     console.error("Error adding document: ", e);
+  //   }
+  // }
 
   return (<div>
 <div>
@@ -389,10 +382,6 @@ And if we are in a simulation, how much could you trust history? Like what if th
   </p>
   <p>
   Can we make a system where we give money to people who give Chicago massive value? Maybe you save the city millions of dollars, some of that money should to towards supporting you so you can keep generating value for everyone.
-
-THIS PROGRAM IS FREE, IT ONLY PAYS IF IT ALREADY MADE A LOT.
-
-We give people money for them to do nothing. This fixes the rot of government.
   </p>
   <p>
   A pet will be the first immortal. It's like cloning but with gene therapies. Or endangered species with genetic defects, so the first immortal could be alive in a zoo today.

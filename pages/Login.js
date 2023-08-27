@@ -41,21 +41,22 @@ export default function Login () {
 
   return (<div>
     {!isLoggedIn ? (<form onSubmit={submitLogin}>
-    <label for="email">Email</label>
+    <label htmlFor="email">Email</label>
     <input id="email" type="email" value={email} onChange={e => setEmail(e.target.value)}></input>
-    <label for="password">Password</label>
+    <label htmlFor="password">Password</label>
     <input id="password" type="password" value={password} onChange={e => setPassword(e.target.value)}></input>
     </form>
     ) : (
       <div>
         <h2>Welcome! This is barebones social media, where you can only see what your friends recommend. Old-timey internet with text and links only. Please post your favorite things, whatever they may be.</h2>
         <form onSubmit={submitEntry}>
-          <label for="name">Name</label>
+          <label htmlFor="name">Name</label>
           <input id="name" type="text" value={name} onChange={e => setName(e.target.value)}></input>
-          <label for="link">Link</label>
+          <label htmlFor="link">Link</label>
           <input id="link" value={link} onChange={e => setLink(e.target.value)}></input>
-          <label for="description">Description</label>
+          <label htmlFor="description">Description</label>
           <textarea name="description" rows={7} cols={7} value={description} onChange={e => setDescription(e.target.value)}></textarea>
+          <button type="submit">Log in/Sign up</button>
         </form>
         <div>
           <h3>
