@@ -1,7 +1,7 @@
 import StoryBlock from "../components/StoryBlock";
 
 import { getFirestore } from "firebase/firestore";
-import './firebase.js';
+import '../firebase.js';
 import { collection, getDocs, setDoc } from "firebase/firestore";
 
 addingToTheTable = async () => {

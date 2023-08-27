@@ -1,5 +1,5 @@
 
-export default function EntryView (name, link, description) {
+export default function EntryView (props) {
 
   return (
     <div>
