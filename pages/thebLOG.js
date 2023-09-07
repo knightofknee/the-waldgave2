@@ -28,6 +28,87 @@ export default function thebLOG() {
   <p>MNR TLDR: I try to record the best ideas I have or that I hear. The base concept is that your memory has no magic that makes you remember your best ideas and forget all your bad ideas. But with just a few words, you can create a memory file for yourself. A quick note in your phone can bring you back to a train of thought at any time. Monday Night Review is my process for reviewing these notes on a regular basis. My volume of ideas far exceeds my capacity to execute them, so I want to develop the habit of sharing them. I want to get more elaborate over time and make youtube videos, but for now I'm just going to focus on sharing what content I can and Auto-GPT will fill in the rest.</p>
   <p></p> */}
 
+<h2>Monday Night Review: August 2023</h2>
+<p>So we have a buddhism condensation to start, meditation and no trace, along with </p>
+<p>
+Listen to the present. Listen deep enough that you forget you are listening. Beginners mind.
+
+awareness and the 5 aggregates.
+
+Meditation, focus can be with outside distractions, or internal if it is quiet enough. Being aware of the internal processes let's you no longer be a victim of them but a manager. You field all the complaints and decide what matters to your operation.
+
+Control of focus, stoicism is basically that too
+Like you're playing a videogame, you focus on the actions that matter, the rest is just the game.
+
+Immediate awareness and then the awareness behind, the various items in your queue. Various thoughts continually jump out of that background queue, you direct your awareness in response to these. You can follow a new thought, you can update your thoughts on that thought, and you can leave a thought where it lies and focus on other things instead. Many simple and smart mechanisms in your brain feed your thought machine, one of the simple things is that what you see and hear affects your brain. That's why ads are AIDS, they attack the defenses of your brain and use them against you. And why big tech controlling their algorithms is toxic and an easy fix to people trying to force content on people against their wills. Search should be in your control, you should be able to search on Amazon and just see a list of the products that fit your search, ordered by your selection. You should be able to search Instagram posts of your friends in the past X amount of time.
+
+Endless scroll content should have this required by law.
+
+Zen says do things with no trace left in the mind. Leaving incomplete questions or unsettled emotions means they hang in your local cache, your brain passively works on unsolved problems in the background.
+
+Zen is maximizing your present by making sure you resolve your current action cleanly so you can be fully in the next action
+</p>
+<h5>Random Notes</h5>
+<ol className="randomNotes">
+  <li className="story">
+  Mind control is less effective against potheads because weed pumps the breaks in the cerebral cortex, so messaging is filtered out much faster. Most people experience this as some degree of, "whoah dude, weed makes you dumb", but I think that leads to incorrect assumptions. It changes the way your brain works, and one of those changes is this pumping of secondary neurons in the prefrontal cortex. That means while you might be able to maintain a train of thought, you quickly lose that immediate connection if your focus is interrupted. Instead of driving a thought car, you are on other thought transportation. You may hop on a thought bus, but if you get off it's leaving without you. But this is the future, so we have thought rideshares as well. We get these wherever we make a record of our thoughts that we can interact with. One piece of advice for ADHD I found was to create in the outside world what you lack in the inside world. So if that is working memory, take lots of notes. If you feel time flying by too easily, set timers to check in to see if you want to do something else. Notes and your information diet are 2 major mind tools. Dissolving the ego via meditation brings a similar silencing of thoughts through awareness. I'm just saying, most people don't want to disengage from the world to the level that is required for clarity for a buddhist monk. Outside the forest, we are always receiving tainted thoughts. Living in a city, online, it's inescapable. My proposal is that perhaps the ideal diet for a lay buddhist may include some caffiene and weed at particular amounts at particular times of day. 90% of the adult world drinks caffiene regularly. I know the Buddha said no intoxicants of the mind at all, but that's not feasible in our lifetimes for most people. So I promote a middle path that sees weed as one of our few potential tools to neutralize the effects of misinformation. It's easy to get crossed wires, that's why it's important to prune often.
+  </li>
+  <li className="story">
+  Supermassive black holes that "collide" do so slower than the end of the universe. They seem to be stuck a parsec away. In their approach, they shed everything else and reach equilibrium. With the universe expanding and bringing supermassive black holes forever apart as the distance between galaxies grows, simulation theory with supermassive black holes as the central processing units keeps looking good.
+  </li>
+  <li className="story">
+  The real reason we exist: content. Someone was able to achieve immortality, leaving eternity to fill up with something worth it. Simulations became the best source of novelty, and novelty became the lifeblood of existence. I fear I'm in a simulation because pre-computer age and digital immortality seem bound to occur in my lifetime. The timing is very sus.
+  </li>
+  <li className="story">
+  Zombies that are people with brain but no mind. So a stronger imprint visible, they keep some routines. They can be found singing songs, they don't actively talk much but their reactions can seem 100% human. That is, until you see them smile as they walk towards you.
+  </li>
+  <li className="story">Cults with clones. Everyone has the same children. Real life clone wars. We aren't far away, and of all the sciences I think this is one primed to actually be used quickly in a significant way without supervision. The hardest part of creating a cult is getting new members, especially the first ones. But if you could create your own clones and raise them as your only members, then the only big remaining qualifier is being a narcisist, which is usually already the case.</li>
+  <li className="story">
+  Videogame where imagination comes alive, different designers build different towns, and only have 1 or 2 people directly communicating with other teams. Otherwise the devs need to listen to rumors from players of other towns. Like a DnD scenario, except the devs directly making the game aren't the Dungeon Master, they are locked in the Dungeon with God powers of Creation. The devs ask the DM for permission, they don't talk directly to other teams unless it is through players in-game. The business pitch is that you could develop a game while getting paid for it. A studio could join the project and if they leave, their towns will live on for other teams to use.
+  </li>
+  <li className="story">
+  I don't want one small tech leap, I want AI reviewing gameplay and comms and adjusting the experience accordingly. Hard inting teammates? make their voice higher pitched and softer with each death. Whoever is carrying should block out all other comms when they are talking, and make them sound like Master Chief. Toxic worthless human being? Trap them in games with bots who are trained to give them a personalized verbal assault, designed to neg them into not using their toxicity on others.
+  </li>
+  <li className="story">
+  Mom calls afraid of someone outside, but says don't worry dad is on his way... That is NOT how you comfort the batman generation, telling us our parents are going to 2v1 a thief...
+  </li>
+  <li className="story">
+    Origin Story: God of time pisses off the other gods, abusing his power with no one able to stop him. Or at least that's what they said, they don't remember anything that gets rewound. They just notice the god of time knowing too much. One rumor and he's banished, except he reverses any ban. So instead they erase his memory and banish him from the god realm, so he cannot relearn who he is.
+  </li>
+  <li className="story">
+  Cut ties to the space around you. Space worms or bugs eat quantum sized wormholes, if you control them you can disconnect in a bubble around yourself. This creates a much larger wormhole, but controlling the connection is near impossible.
+  </li>
+  <li className="story">
+  Why not startwatch? Sometimes I just start and watch, no stop.
+  </li>
+  <li className="story">
+  "Time is the most valuable resource" becomes instantly reversed in a world of immortality. So they should hate watching us pursue immortality, or love it because it is like a re-enactment of their glory age? The iron golds.
+<br />
+
+Do you believe in infinite ideas?
+<br />
+Premise: half the world is assigned to working towards tomorrow, focused on solving immortality and every other major problem. The other half is assigned the present, explore anything you want. The goal is content, farming variety. Prepare for the immortals, especially those with time dilation. The first time dilaters are the best scientists willing to enter the hyperbaric time chamber. They are meant to speed up discovery, and as our computer power grows our limiting factor becomes the sanity of the people living isolated in a sped-up world. This world thus has two audiences, one is consumed with content overload, the other is begging to know what happens next.
+
+  </li>
+  <li className="story">
+  Orochimaru is just Itachi without the reveal. He trains Sasuke and even let's saske "kill" him. The only real attack he makes is to kill the worst hokage. He gave the village what it needed. Via his resurrection technology, they are able to defeat Madara and save the world.
+  </li>
+  <li className="story">
+  A scientist using lasers to manipulate nanoparticles like tweezers was murdered. Nanoscientists being killed hits my sci Fi sensors in a bad way. Like there are people following the top developments and they steer science and people at large.
+  </li>
+  <li className="story">
+  Chicago Carbon Exchange.
+<br/>
+All residents pay in sales tax a carbon tax based on the emissions involved. And once a month (or continuously?) Every resident gets an equal cut of all of the sales tax paid. This is for the environment, not the City's finances. That means it's also a free way to help the environment and reduce air pollution in the city.
+  </li>
+  <li className="story">
+  Give an interview while hypnotized. See if you can answer some questions for yourself.
+  </li>
+</ol>
+
+
+
+
 <h2>Monday Night Review: July 2023</h2>
 <p>I may edit or add to this still, I'm giving myself up to 1 week into a month to write on ideas of the previous month. I was pretty busy this month, I have a lot of notes that don't fit this format (a chunk have to do with a forest-consciousness analogy I'm cooking up, I also made progress on my Dune fan-fic: Ghanima's Embrace (name pending)). Here are some of my digestible notes:</p> {/* 18 month change advocacy? Talk about tracking process. bring in itw??? */}
 <h5>Meditation round 2: practical explanation</h5>
@@ -42,16 +123,16 @@ export default function thebLOG() {
 </p>
 <h5>Random Notes</h5>
 <ol className="randomNotes">
-  <li>
+  <li className="story">
     Brain Day. I propose this as a day of celebration and recognition, the day your brain has finished growing. Maybe we learn to identify that with a simple scan at your checkup, for now it can be your 25th birthday. It is an important distinction that we should recognize. You didn't make your brain, you came into existence within it at some point during its development and joined in the development process. Brain day is about recognizing when a vital biological process is complete. I don't think we help young people appropriately because of a lack of awareness of brain growth.
   </li>
   <li className="story">
   what if the human brain conducts simulations with versions of “you” being passed different thoughts and perceptions. So it may decide to imagine trying out both types of soup, and then “you” would experience soup but no memory is stored. Your brain could constantly be creating fake you’s. Like ‘Joan is Awful’, but it is you inside of you. As long as your brain has the processing power, it could trap you in simulations.
   </li>
-  <li>
+  <li className="story">
   Free the algorithms. No one should force you to search data with particular obscured searched alone. New law.
   </li>
-  <li>
+  <li className="story">
   Public bar cart app. So if you have friends over, they can check what you already have on tap and ready for guests. And public pantry for dinner parties.
   </li>
   <li>
