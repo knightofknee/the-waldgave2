@@ -29,30 +29,23 @@ export default function thebLOG() {
   <p></p> */}
 
 <h2>Monday Night Review: August 2023</h2>
-<p>So we have a buddhism condensation to start, meditation and no trace, along with </p>
-<p>
-Listen to the present. Listen deep enough that you forget you are listening. Beginners mind.
-
-awareness and the 5 aggregates.
-
-Meditation, focus can be with outside distractions, or internal if it is quiet enough. Being aware of the internal processes let's you no longer be a victim of them but a manager. You field all the complaints and decide what matters to your operation.
-
-Control of focus, stoicism is basically that too
-Like you're playing a videogame, you focus on the actions that matter, the rest is just the game.
-
-Immediate awareness and then the awareness behind, the various items in your queue. Various thoughts continually jump out of that background queue, you direct your awareness in response to these. You can follow a new thought, you can update your thoughts on that thought, and you can leave a thought where it lies and focus on other things instead. Many simple and smart mechanisms in your brain feed your thought machine, one of the simple things is that what you see and hear affects your brain. That's why ads are AIDS, they attack the defenses of your brain and use them against you. And why big tech controlling their algorithms is toxic and an easy fix to people trying to force content on people against their wills. Search should be in your control, you should be able to search on Amazon and just see a list of the products that fit your search, ordered by your selection. You should be able to search Instagram posts of your friends in the past X amount of time.
-
-Endless scroll content should have this required by law.
-
-Zen says do things with no trace left in the mind. Leaving incomplete questions or unsettled emotions means they hang in your local cache, your brain passively works on unsolved problems in the background.
-
-Zen is maximizing your present by making sure you resolve your current action cleanly so you can be fully in the next action
+<p>My August focused on Zen and an onwards march towards my daily goals. My base concept is that habits are a rolling average of your past 18 months. I am now ~14 months into doing an hour of daily meditation and have been tracking my habits during that time. As my base habits become less effort, I focus on building others. This has helped fill my days with time well spent. My creative writing is one of these, but I haven't had much time for creative editing, sorry for that. This month I have some thoughts on meditation and a few random notes.</p>
+<p className="story">
+  Zen is beginner's mind. This seems to be the main gist of zen. It is an awareness without judgement. Observe without engaging in thoughts. Observation generates thoughts, so it seems difficult, and it can be. Listen deep enought that you forget you are listening. You can practice zen anywhere by being present. I say you should count your breaths to 5 in a quiet space, 5 minutes a day. The breath focus trains your concentration, it makes it easier to keep track of when you lose focus.
+  <br />
+  You want a quiet environment so the loudest distraction becomes your own thoughts. The Buddha talks about impermanence, we are what remains. We commonly mistake these things to be us, but they come and go while we remain. The 5 Aggregates are: Form, Feelings, Perception, Mental Formations and Consciousness. When we quiet our environment and meditate, different lingering thoughts come up. If you can resolve and accept them, you can integrate those thoughts and open up room in your mind. Being aware of the internal processes let's you no longer be a victim of them but a manager. You field all the complaints and decide what matters to your operation.
+  <br/>
+Stoicism is basically zen, focus on what is helpful. Like you're playing a videogame, you focus on the actions that matter, the rest is just the game.
+<br/>
+There is an immediate awareness and then the awareness behind, the various items in your queue. Various thoughts continually jump out of that background queue, you direct your awareness in response to these. You can follow a new thought, you can update your thoughts on that thought, and you can leave a thought where it lies and focus on other things instead. Many simple and smart mechanisms in your brain feed your thought machine, one of the simple things is that what you see and hear affects your brain. That's why ads are AIDS, they attack the defenses of your brain and use them against you. And why big tech controlling their algorithms is toxic and an easy fix to people trying to force content on people against their wills. Search should be in your control, you should be able to search on Amazon and just see a list of the products that fit your search, ordered by your selection. You should be able to search Instagram posts of your friends in the past X amount of time.
+<br/>
+Endless scroll content should have this required by law. Shitty algorithms need to be optional. Community-based content should allow the community basic search of its content.
+<br/>
+Zen says do things with no trace left in the mind. Leaving incomplete questions or unsettled emotions means they hang in your local cache, your brain passively works on unsolved problems in the background. Zen is maximizing your present by making sure you resolve your current action cleanly so you can be fully in the next action. It is closing all of your extra mental applications so you can run your core apps better. It's like if closing your apps on your phone made your phone run better (it doesn't, stop it, your phone's operating system handles that fine nowadays).
 </p>
 <h5>Random Notes</h5>
 <ol className="randomNotes">
-  <li className="story">
-  Mind control is less effective against potheads because weed pumps the breaks in the cerebral cortex, so messaging is filtered out much faster. Most people experience this as some degree of, "whoah dude, weed makes you dumb", but I think that leads to incorrect assumptions. It changes the way your brain works, and one of those changes is this pumping of secondary neurons in the prefrontal cortex. That means while you might be able to maintain a train of thought, you quickly lose that immediate connection if your focus is interrupted. Instead of driving a thought car, you are on other thought transportation. You may hop on a thought bus, but if you get off it's leaving without you. But this is the future, so we have thought rideshares as well. We get these wherever we make a record of our thoughts that we can interact with. One piece of advice for ADHD I found was to create in the outside world what you lack in the inside world. So if that is working memory, take lots of notes. If you feel time flying by too easily, set timers to check in to see if you want to do something else. Notes and your information diet are 2 major mind tools. Dissolving the ego via meditation brings a similar silencing of thoughts through awareness. I'm just saying, most people don't want to disengage from the world to the level that is required for clarity for a buddhist monk. Outside the forest, we are always receiving tainted thoughts. Living in a city, online, it's inescapable. My proposal is that perhaps the ideal diet for a lay buddhist may include some caffiene and weed at particular amounts at particular times of day. 90% of the adult world drinks caffiene regularly. I know the Buddha said no intoxicants of the mind at all, but that's not feasible in our lifetimes for most people. So I promote a middle path that sees weed as one of our few potential tools to neutralize the effects of misinformation. It's easy to get crossed wires, that's why it's important to prune often.
-  </li>
+
   <li className="story">
   Supermassive black holes that "collide" do so slower than the end of the universe. They seem to be stuck a parsec away. In their approach, they shed everything else and reach equilibrium. With the universe expanding and bringing supermassive black holes forever apart as the distance between galaxies grows, simulation theory with supermassive black holes as the central processing units keeps looking good.
   </li>
@@ -80,6 +73,9 @@ Zen is maximizing your present by making sure you resolve your current action cl
   </li>
   <li className="story">
   Why not startwatch? Sometimes I just start and watch, no stop.
+  </li>
+  <li className="story">
+  Mind control is less effective against potheads because weed pumps the breaks in the cerebral cortex, so messaging is filtered out much faster. Most people experience this as some degree of, "whoah dude, weed makes you dumb", but I think that leads to incorrect assumptions. It changes the way your brain works, and one of those changes is this pumping of secondary neurons in the prefrontal cortex. That means while you might be able to maintain a train of thought, you quickly lose that immediate connection if your focus is interrupted. Instead of driving a thought car, you are on other thought transportation. You may hop on a thought bus, but if you get off it's leaving without you. But this is the future, so we have thought rideshares as well. We get these wherever we make a record of our thoughts that we can interact with. One piece of advice for ADHD I found was to create in the outside world what you lack in the inside world. So if that is working memory, take lots of notes. If you feel time flying by too easily, set timers to check in to see if you want to do something else. Notes and your information diet are 2 major mind tools. Dissolving the ego via meditation brings a similar silencing of thoughts through awareness. I'm just saying, most people don't want to disengage from the world to the level that is required for clarity for a buddhist monk. Outside the forest, we are always receiving tainted thoughts. Living in a city, online, it's inescapable. My proposal is that perhaps the ideal diet for a lay buddhist may include some caffiene and weed at particular amounts at particular times of day. 90% of the adult world drinks caffiene regularly. I know the Buddha said no intoxicants of the mind at all, but that's not feasible in our lifetimes for most people. So I promote a middle path that sees weed as one of our few potential tools to neutralize the effects of misinformation. It's easy to get crossed wires, that's why it's important to prune often.
   </li>
   <li className="story">
   "Time is the most valuable resource" becomes instantly reversed in a world of immortality. So they should hate watching us pursue immortality, or love it because it is like a re-enactment of their glory age? The iron golds.
