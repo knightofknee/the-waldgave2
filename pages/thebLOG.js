@@ -27,15 +27,46 @@ export default function thebLOG() {
   {/* <h2>Monday Night Review- 4/17/23</h2>
   <p>MNR TLDR: I try to record the best ideas I have or that I hear. The base concept is that your memory has no magic that makes you remember your best ideas and forget all your bad ideas. But with just a few words, you can create a memory file for yourself. A quick note in your phone can bring you back to a train of thought at any time. Monday Night Review is my process for reviewing these notes on a regular basis. My volume of ideas far exceeds my capacity to execute them, so I want to develop the habit of sharing them. I want to get more elaborate over time and make youtube videos, but for now I'm just going to focus on sharing what content I can and Auto-GPT will fill in the rest.</p>
   <p></p> */}
-  {/* <h2>Monthly Monday Night Review: September 2023</h2>
-  <p>buddhism. Here is my latest go at a minimized meditation pitch:
 
-    There are several meditation practices with different particular goals, but there is one ideal state that meditation is trying to achieve. That is zen. Full awareness of the present. Your brain is a computer, and one of our major software upgrades includes the ability to think about the past and future. The benefits of this are endless, but it enables much pain, especially with tech. Zen is what you can call the state where you are aware of what is happening in the present inside yourself and outside as well, but you have turned off the processes involved in thinking about the past and future. Your brain has limited processing power. Personally, I want to focus on my future plans, and I want to adjust whenever appropriate, but the rest of the time I want to be involved in doing the plans I already laid out. Loose ends are a pain because they continually and randomly interrupt your focus.
+  <h2>Monday Night Review: September 2023</h2>
+  <p>This month has been more inward-facing as I learn more about Zen. My main takeaway has been in trying to learn more about what being present actually entails. Counting my breaths gives me a status check of where I'm at, but when I'm fully present without the counting, I can only "know" it after. More on that below. Otherwise I didn't do much writing so here are X random ideas.</p>
+  <p>Here is my latest meditation pitch:
+<br/>
+    There are several meditation practices with different method that aim for the same one ideal state. That is zen. Full awareness of the present. Your brain is a computer, and one of our major software upgrades includes the ability to think about the past and future. The benefits of this are endless, but it enables much pain, especially with tech. Zen is what you can call the state where you are aware of what is happening in the present inside yourself and outside as well, but you have turned off the processes involved in thinking about the past and future. Your brain has limited processing power. Personally, I want to focus on my future plans, and I want to adjust whenever appropriate, but the rest of the time I want to be involved in doing the plans I already laid out. Loose ends are a pain because they continually and randomly interrupt your focus. Again, your brain is limited, so if you seek emptiness in the part of the brain you control, the rest of your brain can utilize that extra capacity and show you something cool. If you hold on to that cool thing, you hold onto a chunk of your active memory and block more processing. If you stay aware of the present, you can catch the next cool thing from your brain.
+<br />
+    The major tool to train with meditation is your concentration, your ability to direct your focus. That is why I still advocate for everyone to meditate for 5 minutes a day, counting your breath until 5 and repeating. You can practice Zen anywhere doing anything. But just paying attention to your breath as in and out, it is easy to lose focus without noticing. Counting your breath to 5 gives you a running status check. When you realize your mind has wandered, you bring your focus back to your breath. That is like a concentration rep, you are exercising a muscle. The focus is on your breath because it is always there, if you plug your ears it is the loudest thing you hear. We focus on the feeling of air in our nostrils because it is where the out and in continually exchange, and we want to be aware of both, everything present. As you improve, you can practice meditating without counting, but you can and should also practice focusing on your breath whenever doing anything, so I recommend the counting. I also guess that it is particularly helpful for anyone who has a smartphone.
+<br/>
+    There is also the clearing the mind aspect. Meditation does some things similar to REM sleep, helping you integrate. In your local (recent) memory, you have a bunch of things bouncing around, they keep coming to mind occasionally. Meditation helps you tie up loose ends. As thoughts and feelings come and go, you are aware of them without identifying with them. When you process these things, your awareness without judgement helps edit how that thought or idea is stored in the brain. The result is fewer interruptions. Ideally, the only problems you leave unresolved are ones that are interesting to you.
+    <br/>
+    Meditation is different tools for editing your current brain state. That's what the mantras are for. Like <a href="https://youtu.be/NnTLJtBr1zo?si=XzSYcCFAD8yTkHZj&t=2318">chanting peace as "shanti"</a>, chanting peace in english doesn't do the same thing. But the nature of the syllables and their sound, shanti vibrates in a clear way (the ti in shanti is with your tongue between your teeth).
+  </p>
+  <h5>Random Notes</h5>
+<ol className="randomNotes">
+  <li className="story">
 
-    The major tool to train with meditation is your concentration, your ability to direct your focus. That is why I still advocate for everyone to meditate for 5 minutes a day, counting your breath until 5 and repeating. You can practice Zen anywhere doing anything. But just paying attention to your breath as in and out, it is easy to lose focus without noticing. Counting your breath to 5 gives you a running status check. When you realize your mind has wandered, you bring your focus back to your breath. That is like a concentration rep, you are exercising a muscle. The focus is on your breath because it is always there, if you plug your ears it is the loudest thing you hear. We focus on the feeling of air in our nostrils because it is where the out and in continually exchange, and we want to be aware of both, everything present.
+  </li>
+  <li className="story">
 
-    There is also the clearing the mind aspect. Meditation does some things similar to REM sleep, helping you integrate. In your local (recent) memory, you have a bunch of things bouncing around, they keep coming to mind occasionally. Meditation helps you tie up loose ends. As thoughts and feelings come and go, you are aware of them without identifying with them. When you process these things, your awareness without judgement helps edit how that thought or idea is stored in the brain. The result is fewer interruptions. Ideally, the only problems you leave unresolved are ones that are interesting to you. Meditation is different tools for editing your current brain state. That's what the mantras are for. Like chanting peace as "shanti", chanting peace in english doesn't do the same thing. But the nature of the syllables and their sound, shanti vibrates in a clear way (the ti in shanti is with your tongue between your teeth)
-  </p> */}
+  </li>
+  <li className="story">
+
+  </li>
+  <li className="story">
+
+  </li>
+  <li className="story">
+
+  </li>
+  <li className="story">
+
+  </li>
+  <li className="story">
+
+  </li>
+  <li className="story">
+
+  </li>
+</ol>
 
 
 
