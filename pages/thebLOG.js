@@ -29,7 +29,7 @@ export default function thebLOG() {
   <p></p> */}
 
   <h2>Monday Night Review: September 2023</h2>
-  <p>This month has been more inward-facing as I learn more about Zen. My main takeaway has been in trying to learn more about what being present actually entails. Counting my breaths gives me a status check of where I'm at, but when I'm fully present without the counting, I can only "know" it after. More on that below. Otherwise I didn't do much writing so here are X random ideas.</p>
+  <p>This month has been more inward-facing as I learn more about Zen. My main takeaway has been in trying to learn more about what being present actually entails. Counting my breaths gives me a status check of where I'm at, but when I'm fully present without the counting, I can only "know" it after. More on that below. Otherwise I didn't do much editing so here are 27 random ideas that made the cut this month.</p>
   <p>Here is my latest meditation pitch:
 <br/>
     There are several meditation practices with different method that aim for the same one ideal state. That is zen. Full awareness of the present. Your brain is a computer, and one of our major software upgrades includes the ability to think about the past and future. The benefits of this are endless, but it enables much pain, especially with tech. Zen is what you can call the state where you are aware of what is happening in the present inside yourself and outside as well, but you have turned off the processes involved in thinking about the past and future. Your brain has limited processing power. Personally, I want to focus on my future plans, and I want to adjust whenever appropriate, but the rest of the time I want to be involved in doing the plans I already laid out. Loose ends are a pain because they continually and randomly interrupt your focus. Again, your brain is limited, so if you seek emptiness in the part of the brain you control, the rest of your brain can utilize that extra capacity and show you something cool. If you hold on to that cool thing, you hold onto a chunk of your active memory and block more processing. If you stay aware of the present, you can catch the next cool thing from your brain.
@@ -205,18 +205,6 @@ This is part of why it is so helpful to treat yourself as you would a friend, be
 It's pulp fiction with 23 stories of different people who each destroy humanity on the same day. Any one would be sufficient, but everyone happens to be using the same day based on math. They are all super-secret societies so it's a complete accident.
 <br/>
 Maybe they all destroy each other's plans on accident? Like the fly eating story but with the perfect chemical warfare stalemate matched by nukes in space blowing up all other nukes in space. Thus, nukes save us from nukes?
-  </li>
-  <li className="story">
-
-  </li>
-  <li className="story">
-
-  </li>
-  <li className="story">
-
-  </li>
-  <li className="story">
-
   </li>
 </ol>
 
