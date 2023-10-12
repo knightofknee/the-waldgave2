@@ -43,16 +43,168 @@ export default function thebLOG() {
   <h5>Random Notes</h5>
 <ol className="randomNotes">
   <li className="story">
-
+  Information diet, 60-90 minutes after waking up no new streams, no caffiene and go outside to get sunlight during that time. Your brain can then process the remaining adenosine (makes you sleepy) that your brain cannot get rid of during REM sleep. You can also help integrate your memory during this time like you can while sleeping.
   </li>
   <li className="story">
+  Immediate awareness and then the awareness behind, the various items in your queue. Various thoughts continually jump out of that background queue, you direct your awareness in response to these. You can follow a new thought, you can update your thoughts on that thought, and you can leave a thought where it lies and focus on other things instead. Many simple and smart mechanisms in your brain feed your thought machine, one of the simple things is that what you see and hear affects your brain. That's why ads are AIDS, they attack the defenses of your brain and use them against you. And why big tech controlling their algorithms is toxic and an easy fix to people trying to force content on people against their wills. Search should be in your control, you should be able to search on Amazon and just see a list of the products that fit your search, ordered by your selection. You should be able to search Instagram posts of your friends in the past X amount of time.
 
+Endless scroll content should have this required by law.
   </li>
   <li className="story">
+  Zen says do things with no trace left in the mind. Leaving incomplete questions or unsettled emotions means they hang in your local cache, your brain passively works on unsolved problems in the background.
 
+Zen is maximizing your present by making sure you resolve your current action cleanly so you can be fully in the next action
   </li>
   <li className="story">
+    We have looked inside a proton and seen something heavier than a proton, a charm quark. This is explained by the "Quark Sea", a proton has 3 landmark quarks, two Up and one Down. In addition, at any time a virtual quark and anti-quark can appear. They are usually short-lived. What if there happened to be 3 virtual quarks at the same time? Could they be pulled apart to form a new proton? This may require a lot of energy, but what about the Big Bang? Is every proton the copy of a single original proton?
+  </li>
+  <li className="story">
+  One of the hidden aspect of misinformation is we have a lot of people with a lot of info, how do we decide to engage with it?
+<br/>
+What if you could filter out the influences of major actors via network analysis of the traffic sources, and then have a more honest internet? Like an AI that looks for the best things, like the ultimate recommendation machine. The math is already complete for these things, we just need a simple implementation.
+  </li>
+  <li className="story">
+  Sensations are shadows.
+  </li>
+  <li className="story">
+  Pothead movie concept
+<br/>
+Like it's a desolate office environment, and all of the daily stoners start to run into each other because they are the only people that aren't stuck in the brainwash system. The aliens brainwashing are broadcasting from far away so they cannot physically interfere.
+<br/>
+Maybe initial MC hasn't noticed much of a change but makes an equally unsuspecting friend and they think they are the last sane people on Earth. They try some cures by day and end up spending most of their time having fun. Eventually someone driving an ice cream truck at high speeds sees them doing something truly absurd and he crashes. This guy is MC2, he has been working in the nearby City with the Global Weedforce. Global cooperation was easy with all the stiffs gone. He makes them join the force and do real work.
+<br/>
+It gets fun here. These guys have been having more fun than they ever imagined possible. And saving humanity involves a lot of work without knowing what will be useful. The Cure team is motivated, but Planetary Defense? We still don't know what we are up against. But that's where all the non-STEM peeps were sent. Most of these people had been collected months (a year?) ago, they didn't know what the world was like. Chaz and Steve weren't the first people to object to this new lifestyle, but they had actually lived it. They teach everyone their techniques.
+<br/>
+The techniques of how to blend in with the brainwashed masses. How to vape at work without being spotted, how to stick to routines as much as possible, etc. At first it is a massive blow to Planetary Defense. But then the aliens do arrive, they capture the rest of the Global Weedforce. With major communications being corrupted, the hidden force communicate in discord and other gaming chats. They coordinate raids, DMs give out storylines so they can operate without sticking out, they get the brainwashed people to take the visible actions.
+<br/>
 
+(Some characters have various ways of hiding their tin hats. Like lots of beanie hats and yamakas)
+<br/>
+  </li>
+  <li className="story">
+  Mantras are startup protocols. They help clear out the active memory, while seeding your mind with an idea that helps you shape how you handle new information.
+  </li>
+  <li className="story">
+  Itw, bacteria is an attack vector. So nanotech in food or bacteria in food. There could be bacteria wars fought undetected.
+  </li>
+  <li className="story">
+  Trains shouldn't require a large government payment, we get loans tied to train profit.
+  </li>
+  <li className="story">
+  You can't eat your cake and have it too. I have beef with this saying, it should be said this way. I've asked several people about this saying, and most of them didn't know the meaning because the original order confused them. It doesn't sound as sexy this way, but it makes the point clear.
+  </li>
+  <li className="story">
+  Related to the Migrant Crisis, we bear responsibility:
+  <br/>
+  Reagan funded El Salvador military, because there were leftist groups fighting the government. tell dad
+  <br/>
+Eisenhower funded Genocide in Guatemala via their military because of an American fruit company
+<br/>
+Honduras, American banana interests owned a million acres of their best land by 1914. Reagan trained Nicaraguan contra rebels there. Democratic-led regime in Honduras was overthrown by the military in 2009, receiving no help from the US.
+<br/>
+Taft was the first president to meet with a Mexican leader, he did so in support of Diaz because Diaz catered to American industrialists. Taft was concerned with a possible revolution because the US had 2 million invested there. Diaz fell in a revolution, the US endorsed a coup that got the new guy Madero killed.
+<br/>
+Woodroe Wilson then takes the US military into mexico twice to help American business interests. US warships fired on Vera Cruz. Then we armed revolutionary forces to remove Huerta, the next guy leading Mexico.
+  </li>
+  <li className="story">
+  Think about not thinking. It seems troll on the surface, but can be a direct route to the awareness we are looking for.
+  </li>
+  <li className="story">
+  Medieval Times D and D event. You can opt in to being a participant, and you compete in challenges and stuff with all the other guests watching.
+  </li>
+  <li className="story">
+  Real life sims game, it guesses the status bars like energy and you can correct it whenever, and that will be accounted for in the algorithm.
+  </li>
+  <li className="story">
+  The mantra mash song, as completed by ChatGPT:
+  <br/>
+  The mantra mash,
+it's peace that'll last
+The mantra mash,
+chant it real fast
+<br/>
+It was a mindful session, in the meditation hall,
+The yogis were chanting, feeling so enthralled,
+The incense was burning, the vibe was so divine,
+They were chanting mantras, a sacred, blissful sign.
+<br/>
+The mantra mash,
+aligning souls en masse,
+The mantra mash,
+inner peace amassed
+<br/>
+Out on the Zen floor, the sangha did arise,
+In the lotus posture, they closed their eyes,
+They chanted 'Om' and 'Shanti', finding deep tranquility,
+Their hearts were open, in a state of purity.
+<br/>
+The mantra mash,
+it's a spiritual flash,
+The mantra mash,
+letting go of the past
+<br/>
+Suddenly emerged, a sense of oneness strong,
+As they chanted 'Aum' together, a unified song,
+They danced with joy, their hearts so light,
+In this mantra mash, everything felt just right.
+<br/>
+The mantra mash,
+connecting future and past,
+The mantra mash,
+a journey so vast
+<br/>
+It's the chant of peace, a spiritual delight,
+In the mantra mash, everything's just right,
+So join the sangha, let your soul take flight,
+In the mantra mash, find your inner light.
+<br/>
+The mantra mash,
+a soul's refreshing splash,
+The mantra mash,
+in stillness, hearts thrash
+  </li>
+  <li className="story">
+  I want to throw a real party. World's fair- several year affair type of party.
+  </li>
+  <li className="story">
+  The Quark Sea at scale. We are all stuck in routine, but with enough energy, any one of us can materialize temporarily as a quark, or quirky. We have different categories of quirk, charming, strange, top (exceedingly good), bottom (noticably bad). Everyone is a proton. Inately, we are all positive (2 up quarks) but still contain the dark (1 down quark).
+  </li>
+  <li className="story">
+  Pacing is a mini-dimension, as in your range of change is small. String theory has a bunch of mini-dimensions that we don't understand, I think they are related to our lack of understanding of time.
+  </li>
+  <li className="story">
+  Lightbulb industry set up a cartel and grifted us for 75 years until the LED lightbulb saved the day...
+  </li>
+  <li className="story">
+  Zazen is only one application open and that's the present awareness. Your UI no longer shows the operating system, the one application is full screen.
+  </li>
+  <li className="story">
+  I don't play to win, I play to play. That means using the best strategies, but you choose your strategy valuing discovery highly, and randomization as well. Playing to win is lame and traps you in dualistic thinking.
+  </li>
+  <li className="story">
+  Digital bill of rights
+<br/>
+Markets. Equality of presentation so ordering products by rating and price and relevance. No ads in the search results, an open market is open to all equally. Looking at you, Amazon. You know what the best quality of the REAL Amazon? The variety of species. These are digital environment protection laws.
+  </li>
+  <li className="story">
+  The Great Mother. Born of the fungal feast on organic life after the extinction that killed the dinosaurs, into a dead world. She connected to the plants of the world and helped them survive. She became Mother Nature, their stimuli became her body.
+<br/>
+Mother has no eyes, but she is everywhere. And through her long years she learned how to manipulate bacteria. There are many many iterations of her out there, the largest is the Amazon.
+  </li>
+  <li className="story">
+  I feel like videogames are so weird compared to pre-digital life. Like the art I was experiencing as a child was insanely good, dedication and a large team paying off. It was casual to me then, because I didn't know anything. But now I see games are massive works of art, with huge teams. The pre-digital era had nothing like it.
+  </li>
+  <li className="story">
+  The ego/analytic mind is a beautiful servant and it is a lousy master.
+<br/>
+This is part of why it is so helpful to treat yourself as you would a friend, because when a friend asks a question, you instantly put yourself to task solving the problem with their best interests at heart. But when circumstances present you questions, your analytic mind solves the puzzle based on short term interests. Or the question starts a new thread about whether or not to answer the question, or how. Thinking about a friend means condensing your thoughts down, and disregarding your current feelings to some degree. You don't know exactly what your friend is feeling, but you know what should generally be celebrated, and what needs work.
+  </li>
+  <li className="story">
+  Dark sci fi comedy
+<br/>
+It's pulp fiction with 23 stories of different people who each destroy humanity on the same day. Any one would be sufficient, but everyone happens to be using the same day based on math. They are all super-secret societies so it's a complete accident.
+<br/>
+Maybe they all destroy each other's plans on accident? Like the fly eating story but with the perfect chemical warfare stalemate matched by nukes in space blowing up all other nukes in space. Thus, nukes save us from nukes?
   </li>
   <li className="story">
 
