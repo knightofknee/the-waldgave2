@@ -928,6 +928,13 @@ p {
   margin: 1% 5%;
 }
 
+br {
+  display: block;
+  content: "";
+  margin-top: 0;
+  height: 10px;
+}
+
 h1 {
   text-align: center;
 }
