@@ -204,7 +204,7 @@ This is part of why it is so helpful to treat yourself as you would a friend, be
 <br/>
 It's pulp fiction with 23 stories of different people who each destroy humanity on the same day. Any one would be sufficient, but everyone happens to be using the same day based on math. They are all super-secret societies so it's a complete accident.
 <br/>
-Maybe they all destroy each other's plans on accident? Like the fly eating story but with the perfect chemical warfare stalemate matched by nukes in space blowing up all other nukes in space. Thus, nukes save us from nukes?
+Maybe they all destroy each other's plans on accident? Like the fly eating story but with the perfect chemical warfare stalemate matched by nukes in space blowing up all other nukes further into space.
   </li>
 </ol>
 
@@ -283,6 +283,11 @@ All residents pay in sales tax a carbon tax based on the emissions involved. And
   Give an interview while hypnotized. See if you can answer some questions for yourself.
   </li>
 </ol>
+
+
+
+
+
 
 
 
