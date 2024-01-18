@@ -24,9 +24,59 @@ export default function thebLOG() {
   return (<div>
 <div>
   <h1>the bLOG</h1>
+  <h4>The first goal of this blog is to share the best ideas that I come up with or encounter. I would love to research these things in depth and build them out, but I don't have time for everything so instead I share these notes as brain food, inspiration, and hopefully some entertainment. The second goal is to practice longer writing on some of these ideas. </h4>
   {/* <h2>Monday Night Review- 4/17/23</h2>
   <p>MNR TLDR: I try to record the best ideas I have or that I hear. The base concept is that your memory has no magic that makes you remember your best ideas and forget all your bad ideas. But with just a few words, you can create a memory file for yourself. A quick note in your phone can bring you back to a train of thought at any time. Monday Night Review is my process for reviewing these notes on a regular basis. My volume of ideas far exceeds my capacity to execute them, so I want to develop the habit of sharing them. I want to get more elaborate over time and make youtube videos, but for now I'm just going to focus on sharing what content I can and Auto-GPT will fill in the rest.</p>
   <p></p> */}
+
+  <h5>October Random Notes</h5>
+<ol className="randomNotes">
+
+  <li className="story">
+  Being present with correct discernment. That's one definition of zen I heard. Zen is simple, the rest of buddhism is basically talking about different truths that hold up to the scrutiny of this correct discernment. You aren't asked to believe, you are asked to inspect.
+  </li>
+  <li className="story">
+  Choosing your content intake is free will. A big chunk of it. This is why I hate ads so much, forcing themselves into your view, they are invading a sacred space without permission.
+  </li>
+  <li className="story">
+  So 10 ants, 100 ants, they don't do anything. But put down 10,000 and they will build a society. What equivalents exist for people?
+  </li>
+  <li className="story">
+  Our brains might generate an idea and we might make the story for why, but if the idea generation is random, the story determines the future of that idea.
+<br/>
+So maybe we are just second messengers. We are receivers of an output, but our post-analysis affects future actions on the input side. (Secondary messengers are neurons that recieve info AFTER a synapse, and then send info back to the sending side of the synapse. This info can amplify or inhibit repeated firing. Just because you are a reaction doesn't mean you don't have agency.)
+  </li>
+  <li className="story">
+  The ego is like a lost computer process, it must be killed if you want to run something else on that same port. The ego accumulates memory in a way that gradually slows down performance for all regular processing.
+  </li>
+  <li className="story">
+  Pilot wave theory explained as simply as possible: (I think this is cool because it is an entirely possible option of how light works that people dont know just because most scientists prefer a different guess) Light could have 2 parts, both a particle and a wave essentially. The wave is basically the spacetime in which the particle can move. The wave defines where the particle can go, like how gravity and the shape of space define where you can go. They call the particle a "corpuscle" but that's confusing. When we observe a single photon and it looks like a particle, there is no "collapse of the wavefunction". The particle is always there, but we cannot know where it is in the wave until we detect it.
+  <br/>
+  The photon has wavelike properties as well because photons dont exist in nothingness. Instead, they travel through the electromagnetic field. The particle-like thing affects the universe around itself while being confined to the wave by the universe around it. My theory is this mutual interaction creates the unknown position of the particle-thing, but the momentum of the particle-thing keeps it contained to the wave. It is like the particle-thing is kept in a halfpipe. This gives you the wave behavior, light beams interfere because there is only one electric field. The particle-things don't need to collide because their half-pipes collide.
+  </li>
+  <li className="story">
+    (in progress)
+  </li>
+  <li className="story">
+
+  </li>
+  <li className="story">
+
+  </li>
+  <li className="story">
+
+  </li>
+  <li className="story">
+
+  </li>
+  <li className="story">
+
+  </li>
+</ol>
+
+
+
+
 
   <h2>Monday Night Review: September 2023</h2>
   <p>This month has been more inward-facing as I learn more about Zen. My main takeaway has been in trying to learn more about what being present actually entails. Counting my breaths gives me a status check of where I'm at, but when I'm fully present without the counting, I can only "know" it after. More on that below. Otherwise I didn't do much editing so here are 27 random ideas that made the cut this month.</p>
