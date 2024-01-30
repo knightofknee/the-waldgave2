@@ -47,6 +47,7 @@ export default function Login () {
     <input id="email" type="email" value={email} onChange={e => setEmail(e.target.value)}></input>
     <label htmlFor="password">Password</label>
     <input id="password" type="password" value={password} onChange={e => setPassword(e.target.value)}></input>
+    <button onSubmit={submitLogin}>submit</button>
     </form>
     ) : (
       <div>
