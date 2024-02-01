@@ -1,29 +1,46 @@
-import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
+import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "firebase/auth";
 import { useState } from 'react';
+import {db} from '../firebase';
 
 export default function Login () {
 
-  const submitLogin = () => {
-    console.log("woooooooooooooooo1")
+  const submitSignup = (event) => {
+    event.preventDefault();
     const auth = getAuth();
     createUserWithEmailAndPassword(auth, email, password)
       .then((userCredential) => {
         // Signed in
-        console.log("woooooooooooooooo2")
+        console.log("woooooooooooooooo2", userCredential)
         const user = userCredential.user;
+        console.log("woooooooooooooooo3", user)
         // ...
 
-        setUserPageLink(user.username) //
+        setUserPageLink(user.email.split("@")[0]) // they can update this later
         logIn(true)
         alert("success!")
       })
       .catch((error) => {
-        console.log("woooooooooooooooo3")
+
         alert("wompwomp")
         const errorCode = error.code;
         const errorMessage = error.message;
         console.error(error)
         // ..
+      });
+  }
+  const submitLogin = (event) => {
+    event.preventDefault()
+    const auth = getAuth();
+    signInWithEmailAndPassword(auth, email, password)
+      .then((userCredential) => {
+        // Signed in
+        const user = userCredential.user;
+        logIn(true)
+        // ...
+      })
+      .catch((error) => {
+        const errorCode = error.code;
+        const errorMessage = error.message;
       });
   }
 
@@ -42,13 +59,24 @@ export default function Login () {
   const [userPageLink, setUserPageLink] = useState('');
 
   return (<div>
-    {!isLoggedIn ? (<form onSubmit={submitLogin}>
+    {!isLoggedIn ? (
+      <div>
+      <form onSubmit={submitLogin}>
+      <label htmlFor="email">Email</label>
+      <input id="email" type="email" value={email} onChange={e => setEmail(e.target.value)}></input>
+      <label htmlFor="password">Password</label>
+      <input id="password" type="password" value={password} onChange={e => setPassword(e.target.value)}></input>
+      <button onSubmit={submitLogin}>Log in</button>
+      </form>
+
+    <form onSubmit={submitSignup}>
     <label htmlFor="email">Email</label>
     <input id="email" type="email" value={email} onChange={e => setEmail(e.target.value)}></input>
     <label htmlFor="password">Password</label>
     <input id="password" type="password" value={password} onChange={e => setPassword(e.target.value)}></input>
-    <button onSubmit={submitLogin}>submit</button>
+    <button onSubmit={submitLogin}>Sign up</button>
     </form>
+    </div>
     ) : (
       <div>
         <h2>(in progress) Welcome! This is barebones social media, where you can only see what your friends recommend. Old-timey internet with text and links only. Please post your favorite things, whatever they may be.</h2>
@@ -59,7 +87,7 @@ export default function Login () {
           <input id="link" value={link} onChange={e => setLink(e.target.value)}></input>
           <label htmlFor="description">Description</label>
           <textarea name="description" rows={7} cols={7} value={description} onChange={e => setDescription(e.target.value)}></textarea>
-          <button type="submit">Log in/Sign up</button>
+          <button type="submit">Log out</button>
         </form>
         <div>
           <h3>
