@@ -1,5 +1,5 @@
-import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "firebase/auth";
-import { useState } from 'react';
+import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged } from "firebase/auth";
+import { useEffect, useState } from 'react';
 import {db} from '../firebase';
 
 export default function Login () {
@@ -10,10 +10,10 @@ export default function Login () {
     createUserWithEmailAndPassword(auth, email, password)
       .then((userCredential) => {
         // Signed in
-        console.log("woooooooooooooooo2", userCredential)
         const user = userCredential.user;
-        console.log("woooooooooooooooo3", user)
         // ...
+
+        //localStorage.setItem("UserEmail", user.email)
 
         setUserPageLink(user.email.split("@")[0]) // they can update this later
         logIn(true)
@@ -31,10 +31,14 @@ export default function Login () {
   const submitLogin = (event) => {
     event.preventDefault()
     const auth = getAuth();
-    signInWithEmailAndPassword(auth, email, password)
+    signInWithEmailAndPassword(auth, email2, password2)
       .then((userCredential) => {
         // Signed in
+
+        // need to maintain session
         const user = userCredential.user;
+        localStorage.setItem("UserEmail", user.email)
+        setUserPageLink(user.email.split("@")[0])
         logIn(true)
         // ...
       })
@@ -44,13 +48,43 @@ export default function Login () {
       });
   }
 
-  const submitEntry = () => {
+  const submitEntry = (event) => {
 
+    event.preventDefault()
     //firebase.submitEntry(name, link, description)
   }
 
+  const LogOut = (event) => {
+    event.preventDefault()
+
+    logIn(false)
+  }
+
+  // end of methods
+
+  // onAuthStateChanged((authUser) => {
+  //   if (authUser) {
+  //     localStorage.setItem('authUser', JSON.stringify(authUser));
+  //     // ...
+  //   }
+  // });
+
+  // start of styles
+
+  const formDivs = {
+    padding: "1em"
+  }
+  const labelStyle = {
+    display: "block"
+  }
+
+
+  // end of styles
+
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [email2, setEmail2] = useState('');
+  const [password2, setPassword2] = useState('');
   const [isLoggedIn, logIn] = useState(false);
   const [name, setName] = useState('');
   const [link, setLink] = useState('');
@@ -58,15 +92,26 @@ export default function Login () {
 
   const [userPageLink, setUserPageLink] = useState('');
 
+  useEffect(() => {
+    console.log("wweeweweo")
+    var userEmail = localStorage.getItem("UserEmail") // this seems bad, follow up later. can a user pretend to be someone else by just knowing their email? should I encrypt this?
+    console.log("eee", userEmail)
+    if (userEmail) {
+      logIn(true)
+    }
+
+  }, [])
+
+
   return (<div>
     {!isLoggedIn ? (
       <div>
       <form onSubmit={submitLogin}>
       <label htmlFor="email">Email</label>
-      <input id="email" type="email" value={email} onChange={e => setEmail(e.target.value)}></input>
+      <input id="email" type="email" value={email2} onChange={e => setEmail2(e.target.value)}></input>
       <label htmlFor="password">Password</label>
-      <input id="password" type="password" value={password} onChange={e => setPassword(e.target.value)}></input>
-      <button onSubmit={submitLogin}>Log in</button>
+      <input id="password" type="password" value={password2} onChange={e => setPassword2(e.target.value)}></input>
+      <button type="submit">Log in</button>
       </form>
 
     <form onSubmit={submitSignup}>
@@ -74,29 +119,43 @@ export default function Login () {
     <input id="email" type="email" value={email} onChange={e => setEmail(e.target.value)}></input>
     <label htmlFor="password">Password</label>
     <input id="password" type="password" value={password} onChange={e => setPassword(e.target.value)}></input>
-    <button onSubmit={submitLogin}>Sign up</button>
+    <button type="submit">Sign up</button>
     </form>
     </div>
     ) : (
-      <div>
-        <h2>(in progress) Welcome! This is barebones social media, where you can only see what your friends recommend. Old-timey internet with text and links only. Please post your favorite things, whatever they may be.</h2>
-        <form onSubmit={submitEntry}>
-          <label htmlFor="name">Name</label>
+      <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
+        <h2>(in progress) Welcome! This is barebones social media, where you can only see what your friends recommend. Old-timey internet with text and links only. Please post your favorite things, whatever they may be. You are limited to 3 items per month (Initially, you will not be able to post anything new until 3 weeks after your first post. I chose 3 weeks because while I want to encourage a monthly cadence, I want to leave some flexibility).</h2>
+        <form onSubmit={submitEntry} style={{display: "flex", flexDirection:"column", textAlign: "center"}}>
+          <div style={formDivs}>
+          <label htmlFor="name" style={labelStyle}>Title of post</label>
           <input id="name" type="text" value={name} onChange={e => setName(e.target.value)}></input>
-          <label htmlFor="link">Link</label>
+          </div>
+          <div style={formDivs}>
+          <label htmlFor="link" style={labelStyle}>Link (optional)</label>
           <input id="link" value={link} onChange={e => setLink(e.target.value)}></input>
-          <label htmlFor="description">Description</label>
-          <textarea name="description" rows={7} cols={7} value={description} onChange={e => setDescription(e.target.value)}></textarea>
-          <button type="submit">Log out</button>
+          </div>
+          <div style={formDivs}>
+          <label htmlFor="description" style={labelStyle}>Description</label>
+          <textarea name="description" rows={10} cols={50} value={description} onChange={e => setDescription(e.target.value)}></textarea>
+          </div>
+          <div>
+          <button type="submit">Submit Entry</button>
+          </div>
         </form>
         <div>
           <h3>
             Your Current List, re-order and edit below. <a href={`https://waldgrave.com/profile/${userPageLink}`}>Here is a link directly to your page</a>
           </h3>
         </div>
+        <div>
+        <button type="button" onClick={LogOut}>Log out</button>
+        </div>
       </div>
     )}
 
+<style>
+
+</style>
     </div>)
 }
 
