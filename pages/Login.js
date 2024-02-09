@@ -1,7 +1,7 @@
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged } from "firebase/auth";
 import { useEffect, useState } from 'react';
 import {db} from '../firebase';
-import { doc, setDoc } from "firebase/firestore";
+import { doc, arrayUnion, updateDoc, getDoc } from "firebase/firestore";
 
 export default function Login () {
 
@@ -51,27 +51,42 @@ export default function Login () {
 
   const submitEntry = async (event) => {
 
+    console.log("waa")
     event.preventDefault()
 
     // I need to verify their login here, since they could set their localStorage to another user's email
 
     //firebase.submitEntry(name, link, description)
-
     const userEmail = localStorage.getItem("UserEmail");
     const userProfileDocRef = doc(db, "profiles", userEmail);
-
+    console.log("waarrrr")
     const entry = {
       title: "New Entry Titleeee",
       content: "Content of the new entry",
       link: "",
-      createdAt: new Date() // Or use serverTimestamp if you want the time to be set by Firestore
+      createdAt: new Date()
     };
+console.log("wtt")
+    // FirebaseError: Missing or insufficient permissions -- errored here
+    const docSnap = await getDoc(userProfileDocRef);
+    console.log("wttt")
+  if (docSnap.exists()) {
+    // Document exists, update it
+    console.log("waf")
+    await updateDoc(userProfileDocRef, { Anthology: arrayUnion(entry) });
+  } else {
+    console.log("wafu")
 
-    await updateDoc(docRef, {
-      Anthology: arrayUnion(entry)
-    });
+    // Document does not exist, create it with the entry in an Anthology array
+    await setDoc(userProfileDocRef, { Anthology: [entry] }, { merge: true });
+  }
 
-    await setDoc(doc(db, "profiles", localStorage.getItem("UserEmail"), "Anthology"), entry)
+// console.log("waaaaaa")
+//     await updateDoc(userProfileDocRef, {
+//       Anthology: arrayUnion(entry)
+//     });
+//     console.log("waaaaaa2")
+    //await setDoc(doc(db, "profiles", localStorage.getItem("UserEmail")), entry)
   }
 
   const LogOut = (event) => {
