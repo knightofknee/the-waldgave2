@@ -75,13 +75,13 @@ export default function Home() {
         <div style={{display:'flex', alignItems:'center'}}>
           <div className='defNum'>2)</div>
           <div className="defList">
-            The area in your brain where the different forms of consciousness meet. Your understanding how to manage your own waldgrave determines which of your selves tend to get expressed.
+            The area in your brain where the different forms of consciousness meet, the forest of paths. Your understanding how to manage your own waldgrave determines which of your selves tend to get expressed. You wander your own forest, be a kind and prudent officer.
           </div>
         </div>
         <div style={{display:'flex', alignItems:'center'}}>
           <div className='defNum'>3)</div>
           <div className="defList">
-            When you listen to someone talk, their words shape your neurons. A form of them exists in you. On the larger scale, we are a gigabrain. You have ~86 billion neurons, the gigabrain has 8 billion of us.
+            When you listen to someone talk, their words shape your neurons. A form of them exists in you. On the larger scale, we are a gigabrain. You have ~86 billion neurons, the gigabrain has 8 billion of us in this evolving forest of thought and habit.
           </div>
         </div>
         <div style={{display:'flex', alignItems:'center'}}>
@@ -97,17 +97,17 @@ export default function Home() {
         </Link>
       </div>
       <div>
-        <h4>What is Good?</h4>
+        {/* <h4>What is Good?</h4>
         <p>
           Everything is Good, stop stressing the shoulds and worrying the woulds, can the coulds, everything is good.
-        </p>
+        </p> */}
         <p>
           Our brains are inherently a product of the past, shaped by a mix of your inner thoughts, outer stimuli and how you reacted to them, along with much chaos. You are the active processes in the brain. You didn't shape it, but you travel within it and choose which paths to take. Your actions further shape it for your future self. Habits form grooves, much wider paths. As you bounce around your brain, it is hard to avoid your natural habits, they are the easier paths. You have to work harder to do something new. This is something to both weaponize and fight against, as you shape your habits to better serve you, and to create a better brain to live in.
         </p>
-        <p>(newer thoughts). Everything is language, perception is language, consciousness is a conversation of the different stimuli coming to you brain, a discussion between the outside and inside perceptions. A human raised away from any other humans suffers more than other species. Language lets us communicate with others, but it also lets us communicate better with ourselves. We needed logic to be able to share language. Logic lets you explore The Forest. The Forest of All Possible Thought. If you take a short path and then come back out, you can talk to others and map out that new path. You can give anyone instructions and they will be able to come to the same path. If you go wandering too deep into the forest, you can find your way back, but you won't be able to guide anyone there, and you can only describe what you saw there.</p>
-        <p>
+        {/* <p>(newer thoughts). Everything is language, perception is language, consciousness is a conversation of the different stimuli coming to you brain, a discussion between the outside and inside perceptions. A human raised away from any other humans suffers more than other species. Language lets us communicate with others, but it also lets us communicate better with ourselves. We needed logic to be able to share language. Logic lets you explore The Forest. The Forest of All Possible Thought. If you take a short path and then come back out, you can talk to others and map out that new path. You can give anyone instructions and they will be able to come to the same path. If you go wandering too deep into the forest, you can find your way back, but you won't be able to guide anyone there, and you can only describe what you saw there.</p> */}
+        {/* <p>
           The more you get used to exploring the forest, the deeper you can go, as you find the natural landmarks and geography of the forest. Maybe it is a stream, or a clearing with a hill and a fruit tree. These natural thought formations are clear to all, and serve well for sharing your mappings with others.
-        </p>
+        </p> */}
         {/* <!-- <p>
           On the cosmic level, we are insignificant and might not even have free will, so why should we spend so much time with judgements? I think the universe is a good thing, and we are a part of it. We are basically patterns, we can lean into the rest of the universe or pull back, and we can choose to observe more or less. We can learn from those interactions, but I don't see the need to judge a part of the universe for being how it is, even if that part is part of me. This brings us to the individual level. People exist on top of a collection of waves, constantly riding ups and downs. But we only observe people at one point at a time. This creates a perception issue, especially for people you don't know. Living in a city, the effect is heightened. If you are around a lot of people, it is expected that you will pass by people at the bottom or top of their waves regularly. If a good driver makes a small mistake once every 100 trips, but you are driving past 400 cars a day, expect to see at least 4 small mistakes. Everyone is driving a different spaceship through the same spacetime, yours accelerates at a different speed than mine, so it may seem like I am intentionally going slow when in reality I am going full speed. Or my ship has had several flat tires thanks to the potholes in my neighborhood, so I'm a little more anxious driving around them than you. Everyone has ups and downs because that's the very nature of our universe, matter and existence is based on ripples. To promote existence as we know it, we want to push up the wavefunctions of others. To do that, we need to understand their waves, their magnitude, frequency, and where they are at right now. Getting in-sync is more important than it may initially seem, in our universe if you have two waves of equal magnitude and frequency destructively interfering (hitting each other when one is high and the other is low), they cancel each other out and both waves disappear. So if you are able to get on the same page as someone, you can boost their upswings and help temper their downswings.
         </p>

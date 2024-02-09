@@ -1,6 +1,7 @@
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged } from "firebase/auth";
 import { useEffect, useState } from 'react';
 import {db} from '../firebase';
+import { doc, setDoc } from "firebase/firestore";
 
 export default function Login () {
 
@@ -48,10 +49,29 @@ export default function Login () {
       });
   }
 
-  const submitEntry = (event) => {
+  const submitEntry = async (event) => {
 
     event.preventDefault()
+
+    // I need to verify their login here, since they could set their localStorage to another user's email
+
     //firebase.submitEntry(name, link, description)
+
+    const userEmail = localStorage.getItem("UserEmail");
+    const userProfileDocRef = doc(db, "profiles", userEmail);
+
+    const entry = {
+      title: "New Entry Titleeee",
+      content: "Content of the new entry",
+      link: "",
+      createdAt: new Date() // Or use serverTimestamp if you want the time to be set by Firestore
+    };
+
+    await updateDoc(docRef, {
+      Anthology: arrayUnion(entry)
+    });
+
+    await setDoc(doc(db, "profiles", localStorage.getItem("UserEmail"), "Anthology"), entry)
   }
 
   const LogOut = (event) => {
@@ -69,18 +89,6 @@ export default function Login () {
   //   }
   // });
 
-  // start of styles
-
-  const formDivs = {
-    padding: "1em"
-  }
-  const labelStyle = {
-    display: "block"
-  }
-
-
-  // end of styles
-
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [email2, setEmail2] = useState('');
@@ -93,7 +101,6 @@ export default function Login () {
   const [userPageLink, setUserPageLink] = useState('');
 
   useEffect(() => {
-    console.log("wweeweweo")
     var userEmail = localStorage.getItem("UserEmail") // this seems bad, follow up later. can a user pretend to be someone else by just knowing their email? should I encrypt this?
     console.log("eee", userEmail)
     if (userEmail) {
@@ -102,11 +109,21 @@ export default function Login () {
 
   }, [])
 
+    // start of styles
+
+    const formDivs = {
+      padding: "1em"
+    }
+    const labelStyle = {
+      display: "block"
+    }
+
+    // end of styles
 
   return (<div>
     {!isLoggedIn ? (
-      <div>
-      <form onSubmit={submitLogin}>
+      <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
+      <form onSubmit={submitLogin} style={formDivs}>
       <label htmlFor="email">Email</label>
       <input id="email" type="email" value={email2} onChange={e => setEmail2(e.target.value)}></input>
       <label htmlFor="password">Password</label>
@@ -114,7 +131,7 @@ export default function Login () {
       <button type="submit">Log in</button>
       </form>
 
-    <form onSubmit={submitSignup}>
+    <form onSubmit={submitSignup} style={formDivs}>
     <label htmlFor="email">Email</label>
     <input id="email" type="email" value={email} onChange={e => setEmail(e.target.value)}></input>
     <label htmlFor="password">Password</label>
