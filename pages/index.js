@@ -1,6 +1,7 @@
 import Head from 'next/head';
 //import styles from '../styles/Home.css';
 import Link from 'next/link'
+import 'firebaseui/dist/firebaseui.css'
 
 export default function Home() {
   return (
@@ -66,26 +67,32 @@ export default function Home() {
       </div>
       <h2>What is the Waldgrave?</h2>
       <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'start', textAlign: 'left',margin: '0 auto', width: '80%'}}>
-        <div style={{display:'flex', alignItems:'center'}}>
+        <div style={{display:'flex', alignItems:'baseline'}}>
           <div className='defNum'>1)</div>
           <div className="defList">
             Originally used to refer to an officer having jurisdiction over a royal forest during the times of the Holy Roman Empire.
           </div>
         </div>
-        <div style={{display:'flex', alignItems:'center'}}>
+          <div style={{display:'flex', alignItems:'baseline'}}>
           <div className='defNum'>2)</div>
+          <div className='defList'>
+            The Waldgrave is a safe meeting place for people to share their paths through the Thought Forest. A place to share both cool places you have found in the Forest, and share the path that you walked as well. And only walking is allowed ont the Waldgrave social media. No more than 3 posts in a week, you start with 3 and get 1 more post per week on the platform. Equal opportunity social media, fully in your control. No pushing other content on you, only people you follow, default is that you are private. (under construction)
+          </div>
+        </div>
+        <div style={{display:'flex', alignItems:'baseline'}}>
+          <div className='defNum'>3)</div>
           <div className="defList">
             The area in your brain where the different forms of consciousness meet, the forest of paths. Your understanding how to manage your own waldgrave determines which of your selves tend to get expressed. You wander your own forest, be a kind and prudent officer.
           </div>
         </div>
-        <div style={{display:'flex', alignItems:'center'}}>
-          <div className='defNum'>3)</div>
+        <div style={{display:'flex', alignItems:'baseline'}}>
+          <div className='defNum'>4)</div>
           <div className="defList">
             When you listen to someone talk, their words shape your neurons. A form of them exists in you. On the larger scale, we are a gigabrain. You have ~86 billion neurons, the gigabrain has 8 billion of us in this evolving forest of thought and habit.
           </div>
         </div>
-        <div style={{display:'flex', alignItems:'center'}}>
-          <div className='defNum'>4)</div>
+        <div style={{display:'flex', alignItems:'baseline'}}>
+          <div className='defNum'>5)</div>
           <div className="defList">
             The Waldgrave stands for giving all brains the ability to thrive. We want to provide tools for free or at cost. We want to learn as much as we can and then to share the best of what we find. We want to enable individuals to pursue whatever they think they can do that will most benefit humanity. To help others help themselves and others however we can.
           </div>
@@ -133,7 +140,7 @@ export default function Home() {
         }
         p {
           margin: 1% 5%;
-          text-align: left;
+          text-align: center;
         }
 
 
@@ -195,7 +202,7 @@ export default function Home() {
 
         .defList {
           display: inline-block;
-          margin: 7px 15%;
+          margin: 7px 1.5%;
         }
       `}</style>
 {/*

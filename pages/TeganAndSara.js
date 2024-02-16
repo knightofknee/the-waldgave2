@@ -13,10 +13,65 @@ export default function TeganAndSara() {
     if (newSong !== undefined) setSong(newSong.lyrics)
   }
 
+  const midnightSongs = [
+    {
+    name: "first", comments: ["first paragraph", "second tag"]},
+    {
+    name: "first", comments: ["first paragraph", "second tag"]},
+    {
+    name: "first", comments: ["first paragraph", "second tag"]},
+    {
+    name: "first", comments: ["first paragraph", "second tag"]},
+    {
+    name: "first", comments: ["first paragraph", "second tag"]},
+    {
+    name: "first", comments: ["first paragraph", "second tag"]},
+    {
+    name: "first", comments: ["first paragraph", "second tag"]},
+    {
+    name: "first", comments: ["first paragraph", "second tag"]},
+    {
+    name: "first", comments: ["first paragraph", "second tag"]},
+    {
+    name: "first", comments: ["first paragraph", "second tag"]},
+    {
+    name: "first", comments: ["first paragraph", "second tag"]},
+    {
+    name: "first", comments: ["first paragraph", "second tag"]},
+    {
+    name: "first", comments: ["first paragraph", "second tag"]},
+    {
+    name: "first", comments: ["first paragraph", "second tag"]},
+    {
+    name: "first", comments: ["first paragraph", "second tag"]},
+    {
+    name: "first", comments: ["first paragraph", "second tag"]},
+    {
+    name: "first", comments: ["first paragraph", "second tag"]},
+    {
+    name: "first", comments: ["first paragraph", "second tag"]},
+  ]
+
   return (
     <div>
 <div id="newOuterShell" style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
   <div style={{display:'flex',justifyContent:'center',flexDirection:'column',alignItems:'center'}}>
+    <h2>
+      Midnights 3am edition (the Midnight Buddha edition)
+    </h2>
+    <p>(in progress</p>
+
+    {midnightSongs.map(song, index, ()=>{
+      song.comments.map(text, i2, ()=>{
+      <p id={i2}>
+        {text}
+      </p>
+      })
+    })}
+
+    <p>
+
+    </p>
     <h2>
       Why I only listen to K-Love positivity radio, and my modern music equivalent
     </h2>

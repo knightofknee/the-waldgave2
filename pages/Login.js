@@ -1,7 +1,9 @@
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged } from "firebase/auth";
 import { useEffect, useState } from 'react';
 import {db} from '../firebase';
-import { doc, arrayUnion, updateDoc, getDoc } from "firebase/firestore";
+import { doc, arrayUnion, updateDoc, getDoc, setDoc } from "firebase/firestore";
+
+//import FirebaseAuthUI from '../components/firebaseauthui'
 
 export default function Login () {
 
@@ -66,10 +68,8 @@ export default function Login () {
       link: "",
       createdAt: new Date()
     };
-console.log("wtt")
     // FirebaseError: Missing or insufficient permissions -- errored here
     const docSnap = await getDoc(userProfileDocRef);
-    console.log("wttt")
   if (docSnap.exists()) {
     // Document exists, update it
     console.log("waf")
@@ -180,6 +180,7 @@ console.log("wtt")
           </h3>
         </div>
         <div>
+        {/* <FirebaseAuthUI /> */}
         <button type="button" onClick={LogOut}>Log out</button>
         </div>
       </div>
