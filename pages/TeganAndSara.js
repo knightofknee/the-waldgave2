@@ -61,8 +61,8 @@ export default function TeganAndSara() {
     </h2>
     <p>(in progress</p>
 
-    {midnightSongs.map(song, index, ()=>{
-      song.comments.map(text, i2, ()=>{
+    {midnightSongs.map(song=>{
+      song.comments.map((text, i2)=>{
       <p id={i2}>
         {text}
       </p>
