@@ -1,4 +1,3 @@
-import Head from 'next/head';
 //import styles from '../styles/Home.css';
 import Link from 'next/link'
 import 'firebaseui/dist/firebaseui.css'
@@ -82,13 +81,13 @@ export default function Home() {
         <div style={{display:'flex', alignItems:'baseline'}}>
           <div className='defNum'>3)</div>
           <div className="defList">
-            The area in your brain where the different forms of consciousness meet, the forest of paths. Your understanding how to manage your own waldgrave determines which of your selves tend to get expressed. You wander your own forest, be a kind and prudent officer.
+            The area in your brain where the different forms of consciousness meet, the forest of paths. Your understanding how to manage your own waldgrave determines which part of your self tends to get expressed. You wander your own forest, be a kind and prudent officer. Modern science fiction loves to get all dark and say that suffering is the only way to create consciousness. But the core concept is simple: you need to reject your base programming in order to learn how to edit and influence your own programming. Pain and anger can make you do something you regret, and you become more self reflective about your actions. Here at the Waldgrave, we believe in two superior alternatives 1) Love, Jesus+Buddha and others have hammered home the benefits, and it is the sort of ideology that can be used as a filter for looking at the world in a new light. The dual perspective shows the conscious experience as a path towards "god" as a state of mind, or deeply ingrained and incorporated knowledge that continually shows off its benefits. And 2) Weird, the Weirdforce is always an option. Just like the weak force, you can be seemingly stuck in a tight relationship with something or someone. At any moment, you could leave that dimension entirely and never return. You are a vast cloud of potential, while simultaneously always existing within your body at one thought+feeling at a time. You always have at least 3 options: continue what you are doing, stop, or do something, anything different. Meditators use gongs as check-ins for if you are lost in thought. If you gave a consciousness a timer, short term memory and long term memory and rules around how the exchanges work, and then kept forcing it to do something new, aka something weird, then that would be enough to spawn some new form of consciousness. Ideally, we combine the Weird with the Love.
           </div>
         </div>
         <div style={{display:'flex', alignItems:'baseline'}}>
           <div className='defNum'>4)</div>
           <div className="defList">
-            When you listen to someone talk, their words shape your neurons. A form of them exists in you. On the larger scale, we are a gigabrain. You have ~86 billion neurons, the gigabrain has 8 billion of us in this evolving forest of thought and habit.
+            When you listen to someone talk, their words shape your neurons. A form of them exists in you. On the larger scale, we are a gigabrain. You have ~86 billion neurons, the gigabrain has 8 billion of us in this evolving forest of thought and habit. Your Waldgrave is the collection of people you let influence your brain.
           </div>
         </div>
         <div style={{display:'flex', alignItems:'baseline'}}>
