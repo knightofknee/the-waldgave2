@@ -156,7 +156,7 @@ export default function Login () {
     </div>
     ) : (
       <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
-        <h2>(in progress) Welcome! This is barebones social media, where you can only see what your friends recommend. Old-timey internet with text and links only. Please post your favorite things, whatever they may be. You are limited to 3 items per month (Initially, you will not be able to post anything new until 3 weeks after your first post. I chose 3 weeks because while I want to encourage a monthly cadence, I want to leave some flexibility).</h2>
+        <h2>(in progress) Welcome! This is barebones social media, where you can only see what your friends recommend. Old-timey internet with text and links only. Please post your favorite things, whatever they may be. You are limited to 3 items at first, and you gain one more post each week you are on the platform. These do not expire, this is equal opportunity social media. The internet is a bit crowded, let's stop rewarding the people shouting all the time. (your posts are only visible to friends by default)</h2>
         <form onSubmit={submitEntry} style={{display: "flex", flexDirection:"column", textAlign: "center"}}>
           <div style={formDivs}>
           <label htmlFor="name" style={labelStyle}>Title of post</label>

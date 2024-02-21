@@ -96,6 +96,12 @@ export default function Home() {
             The Waldgrave stands for giving all brains the ability to thrive. We want to provide tools for free or at cost. We want to learn as much as we can and then to share the best of what we find. We want to enable individuals to pursue whatever they think they can do that will most benefit humanity. To help others help themselves and others however we can.
           </div>
         </div>
+        <div style={{display:'flex', alignItems:'baseline'}}>
+          <div className='defNum'>6)</div>
+          <div className="defList">
+            The Waldgrave will never make a product worse or charge for something we could provide for free. The enshitification of tech is a terrible crime that will inevitably be fixed by the natural equilibrium of a product that can be shared with everyone after completion for free. Open source tech is one obvious answer, but even if that isn't the answer, companies will eventually compete to a Nash equilibrium like the price of an index fund or 1080p flatscreens. The question is how long will you let these vampires feed on you?
+          </div>
+        </div>
       </div>
       <div>
         <Link href="/Story">
@@ -103,10 +109,11 @@ export default function Home() {
         </Link>
       </div>
       <div>
-        {/* <h4>What is Good?</h4>
+        <h4>What is Good?</h4>
         <p>
           Everything is Good, stop stressing the shoulds and worrying the woulds, can the coulds, everything is good.
-        </p> */}
+        </p>
+        <p>A positive attitude isn't just wishful thinking, it is a superior operating system for your brain. Fight or flight emotions prepare you for a battle we rarely ever fight anymore. You only have so much brain capacity, get over yourself. Staying mad about something is self harm, but caring about something can be empowering. Being outwardly thankful and positive also helps other people stop guessing what your are thinking, they can relax their brain and exit anxiety-mode as well.(the <a href='https://youtu.be/MtimAuhyP-M?si=dcA1Vs7-HLsxlk66'>first half of this video</a> explains it well in biological terms.)</p>
         <p>
           Our brains are inherently a product of the past, shaped by a mix of your inner thoughts, outer stimuli and how you reacted to them, along with much chaos. You are the active processes in the brain. You didn't shape it, but you travel within it and choose which paths to take. Your actions further shape it for your future self. Habits form grooves, much wider paths. As you bounce around your brain, it is hard to avoid your natural habits, they are the easier paths. You have to work harder to do something new. This is something to both weaponize and fight against, as you shape your habits to better serve you, and to create a better brain to live in.
         </p>
