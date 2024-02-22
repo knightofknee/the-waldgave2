@@ -1,16 +1,20 @@
 import React, { useEffect } from 'react';
-import { auth } from './firebaseConfig'; // Adjust the path as necessary
+import { auth } from '../firebase'; // Adjust the path as necessary
 import * as firebaseui from 'firebaseui';
 import 'firebaseui/dist/firebaseui.css';
+//import firebase from 'firebase'
 
 const FirebaseAuthUI = () => {
   useEffect(() => {
     // Lazy-load the FirebaseUI Auth widget.
     // FirebaseUI doesn't support JS module imports yet, so we rely on the global `firebaseui` object.
+    if (typeof window !== 'undefined') {
     const uiConfig = {
-      signInSuccessUrl: '/', // Specify the URL you want to redirect to after a successful sign-in.
+      signInSuccessUrl: '/Login', // Specify the URL you want to redirect to after a successful sign-in.
       signInOptions: [
-        firebase.auth.EmailAuthProvider.PROVIDER_ID,
+        'email',
+        'google.com',
+        'phone'
         // Add other providers you want to support
       ],
       // Other config options...
@@ -19,7 +23,19 @@ const FirebaseAuthUI = () => {
     // Initialize the FirebaseUI widget using the Firebase Auth instance.
     const ui = firebaseui.auth.AuthUI.getInstance() || new firebaseui.auth.AuthUI(auth);
     ui.start('#firebaseui-auth-container', uiConfig);
-  }, []);
+  }
+  },
+
+  // {signInOptions: [
+  //   {
+  //     provider: firebase.auth.EmailAuthProvider.PROVIDER_ID,
+  //     signInMethod: firebase.auth.EmailAuthProvider.EMAIL_LINK_SIGN_IN_METHOD,
+  //     forceSameDevice: false,
+  //   },
+  //   firebase.auth.GoogleAuthProvider.PROVIDER_ID,
+  //   firebase.auth.PhoneAuthProvider.PROVIDER_ID
+  // ]}
+  []);
 
   return <div id="firebaseui-auth-container"></div>;
 };

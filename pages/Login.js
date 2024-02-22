@@ -1,15 +1,19 @@
-import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged } from "firebase/auth";
+import { createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged } from "firebase/auth";
 import { useEffect, useState } from 'react';
 import {db} from '../firebase';
 import { doc, arrayUnion, updateDoc, getDoc, setDoc } from "firebase/firestore";
 
+import dynamic from 'next/dynamic';
+const FirebaseAuthUI = dynamic(() => import('../components/firebaseauthui'), { ssr: false });
 //import FirebaseAuthUI from '../components/firebaseauthui'
 
 export default function Login () {
 
+  const [isClient, setIsClient] = useState(false);
+
   const submitSignup = (event) => {
     event.preventDefault();
-    const auth = getAuth();
+    //const auth = getAuth();
     createUserWithEmailAndPassword(auth, email, password)
       .then((userCredential) => {
         // Signed in
@@ -33,7 +37,7 @@ export default function Login () {
   }
   const submitLogin = (event) => {
     event.preventDefault()
-    const auth = getAuth();
+    //const auth = getAuth();
     signInWithEmailAndPassword(auth, email2, password2)
       .then((userCredential) => {
         // Signed in
@@ -116,6 +120,7 @@ export default function Login () {
   const [userPageLink, setUserPageLink] = useState('');
 
   useEffect(() => {
+    setIsClient(true);
     var userEmail = localStorage.getItem("UserEmail") // this seems bad, follow up later. can a user pretend to be someone else by just knowing their email? should I encrypt this?
     console.log("eee", userEmail)
     if (userEmail) {
@@ -138,6 +143,8 @@ export default function Login () {
   return (<div>
     {!isLoggedIn ? (
       <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
+        <div>newTest</div>
+        {isClient && <FirebaseAuthUI />}
       <form onSubmit={submitLogin} style={formDivs}>
       <label htmlFor="email">Email</label>
       <input id="email" type="email" value={email2} onChange={e => setEmail2(e.target.value)}></input>
@@ -180,7 +187,7 @@ export default function Login () {
           </h3>
         </div>
         <div>
-        {/* <FirebaseAuthUI /> */}
+        {isClient && <FirebaseAuthUI />}
         <button type="button" onClick={LogOut}>Log out</button>
         </div>
       </div>
