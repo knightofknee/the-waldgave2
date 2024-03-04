@@ -7,15 +7,17 @@ export default function TeganAndSara() {
   const songs = songsData;
 
   const [song, setSong] = useState([''])
+  const [visibleLyrics, expandLyrics] = useState(false)
 
   const showLyrics = (title) => () => {
+    expandLyrics(true)
     var newSong = songs.find(x => x.title === title)
     if (newSong !== undefined) setSong(newSong.lyrics)
   }
 
   const midnightSongs = [
     {
-    name: "first", comments: ["first paragraph", "second tag"]},
+    name: "Lavendar Haze", comments: ["Taylor Swift starts her album by openly saying the theme of the album, how love is her answer to facing the reality of nonself. Nonself is the base teaching of the Buddha, which leads to all the rest. It is pretty absent in the West. Jesus does loving-kindness better than anyone, the Stoics embraced impermanence. But the Buddha gets to all of that through discovery available to anyone. He told new students to go sit out alone in the forest and focus on your breath. Alone, the objective perspective of your own internal mechanisms, you realize you are something beyond any of the thoughts or feelings or experiences. My guess is that in the west, we have toxicity and judgement and stress that force people to learn that they are not their thoughts the hard way. West World and Pluto and a bunch of other sci fi insist that misery is necessary for consciousness, but Taylor leads us to another option, Love.", "With all of that in mind, the Buddha's extended forest stay sounds pretty appealing. Taylor walks us through her consciousness journey, starting innocent, some loss of innocense paired with the pains of choosing to change herself in order to become her ideal self.","At some point in her journey, she gets much of what she wanted but through it all comes to learn that only the present ever exists. Taylor is coming to terms with the reality that her original idea of the perfect is impossible to ever know.","Taylor thanks her previous ego as it remains as a ghost in her brain. Gratitude and love are the answer for moving forward in the present.", "This may seem like a stretch but I wanted to give an overview", "rando notes: I just need this love spiral- she admits her solution at the start.", "get it off my desk, clearing mind with love."]},
     {
     name: "first", comments: ["first paragraph", "second tag"]},
     {
@@ -59,15 +61,17 @@ export default function TeganAndSara() {
     <h2>
       Midnights 3am edition (the Midnight Buddha edition)
     </h2>
-    <p>(in progress</p>
+    <p>(in progress)</p>
 
-    {midnightSongs.map(song=>{
-      song.comments.map((text, i2)=>{
-      <p id={i2}>
-        {text}
-      </p>
-      })
-    })}
+    {false ? midnightSongs.map(song=>
+      song.comments.map((text, i2)=>(<div>
+        {i2 == 0 ? <h4>{song.name}</h4> : ''}
+
+        <p id={i2}>
+          {text}
+        </p>
+      </div>))
+    ) : ''}
 
     <p>
 
@@ -304,9 +308,9 @@ Go ahead and choose"
       <div id='rg_embed_link_4726856' className='rg_embed_link' data-song-id='4726856'>Read <a href='https://genius.com/Tegan-and-sara-hold-my-breath-until-i-die-lyrics'>“Hold My Breath Until I Die” by Tegan and Sara</a> on Genius</div>
     </div>
   </div>
-  <div style={{position:'sticky',top:0,bottom:0}}>
-    <Song lyrics={song}/>
-  </div>
+  {visibleLyrics && <div style={{position:'sticky',top:'20px', maxHeight:'500px', overflow:'hidden', overflowY:'auto'}}>
+    <Song lyrics={song} expandLyrics={expandLyrics}/>
+  </div>}
 </div>
 
   {/* <script crossOrigin="" src='//genius.com/songs/4726856/embed.js'></script> */}
@@ -314,7 +318,11 @@ Go ahead and choose"
 <style jsx>
 {`
 p {
-  margin: 0 5%;
+  margin: 1% 5%;
+}
+
+h4 {
+  textAlign: 'center';
 }
 
 iframe {
