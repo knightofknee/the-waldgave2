@@ -2,6 +2,7 @@ import { createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthState
 import { useEffect, useState } from 'react';
 import {db} from '../firebase';
 import { doc, arrayUnion, updateDoc, getDoc, setDoc } from "firebase/firestore";
+import Feed from '../components/Feed'
 
 import dynamic from 'next/dynamic';
 const FirebaseAuthUI = dynamic(() => import('../components/firebaseauthui'), { ssr: false });
@@ -185,6 +186,12 @@ export default function Login () {
           <h3>
             Your Current List, re-order and edit below. <a href={`https://waldgrave.com/profile/${userPageLink}`}>Here is a link directly to your page</a>
           </h3>
+        </div>
+        <div>
+          <h3>
+            Feed
+          </h3>
+          <Feed />
         </div>
         <div>
         {isClient && <FirebaseAuthUI />}
