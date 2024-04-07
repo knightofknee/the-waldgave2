@@ -5,6 +5,9 @@ export default function OpenChicago() {
   <div style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center'}}>
   <h2>Chicago Initiatives- order is not prioritized</h2>
   <p>
+    More trains. In rush hour, trains should be coming every 5-10 minutes. The other day I arrived to Merchandise Mart and a packed platform a little after 5 on a weekday, and the next train didn't come for 20 minutes. Taking a train at rush hour should be a pleasant experience, not a stressful packing of people. The number of people commuting is not a surprise, any crowded route should get more trains. God forbid we over-serve the people.
+  </p>
+  <p>
     The More Perfect Platform. This is a web platform that we are developing, the goal is to provide a format to collectively improve public policy through the sharing of proposals in a structured forum. All of my future plans for Chicago will be up there and open to criticism and suggestions before I run. Hopefully, we can find some designs that make debate a game of finding exactly where to candidates disagree, as opposed to emphasizing rhetoric and storylines. Eventually I think this can help bring direct democracy to Chicago as well.
   </p>
   <p>

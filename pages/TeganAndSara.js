@@ -17,41 +17,47 @@ export default function TeganAndSara() {
 
   const midnightSongs = [
     {
-    name: "Lavendar Haze", comments: ["Taylor Swift starts her album by openly saying the theme of the album, how love is her answer to facing the reality of nonself. Nonself is the base teaching of the Buddha, which leads to all the rest. It is pretty absent in the West. Jesus does loving-kindness better than anyone, the Stoics embraced impermanence. But the Buddha gets to all of that through discovery available to anyone. He told new students to go sit out alone in the forest and focus on your breath. Alone, the objective perspective of your own internal mechanisms, you realize you are something beyond any of the thoughts or feelings or experiences. My guess is that in the west, we have toxicity and judgement and stress that force people to learn that they are not their thoughts the hard way. West World and Pluto and a bunch of other sci fi insist that misery is necessary for consciousness, but Taylor leads us to another option, Love.", "With all of that in mind, the Buddha's extended forest stay sounds pretty appealing. Taylor walks us through her consciousness journey, starting innocent, some loss of innocense paired with the pains of choosing to change herself in order to become her ideal self.","At some point in her journey, she gets much of what she wanted but through it all comes to learn that only the present ever exists. Taylor is coming to terms with the reality that her original idea of the perfect is impossible to ever know.","Taylor thanks her previous ego as it remains as a ghost in her brain. Gratitude and love are the answer for moving forward in the present.", "This may seem like a stretch but I wanted to give an overview", "rando notes: I just need this love spiral- she admits her solution at the start.", "get it off my desk, clearing mind with love."]},
+    name: "Lavendar Haze", comments: ["'I'm damned if I do give a damn what people say, ... I just wanna stay in that lavender haze'. Up front, Taylor declares that love itself is her goal. This is her answer to dealing with the reality nonself. Nihlism feels incomplete to me, nothing has inherent meaning, but we are all connected in a web of . ",
+
+    "Taylor Swift starts her album by openly saying the theme of the album, how love is her answer to facing the reality of nonself. Nonself is the base teaching of the Buddha, which leads to all the rest. It is pretty absent in the West. Jesus does loving-kindness better than anyone, the Stoics embraced impermanence. But the Buddha gets to all of that through discovery available to anyone. He told new students to go sit out alone in the forest and focus on your breath. Alone, the objective perspective of your own internal mechanisms, you realize you are something beyond any of the thoughts or feelings or experiences. My guess is that in the west, we have toxicity and judgement and stress that force people to learn that they are not their thoughts the hard way. West World and Pluto and a bunch of other sci fi insist that misery is necessary for consciousness, but Taylor leads us to another option, Love.", "With all of that in mind, the Buddha's extended forest stay sounds pretty appealing. Taylor walks us through her consciousness journey, starting innocent, some loss of innocense paired with the pains of choosing to change herself in order to become her ideal self.","At some point in her journey, she gets much of what she wanted but through it all comes to learn that only the present ever exists. Taylor is coming to terms with the reality that her original idea of the perfect is impossible to ever know.","Taylor thanks her previous ego as it remains as a ghost in her brain. Gratitude and love are the answer for moving forward in the present.", "This may seem like a stretch but I wanted to give an overview", "rando notes: I just need this love spiral- she admits her solution at the start.", "get it off my desk, clearing mind with love."]},
     {
-    name: "Maroon", comments: ["", "second tag"]},
+    name: "Maroon", comments: ["Taylor learns how to have a relationship with herself. She loses touch with her inner self and has to relearn how to love herself properly. It is easy to forget this when falling for someone else.", ""]},
     {
-    name: "first", comments: ["first paragraph", "second tag"]},
+    name: "Anti-Hero", comments: ["The struggle with ego. She is afraid that in pursuit of what she wants to be, she will lose the most important part of herself. 'It's me, hi, I'm the problem it's me. At tea time everyone agrees'. Say ego is bad and people tend to agree, but what about in practice?", ""]},
     {
-    name: "first", comments: ["first paragraph", "second tag"]},
+    name: "Snow On The Beach", comments: ["Taylor starts succeeding at being present with herself, mastering self love and mindfulness together.", "As a celebrity, Taylor has always had reason to pretend to be happy. But now she is finding herself unabashedly happy on occasion."]},
     {
-    name: "first", comments: ["first paragraph", "second tag"]},
+    name: "You're On Your Own, Kid", comments: ["TS copes with the isolation of her experience and desire for change. She hoped to find her ideal self in her small town parties. She realizes she has something special but she needs to leave to pursue it.", "second tag"]},
     {
-    name: "first", comments: ["first paragraph", "second tag"]},
+    name: "Midnight Rain", comments: ["Taylor opts into pain in order to make herself into the person she wants to be. Here she looks back at the innocent version of herself that she left behind.", "This is a crucial step in the development of consciousness. As you gain control and awareness of the full operation that is your mind, you are forced to choose how to react. You could choose to stick with the path handed to you, or you can veer off into the unknown with your dreams as your compass. That comes with a lot of pain. But what if she didn't make those choices, who would she have become?"]},
     {
-    name: "first", comments: ["first paragraph", "second tag"]},
+    name: "Question...?", comments: ["This song sort of has two parts, the first is about miscommunications/failed love. This is the hard side of pursuing the lavender haze.", "The second part is the chorus for most of the song. It is a dare to flip expectations by resetting your priorities in a stressful situation."]},
     {
-    name: "first", comments: ["first paragraph", "second tag"]},
+    name: "Vigilante Shit", comments: ["first paragraph", "second tag"]},
     {
-    name: "first", comments: ["first paragraph", "second tag"]},
+    name: "Bejeweled", comments: ["first paragraph", "second tag"]},
     {
-    name: "first", comments: ["first paragraph", "second tag"]},
+    name: "Labyrinth", comments: ["first paragraph", "second tag"]},
     {
-    name: "first", comments: ["first paragraph", "second tag"]},
+    name: "Karma", comments: ["Karma is cause and effect. Karma isn't something you believe in, it just describes what is. 'I keep my side of the street clean', I think I know what this means. Be positive and loving to yourself and to those around you, and then they have more energy and love and positivity to give to you. Also, if you hold your phone above your face and drop it, that is karma too. You didn't deserve to be hit in the face, it's not good or bad. It is just the result of an action. And within our relativistic universe, actions can have rippling effects. Love is one of the most memed words of all time so there is a lot of cringe that comes with talking about the power of love. But it's real, science is on team Love. Love and positivity and gratitude and other jesus stuff activates the parasympathetic system and you function better.", "Cats and their relationship with you is a direct result of your interactions."]},
     {
-    name: "first", comments: ["first paragraph", "second tag"]},
+    name: "Sweet Nothing", comments: ["first paragraph", "second tag"]},
     {
-    name: "first", comments: ["first paragraph", "second tag"]},
+    name: "Mastermind", comments: ["first paragraph", "second tag"]},
     {
-    name: "first", comments: ["first paragraph", "second tag"]},
+    name: "The Great War", comments: ["first paragraph", "second tag"]},
     {
-    name: "first", comments: ["first paragraph", "second tag"]},
+    name: "Bigger Than The Whole Sky", comments: ["first paragraph", "second tag"]},
     {
-    name: "first", comments: ["first paragraph", "second tag"]},
+    name: "Paris", comments: ["first paragraph", "second tag"]},
     {
-    name: "first", comments: ["first paragraph", "second tag"]},
+    name: "High Infidelity", comments: ["first paragraph", "second tag"]},
     {
-    name: "first", comments: ["first paragraph", "second tag"]},
+    name: "Glitch", comments: ["first paragraph", "second tag"]},
+    {
+    name: "Would've, Could've, Should've", comments: ["first paragraph", "second tag"]},
+    {
+    name: "Dear Reader", comments: ["first paragraph", "second tag"]},
   ]
 
   return (
