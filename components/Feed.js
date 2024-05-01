@@ -4,6 +4,22 @@ import React, { useState } from 'react';
 export default function Feed () {
   const [theList, setTheList] = useState([]);
 
+  useEffect(() => {
+    // fetch data
+    const dataFetch = async () => {
+      const data = await (
+        await fetch(
+          'https://google.com',
+        )
+      ).json();
+
+      // set state when the data received
+      setTheList(data);
+    };
+
+    dataFetch();
+  }, []);
+
   const sort = (event) =>{
 
   }

@@ -15,25 +15,30 @@ export default function TeganAndSara() {
     if (newSong !== undefined) setSong(newSong.lyrics)
   }
 
+
   const midnightSongs = [
     {
-    name: "Lavendar Haze", comments: ["'I'm damned if I do give a damn what people say, ... I just wanna stay in that lavender haze'. Up front, Taylor declares that love itself is her goal. This is her answer to dealing with the reality nonself. Nihlism feels incomplete to me, nothing has inherent meaning, but we are all connected in a web of . ",
+    name: "Lavendar Haze", comments: ["'I'm damned if I do give a damn what people say, ... I just wanna stay in that lavender haze'. Up front, Taylor declares that love itself is her goal. This is her answer to dealing with the reality of nonself, that only the present moment exists, your brain is a 100% product of the past, you are a process running within it. Nihlism feels incomplete to me, nothing has inherent meaning, but we are all connected in a web of cause and effect. Meaning is relative, your choice, but the choices have effects. Taylor walks us through her conscious journey, so this is both the start and the end, a continuous process. The final song Dear Reader gives further context to her choice to remain free in her love."
+    ,
 
-    "Taylor Swift starts her album by openly saying the theme of the album, how love is her answer to facing the reality of nonself. Nonself is the base teaching of the Buddha, which leads to all the rest. It is pretty absent in the West. Jesus does loving-kindness better than anyone, the Stoics embraced impermanence. But the Buddha gets to all of that through discovery available to anyone. He told new students to go sit out alone in the forest and focus on your breath. Alone, the objective perspective of your own internal mechanisms, you realize you are something beyond any of the thoughts or feelings or experiences. My guess is that in the west, we have toxicity and judgement and stress that force people to learn that they are not their thoughts the hard way. West World and Pluto and a bunch of other sci fi insist that misery is necessary for consciousness, but Taylor leads us to another option, Love.", "With all of that in mind, the Buddha's extended forest stay sounds pretty appealing. Taylor walks us through her consciousness journey, starting innocent, some loss of innocense paired with the pains of choosing to change herself in order to become her ideal self.","At some point in her journey, she gets much of what she wanted but through it all comes to learn that only the present ever exists. Taylor is coming to terms with the reality that her original idea of the perfect is impossible to ever know.","Taylor thanks her previous ego as it remains as a ghost in her brain. Gratitude and love are the answer for moving forward in the present.", "This may seem like a stretch but I wanted to give an overview", "rando notes: I just need this love spiral- she admits her solution at the start.", "get it off my desk, clearing mind with love."]},
+    "Taylor Swift starts her album by openly saying the theme of the album, how love is her answer to facing the reality of nonself. Nonself is the base teaching of the Buddha, which leads to all the rest. It is pretty absent in the West. Jesus does loving-kindness better than anyone, the Stoics embraced impermanence. But the Buddha gets to all of that through discovery available to anyone. He told new students to go sit out alone in the forest and focus on your breath. Alone, the objective perspective of your own internal mechanisms, you realize you are something beyond any of the thoughts or feelings or experiences. My guess is that in the west, we have toxicity and judgement and stress that force people to learn that they are not their thoughts the hard way. West World and Pluto and a bunch of other sci fi insist that misery is necessary for consciousness, but Taylor leads us to another option, Love.", "With all of that in mind, the Buddha's extended forest stay sounds pretty appealing. Taylor walks us through her consciousness journey, starting innocent, some loss of innocense paired with the pains of choosing to change herself in order to become her ideal self.","At some point in her journey, she gets much of what she wanted but through it all comes to learn that only the present ever exists. Taylor is coming to terms with the reality that her original idea of the perfect is impossible to ever know.","Taylor thanks her previous ego as it remains as a ghost in her brain. Gratitude and love are the answer for moving forward in the present.", "This may seem like a stretch but I wanted to give an overview", "rando notes: I just need this love spiral- she admits her solution at the start.", "get it off my desk, clearing mind with love."
+    ,
+    "Music Video: first 2 minutes are her alone either in her apartment or in a wonderful bath. Her imagination is the location. She is able to use the lavendar haze as a tool for coping with the present."
+  ]},
     {
-    name: "Maroon", comments: ["Taylor learns how to have a relationship with herself. She loses touch with her inner self and has to relearn how to love herself properly. It is easy to forget this when falling for someone else.", ""]},
+    name: "Maroon", comments: ["Taylor learns how to have a relationship with herself. She loses touch with her inner self and has to relearn how to love herself properly. It is easy to forget this when falling for someone else.", "The way I analyze albums is like the Tegan and Sara post below, I assume the singer is singing from one part of herself to another. T and S ended up being exclusively that, it works well here. She describes a bunch of things that could just be her having fun with her inner self."]},
     {
-    name: "Anti-Hero", comments: ["The struggle with ego. She is afraid that in pursuit of what she wants to be, she will lose the most important part of herself. 'It's me, hi, I'm the problem it's me. At tea time everyone agrees'. Say ego is bad and people tend to agree, but what about in practice?", ""]},
+    name: "Anti-Hero", comments: ["The struggle with ego. She is afraid that in pursuit of what she wants to be, she will lose the most important part of herself. 'It's me, hi, I'm the problem it's me. At tea time everyone agrees'. Say ego is bad and people tend to agree, but what about in practice? If she doesn't keep it up then she could disappoint many. She is focused on the sun, she is aiming to be something different than herself. 'I'll stare at the sun but never in the mirror'", "Music video: Taylor is straight hallucinating. Imagination is now working against her. She appears to be paranoid as well. Before I thought my later claim about schizophrenia would be seen as too much, but she shows it here. Fun Taylor shows up to save the day. This is the ideal Taylor, popstar Taylor (PT?). regular Taylor can't hang with popstar Taylor and it seems like she might be killed off. They later reconnect and make peace. They both stay and giant Taylor arrives (global stardom? The outfits probably say something, I need a Swiftie). "]},
     {
-    name: "Snow On The Beach", comments: ["Taylor starts succeeding at being present with herself, mastering self love and mindfulness together.", "As a celebrity, Taylor has always had reason to pretend to be happy. But now she is finding herself unabashedly happy on occasion."]},
+    name: "Snow On The Beach", comments: ["Taylor starts succeeding at being present with herself, mastering self love and mindfulness together.", "As a celebrity, Taylor has always had reason to pretend to be happy. But now she is finding herself unabashedly happy on occasion. Love and the excitement make her completely present, feeling 100%. Your brain capacity is limited, the more you focus on the past or future, the less you are able to take in the present."]},
     {
-    name: "You're On Your Own, Kid", comments: ["TS copes with the isolation of her experience and desire for change. She hoped to find her ideal self in her small town parties. She realizes she has something special but she needs to leave to pursue it.", "second tag"]},
+    name: "You're On Your Own, Kid", comments: ["TS copes with the isolation of her experience and desire for change. She hoped to find her ideal self in her small town parties. She realizes she has something special but she needs to leave to pursue it. She's realized 'her dreams aren't rare' but she knows she has what it takes, and that she has to go it alone, because that is where the work is done.", ""]},
     {
-    name: "Midnight Rain", comments: ["Taylor opts into pain in order to make herself into the person she wants to be. Here she looks back at the innocent version of herself that she left behind.", "This is a crucial step in the development of consciousness. As you gain control and awareness of the full operation that is your mind, you are forced to choose how to react. You could choose to stick with the path handed to you, or you can veer off into the unknown with your dreams as your compass. That comes with a lot of pain. But what if she didn't make those choices, who would she have become?"]},
+    name: "Midnight Rain", comments: ["Taylor opts into pain in order to make herself into the person she wants to be. Here she looks back at the innocent version of herself that she left behind.", "This is a crucial step in the development of consciousness. As you gain control and awareness of the full operation that is your mind, you are forced to choose how to react. You could choose to stick with the path handed to you, or you can veer off into the unknown with your dreams as your compass. That comes with a lot of pain. But what if she didn't make those choices, who would she have become?", "'Some kind of haunted, a good place for talking about how we relate to our brains.'"]},
     {
-    name: "Question...?", comments: ["This song sort of has two parts, the first is about miscommunications/failed love. This is the hard side of pursuing the lavender haze.", "The second part is the chorus for most of the song. It is a dare to flip expectations by resetting your priorities in a stressful situation."]},
+    name: "Question...?", comments: ["This song sort of has two parts, the first is about miscommunications/failed love. This is the hard side of pursuing the lavender haze. Her memories with the sad boy were extra vivid because of the mindfulness generated by the connection. This also fits in with the growth of consciousness, you inevitably become less sensitive to the things you have experienced.", "The second part is the chorus for most of the song. It is a dare to flip expectations by resetting your priorities in a stressful situation. Meditation techniques are a bunch of different ways to reset by becoming fully present. This song shows how a question can itself help people be present by giving them something to engage with that takes capacity."]},
     {
-    name: "Vigilante Shit", comments: ["first paragraph", "second tag"]},
+    name: "Vigilante Shit", comments: ["", ""]},
     {
     name: "Bejeweled", comments: ["first paragraph", "second tag"]},
     {
@@ -45,7 +50,7 @@ export default function TeganAndSara() {
     {
     name: "Mastermind", comments: ["first paragraph", "second tag"]},
     {
-    name: "The Great War", comments: ["first paragraph", "second tag"]},
+    name: "Part Two: starting with The Great War", comments: ["The rest of the album is concerned  with Taylor's fallout with her ego, and her embracing the realization of nonself. In the great war of life and fame, she relied on her ego, on her image of her ideal self, the person she was always trying to become.", "In the Great War, "]},
     {
     name: "Bigger Than The Whole Sky", comments: ["first paragraph", "second tag"]},
     {
@@ -60,6 +65,8 @@ export default function TeganAndSara() {
     name: "Dear Reader", comments: ["first paragraph", "second tag"]},
   ]
 
+  // show first entry default, but not all. component takes a song, shows first with expand for more
+
   return (
     <div>
 <div id="newOuterShell" style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
@@ -71,6 +78,7 @@ export default function TeganAndSara() {
 
     {false ? midnightSongs.map(song=>
       song.comments.map((text, i2)=>(<div>
+
         {i2 == 0 ? <h4>{song.name}</h4> : ''}
 
         <p id={i2}>
