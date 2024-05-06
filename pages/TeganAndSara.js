@@ -52,9 +52,9 @@ export default function TeganAndSara() {
     {
     name: "Part Two: starting with The Great War", comments: ["The rest of the album is concerned  with Taylor's fallout with her ego, and her embracing the realization of nonself. In the great war of life and fame, she relied on her ego, on her image of her ideal self, the person she was always trying to become.", "In the Great War, "]},
     {
-    name: "Bigger Than The Whole Sky", comments: ["first paragraph", "second tag"]},
+    name: "Bigger Than The Whole Sky", comments: [`"What could've been would've been, should've been you", this song is an ode to the ego she is leaving in the past. She understands the illusory nature of what she aimed to be. But that doesn't diminish the importance of the self she strived for.`, "It's hard to let go, but that's the only choice to stay moving."]},
     {
-    name: "Paris", comments: ["first paragraph", "second tag"]},
+    name: "Paris", comments: ["Taylor learns to fall in love with herself and the world again. Just by being mindful on her own, half a bottle of champagne in your apartment or wandering the street at night becomes an adventure in a new land.", `lyric proof here? `]},
     {
     name: "High Infidelity", comments: ["first paragraph", "second tag"]},
     {
@@ -62,7 +62,7 @@ export default function TeganAndSara() {
     {
     name: "Would've, Could've, Should've", comments: ["first paragraph", "second tag"]},
     {
-    name: "Dear Reader", comments: ["first paragraph", "second tag"]},
+    name: "Dear Reader", comments: [`"If you think... in a trap, you're already in one", Taylor is explicitly laying out the trap of ego. If you want to be truly present, you must ditch it completely and be absorbed with your immediate experience, the only thing you ever really have. A common Zen thing is reminding you everything "has buddha nature", even ruminating or thinking about the future occurs in the present. But when this past or future talk is going on, you cannot be fully engaged with the rest of what your brain and the world have to offer. It is a balancing act, and the way to balance is to cut off unhelpful thinking. Learn to recognize your false patterns of thought and cut them off at the root. Let new ones grow from the energy no longer flowing down wasteful paths.`, "Taylor offers a couple of ways out. First, by recognizing your ego, you can see what to avoid. Destructive patterns trap you in loops of addiction and emotional dependency. If you play the album on loop like I do, this song is followed up with Lavendar Haze, a reminder of her other way out, love. Love is her secret to being present. Taylor's dedication to personal growth clashes with her desire to be in a loving romantic relationship. This has inevitably led her to have many relationships that don't fit the standard of either being short flings or marriage, she wants love but can't be kept in a box. At the end of the day, it seems like Taylor has indeed cleaned up her side of the street and has a strong understanding of self, nonself, and how to find self-determined meaning where others settle for nihlism."]},
   ]
 
   // show first entry default, but not all. component takes a song, shows first with expand for more
