@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import {db} from '../firebase';
 import { doc, arrayUnion, updateDoc, getDoc, setDoc } from "firebase/firestore";
 import Feed from '../components/Feed'
+import Profile from '../components/Profile'
 
 import dynamic from 'next/dynamic';
 const FirebaseAuthUI = dynamic(() => import('../components/firebaseauthui'), { ssr: false });
@@ -188,10 +189,8 @@ export default function Login () {
           </h3>
         </div>
         <div>
-          <h3>
-            Feed
-          </h3>
           <Feed />
+          <Profile />
         </div>
         <div>
         {isClient && <FirebaseAuthUI />}

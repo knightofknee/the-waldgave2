@@ -27,4 +27,8 @@ Feed and Profile are the two main pages. 'Create an Entry' is a third screen, it
 - \*email and password login
 - \*? store info in session to be used by other components
 
+so people use the main page to see and edit their own profile, but for others to see it, we need a separate page that is the same but with no editing and with some sort of permissions check ideally.
+
+# Read-only Profile page
+
 # Other Considerations:
