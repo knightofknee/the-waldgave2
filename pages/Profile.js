@@ -1,5 +1,6 @@
 import EntryView from '../components/EntryView'
 import { useState } from 'react'
+import ProfileComponent from '../components/ProfileComponent'
 
 export default function Profile () {
 
@@ -9,17 +10,18 @@ export default function Profile () {
 
   return (
     <div>
-      <h1>Username</h1>
-      {/* <ol>
+      <ProfileComponent />
+      {/* <h1>Username</h1>
+      { <ol>
         {entries.map(e => {
           return (<li>
           <EntryView entryID={e.ID} name={e.name} link={e.link} description={e.description}/>
         </li>)
         })}
-      </ol> */}
+      </ol> }
       {theProfileEntryList.map(element => {
       return <EntryView key={element.id} entryID={element.id} link={element.link} title={element.title} body={element.body} isUnread={element.isUnread} />
-    })}
+    })} */}
     </div>
   )
 }

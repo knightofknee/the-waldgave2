@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import EntryView from './EntryView';
 
-export default function Profile (props) {
+export default function ProfileComponent (props) {
 
   const [test, setTest] = useState("");
 

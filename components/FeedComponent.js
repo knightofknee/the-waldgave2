@@ -1,7 +1,7 @@
 import EntryView from "./EntryView"
 import React, { useState, useEffect } from 'react';
 
-export default function Feed () {
+export default function FeedComponent () {
   const [theList, setTheList] = useState([]);
   const [sortMethod, setSortMethod] = useState("date");
 
@@ -58,10 +58,6 @@ export default function Feed () {
     setTheList(theList.filter(x => x.starred))
   }
 
-  const chaos = (event) => {
-    setTheList(theList.reverse()) //would need an update if this is actually wanted
-  }
-
   //you can star posts and people to follow in a focused group. you control your content
   return (<div>
 
@@ -71,7 +67,6 @@ export default function Feed () {
     <span onClick={sortByDate}>Date</span>
     <span onClick={showUnread}>Unread</span>
     <span onClick={showStarred}>Starred</span>
-    <span onClick={chaos}>Chaos button? shuffle your feed, it's all good stuff</span>
   </div>
     {theList.map(element => {
       return <EntryView key={element.id} entryID={element.id} link={element.link} title={element.title} body={element.body} isUnread={element.isUnread} />
