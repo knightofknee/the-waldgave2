@@ -4,6 +4,8 @@ import React, { useState, useEffect } from 'react';
 export default function FeedComponent () {
   const [theList, setTheList] = useState([]);
   const [sortMethod, setSortMethod] = useState("date");
+  const [starredOnly, setStarred] = useState(false)
+  const [unreadOnly, setUnread] = useState(false)
 
   useEffect(() => {
     // fetch data
@@ -50,13 +52,15 @@ export default function FeedComponent () {
   const showUnread = (event) => {
     // call to firebase here
 
-    setTheList(theList.filter(x => x.isUnread))
-
+    setUnread(!unreadOnly)
   }
   const showStarred = (event) => {
-    // will eventually pull in from firebase, including starred works of nonstarred people
-    setTheList(theList.filter(x => x.starred))
+    setStarred(!starredOnly)
   }
+
+  const displayList = theList.filter(x => !unreadOnly || x.isUnread).filter(x => !starredOnly || x.starred).map(element => {
+    return <EntryView key={element.id} entryID={element.id} link={element.link} title={element.title} body={element.body} isUnread={element.isUnread} />
+  });
 
   //you can star posts and people to follow in a focused group. you control your content
   return (<div>
@@ -68,9 +72,6 @@ export default function FeedComponent () {
     <span onClick={showUnread}>Unread</span>
     <span onClick={showStarred}>Starred</span>
   </div>
-    {theList.map(element => {
-      return <EntryView key={element.id} entryID={element.id} link={element.link} title={element.title} body={element.body} isUnread={element.isUnread} />
-    })}
-
+    {displayList}
   </div>)
 }

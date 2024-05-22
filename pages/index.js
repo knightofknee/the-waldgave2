@@ -102,6 +102,12 @@ export default function Home() {
             The Waldgrave will never make a product worse or charge for something we could provide for free. The enshitification of tech is a terrible crime that will inevitably be fixed by the natural equilibrium of a product that can be shared with everyone after completion for free. Open source tech is one obvious answer, but even if that isn't the answer, companies will eventually compete to a Nash equilibrium like the price of an index fund or 1080p flatscreens. The question is how long will you let these vampires feed on you?
           </div>
         </div>
+        <div style={{display:'flex', alignItems:'baseline'}}>
+          <div className='defNum'>7)</div>
+          <div className="defList">
+            Your mind has no center subject running everything. Instead your mind is this vast forest of ideas sprung up from many seeds. You travel through this interconnected forest. To live a better life, you should be a steward or waldgrave to your own thought forest. Wherever you go, you should make it better by enforcing the laws of your land, by cleaning it up or tying up loose ends. Unsolved problems linger, let those be the ones you want to be spending extra resources on.
+          </div>
+        </div>
       </div>
       <div>
         <Link href="/Story">
