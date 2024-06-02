@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html style={{backgroundColor: 'rgb(220, 170, 210)'}}>
       <Head />
-      <body style={{display: 'flex'}}>
+      <body>
         <Main />
         <NextScript />
       </body>

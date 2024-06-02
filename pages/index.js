@@ -69,7 +69,7 @@ export default function Home() {
         <div style={{display:'flex', alignItems:'baseline'}}>
           <div className='defNum'>1)</div>
           <div className="defList">
-            Originally used to refer to an officer having jurisdiction over a royal forest during the times of the Holy Roman Empire.
+            Originally used to refer to an officer having jurisdiction over a royal forest during the times of the Holy Roman Empire. You need to be the Waldgrave of your own electric forest. Understand the nature of your brain and navigate accordingly.
           </div>
         </div>
           <div style={{display:'flex', alignItems:'baseline'}}>

@@ -25,16 +25,17 @@ export default function EntryView (props) {
 
   return (
     <div>
-      <a href={props.link}><span>{props.title}</span></a>
+      <h2>{props.title}</h2>
+      <a href={props.link}><span>{props.link}</span></a>
       <p>{props.body}</p>
 
       {showEntry ? <button type="click" onClick={markAsRead()}>Mark as read</button>
       : <button type="click" onClick={markAsRead(false)}>Mark as unread</button>}
 
-      <div>
+      {/* this can be added later <div>
         <label>Notes (autosave and private)</label>
         <textarea rows={7} cols={7} value={notes} onChange={handleNotesChange}></textarea>
-      </div>
+      </div> */}
     </div>
   )
 }

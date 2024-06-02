@@ -9,23 +9,23 @@ export default function ProfileComponent (props) {
 
   const [theProfileEntryList, setTheProfileEntryList] = useState(entries)
 
+
+  // use session storage to grab the username, todo
+
   return (
-    <div>
+    <div style={{display:'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
       <h1>Profile</h1>
       <span>Name: {props.username}</span>
 
       <div>
-        <div>
+        <div style={{display:'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
           show entries. on full screen these are main, on mobile there's a toggle
 
           {theProfileEntryList.map(element => {
-      return <EntryView key={element.id} entryID={element.id} link={element.link} title={element.title} body={element.body} isUnread={element.isUnread} />
+      return <div key={element.id}><EntryView entryID={element.id} link={element.link} title={element.title} body={element.body} isUnread={element.isUnread} /><br/></div>
     })}
         </div>
-
-        <div>
-          show lists of favorite tv shows and books and movies. on full screen these are on the side, on mobile they are a toggle and take up the full view
-
+        <div style={{display:'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
           <h3>Favorite books</h3>
           <ol>
             <li>Ender's game</li>
@@ -40,7 +40,6 @@ export default function ProfileComponent (props) {
           </ol>
         </div>
       </div>
-
     </div>
   )
 }
