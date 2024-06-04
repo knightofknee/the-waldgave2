@@ -58,19 +58,25 @@ export default function FeedComponent () {
     setStarred(!starredOnly)
   }
 
-  const displayList = theList.filter(x => !unreadOnly || x.isUnread).filter(x => !starredOnly || x.starred).map(element => {
-    return <EntryView key={element.id} entryID={element.id} link={element.link} title={element.title} body={element.body} isUnread={element.isUnread} />
-  });
+  const displayList = theList
+  .filter(x => !unreadOnly || x.isUnread)
+  .filter(x => !starredOnly || x.starred)
+  .map(element => (
+    <div key={element.id} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+      <EntryView entryID={element.id} link={element.link} title={element.title} body={element.body} isUnread={element.isUnread} />
+      <br/>
+    </div>
+  ));
 
   //you can star posts and people to follow in a focused group. you control your content
-  return (<div>
+  return (<div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
 
     <h1>Feed</h1>
 
   <div>
-    <span onClick={sortByDate}>Date</span>
-    <span onClick={showUnread}>Unread</span>
-    <span onClick={showStarred}>Starred</span>
+    <span onClick={sortByDate} style={{ border: '1px solid black', padding: '10px', margin: '5px' }}>Date</span>
+    <span onClick={showUnread} style={{ border: '1px solid black', padding: '10px', margin: '5px' }}>Unread</span>
+    <span onClick={showStarred} style={{ border: '1px solid black', padding: '10px', margin: '5px' }}>Starred</span>
   </div>
     {displayList}
   </div>)

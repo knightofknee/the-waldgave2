@@ -24,18 +24,21 @@ export default function EntryView (props) {
   }
 
   return (
-    <div>
-      <h2>{props.title}</h2>
-      <a href={props.link}><span>{props.link}</span></a>
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+    <h2>{props.title}</h2>
+    <a href={props.link}><span>{props.link}</span></a>
+    <div style={{ textAlign: 'left', width: '100%' }}>
       <p>{props.body}</p>
-
-      {showEntry ? <button type="click" onClick={markAsRead()}>Mark as read</button>
-      : <button type="click" onClick={markAsRead(false)}>Mark as unread</button>}
-
-      {/* this can be added later <div>
-        <label>Notes (autosave and private)</label>
-        <textarea rows={7} cols={7} value={notes} onChange={handleNotesChange}></textarea>
-      </div> */}
     </div>
+
+    {/* todo add login check here. like if it is your profile, this should not show. if you are not logged in, it should not show. 3 peeps, owner, visitor logged in/out. */}
+    {showEntry ? <button type="click" onClick={markAsRead()}>Mark as read</button>
+    : <button type="click" onClick={markAsRead(false)}>Mark as unread</button>}
+
+    {/* this can be added later <div>
+      <label>Notes (autosave and private)</label>
+      <textarea rows={7} cols={7} value={notes} onChange={handleNotesChange}></textarea>
+    </div> */}
+  </div>
   )
 }
