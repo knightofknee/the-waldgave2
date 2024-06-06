@@ -1,6 +1,5 @@
 //import styles from '../styles/Home.css';
 import Link from 'next/link'
-import 'firebaseui/dist/firebaseui.css'
 
 export default function Home() {
   return (
