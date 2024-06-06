@@ -6,7 +6,7 @@ import FeedComponent from '../components/FeedComponent'
 import ProfileComponent from '../components/ProfileComponent'
 
 import dynamic from 'next/dynamic';
-const FirebaseAuthUI = dynamic(() => import('../components/firebaseauthui'), { ssr: false });
+// const FirebaseAuthUI = dynamic(() => import('../components/firebaseauthui'), { ssr: false });
 //import FirebaseAuthUI from '../components/firebaseauthui'
 
 export default function Login () {
@@ -193,7 +193,7 @@ export default function Login () {
           <ProfileComponent />
         </div>
         <div>
-        {isClient && <FirebaseAuthUI />}
+        {/* {isClient && <FirebaseAuthUI />} */}
         <button type="button" onClick={LogOut}>Log out</button>
         </div>
       </div>

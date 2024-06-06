@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import { auth } from '../firebase'; // Adjust the path as necessary
 import firebase from 'firebase/compat/app';
 import * as firebaseui from 'firebaseui';
-import 'firebaseui/dist/firebaseui.css';
 
 const FirebaseAuthUI = () => {
   useEffect(() => {
