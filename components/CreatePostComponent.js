@@ -1,15 +1,27 @@
 import { useState } from 'react';
+import firebase from '../firebase.js'
 
 export default function CreatePostComponent() {
 
   const [title, setTitle] = useState('');
   const [content, setContent] = useState('');
+  
 
   const handleSubmit = (event) => {
     event.preventDefault();
     // Handle form submission here
     console.log('Title:', title);
     console.log('Content:', content);
+
+    const user = firebase.auth().currentUser;
+
+    const newPost = {
+      content: content,
+      author: user.uid, // or user.email
+      timestamp: firebase.database.ServerValue.TIMESTAMP,
+      title: title
+    };
+    firebase.database().ref('Posts').push(newPost);
   };
   return (
     <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
