@@ -1,4 +1,4 @@
-import FeedComponent from "../components/FeedComponent";
+import CreatePostComponent from "../components/CreatePostComponent";
 import { useState } from 'react';
 import Link from 'next/link';
 
@@ -7,9 +7,9 @@ export default function feed () {
 
   return (<div>
     {user ? <div style={{marginBottom: '-10px', textAlign: 'center'}}>
+        <Link href='feed' style={{padding: '5px'}}>Feed</Link>
         <Link href='profile' style={{padding: '5px'}}>Profile</Link>
-        <Link href='createPost' style={{padding: '5px'}}>Create Post</Link>
         </div> : <div></div>}
-    <FeedComponent />
+    <CreatePostComponent />
   </div>)
 }

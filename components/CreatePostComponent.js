@@ -1,11 +1,13 @@
 import { useState } from 'react';
 import { auth, db } from '../firebase.js'
 import { collection, addDoc } from 'firebase/firestore';
+import { useRouter } from 'next/router';
 
 export default function CreatePostComponent() {
 
   const [title, setTitle] = useState('');
   const [content, setContent] = useState('');
+  const router = useRouter();
 
 
   const handleSubmit = async (event) => {
@@ -17,16 +19,21 @@ export default function CreatePostComponent() {
     // todo limit posts based on account age and post count
 
     const user = auth.currentUser;
-
+    console.log('huhhhh')
     const newPost = {
       content: content,
-      author: user.uid, // or user.email
+      author: user.uid,
       timestamp: Date.now(),
       title: title
     };
     try {
+      console.log('huh')
       const docRef = await addDoc(collection(db, "Posts"), newPost);
       console.log("Document written with ID: ", docRef.id);
+      if (docRef.id) {
+        // redirect to profile
+        router.push('/profile');
+      }
     } catch (e) {
       console.error("Error adding document: ", e);
     }
