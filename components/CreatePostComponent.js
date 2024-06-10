@@ -1,13 +1,14 @@
 import { useState } from 'react';
-import firebase from '../firebase.js'
+import { auth, db } from '../firebase.js'
+import { collection, addDoc } from 'firebase/firestore';
 
 export default function CreatePostComponent() {
 
   const [title, setTitle] = useState('');
   const [content, setContent] = useState('');
-  
 
-  const handleSubmit = (event) => {
+
+  const handleSubmit = async (event) => {
     event.preventDefault();
     // Handle form submission here
     console.log('Title:', title);
@@ -15,15 +16,20 @@ export default function CreatePostComponent() {
 
     // todo limit posts based on account age and post count
 
-    const user = firebase.auth().currentUser;
+    const user = auth.currentUser;
 
     const newPost = {
       content: content,
       author: user.uid, // or user.email
-      timestamp: firebase.database.ServerValue.TIMESTAMP,
+      timestamp: Date.now(),
       title: title
     };
-    firebase.database().ref('Posts').push(newPost);
+    try {
+      const docRef = await addDoc(collection(db, "Posts"), newPost);
+      console.log("Document written with ID: ", docRef.id);
+    } catch (e) {
+      console.error("Error adding document: ", e);
+    }
   };
   return (
     <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
