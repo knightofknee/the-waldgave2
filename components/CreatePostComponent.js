@@ -13,6 +13,8 @@ export default function CreatePostComponent() {
     console.log('Title:', title);
     console.log('Content:', content);
 
+    // todo limit posts based on account age and post count
+
     const user = firebase.auth().currentUser;
 
     const newPost = {
