@@ -35,5 +35,6 @@ export default function feed () {
         <Link href='createPost' style={{padding: '5px'}}>Create Post</Link>
         </div> : <div></div>}
     <FeedComponent />
+    <WaldFooter />
   </div>)
 }
