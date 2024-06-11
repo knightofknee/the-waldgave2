@@ -1,6 +1,9 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import ProfileComponent from '../components/ProfileComponent'
 import Link from 'next/link'
+import { auth } from '../firebase'
+import router from 'next/router'
+import Loading from '../components/loading'
 
 export default function profile () {
 
@@ -8,11 +11,33 @@ export default function profile () {
 
   const [theProfileEntryList, setTheProfileEntryList] = useState(entries)
   const [user, setUser] = useState(true);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const unsubscribe = auth.onAuthStateChanged((user) => {
+      if (user) {
+        // User is signed in
+        setUser(user);
+        setLoading(false);
+      } else {
+        // User is signed out
+        router.push('/login');
+      }
+    });
+
+    // Cleanup subscription on unmount
+    return () => unsubscribe();
+  }, []);
+
+  if (loading) {
+    return <Loading />
+  }
 
   return (
     <div>
       {user ? <div style={{marginBottom: '-10px', textAlign: 'center'}}>
         <Link href='feed' style={{padding: '5px'}}>Feed</Link>
+        <span style={{padding: '5px'}}>Profile</span>
         <Link href='createPost' style={{padding: '5px'}}>Create Post</Link>
         </div> : <div></div>}
 

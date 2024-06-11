@@ -5,6 +5,8 @@ import { signInWithEmailAndPassword, createUserWithEmailAndPassword } from 'fire
 import FeedComponent from '../components/FeedComponent';
 import ProfileComponent from '../components/ProfileComponent';
 import CreatePostComponent from '../components/CreatePostComponent';
+import { set } from 'firebase/database';
+import Loading from '../components/loading';
 
 function Login() {
   const [user, setUser] = useState(null);
@@ -15,6 +17,7 @@ function Login() {
   const [error, setError] = useState(null);
   const [error2, setError2] = useState(null);
   const [view, setView] = useState('feed');
+  const [loading, setLoading] = useState(true);
 
   const handleViewChange = (newView) => {
     setView(newView);
@@ -74,6 +77,23 @@ function Login() {
   //   return () => unregisterAuthObserver(); // Make sure we un-register Firebase observers when the component unmounts.
   // }, []);
 
+  useEffect(() => {
+    const unsubscribe = auth.onAuthStateChanged((user) => {
+      if (user) {
+        // User is signed in
+        setUser(user);
+        setLoading(false);
+      } else {
+        // User is signed out
+        setUser(null);
+        setLoading(false);
+      }
+    });
+
+    // Cleanup subscription on unmount
+    return () => unsubscribe();
+  }, []);
+
     if (user) {
       return <div>
 
@@ -85,6 +105,9 @@ function Login() {
         {view === 'profile' && <ProfileComponent />}
         {view === 'createPost' && <CreatePostComponent />}
       </div>;
+    }
+    if (loading) {
+      return <Loading />
     }
  // need signup and a little styling, maybe session storage
   return (
