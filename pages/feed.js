@@ -3,6 +3,8 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Loading from '../components/loading';
 import { auth } from '../firebase';
+import router from 'next/router';
+import WaldFooter from "../components/WaldFooter";
 
 export default function feed () {
   const [user, setUser] = useState(true);
