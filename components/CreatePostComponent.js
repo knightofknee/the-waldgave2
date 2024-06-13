@@ -32,7 +32,7 @@ export default function CreatePostComponent() {
       console.log("Document written with ID: ", docRef.id);
       if (docRef.id) {
         // redirect to profile
-        router.push('/Profile');
+        router.push('/profile');
       }
     } catch (e) {
       console.error("Error adding document: ", e);
