@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react';
+import WaldHeader from '../components/WaldHeader';
+import WaldFooter from '../components/WaldFooter';
 
 export default function Friends() {
   const [name, setName] = useState('');
@@ -26,13 +28,15 @@ export default function Friends() {
 
   useEffect(() => {
     const friends = [] //aws firebase call, todo
-    if (friends) {
-      setFriends(JSON.parse(friends));
-    }
+    // if (friends) {
+    //   setFriends(JSON.parse(friends));
+    // }
   }, []);
 
   return (
     <div>
+      <WaldHeader page='friends' />
+      <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
       <h1>Friends</h1>
       <div>
         <h2>Add a Friend</h2>
@@ -52,6 +56,8 @@ export default function Friends() {
           ))}
         </ul>
       </div>
+      </div>
+      <WaldFooter />
     </div>
   );
 }
