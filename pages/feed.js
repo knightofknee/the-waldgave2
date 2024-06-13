@@ -5,6 +5,7 @@ import Loading from '../components/loading';
 import { auth } from '../firebase';
 import router from 'next/router';
 import WaldFooter from "../components/WaldFooter";
+import WaldHeader from "../components/WaldHeader";
 
 export default function feed () {
   const [user, setUser] = useState(true);
@@ -31,11 +32,7 @@ export default function feed () {
   }
 
   return (<div>
-    {user ? <div style={{marginBottom: '-10px', textAlign: 'center'}}>
-        <span style={{padding: '5px'}}>Feed</span>
-        <Link href='profile' style={{padding: '5px'}}>Profile</Link>
-        <Link href='createPost' style={{padding: '5px'}}>Create Post</Link>
-        </div> : <div></div>}
+    {user ? <WaldHeader page='feed' /> : <div></div>}
     <FeedComponent />
     <WaldFooter />
   </div>)

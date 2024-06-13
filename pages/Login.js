@@ -3,10 +3,9 @@ import {auth} from '../firebase';
 import 'firebase/auth';
 import { signInWithEmailAndPassword, createUserWithEmailAndPassword } from 'firebase/auth';
 import FeedComponent from '../components/FeedComponent';
-import ProfileComponent from '../components/ProfileComponent';
-import CreatePostComponent from '../components/CreatePostComponent';
-import { set } from 'firebase/database';
 import Loading from '../components/loading';
+import { useRouter } from 'next/router';
+import WaldHeader from '../components/WaldHeader';
 
 function Login() {
   const [user, setUser] = useState(null);
@@ -18,12 +17,11 @@ function Login() {
   const [error2, setError2] = useState(null);
   const [view, setView] = useState('feed');
   const [loading, setLoading] = useState(true);
+  const router = useRouter();
 
   const handleViewChange = (newView) => {
     setView(newView);
   }
-
-  console.log("eeeeeeeeeeee", auth.app)
 
   const handleLogin = async (event) => {
     event.preventDefault();
@@ -31,6 +29,8 @@ function Login() {
       const userCredential = await signInWithEmailAndPassword(auth, email, password);
       console.log("usewrrrrrrrrrrrrrr", userCredential.user);
       setUser(userCredential.user);
+      router.push('/feed');
+
     } catch (error) {
       console.error(error);
       setError(error.message);
@@ -43,39 +43,12 @@ function Login() {
       const userCredential = await createUserWithEmailAndPassword(auth, email2, password2);
       console.log("usewrrrrrrrrrrrrrr2", userCredential.user);
       setUser(userCredential.user);
+      router.push('profile')
     } catch (error) {
       console.log(error);
       setError2(error.message);
     }
   };
-
-  // useEffect(() => {
-  //   // Initialize FirebaseUI
-  //   const uiConfig = {
-  //     signInSuccessWithAuthResult: (authResult, redirectUrl) => {
-  //       // User successfully signed in.
-  //       console.log("wrrrrrrrrrrrrrr", authResult.user);
-  //       // You can change the URL with window.history.pushState.
-  //       window.history.pushState({}, null, 'waldgrave.com/discover');
-  //       // Return type determines whether we continue the redirect automatically
-  //       // or whether we leave that to developer to handle.
-  //       return false;
-  //     },
-  //     signInOptions: [
-  //       // List the providers you want to offer your users.
-  //       firebase.auth.EmailAuthProvider.PROVIDER_ID,
-  //       firebase.auth.GoogleAuthProvider.PROVIDER_ID,
-  //       firebase.auth.FacebookAuthProvider.PROVIDER_ID,
-  //     ],
-  //   };
-  //   const ui = new firebaseui.auth.AuthUI(auth);
-  //   ui.start('#firebaseui-auth-container', uiConfig);
-
-  //   const unregisterAuthObserver = auth.onAuthStateChanged(user => {
-  //     setUser(user);
-  //   });
-  //   return () => unregisterAuthObserver(); // Make sure we un-register Firebase observers when the component unmounts.
-  // }, []);
 
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((user) => {
@@ -83,6 +56,7 @@ function Login() {
         // User is signed in
         setUser(user);
         setLoading(false);
+        router.push('/feed');
       } else {
         // User is signed out
         setUser(null);
@@ -96,20 +70,14 @@ function Login() {
 
     if (user) {
       return <div>
-
-        <button onClick={() => handleViewChange('feed')}>Feed</button>
-        <button onClick={() => handleViewChange('profile')}>Profile</button>
-        <button onClick={() => handleViewChange('createPost')}>Create Post</button>
-
+        <WaldHeader page='feed' />
         {view === 'feed' && <FeedComponent />}
-        {view === 'profile' && <ProfileComponent />}
-        {view === 'createPost' && <CreatePostComponent />}
       </div>;
     }
     if (loading) {
       return <Loading />
     }
- // need signup and a little styling, maybe session storage
+ // need signup and a little styling, maybe session storageff
   return (
     <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', height: '100vh'}}  >
       <h1>The Waldgrave</h1>

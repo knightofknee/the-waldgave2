@@ -10,7 +10,6 @@ import '../firebase.js';
 app.prepare().then(() => {
   const server = express()
 
-
   server.use((req, res, next) => {
     const hostname = 'waldgrave.com'
 

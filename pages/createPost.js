@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Loading from '../components/loading';
 import { auth } from '../firebase';
 import WaldFooter from "../components/WaldFooter";
+import WaldHeader from "../components/WaldHeader";
 
 export default function feed () {
   const [user, setUser] = useState(true);
@@ -30,11 +31,7 @@ export default function feed () {
   }
 
   return (<div>
-    {user ? <div style={{marginBottom: '-10px', textAlign: 'center'}}>
-        <Link href='feed' style={{padding: '5px'}}>Feed</Link>
-        <Link href='profile' style={{padding: '5px'}}>Profile</Link>
-        <span style={{padding: '5px'}}>Create Post</span>
-        </div> : <div></div>}
+    {user ? <WaldHeader page='createPost' /> : <div></div>}
     <CreatePostComponent />
     <WaldFooter />
   </div>)

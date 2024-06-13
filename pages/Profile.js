@@ -5,6 +5,7 @@ import { auth } from '../firebase'
 import router from 'next/router'
 import Loading from '../components/loading'
 import WaldFooter from '../components/WaldFooter'
+import WaldHeader from '../components/WaldHeader'
 
 export default function profile () {
 
@@ -22,7 +23,7 @@ export default function profile () {
         setLoading(false);
       } else {
         // User is signed out
-        router.push('/login');
+        router.push('/Login');
       }
     });
 
@@ -36,11 +37,7 @@ export default function profile () {
 
   return (
     <div>
-      {user ? <div style={{marginBottom: '-10px', textAlign: 'center'}}>
-        <Link href='feed' style={{padding: '5px'}}>Feed</Link>
-        <span style={{padding: '5px'}}>Profile</span>
-        <Link href='createPost' style={{padding: '5px'}}>Create Post</Link>
-        </div> : <div></div>}
+      {user ? <WaldHeader page='profile' /> : <div></div>}
 
 
       <ProfileComponent />
