@@ -29,7 +29,7 @@ function Login() {
       const userCredential = await signInWithEmailAndPassword(auth, email, password);
       console.log("usewrrrrrrrrrrrrrr", userCredential.user);
       setUser(userCredential.user);
-      router.push('/feed');
+      router.push('/Feed');
 
     } catch (error) {
       console.error(error);
@@ -41,9 +41,8 @@ function Login() {
     event.preventDefault();
     try {
       const userCredential = await createUserWithEmailAndPassword(auth, email2, password2);
-      console.log("usewrrrrrrrrrrrrrr2", userCredential.user);
       setUser(userCredential.user);
-      router.push('profile')
+      router.push('Profile')
     } catch (error) {
       console.log(error);
       setError2(error.message);
@@ -56,7 +55,7 @@ function Login() {
         // User is signed in
         setUser(user);
         setLoading(false);
-        router.push('/feed');
+        router.push('/Feed');
       } else {
         // User is signed out
         setUser(null);

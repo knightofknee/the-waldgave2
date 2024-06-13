@@ -18,7 +18,7 @@ export default function feed () {
         setLoading(false);
       } else {
         // User is signed out
-        router.push('/login');
+        router.push('/Login');
       }
     });
 
