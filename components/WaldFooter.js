@@ -13,11 +13,13 @@ export default function WaldFooter() {
         <a href="https://reddit.com/r/waldgrave" style={{ textDecoration: 'none', color: 'inherit' }}><span>Q and A forum</span></a>
 
       </div>
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
       <div className='logout' onClick={() => {
         // todo: log out with firebase
         auth.signOut()
-        router.push('Login')}}>
+        router.push('Login')}} style={{ width: '80%'}}>
         <span>Log Out</span>
+      </div>
       </div>
       <style jsx>{`
         footer {
@@ -41,6 +43,7 @@ export default function WaldFooter() {
           border: 1px solid white;
           border-radius: 5px;
           margin-bottom: 10px;
+          text-align: center;
         }
         footer > div > span {
           cursor: pointer;

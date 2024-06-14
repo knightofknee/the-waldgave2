@@ -1,11 +1,9 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import EntryView from './EntryView';
+import { auth, db } from '../firebase';
+import { getDocs, query, collection, where } from 'firebase/firestore';
 
 export default function ProfileComponent (props) {
-
-  const [test, setTest] = useState("");
-
-  const entries = [{title: "first post: example", link: "https://waldgrave.com", body: "the waldgrave grows", date: new Date(Date.parse("2024-05-11T22:00:00.000-05:00")), isUnread: true, id: "23weeeee", starred: false}, {title: "second post: wowoowwo", link: "https://waldgrave.com/Login", body: "the login goes", date: new Date(Date.parse("2024-05-11T22:01:00.000-05:00")), isUnread: false, id: "whatdoIDslooklike?", starred: true}];
 
   const initialFavorites = [
     {
@@ -30,20 +28,29 @@ export default function ProfileComponent (props) {
     }
 ];
 
-
-  const [theProfileEntryList, setTheProfileEntryList] = useState(entries)
-
+  const [theProfileEntryList, setTheProfileEntryList] = useState([])
   const [favorites, setFavorites] = useState(initialFavorites)
 
-  // todo get list of posts from db
+  const uid = auth.currentUser.uid;
 
-  // use session storage to grab the username, todo
+  useEffect(() => {
+    const fetchData = async () => {
+      const q = query(collection(db, 'Posts'), where('author', '==', uid));
+      const querySnapshot = await getDocs(q);
+      const data = querySnapshot.docs.map(doc => ({ ...doc.data(), id: doc.id }));
+      setTheProfileEntryList(data);
+    };
+
+    fetchData();
+  }, [uid]);
 
   // todo get list of favorites from db
 
-  // todo check if user is logged in
+  // todo check if user is logged in? security?
 
   // todo edit list of favorites
+
+  // todo edit past posts
 
   return (
     <div style={{display:'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
@@ -56,7 +63,7 @@ export default function ProfileComponent (props) {
           {theProfileEntryList.map(element => {
     return (
       <div key={element.id} style={{ border: '1px solid black', padding: '10px', margin: '10px' }}>
-        <EntryView entryID={element.id} link={element.link} title={element.title} body={element.body} isUnread={element.isUnread} />
+        <EntryView entryID={element.id} link={element.link} title={element.title} body={element.content} isUnread={element.isUnread} />
         <br/>
       </div>
     )

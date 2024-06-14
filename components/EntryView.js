@@ -27,13 +27,11 @@ export default function EntryView (props) {
     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
     <h2>{props.title}</h2>
     <a href={props.link}><span>{props.link}</span></a>
-    <div style={{ textAlign: 'left', width: '100%' }}>
       <p>{props.body}</p>
-    </div>
 
     {/* todo add login check here. like if it is your profile, this should not show. if you are not logged in, it should not show. 3 peeps, owner, visitor logged in/out. */}
-    {showEntry ? <button type="click" onClick={markAsRead()}>Mark as read</button>
-    : <button type="click" onClick={markAsRead(false)}>Mark as unread</button>}
+    {props.showMarkAsRead && (showEntry ? <button type="click" onClick={markAsRead()}>Mark as read</button>
+    : <button type="click" onClick={markAsRead(false)}>Mark as unread</button>)}
 
     {/* this can be added later <div>
       <label>Notes (autosave and private)</label>

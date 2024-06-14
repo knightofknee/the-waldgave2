@@ -7,6 +7,7 @@ export default function CreatePostComponent() {
 
   const [title, setTitle] = useState('');
   const [content, setContent] = useState('');
+  const [link, setLink] = useState('');
   const router = useRouter();
 
 
@@ -24,10 +25,13 @@ export default function CreatePostComponent() {
       content: content,
       author: user.uid,
       timestamp: Date.now(),
-      title: title
+      title: title,
+      link: link
     };
     try {
-      console.log('huh')
+
+      // todo, validate user's ability to post
+
       const docRef = await addDoc(collection(db, "Posts"), newPost);
       console.log("Document written with ID: ", docRef.id);
       if (docRef.id) {
@@ -44,6 +48,7 @@ export default function CreatePostComponent() {
       <p>You have used X of Y posts, you get another each week you are on the platform. This accomplishes a few things, it's equal opportunity social media. It is an effort to make social media useful without being addictive. Your posts are limited, your feed has an end. Please help this information tree bloom so that your best ideas can spread organically.</p>
       <form style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}} onSubmit={handleSubmit}>
         <input type="text" placeholder="Title" value={title} onChange={(e) => setTitle(e.target.value)} required style={{marginBottom: '10px'}}/>
+        <input type="text" placeholder="Link" value={link} onChange={(e) => setLink(e.target.value)} required style={{marginBottom: '10px'}}/>
         <textarea placeholder="Content" value={content} onChange={(e) => setContent(e.target.value)} required style={{marginBottom: '10px'}}/>
         <button type="submit">Submit</button>
       </form>
