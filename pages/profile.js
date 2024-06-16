@@ -36,7 +36,7 @@ export default function profile () {
   }
 
   return (
-    <div>
+    <div style={{marginBottom: '100px'}}>
       {user ? <WaldHeader page='profile' /> : <div></div>}
 
 

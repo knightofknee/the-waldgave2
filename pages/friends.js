@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import WaldHeader from '../components/WaldHeader';
 import WaldFooter from '../components/WaldFooter';
+import ProfileComponent from '../components/ProfileComponent';
 
 export default function Friends() {
   const [name, setName] = useState('');
@@ -26,11 +27,18 @@ export default function Friends() {
     // todo success message
   };
 
+  const [friendUserID, setFriendUserID] = useState(null);
+
+  const handleFriendClick = (event) => {
+    setFriendUserID(event.target.id);
+  }
+
   useEffect(() => {
     const friends = [] //aws firebase call, todo
     // if (friends) {
     //   setFriends(JSON.parse(friends));
     // }
+    setFriendUserID("");
   }, []);
 
   return (
@@ -48,14 +56,17 @@ export default function Friends() {
           <button type="submit">Add Friend</button>
         </form>
       </div>
-      <div>
+      {!friendUserID ? <div>
         <h2>My Friends</h2>
         <ul>
           {friends.map((friend, index) => (
-            <li key={index}>{friend}</li>
+            <li key={index} onClick={handleFriendClick} id={friend.id}>{friend.name}</li>
           ))}
+          {friends.length === 0 && <li onClick={handleFriendClick} id='weee' >Carl</li>}
         </ul>
-      </div>
+      </div> : <div>
+        <ProfileComponent user={friendUserID} />
+        </div>}
       </div>
       <WaldFooter />
     </div>
