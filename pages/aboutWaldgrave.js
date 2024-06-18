@@ -7,7 +7,7 @@ export default function aboutWaldgrave() {
       <p>Equal opportunity social media. A platform designed to minimize time on the platform. A feed that ends. The Waldgrave will never be an enshitified corporate wasteland because the Waldgrave is for humans. Learn from the best others have to offer, and share what you love. That's all, folks.</p>
 
       <br />
-      <p>dont</p>
+      {/* <p>dont</p>
       <p>look</p>
       <p>below</p>
       <p>unless</p>
@@ -25,7 +25,7 @@ export default function aboutWaldgrave() {
 they were the first social media platform to force all its users to use the app. they were cutting edge of fucking with peoples minds forcibly from day 1. by force i mean intentionally using design to mess with its users. Facebook might have helped topple democracy, but that's only a might. The harm Instagram has done particularly to young women has been clearly proven.
 <br />
 like getting rid of chronological search. an egregious civil rights violation in my opinion, and one that lets these companies force themselves into our feeds. On social media, the people we want to socialize with are outcompeted by the platform’s desire to get me hooked on whatever they can. HOW FUCKED IS THAT?
-      </p>
+      </p> */}
       <WaldFooter />
 
 
