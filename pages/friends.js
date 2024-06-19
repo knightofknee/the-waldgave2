@@ -4,7 +4,7 @@ import WaldFooter from '../components/WaldFooter';
 import ProfileComponent from '../components/ProfileComponent';
 import { auth, db } from '../firebase';
 import { doc, setDoc, arrayUnion, getDoc } from 'firebase/firestore';
-import { set } from 'firebase/database';
+import { onAuthStateChanged } from 'firebase/auth';
 
 export default function Friends() {
   const [name, setName] = useState('');
@@ -49,20 +49,20 @@ const [errorMessage2, setErrorMessage2] = useState('');
       if (!friendToBeAddedSnap.exists()) {
         setErrorMessage2('Friend not found');
         return;
-  }
-
-
-
-      await setDoc(friendRef, { friends: arrayUnion(name) }, { merge: true }); // Create or update the document
-
-      setFriends([...friends, name]);
-      setName('');
-
-      alert('Friend added! 🎉');
-    } catch (error) {
-      console.error("Error adding friend: ", error);
-      alert('Failed to add friend');
     }
+    const friendUid = friendToBeAddedSnap.id; // Get the uid of the friend
+    const friendData = { username: name, uid: friendUid };
+
+    await setDoc(friendRef, { friends: arrayUnion(friendData) }, { merge: true }); // Create or update the document
+
+    setFriends([...friends, name]);
+    setName('');
+
+    alert('Friend added! 🎉');
+  } catch (error) {
+    console.error("Error adding friend: ", error);
+    alert('Failed to add friend');
+  }
   };
 
   const [friendUserID, setFriendUserID] = useState(null);
@@ -72,11 +72,25 @@ const [errorMessage2, setErrorMessage2] = useState('');
   }
 
   useEffect(() => {
-    const friends = [] //aws firebase call, todo
-    // if (friends) {
-    //   setFriends(JSON.parse(friends));
-    // }
-    setFriendUserID("");
+    const unsubscribe = onAuthStateChanged(auth, (user) => {
+      if (user) {
+        const fetchFriends = async () => {
+          const userUid = user.uid;
+          const docRef = doc(db, 'Friends', userUid);
+          const docSnap = await getDoc(docRef);
+
+          console.log(docSnap.data());
+          if (docSnap.exists()) {
+            setFriends(docSnap.data().friends);
+          }
+        };
+
+        fetchFriends();
+      }
+    });
+
+    // Cleanup function
+    return () => unsubscribe();
   }, []);
 
   return (
@@ -112,12 +126,12 @@ const [errorMessage2, setErrorMessage2] = useState('');
         <h2>My Friends</h2>
         <ul>
           {friends.map((friend, index) => (
-            <li key={index} onClick={handleFriendClick} id={friend}>{friend}</li>
+            <li key={index} onClick={handleFriendClick} id={friend.uid}>{friend.username}</li>
           ))}
           {friends.length === 0 && <li onClick={handleFriendClick} id='weee' >Carl</li>}
         </ul>
       </div> : <div>
-        <ProfileComponent user={friendUserID} />
+        <ProfileComponent userID={friendUserID} />
         </div>}
       </div>
       <WaldFooter />

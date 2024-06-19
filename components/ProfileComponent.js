@@ -10,31 +10,31 @@ export default function ProfileComponent (props) {
   const initialFavorites = [
     {
         name: 'Books',
-        entries: ["The Lord of the Rings", "Diamond Age", "1984", "To Kill a Mockingbird"]
+        entries: ["The Lord of the Rings", "Diamond Age", "1984", ""]
     },
     {
         name: 'Movies',
-        entries: ["Inception", "The Matrix", "The Shawshank Redemption", "Pulp Fiction"]
+        entries: [""]
     },
     {
         name: 'Music',
-        entries: ["Bohemian Rhapsody", "Hotel California", "Imagine", "Hey Jude"]
+        entries: [""]
     },
     {
         name: 'TV Shows',
-        entries: ["Breaking Bad", "Game of Thrones", "The Office", "Stranger Things"]
+        entries: [""]
     },
 ];
 
   const [theProfileEntryList, setTheProfileEntryList] = useState([])
   const [favorites, setFavorites] = useState([])
   const [demo, setDemo] = useState(false)
+  const [username, setUsername] = useState('')
   const router = useRouter();
 
 
   useEffect(() => {
-    console.log('props', props.user);
-    const uid = props.user ?? auth.currentUser?.uid;
+    const uid = props.userID
 
     if (!uid) {
       router.push('/Login')
@@ -48,11 +48,21 @@ export default function ProfileComponent (props) {
       setTheProfileEntryList(data);
     };
 
+    const fetchData2 = async () => {
+      const profileDocRef = doc(db, 'Profiles', uid);
+      const profileDocSnap = await getDoc(profileDocRef);
+
+      if (profileDocSnap.exists()) {
+        setUsername(profileDocSnap.data().username);
+      }
+    }
+
     fetchData();
+    fetchData2();
   }, []);
 
   useEffect(() => {
-    const uid = props.user ?? auth.currentUser?.uid;
+    const uid = props.userID
 
     if (!uid) {
       return;
@@ -63,7 +73,7 @@ export default function ProfileComponent (props) {
       const docSnap = await getDoc(docRef);
 
       if (docSnap.exists()) {
-        setFavorites(docSnap.data().lists); // assuming the field is named 'lists'
+        setFavorites(docSnap.data().lists);
       } else {
         setDemo(true)
         setFavorites(initialFavorites)
@@ -71,7 +81,7 @@ export default function ProfileComponent (props) {
     };
 
     fetchFavorites();
-  }, [props.user]); // Only run this effect when props.user changes
+  }, [props.userID]); // Only run this effect when props.user changes
 
   // todo get list of favorites from db
 
@@ -81,12 +91,10 @@ export default function ProfileComponent (props) {
 
   // todo edit past posts
 
-  // todo if you want to be public, you set a name and then we use that as the slug for profiles/slug. otherwise you can only see friends profiles within the friends component? that way we dont need to expose an endpoint for private users?
-
   return (
     <div style={{display:'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', overflow: 'auto'}}>
       <h1>Profile</h1>
-      <span>Name: {props.username}</span>
+      <span>Name: {username}</span>
 
       <div>
         <div style={{display:'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
@@ -102,7 +110,8 @@ export default function ProfileComponent (props) {
         </div>
         <div style={{display:'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
           <h3>Most Recommend</h3>
-          {demo && <p>These are demo favorites. You can edit them in your profile. These will be used in the future to help you find new content or someone to discuss with.</p>/* todo */}
+          {demo && <p className='IntroP'>
+      Here you can share your favorite things through lists. The default includes some basics so that you can compare to your friends' lists and easily find new media or shared interests. You can also add your own lists to share what you love.</p>}
           {favorites.map(element => {
   return (
     <div key={element.name} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
@@ -117,6 +126,17 @@ export default function ProfileComponent (props) {
 })}
         </div>
       </div>
+      <style jsx>{`
+        .IntroP {
+          width: 80%;
+          margin: 10px;
+        }
+        @media (min-width: 768px) {
+          .IntroP {
+            width: 50%;
+          }
+        }
+      `}</style>
     </div>
   )
 }

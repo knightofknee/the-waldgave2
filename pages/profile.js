@@ -37,10 +37,8 @@ export default function profile () {
 
   return (
     <div style={{marginBottom: '100px'}}>
-      {user ? <WaldHeader page='profile' /> : <div></div>}
-
-
-      <ProfileComponent />
+      <WaldHeader page='profile' />
+      <ProfileComponent userID={auth.currentUser.uid}/>
       <WaldFooter />
     </div>
   )
