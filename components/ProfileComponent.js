@@ -4,6 +4,7 @@ import { auth, db } from '../firebase';
 import { getDocs, query, collection, where, doc, getDoc} from 'firebase/firestore';
 import { useRouter } from 'next/router';
 import Loading from './loading';
+import AddNameComponent from './AddNameComponent';
 
 export default function ProfileComponent (props) {
 
@@ -94,7 +95,7 @@ export default function ProfileComponent (props) {
   return (
     <div style={{display:'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', overflow: 'auto'}}>
       <h1>Profile</h1>
-      <span>Name: {username}</span>
+      {username ? <span>Name: {username}</span> : <AddNameComponent />}
 
       <div>
         <div style={{display:'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>

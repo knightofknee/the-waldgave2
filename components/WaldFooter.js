@@ -8,10 +8,9 @@ export default function WaldFooter() {
   return (
     <footer>
       <div>
-        <Link href="/" style={{ textDecoration: 'none', color: 'inherit' }}><span>Waldgrave</span></Link>
-        <Link href="/aboutWaldgrave" style={{ textDecoration: 'none', color: 'inherit' }}><span>Philosophy of the platform</span></Link>
-        <a href="https://reddit.com/r/waldgrave" style={{ textDecoration: 'none', color: 'inherit' }}><span>Q and A forum</span></a>
-
+        <Link href="/" passHref><span className='footer-link'>Waldgrave</span></Link>
+        <Link href="/aboutWaldgrave" passHref><span className='footer-link'>Philosophy of the platform</span></Link>
+        <a href="https://reddit.com/r/waldgrave" className='footer-link'><span>Q and A forum</span></a>
       </div>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
       <div className='logout' onClick={() => {
@@ -37,8 +36,18 @@ export default function WaldFooter() {
           display: flex;
           justify-content: space-between;
           width: 90%;
-          flex-wrap: wrap;
         }
+
+        .footer-link {
+        text-decoration: none;
+        color: white;
+        border: 1px solid white;
+        border-radius: 2px;
+        padding: 5px;
+        display: inline-block;
+        margin: 5px;
+        }
+
         .logout {
           border: 1px solid white;
           border-radius: 5px;

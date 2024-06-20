@@ -5,6 +5,7 @@ import ProfileComponent from '../components/ProfileComponent';
 import { auth, db } from '../firebase';
 import { doc, setDoc, arrayUnion, getDoc } from 'firebase/firestore';
 import { onAuthStateChanged } from 'firebase/auth';
+import AddNameComponent from '../components/AddNameComponent';
 
 export default function Friends() {
   const [name, setName] = useState('');
@@ -98,19 +99,7 @@ const [errorMessage2, setErrorMessage2] = useState('');
       <WaldHeader page='friends' />
       <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
       <h1>Friends</h1>
-      <span>{username}</span>
-      {username && (
-      <form onSubmit={handleNewNameSubmit}>
-        <input
-          type="text"
-          value={usernameInput}
-          onChange={(event) => setUsernameInput(event.target.value)}
-          required
-        />
-        <button type="submit">Add Username</button>
-      </form>
-    )}
-    {errorMessage && <p>{errorMessage}</p>}
+      <AddNameComponent />
       <div>
         <h2>Add a Friend</h2>
         <form onSubmit={handleFormSubmit}>
