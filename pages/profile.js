@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react'
 import ProfileComponent from '../components/ProfileComponent'
-import Link from 'next/link'
 import { auth } from '../firebase'
 import router from 'next/router'
 import Loading from '../components/loading'
