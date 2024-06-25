@@ -1,5 +1,6 @@
 import App from 'next/app'
 import Router from 'next/router'
+import { UserProvider } from '../components/UserContext'
 
 class MyApp extends App {
   componentDidMount() {
@@ -23,7 +24,8 @@ class MyApp extends App {
   render() {
     const { Component, pageProps } = this.props
 
-    return <Component {...pageProps} />
+    return <div>
+      <UserProvider><Component {...pageProps} /></UserProvider></div>
   }
 }
 

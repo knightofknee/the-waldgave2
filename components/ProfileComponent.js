@@ -5,6 +5,8 @@ import { getDocs, query, collection, where, doc, getDoc} from 'firebase/firestor
 import { useRouter } from 'next/router';
 import Loading from './loading';
 import AddNameComponent from './AddNameComponent';
+import { set } from 'firebase/database';
+import { useUser } from './UserContext';
 
 export default function ProfileComponent (props) {
 
@@ -30,7 +32,8 @@ export default function ProfileComponent (props) {
   const [theProfileEntryList, setTheProfileEntryList] = useState([])
   const [favorites, setFavorites] = useState([])
   const [demo, setDemo] = useState(false)
-  const [username, setUsername] = useState('')
+  const [username, setUsername] = useState(useUser().username)
+  const [loading, setLoading] = useState(true)
   const router = useRouter();
 
 
@@ -43,10 +46,17 @@ export default function ProfileComponent (props) {
     }
 
     const fetchData = async () => {
+      setLoading(true)
       const q = query(collection(db, 'Posts'), where('author', '==', uid));
       const querySnapshot = await getDocs(q);
       const data = querySnapshot.docs.map(doc => ({ ...doc.data(), id: doc.id }));
-      setTheProfileEntryList(data);
+
+      if (data.length == 0) {
+        console.log(theProfileEntryList.length)
+        setTheProfileEntryList([])
+      }
+      else setTheProfileEntryList(data);
+      setLoading(false)
     };
 
     const fetchData2 = async () => {
@@ -99,7 +109,7 @@ export default function ProfileComponent (props) {
 
       <div>
         <div style={{display:'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
-          {theProfileEntryList.length == 0 && <Loading />}
+          {loading ?  <Loading /> : ""}
           {theProfileEntryList.map(element => {
     return (
       <div key={element.id} style={{ border: '1px solid black', padding: '10px', margin: '10px' }}>
