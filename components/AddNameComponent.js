@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import { doc, getDocs, setDoc, getDoc } from 'firebase/firestore';
 import { db, auth } from '../firebase';
 import { collection, query, where } from 'firebase/firestore';
-import { set } from 'firebase/database';
 import { useUser } from './UserContext';
 
 export default function AddNameComponent() {
@@ -19,11 +18,16 @@ export default function AddNameComponent() {
     if (!querySnapshot.empty) {
       setError('Username is already taken');
     } else {
-      await setDoc(doc(db, 'Profiles', auth.currentUser.uid), { username: username });
+
+      await setDoc(doc(db, 'Profiles', auth.currentUser.uid), {
+        username: username,
+        usernameLower: username.toLowerCase()
+      });
+
       setUsername('');
       setError('');
       setIsSubmitted(true);
-      userUser().setUsername(username);
+      useUser().setUsername(username);
     }
   };
 

@@ -40,21 +40,21 @@ const [errorMessage2, setErrorMessage2] = useState('');
     event.preventDefault();
 
     const userUid = auth.currentUser.uid;
-    const friendRef = doc(db, 'Friends', userUid);
+    const friendsListRef = doc(db, 'Friends', userUid);
 
     try {
 
-      const friendToBeAddedRef = doc(db, 'Friends', name);
-      const friendToBeAddedSnap = await getDoc(friendToBeAddedRef);
+      const friendToBeAddedRef = doc(db, 'Profiles', name);
+      const friendToBeAddedSnap = await getDoc(query(friendToBeAddedRef, where('username', '==', name)));
 
       if (!friendToBeAddedSnap.exists()) {
         setErrorMessage2('Friend not found');
         return;
     }
-    const friendUid = friendToBeAddedSnap.id; // Get the uid of the friend
+    const friendUid = friendToBeAddedSnap.id;
     const friendData = { username: name, uid: friendUid };
 
-    await setDoc(friendRef, { friends: arrayUnion(friendData) }, { merge: true }); // Create or update the document
+    await setDoc(friendsListRef, { friends: arrayUnion(friendData) }, { merge: true }); // Create or update the document
 
     setFriends([...friends, name]);
     setName('');
@@ -90,7 +90,6 @@ const [errorMessage2, setErrorMessage2] = useState('');
       }
     });
 
-    // Cleanup function
     return () => unsubscribe();
   }, []);
 

@@ -41,11 +41,9 @@ export default function FeedComponent () {
 
       if (includePublic) {
         try {
-          console.log("Fetching public posts...");
           const publicPostsQuery = query(collection(db, 'Posts'), where('public', '==', true));
           const publicPostsSnapshot = await getDocs(publicPostsQuery);
           publicPosts = publicPostsSnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
-          console.log("Fetched public posts:", publicPosts);
         } catch (error) {
           console.error("Error fetching public posts:", error);
         }

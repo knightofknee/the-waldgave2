@@ -15,19 +15,13 @@ function Login() {
   const [password2, setPassword2] = useState('');
   const [error, setError] = useState(null);
   const [error2, setError2] = useState(null);
-  const [view, setView] = useState('feed');
   const [loading, setLoading] = useState(true);
   const router = useRouter();
-
-  const handleViewChange = (newView) => {
-    setView(newView);
-  }
 
   const handleLogin = async (event) => {
     event.preventDefault();
     try {
       const userCredential = await signInWithEmailAndPassword(auth, email, password);
-      console.log("usewrrrrrrrrrrrrrr", userCredential.user);
       setUser(userCredential.user);
       router.push('/feed');
 
@@ -70,7 +64,7 @@ function Login() {
     if (user) {
       return <div>
         <WaldHeader page='feed' />
-        {view === 'feed' && <FeedComponent />}
+        {<FeedComponent />}
       </div>;
     }
     if (loading) {

@@ -5,7 +5,6 @@ import { getDocs, query, collection, where, doc, getDoc} from 'firebase/firestor
 import { useRouter } from 'next/router';
 import Loading from './loading';
 import AddNameComponent from './AddNameComponent';
-import { set } from 'firebase/database';
 import { useUser } from './UserContext';
 
 export default function ProfileComponent (props) {
@@ -52,7 +51,6 @@ export default function ProfileComponent (props) {
       const data = querySnapshot.docs.map(doc => ({ ...doc.data(), id: doc.id }));
 
       if (data.length == 0) {
-        console.log(theProfileEntryList.length)
         setTheProfileEntryList([])
       }
       else setTheProfileEntryList(data);
