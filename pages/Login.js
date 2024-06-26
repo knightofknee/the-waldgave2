@@ -90,6 +90,8 @@ function Login() {
         <input type="password" placeholder="Password" value={password2} onChange={(e) => setPassword2(e.target.value)} required />
         <button type="submit">Sign up</button>
       </form>
+      <h3>What is this?</h3>
+      <p>Minimalist social media. The goal is to enable the sharing of what you love while limiting all the bullshit.</p>
     </div>
   );
 }
