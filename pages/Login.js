@@ -91,7 +91,7 @@ function Login() {
         <button type="submit">Sign up</button>
       </form>
       <h3>What is this?</h3>
-      <p>Minimalist social media. The goal is to enable the sharing of what you love while limiting all the bullshit.</p>
+      <p>Minimalist social media. The goal is to enable the sharing of what you love without all of the extra bullshit. Posts are limited to 2 in the past week. Your profile lets you share more (feature in progress), but updates there will not make it into the feed. The feed encourages you to be intentional and to highlight what you think is most important. The profile is there to help you share all of your favorite things in one place.</p>
     </div>
   );
 }
