@@ -92,7 +92,7 @@ const [errorMessage2, setErrorMessage2] = useState('');
 
     return () => unsubscribe();
   }, []);
-
+// show friends as clickable items. and fix how they look so you know who's profile it is. todo
   return (
     <div>
       <WaldHeader page='friends' />

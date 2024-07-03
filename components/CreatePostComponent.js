@@ -9,7 +9,17 @@ export default function CreatePostComponent() {
   const [title, setTitle] = useState('');
   const [content, setContent] = useState('');
   const [link, setLink] = useState('');
+  const [wordCount, setWordCount] = useState(0);
+  const [isCharLimitExceeded, setIsCharLimitExceeded] = useState(false);
   const router = useRouter();
+
+  const updateContent = (newContent) => {
+    const words = newContent.trim().split(/\s+/);
+    const charCount = newContent.length;
+    setWordCount(words.length);
+    setContent(newContent);
+    setIsCharLimitExceeded(charCount > 10000); // 2000 words * 5 characters per word
+  };
 
   function formatTimeUntilNextPost(date) {
     const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
@@ -33,6 +43,11 @@ export default function CreatePostComponent() {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
+
+    if (wordCount > 1000) {
+      alert('Character limit exceeded! Please limit your post to 1000 words.');
+      return;
+    }
 
     const user = auth.currentUser;
     const newPost = {
@@ -78,9 +93,21 @@ export default function CreatePostComponent() {
       <form style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}} onSubmit={handleSubmit}>
         <input type="text" placeholder="Title" value={title} onChange={(e) => setTitle(e.target.value)} required style={{marginBottom: '10px'}}/>
         <input type="text" placeholder="Link" value={link} onChange={(e) => setLink(e.target.value)} required style={{marginBottom: '10px'}}/>
-        <textarea placeholder="Content" value={content} onChange={(e) => setContent(e.target.value)} required style={{marginBottom: '10px'}}/>
+        <textarea rows={20} cols={80} placeholder="Content" value={content} onChange={(e) => updateContent(e.target.value)} required style={{marginBottom: '10px'}}/>
+        <div>{wordCount}/1000 {isCharLimitExceeded && <span style={{color: 'red'}}>Character limit exceeded!</span>}</div>
         <button type="submit">Submit</button>
       </form>
+
+      <style jsx>{`
+        textarea {
+          max-width: 80%;
+        }
+          @media (max-width: 550px) {
+            textarea {
+              max-width: 55%;
+            }
+          }
+      `}</style>
     </div>
   );
 }
