@@ -2,11 +2,11 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { auth } from '../firebase'
 
-export default function WaldFooter() {
+export default function WaldFooter(props) {
   const router = useRouter()
 
   return (
-    <footer style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+    <footer >
       <div>
         <Link href="/" passHref><span style={{paddingTop: '8px', paddingBottom: '0'}}  className='footer-link'>Waldgrave</span></Link>
         <Link href="/aboutWaldgrave" passHref><span className='footer-link'>Philosophy of the platform</span></Link>
@@ -44,7 +44,6 @@ export default function WaldFooter() {
           width: 100%;
           box-sizing: border-box;
           max-height: 100px;
-          margin: 0 auto;
           max-width: 500px;
           left: 50%;
           transform: translateX(-50%);
@@ -113,6 +112,17 @@ export default function WaldFooter() {
     border-right: 1px solid #FFFFFF;
   }
 }
+
+@media (max-height: 660px) {
+    ${props.cssname == 'createPost' ? `
+      footer {
+        position: relative !important;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+      }
+    ` : ''}
+  }
 
       `}</style>
     </footer>

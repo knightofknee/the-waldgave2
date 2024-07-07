@@ -49,7 +49,7 @@ function Login() {
         // User is signed in
         setUser(user);
         setLoading(false);
-        router.push('/feed');
+        router.replace('/feed');
       } else {
         // User is signed out
         setUser(null);

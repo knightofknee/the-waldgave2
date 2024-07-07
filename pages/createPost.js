@@ -30,9 +30,9 @@ export default function feed () {
     return <Loading />
   }
 
-  return (<div>
+  return (<div style={{ marginBottom: '100px' }}>
     {user ? <WaldHeader page='createPost' /> : <div></div>}
     <CreatePostComponent />
-    <WaldFooter />
+    <WaldFooter cssname={"createPost"}/>
   </div>)
 }
