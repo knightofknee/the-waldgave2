@@ -24,7 +24,7 @@ class MyApp extends App {
   render() {
     const { Component, pageProps } = this.props
 
-    return <div>
+    return <div className='main-content'>
       <UserProvider><Component {...pageProps} /></UserProvider></div>
   }
 }

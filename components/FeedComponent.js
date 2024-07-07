@@ -52,6 +52,12 @@ export default function FeedComponent () {
       const allPosts = [...friendsPosts, ...publicPosts];
       const uniquePosts = Array.from(new Map(allPosts.map(post => [post.id, post])).values());
 
+      if (uniquePosts.length > 0) {
+        const footer = document.querySelector('footer');
+        footer.style.position = 'relative';
+        footer.style.bottom = 'initial';
+      }
+
       setTheList(uniquePosts);
     };
 

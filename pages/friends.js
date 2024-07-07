@@ -70,7 +70,23 @@ const [errorMessage2, setErrorMessage2] = useState('');
 
   const handleFriendClick = (event) => {
     setFriendUserID(event.target.id);
+
+    const friendName = event.target.innerText;
+    window.location.hash = `#${friendName}`
   }
+
+  useEffect(() => {
+    const handleHashChange = () => {
+      const friendName = window.location.hash.replace('#', '');
+      setFriendUserID(friendName)
+    };
+
+    // Add hash change listener
+    window.addEventListener('hashchange', handleHashChange);
+
+    // Remove listener on component unmount
+    return () => window.removeEventListener('hashchange', handleHashChange);
+  }, []);
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (user) => {
@@ -119,7 +135,7 @@ const [errorMessage2, setErrorMessage2] = useState('');
           {friends.length === 0 && <li onClick={handleFriendClick} id='weee' >Carl</li>}
         </ul>
       </div> : <div>
-        <ProfileComponent userID={friendUserID} />
+        <ProfileComponent userID={friendUserID} userType='friend' />
         </div>}
       </div>
       <WaldFooter />

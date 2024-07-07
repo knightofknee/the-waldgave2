@@ -35,10 +35,10 @@ export default function profile () {
   }
 
   return (
-    <div style={{marginBottom: '100px'}}>
+    <div>
       <WaldHeader page='profile' />
       <ProfileComponent userID={auth.currentUser.uid}/>
-      <WaldFooter />
+      <WaldFooter cssname='profile' />
     </div>
   )
 }

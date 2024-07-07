@@ -21,16 +21,6 @@ export default function WaldFooter(props) {
       </div>
       </div>
       <style jsx>{`
-        footer::before {
-          content: '';
-          display: block;
-          height: 1px; /* Adjust the height to control the thickness of the bar */
-          background-color: #FFFFFF; /* This sets the color of the bar */
-          width: 100%; /* This makes the bar span the entire width of the footer */
-          position: absolute;
-          top: 0;
-          left: 0;
-        }
 
         footer {
           background-color: rgb(220, 170, 210);
@@ -39,12 +29,12 @@ export default function WaldFooter(props) {
           flex-direction: column;
           align-items: center;
           justify-content: space-between;
-          position: fixed;
           bottom: 0;
           width: 100%;
           box-sizing: border-box;
           max-height: 100px;
           max-width: 500px;
+          position: ${props.cssname == 'profile' ? 'relative' : 'fixed'};
           left: 50%;
           transform: translateX(-50%);
         }
@@ -116,7 +106,6 @@ export default function WaldFooter(props) {
 @media (max-height: 660px) {
     ${props.cssname == 'createPost' ? `
       footer {
-        position: relative !important;
         left: 50%;
         transform: translateX(-50%);
         width: 100%;
