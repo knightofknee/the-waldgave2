@@ -68,3 +68,26 @@ a {
   display: flex;
   align-items: center;
 }
+
+/* Base styles */
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Fix for elements that might be causing overflow */
+img, .hello {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  #app {
+    padding: 10px;
+  }
+}

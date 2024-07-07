@@ -12,7 +12,10 @@ export default function Home() {
   <div>
     <div className="hello">
       <h1 style={{zIndex:2}}>The Waldgrave Welcomes You</h1>
-      <div style={{margin: '-2em 0'}}><img className="bigw" src="/transparentw.png"/>
+      <div className='smackThat'>
+      <Link href="/Login" style={{margin: '30px'}}><span>This way to responsible social media</span>
+      <div style={{ display: 'block', margin: '0 auto' }}><img className="bigw" src="thew1.png" style={{ maxWidth: '100%', display: 'block', margin: '0 auto' }}/>
+      </div></Link>
       </div>
 
       <h2>Core Values</h2>
@@ -215,6 +218,21 @@ export default function Home() {
           display: inline-block;
           margin: 7px 1.5%;
         }
+
+        .smackThat {
+  border: 2px solid transparent;
+  box-shadow: 0 0 10px transparent;
+  position: relative;
+  text-align: center;
+  font-family: 'Comic Sans MS', 'Chalkboard SE', sans-serif;
+}
+
+        .smackThat:hover {
+          background-color: #f8d8e8;
+  border: 2px solid #f7b8c8;
+  box-shadow: 0 0 10px #f7b8c8;
+        }
+
       `}</style>
 {/*
       <style jsx global>

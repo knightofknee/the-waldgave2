@@ -50,12 +50,16 @@ export default function CreatePostComponent() {
     }
 
     const user = auth.currentUser;
+    const tags = content.match(/#\w+/g) || [];
+    const slicedTags = tags.map(tag => tag.slice(0, 50));
+
     const newPost = {
       content: content,
       author: user.uid,
       timestamp: Date.now(),
       title: title,
-      link: link
+      link: link,
+      tags: slicedTags
     };
     try {
 
