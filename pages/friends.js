@@ -67,11 +67,19 @@ const [errorMessage2, setErrorMessage2] = useState('');
   };
 
   const [friendUserID, setFriendUserID] = useState(null);
+  const [friendUsername, setFriendUsername] = useState(null);
+
+  const resetFriend = () => {
+    setFriendUserID(null);
+    setFriendUsername(null);
+    window.location.hash = ``
+  }
 
   const handleFriendClick = (event) => {
     setFriendUserID(event.target.id);
-
     const friendName = event.target.innerText;
+    setFriendUsername(friendName);
+
     window.location.hash = `#${friendName}`
   }
 
@@ -135,7 +143,7 @@ const [errorMessage2, setErrorMessage2] = useState('');
           {friends.length === 0 && <li onClick={handleFriendClick} id='weee' >Carl</li>}
         </ul>
       </div> : <div>
-        <ProfileComponent userID={friendUserID} userType='friend' />
+        <ProfileComponent resetFriend={resetFriend} userID={friendUserID} username={friendUsername} userType='friend' />
         </div>}
       </div>
       <WaldFooter />

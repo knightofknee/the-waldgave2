@@ -7,7 +7,7 @@ import Loading from './loading';
 import AddNameComponent from './AddNameComponent';
 import { useUser } from './UserContext';
 
-export default function ProfileComponent (props) {
+export default function ProfileComponent ({ resetFriend, ...props}) {
 
   const initialFavorites = [
     {
@@ -31,7 +31,7 @@ export default function ProfileComponent (props) {
   const [theProfileEntryList, setTheProfileEntryList] = useState([])
   const [favorites, setFavorites] = useState([])
   const [demo, setDemo] = useState(false)
-  const [username, setUsername] = useState(useUser().username)
+  const [username, setUsername] = useState(props.username ?? useUser().username)
   const [loading, setLoading] = useState(true)
   const router = useRouter();
 
@@ -102,11 +102,13 @@ export default function ProfileComponent (props) {
 
   return (
     <div style={{display:'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', overflow: 'auto'}}>
-      <h1>Profile</h1>
-      {username ? <span>Name: {username}</span> : <AddNameComponent />}
+      <div onClick={resetFriend} className='centeryo'>
+      <span style={{marginTop:'10px'}}>(back)</span>
+      </div>
+      {username ? <h4 onClick={resetFriend}>{username}'s profile</h4> : <AddNameComponent />}
 
       <div>
-        <div style={{display:'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
+        <div className='centeryo'>
           {loading ?  <Loading /> : ""}
           {theProfileEntryList.map(element => {
     return (
@@ -145,6 +147,12 @@ export default function ProfileComponent (props) {
             width: 50%;
           }
         }
+
+        .centeryo {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;}
       `}</style>
     </div>
   )
