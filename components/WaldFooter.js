@@ -34,7 +34,7 @@ export default function WaldFooter(props) {
           box-sizing: border-box;
           max-height: 100px;
           max-width: 500px;
-          position: ${props.cssname == 'profile' ? 'relative' : 'fixed'};
+          position: ${props.cssname == 'profile' || props.cssname =='createPost' ? 'relative' : 'fixed'};
           left: 50%;
           transform: translateX(-50%);
         }

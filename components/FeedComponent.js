@@ -109,6 +109,7 @@ export default function FeedComponent () {
 
     <h1>Feed</h1>
 
+  {/* todo make it so that the buttons look like they have been pressed, arrows up/down or somthin */}
   <div>
     <span onClick={sortByDate} style={{ border: '1px solid black', padding: '10px', margin: '5px' }}>Date</span>
     <span onClick={showUnread} style={{ border: '1px solid black', padding: '10px', margin: '5px' }}>Unread</span>
@@ -117,6 +118,9 @@ export default function FeedComponent () {
           {includePublic ? "Hide Public" : "Show Public"}
         </span>
   </div>
-    {displayList}
+    {displayList.length > 0 && <div style={{minHeight: '400px'}}>{displayList}</div>}
+    {displayList.length == 0 && <p style={{height: '400px', margin: 0, display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center'}}>No posts to show</p>}
   </div>)
 }

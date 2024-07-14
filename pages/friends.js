@@ -146,7 +146,7 @@ const [errorMessage2, setErrorMessage2] = useState('');
         <ProfileComponent resetFriend={resetFriend} userID={friendUserID} username={friendUsername} userType='friend' />
         </div>}
       </div>
-      <WaldFooter />
+      <WaldFooter cssname='createPost'/>
     </div>
   );
 }

@@ -103,7 +103,7 @@ export default function ProfileComponent ({ resetFriend, ...props}) {
   return (
     <div style={{display:'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', overflow: 'auto'}}>
       <div onClick={resetFriend} className='centeryo'>
-      <span style={{marginTop:'10px'}}>(back)</span>
+      {props.cssname == 'friends' && <span style={{marginTop:'10px'}}>(back)</span>}
       </div>
       {username ? <h4 onClick={resetFriend}>{username}'s profile</h4> : <AddNameComponent />}
 
@@ -119,7 +119,7 @@ export default function ProfileComponent ({ resetFriend, ...props}) {
     )
   })}
         </div>
-        <div style={{display:'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
+        <div style={{display:'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', marginBottom: '50px'}}>
           <h3>Most Recommend</h3>
           {demo && <p className='IntroP'>
       Here you can share your favorite things through lists. The default includes some basics so that you can compare to your friends' lists and easily find new media or shared interests. You can also add your own lists to share what you love.</p>}
