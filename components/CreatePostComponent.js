@@ -40,6 +40,14 @@ export default function CreatePostComponent() {
     return `${dayOfWeek} ${timeOfDay}`;
   }
 
+  function adjustTextareaHeight(e) {
+    const textarea = e.target;
+    textarea.rows = 1;
+    // Calculate the required rows based on scrollHeight. You might need to adjust the divisor (24 here) based on your line-height
+    const requiredRows = Math.ceil(textarea.scrollHeight / 15);
+    textarea.rows = requiredRows < 20 ? 20 : requiredRows;
+  }
+
 
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -97,7 +105,7 @@ export default function CreatePostComponent() {
       <form style={{display: 'flex', flexDirection: 'column', alignItems: 'center', marginBottom: '50px'}} onSubmit={handleSubmit}>
         <input required type="text" placeholder="Title" value={title} onChange={(e) => setTitle(e.target.value)} style={{marginBottom: '10px'}}/>
         <input required type="text" placeholder="Link" value={link} onChange={(e) => setLink(e.target.value)} style={{marginBottom: '10px'}}/>
-        <textarea required rows={20} cols={80} placeholder="Content" value={content} onChange={(e) => updateContent(e.target.value)} style={{marginBottom: '10px'}}/>
+        <textarea required rows={20} cols={80} placeholder="Content" value={content} onChange={(e) => updateContent(e.target.value)} style={{marginBottom: '10px'}} onInput={adjustTextareaHeight}/>
         <div>{wordCount}/1000 {isCharLimitExceeded && <span style={{color: 'red'}}>Character limit exceeded!</span>}</div>
         <button type="submit">Submit</button>
       </form>
