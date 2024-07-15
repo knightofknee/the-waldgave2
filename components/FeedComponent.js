@@ -58,7 +58,7 @@ export default function FeedComponent () {
         footer.style.bottom = 'initial';
       }
 
-      setTheList(uniquePosts);
+      setTheList(uniquePosts.sort((a, b) => b.timestamp - a.timestamp));
     };
 
     dataFetch();

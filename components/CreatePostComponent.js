@@ -93,11 +93,11 @@ export default function CreatePostComponent() {
   return (
     <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
       <h1>Create Post</h1>
-      <p>You are limited to 2 posts in the past week. This limit will be eased if you post less frequently.</p>
+      <p>You are limited to 2 posts in the past week</p>
       <form style={{display: 'flex', flexDirection: 'column', alignItems: 'center', marginBottom: '50px'}} onSubmit={handleSubmit}>
-        <input type="text" placeholder="Title" value={title} onChange={(e) => setTitle(e.target.value)} required style={{marginBottom: '10px'}}/>
-        <input type="text" placeholder="Link" value={link} onChange={(e) => setLink(e.target.value)} required style={{marginBottom: '10px'}}/>
-        <textarea rows={20} cols={80} placeholder="Content" value={content} onChange={(e) => updateContent(e.target.value)} required style={{marginBottom: '10px'}}/>
+        <input required type="text" placeholder="Title" value={title} onChange={(e) => setTitle(e.target.value)} style={{marginBottom: '10px'}}/>
+        <input required type="text" placeholder="Link" value={link} onChange={(e) => setLink(e.target.value)} style={{marginBottom: '10px'}}/>
+        <textarea required rows={20} cols={80} placeholder="Content" value={content} onChange={(e) => updateContent(e.target.value)} style={{marginBottom: '10px'}}/>
         <div>{wordCount}/1000 {isCharLimitExceeded && <span style={{color: 'red'}}>Character limit exceeded!</span>}</div>
         <button type="submit">Submit</button>
       </form>

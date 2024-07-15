@@ -53,7 +53,7 @@ export default function ProfileComponent ({ resetFriend, ...props}) {
       if (data.length == 0) {
         setTheProfileEntryList([])
       }
-      else setTheProfileEntryList(data);
+      else setTheProfileEntryList(data.sort((a, b) => b.timestamp - a.timestamp));
       setLoading(false)
     };
 
@@ -100,6 +100,8 @@ export default function ProfileComponent ({ resetFriend, ...props}) {
 
   // todo edit past posts
 
+  // todo make it so the user can edit all of the space on their profile, like the ability to draw and do art all over it. MS paint style.
+
   return (
     <div style={{display:'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', overflow: 'auto'}}>
       <div onClick={resetFriend} className='centeryo'>
@@ -112,7 +114,7 @@ export default function ProfileComponent ({ resetFriend, ...props}) {
           {loading ?  <Loading /> : ""}
           {theProfileEntryList.map(element => {
     return (
-      <div key={element.id} style={{ border: '1px solid black', padding: '10px', margin: '10px' }}>
+      <div key={element.id} style={{ border: '1px solid black', padding: '0 25px', margin: '10px', maxWidth: '800px' }}>
         <EntryView entryID={element.id} link={element.link} title={element.title} body={element.content} isUnread={element.isUnread} />
         <br/>
       </div>
