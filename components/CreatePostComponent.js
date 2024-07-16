@@ -4,6 +4,8 @@ import { collection, addDoc } from 'firebase/firestore';
 import { useRouter } from 'next/router';
 import { getDocs, query, where, orderBy } from 'firebase/firestore';
 
+// todo link to a previous post
+
 export default function CreatePostComponent() {
 
   const [title, setTitle] = useState('');
@@ -101,7 +103,9 @@ export default function CreatePostComponent() {
   return (
     <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
       <h1>Create Post</h1>
-      <p>You are limited to 2 posts in the past week</p>
+      <p style={{textAlign: 'center'}}>You are limited to 2 posts in the past week
+        </p>
+        <span style={{textAlign: 'center', fontSize: 'smaller', marginBottom: '10px'}}>(tag-based searching will be added later, use a hashtag to save any tags you want #inprogress)</span>
       <form style={{display: 'flex', flexDirection: 'column', alignItems: 'center', marginBottom: '50px'}} onSubmit={handleSubmit}>
         <input required type="text" placeholder="Title" value={title} onChange={(e) => setTitle(e.target.value)} style={{marginBottom: '10px'}}/>
         <input required type="text" placeholder="Link" value={link} onChange={(e) => setLink(e.target.value)} style={{marginBottom: '10px'}}/>

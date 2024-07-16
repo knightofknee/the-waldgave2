@@ -103,7 +103,7 @@ export default function ProfileComponent ({ resetFriend, ...props}) {
   // todo make it so the user can edit all of the space on their profile, like the ability to draw and do art all over it. MS paint style.
 
   return (
-    <div style={{display:'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', overflow: 'auto'}}>
+    <div style={{display:'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
       <div onClick={resetFriend} className='centeryo'>
       {props.cssname == 'friends' && <span style={{marginTop:'10px'}}>(back)</span>}
       </div>

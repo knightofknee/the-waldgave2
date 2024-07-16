@@ -3,7 +3,7 @@ import WaldHeader from '../components/WaldHeader';
 import WaldFooter from '../components/WaldFooter';
 import ProfileComponent from '../components/ProfileComponent';
 import { auth, db } from '../firebase';
-import { doc, setDoc, arrayUnion, getDoc } from 'firebase/firestore';
+import { doc, setDoc, arrayUnion, getDoc, query, where, collection, getDocs } from 'firebase/firestore';
 import { onAuthStateChanged } from 'firebase/auth';
 import AddNameComponent from '../components/AddNameComponent';
 
@@ -43,26 +43,46 @@ const [errorMessage2, setErrorMessage2] = useState('');
     const friendsListRef = doc(db, 'Friends', userUid);
 
     try {
+        let currentFriends = friends;
+        if (currentFriends.some(friend => friend.username.toLowerCase() === name.toLowerCase())) {
+            showMessage("Friend is already added", "error");
+            return;
+        }
 
-      const friendToBeAddedRef = doc(db, 'Profiles', name);
-      const friendToBeAddedSnap = await getDoc(query(friendToBeAddedRef, where('username', '==', name)));
+      const profilesCollectionRef = collection(db, 'Profiles');
+      const friendQuery = query(profilesCollectionRef, where('username', '==', name));
+      const querySnapshot = await getDocs(friendQuery);
 
-      if (!friendToBeAddedSnap.exists()) {
+      if (querySnapshot.empty) {
         setErrorMessage2('Friend not found');
         return;
-    }
-    const friendUid = friendToBeAddedSnap.id;
-    const friendData = { username: name, uid: friendUid };
+      }
 
-    await setDoc(friendsListRef, { friends: arrayUnion(friendData) }, { merge: true }); // Create or update the document
+      const friendToBeAddedSnap = querySnapshot.docs[0];
+      const friendUid = friendToBeAddedSnap.id;
+      const friendData = { username: name, uid: friendUid };
 
-    setFriends([...friends, name]);
-    setName('');
+      await setDoc(friendsListRef, { friends: arrayUnion(friendData) }, { merge: true });
 
-    alert('Friend added! 🎉');
+      setFriends([...friends, name]);
+      setName('');
+
+      const fetchFriends = async () => {
+        const userUid = auth.currentUser.uid;
+        const docRef = doc(db, 'Friends', userUid);
+        const docSnap = await getDoc(docRef);
+
+        if (docSnap.exists()) {
+          setFriends(docSnap.data().friends);
+        }
+      };
+
+      await fetchFriends();
+
+      showMessage("Friend updated successfully", "success");
   } catch (error) {
     console.error("Error adding friend: ", error);
-    alert('Failed to add friend');
+    showMessage("Failed to update friend", "error");
   }
   };
 
@@ -82,6 +102,15 @@ const [errorMessage2, setErrorMessage2] = useState('');
 
     window.location.hash = `#${friendName}`
   }
+  function showMessage(message, type) {
+    const messageElement = document.getElementById('message-placeholder');
+    if (!messageElement) {
+        console.error('Message placeholder element not found');
+        return;
+    }
+    messageElement.innerText = message;
+    messageElement.className = type; // Use this to style success/error messages differently
+}
 
   useEffect(() => {
     const handleHashChange = () => {
@@ -132,9 +161,10 @@ const [errorMessage2, setErrorMessage2] = useState('');
           </label>
           <button type="submit">Add Friend</button>
         </form>
+        <div id='message-placeholder'></div>
         {errorMessage2 && <p>{errorMessage2}</p>}
       </div>
-      {!friendUserID ? <div>
+      {!friendUserID ? <div style={{minHeight: '500px'}}>
         <h2>My Friends</h2>
         <ul>
           {friends.map((friend, index) => (

@@ -3,6 +3,10 @@ import React, { useState, useEffect } from 'react';
 import { auth, db } from '../firebase';
 import { getDocs, query, collection, where, doc, getDoc } from 'firebase/firestore';
 
+// todo add ability to minimize posts. and store that in session storage
+
+// todo show number of updates to starred posts. as in if a post is added that is connected to the starred post, it pops up.
+
 export default function FeedComponent () {
   const [theList, setTheList] = useState([]);
   const [sortMethod, setSortMethod] = useState("date");
@@ -114,9 +118,9 @@ export default function FeedComponent () {
     <span onClick={sortByDate} style={{ border: '1px solid black', padding: '10px', margin: '5px' }}>Date</span>
     <span onClick={showUnread} style={{ border: '1px solid black', padding: '10px', margin: '5px' }}>Unread</span>
     <span onClick={showStarred} style={{ border: '1px solid black', padding: '10px', margin: '5px' }}>Starred</span>
-    <span onClick={togglePublicPosts} style={{ border: '1px solid black', padding: '10px', margin: '5px', width: '82px', display: 'inline-block', textAlign: 'center' }}>
+    {/* <span onClick={togglePublicPosts} style={{ border: '1px solid black', padding: '10px', margin: '5px', width: '82px', display: 'inline-block', textAlign: 'center' }}>
           {includePublic ? "Hide Public" : "Show Public"}
-        </span>
+        </span> */}
   </div>
     {displayList.length > 0 && <div style={{minHeight: '400px'}}>{displayList}</div>}
     {displayList.length == 0 && <p style={{height: '400px', margin: 0, display: 'flex',
