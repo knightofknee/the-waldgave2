@@ -7,6 +7,13 @@ import { getDocs, query, collection, where, doc, getDoc } from 'firebase/firesto
 
 // todo show number of updates to starred posts. as in if a post is added that is connected to the starred post, it pops up.
 
+  const EntryViewItem = React.memo(({ element }) => (
+    <div key={element.id} style={{ border: '1px solid black', padding: '10px', margin: '20px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+      <EntryView entryID={element.id} link={element.link} title={element.title} body={element.content} isUnread={element.isUnread} author={element.author}/>
+      <br/>
+    </div>
+  ));
+
 export default function FeedComponent () {
   const [theList, setTheList] = useState([]);
   const [sortMethod, setSortMethod] = useState("date");
@@ -32,41 +39,28 @@ export default function FeedComponent () {
       const friendsDocSnap = await getDoc(friendsDocRef);
 
       if (friendsDocSnap.exists() && friendsDocSnap.data().friends.length > 0) {
-        const friendUids = friendsDocSnap.data().friends;
-        const friendsPostsPromises = friendUids.map(friendUid => {
-          const q = query(collection(db, 'Posts'), where('uid', '==', friendUid));
+        const friends = friendsDocSnap.data().friends;
+        const friendsPostsPromises = friends.map(friend => {
+          const q = query(collection(db, 'Posts'), where('author', '==', friend.uid));
           return getDocs(q);
         });
         const friendsPostsSnapshots = await Promise.all(friendsPostsPromises);
-        friendsPosts = friendsPostsSnapshots.flatMap(snapshot =>
-          snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }))
-        );
-      }
+        const friendsPosts = friendsPostsSnapshots.map(snapshot => {
+          // Assuming you want to extract all document data into an array
+          return snapshot.docs.map(doc => doc.data());
+        }).flat();
 
-      if (includePublic) {
-        try {
-          const publicPostsQuery = query(collection(db, 'Posts'), where('public', '==', true));
-          const publicPostsSnapshot = await getDocs(publicPostsQuery);
-          publicPosts = publicPostsSnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
-        } catch (error) {
-          console.error("Error fetching public posts:", error);
-        }
-      }
-
-      const allPosts = [...friendsPosts, ...publicPosts];
-      const uniquePosts = Array.from(new Map(allPosts.map(post => [post.id, post])).values());
-
-      if (uniquePosts.length > 0) {
+      setTheList(friendsPosts.sort((a, b) => b.timestamp - a.timestamp));
+      if (friendsPosts.length > 0) {
         const footer = document.querySelector('footer');
         footer.style.position = 'relative';
         footer.style.bottom = 'initial';
       }
-
-      setTheList(uniquePosts.sort((a, b) => b.timestamp - a.timestamp));
+      }
     };
 
     dataFetch();
-  }, [includePublic]);
+  }, []);
 
   const togglePublicPosts = () => {
     setIncludePublic(!includePublic);
@@ -98,15 +92,10 @@ export default function FeedComponent () {
     setStarred(!starredOnly)
   }
 
-  const displayList = theList
+const displayList = theList
   .filter(x => !unreadOnly || x.isUnread)
   .filter(x => !starredOnly || x.starred)
-  .map(element => (
-    <div key={element.id} style={{ border: '1px solid black', padding: '10px', margin: '20px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-      <EntryView entryID={element.id} link={element.link} title={element.title} body={element.body} isUnread={element.isUnread} />
-      <br/>
-    </div>
-  ));
+  .map(element => <EntryViewItem key={element.title} element={element} />);
 
   //you can star posts and people to follow in a focused group. you control your content
   return (<div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
