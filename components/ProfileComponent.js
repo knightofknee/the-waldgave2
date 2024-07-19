@@ -6,13 +6,14 @@ import { useRouter } from 'next/router';
 import Loading from './loading';
 import AddNameComponent from './AddNameComponent';
 import { useUser } from './UserContext';
+import FavoritesForm from '../othercomponents/FavoritesForm';
 
 export default function ProfileComponent ({ resetFriend, ...props}) {
 
   const initialFavorites = [
     {
         name: 'Books',
-        entries: ["The Lord of the Rings", "Diamond Age", "1984", ""]
+        entries: [""]
     },
     {
         name: 'Movies',
@@ -26,10 +27,14 @@ export default function ProfileComponent ({ resetFriend, ...props}) {
         name: 'TV Shows',
         entries: [""]
     },
+    {
+      name: 'People to follow',
+      entries: [""]
+    }
 ];
 
   const [theProfileEntryList, setTheProfileEntryList] = useState([])
-  const [favorites, setFavorites] = useState([])
+  const [favorites, setFavorites] = useState(initialFavorites)
   const [demo, setDemo] = useState(false)
   const [username, setUsername] = useState(props.username ?? useUser().username)
   const [loading, setLoading] = useState(true)
@@ -125,7 +130,8 @@ export default function ProfileComponent ({ resetFriend, ...props}) {
           <h3>Most Recommend</h3>
           {demo && <p className='IntroP'>
       Here you can share your favorite things through lists. The default includes some basics so that you can compare to your friends' lists and easily find new media or shared interests. You can also add your own lists to share what you love.</p>}
-          {favorites.map(element => {
+      <FavoritesForm userID={props.userID} favorites={favorites} />
+          {/* {favorites.map(element => {
   return (
     <div key={element.name} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
       <h3>{element.name}</h3>
@@ -136,7 +142,7 @@ export default function ProfileComponent ({ resetFriend, ...props}) {
       </ul>
     </div>
   )
-})}
+})} */}
         </div>
       </div>
       <style jsx>{`
