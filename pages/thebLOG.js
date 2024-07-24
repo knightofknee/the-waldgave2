@@ -59,7 +59,9 @@ So maybe we are just second messengers. We are receivers of an output, but our p
     (in progress)
   </li>
   <li className="story">
+todo: Winner picks next game, no repeats, any game has rules for what constitutes winning. In Mario kart it would be a cup, 4 races. It can even rely on an arbitrary judge.
 
+Board games with edited rules to make it faster and less predictable ------- make a google doc and link it on blog.
   </li>
   <li className="story">
 
