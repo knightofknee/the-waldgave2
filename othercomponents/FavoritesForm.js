@@ -10,18 +10,26 @@ const FavoritesForm = ({ favorites, userUid }) => {
     setEditedFavorites(newFavorites);
   };
 
-  const handleEntryChange = (favIndex, entryIndex, newEntry) => {
+  const handleEntryChange = (favIndex, entryId, newEntryValue) => {
     const newFavorites = [...editedFavorites];
-    newFavorites[favIndex].entries[entryIndex] = newEntry;
-    setEditedFavorites(newFavorites);
-  };
-
-  const deleteEntry = (favIndex, entryIndex) => {
-    if (editedFavorites[favIndex].entries[entryIndex] === '' || window.confirm("Are you sure you want to delete this entry?")) {
-      const newFavorites = [...editedFavorites];
-      newFavorites[favIndex].entries.splice(entryIndex, 1);
+    const entryIndex = newFavorites[favIndex].entries.findIndex(entry => entry.id === entryId);
+    if (entryIndex !== -1) {
+      // Ensure the entry is an object with a 'value' property
+      newFavorites[favIndex].entries[entryIndex] = { ...newFavorites[favIndex].entries[entryIndex], value: newEntryValue };
       setEditedFavorites(newFavorites);
     }
+  };
+
+  // todo, add an undo button that records all changes to state of the list.
+  const deleteEntry = (favId, entryId) => {
+    const newFavorites = editedFavorites.map(fav => {
+      if (fav.id === favId) {
+        // Filter out the entry to delete
+        return { ...fav, entries: fav.entries.filter(entry => entry.id !== entryId) };
+      }
+      return fav;
+    });
+    setEditedFavorites(newFavorites);
   };
 
   const deleteFavorite = (favIndex) => {
@@ -35,7 +43,7 @@ const FavoritesForm = ({ favorites, userUid }) => {
   const handleSubmit = async () => {
     console.log('Submitting:', editedFavorites);
     try {
-      await db.collection('Favorites').doc(userUid).set({ favorites: editedFavorites });
+      await db.collection('Favorites').doc(userUid).set({ favorites: editedFavorites }, { merge: true });
       alert('Favorites updated successfully!');
     } catch (error) {
       console.error('Error updating favorites:', error);
@@ -44,18 +52,18 @@ const FavoritesForm = ({ favorites, userUid }) => {
   };
 
   const addNewList = () => {
-    const newList = { name: '', entries: [''] };
+    const newList = { id: generateUUID(), name: '', entries: [{ id: generateUUID(), value: '' }] };
     setEditedFavorites([...editedFavorites, newList]);
   };
 
   const addNewEntry = (favIndex) => {
     const newFavorites = [...editedFavorites];
-    // Assuming each entry is a string, you can modify this part based on your data structure
-    if (!newFavorites[favIndex].entries) {
-      newFavorites[favIndex].entries = ['']; // Initialize entries array if it doesn't exist
-    } else {
-      newFavorites[favIndex].entries.push(''); // Add a new empty entry
-    }
+  const newEntry = { id: generateUUID(), value: '' };
+  if (!newFavorites[favIndex].entries) {
+    newFavorites[favIndex].entries = [newEntry];
+  } else {
+    newFavorites[favIndex].entries.push(newEntry);
+  }
     setEditedFavorites(newFavorites);
   };
 
@@ -78,16 +86,16 @@ const FavoritesForm = ({ favorites, userUid }) => {
             X
           </button>
           <ul>
-            {element.entries.map((entry, entryIndex) => (
-              <li key={entry + entryIndex}>
+            {element.entries.map((entry) => (
+              <li key={entry.id}>
                 <input
                   type="text"
-                  value={entry}
-                  onChange={(e) => handleEntryChange(favIndex, entryIndex, e.target.value)}
+                  value={entry.value}
+                  onChange={(e) => handleEntryChange(favIndex, entry.id, entry.value)}
                 />
                 <button
                   type="button"
-                  onClick={() => deleteEntry(favIndex, entryIndex)}
+                  onClick={() => deleteEntry(favIndex, entry.id)}
                   style={{ color: 'white', backgroundColor: 'red', borderRadius: '50%' }}
                 >
                   X

@@ -53,8 +53,10 @@ export default function FeedComponent () {
       setTheList(friendsPosts.sort((a, b) => b.timestamp - a.timestamp));
       if (friendsPosts.length > 0) {
         const footer = document.querySelector('footer');
+        if (footer) {
         footer.style.position = 'relative';
         footer.style.bottom = 'initial';
+        }
       }
       }
     };
