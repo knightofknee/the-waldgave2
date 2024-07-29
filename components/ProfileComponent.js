@@ -14,28 +14,33 @@ export default function ProfileComponent ({ resetFriend, ...props}) {
   const initialFavorites = [
     {
         name: 'Books',
-        entries: [""]
+        entries: [{value: "", id: 0}],
+        id: 0
     },
     {
         name: 'Movies',
-        entries: [""]
+        entries: [{value: "", id: 1}],
+        id: 1
     },
     {
         name: 'Music',
-        entries: [""]
+        entries: [{value: "", id: 2}],
+        id: 2
     },
     {
         name: 'TV Shows',
-        entries: [""]
+        entries: [{value: "", id: 3}],
+        id: 3
     },
     {
       name: 'People to follow',
-      entries: [""]
+      entries: [{value: "", id: 4}],
+      id: 4
     }
 ];
 
   const [theProfileEntryList, setTheProfileEntryList] = useState([])
-  const [favorites, setFavorites] = useState(initialFavorites)
+  const [favorites, setFavorites] = useState([])
   const [demo, setDemo] = useState(false)
   const [username, setUsername] = useState(props.username ?? useUser().username)
   const [loading, setLoading] = useState(true)
@@ -88,7 +93,7 @@ export default function ProfileComponent ({ resetFriend, ...props}) {
       const docSnap = await getDoc(docRef);
 
       if (docSnap.exists()) {
-        setFavorites(docSnap.data().lists);
+        setFavorites(docSnap.data().favorites);
       } else {
         setDemo(true)
         setFavorites(initialFavorites)
@@ -131,7 +136,7 @@ export default function ProfileComponent ({ resetFriend, ...props}) {
           <h3>Most Recommend</h3>
           {demo && <p className='IntroP'>
       Here you can share your favorite things through lists. The default includes some basics so that you can compare to your friends' lists and easily find new media or shared interests. You can also add your own lists to share what you love.</p>}
-      {props.userType == 'profile' && <FavoritesForm userID={props.userID} favorites={favorites} />}
+      {props.userType == 'profile' && <FavoritesForm userUid={props.userID} favorites={favorites} />}
       {props.userType == 'friend' && <FavoritesDisplay userID={props.userID} favorites={favorites} />}
           {/* {favorites.map(element => {
   return (
