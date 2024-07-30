@@ -8,10 +8,10 @@ const FavoritesDisplay = ({ favorites }) => {
       <h2>My Favorites</h2>
       {favorites.map((list, index) => (
         <div key={index}>
-          <h3>List {list.name}</h3>
+          <h3>{list.name}</h3>
           <ul>
-            {list.entries.map((item, itemIndex) => (
-              <li key={itemIndex}>{item}</li>
+            {list.entries.map((entry) => (
+              <li key={entry.id}>{entry.value}</li>
             ))}
           </ul>
         </div>

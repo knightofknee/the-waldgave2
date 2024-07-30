@@ -66,14 +66,15 @@ const FavoritesForm = ({ favorites, userUid }) => {
     setEditedFavorites([...editedFavorites, newList]);
   };
 
-  const addNewEntry = (favIndex) => {
-    const newFavorites = [...editedFavorites];
+  const addNewEntry = (listId) => {
   const newEntry = { id: generateUUID(), value: '' };
-  if (!newFavorites[favIndex].entries) {
-    newFavorites[favIndex].entries = [newEntry];
-  } else {
-    newFavorites[favIndex].entries.push(newEntry);
-  }
+  const newFavorites = editedFavorites.map(list => {
+    if (list.id === listId) {
+      const updatedEntries = list.entries ? [...list.entries, newEntry] : [newEntry];
+      return { ...list, entries: updatedEntries };
+    }
+    return list;
+  });
     setEditedFavorites(newFavorites);
   };
 
@@ -115,7 +116,7 @@ const FavoritesForm = ({ favorites, userUid }) => {
           </ul>
           <button
           type="button"
-          onClick={() => addNewEntry(favIndex)}
+          onClick={() => addNewEntry(list.id)}
           style={{ marginLeft: '10px', marginBottom: '10px' }}
         >
           Add New Entry
@@ -129,7 +130,7 @@ const FavoritesForm = ({ favorites, userUid }) => {
     >
       Add New List
     </button>
-      <button type="button" onClick={handleSubmit}>Submit</button>
+      <button type="button" onClick={handleSubmit}>Save Your Changes</button>
     </form>
   );
 };
