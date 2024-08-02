@@ -81,24 +81,28 @@ export default function ProfileComponent ({ resetFriend, ...props}) {
     fetchData2();
   }, []);
 
-  useEffect(() => {
+  const fetchFavorites = async () => {
+
     const uid = props.userID
 
     if (!uid) {
       return;
     }
+    const docRef = doc(db, 'Favorites', uid);
+    const docSnap = await getDoc(docRef);
 
-    const fetchFavorites = async () => {
-      const docRef = doc(db, 'Favorites', uid);
-      const docSnap = await getDoc(docRef);
+    if (docSnap.exists()) {
+      setFavorites(docSnap.data().favorites);
+    } else {
+      setDemo(true)
+      setFavorites(initialFavorites)
+    }
+  };
 
-      if (docSnap.exists()) {
-        setFavorites(docSnap.data().favorites);
-      } else {
-        setDemo(true)
-        setFavorites(initialFavorites)
-      }
-    };
+  useEffect(() => {
+
+
+
 
     fetchFavorites();
   }, [props.userID]); // Only run this effect when props.user changes
@@ -112,6 +116,16 @@ export default function ProfileComponent ({ resetFriend, ...props}) {
   // todo edit past posts
 
   // todo make it so the user can edit all of the space on their profile, like the ability to draw and do art all over it. MS paint style.
+
+  const [editList, setEditList] = useState(false)
+
+  const setEditListWrapper = (value) => {
+
+    setEditList(value)
+    if (!value) {
+      fetchFavorites()
+    }
+   }
 
   return (
     <div style={{display:'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
@@ -136,8 +150,9 @@ export default function ProfileComponent ({ resetFriend, ...props}) {
           <h3>Most Recommend</h3>
           {demo && <p className='IntroP'>
       Here you can share your favorite things through lists. The default includes some basics so that you can compare to your friends' lists and easily find new media or shared interests. You can also add your own lists to share what you love.</p>}
-      {props.userType == 'profile' && <FavoritesForm userUid={props.userID} favorites={favorites} />}
-      {props.userType == 'friend' && <FavoritesDisplay userID={props.userID} favorites={favorites} />}
+      {!editList && <button onClick={() => setEditList(true)}>Edit your lists</button>}
+      {props.userType == 'profile' && editList && <FavoritesForm setEditList={setEditListWrapper} userUid={props.userID} favorites={favorites} />}
+      {(props.userType == 'friend' || !editList) && <FavoritesDisplay userID={props.userID} favorites={favorites} />}
           {/* {favorites.map(element => {
   return (
     <div key={element.name} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>

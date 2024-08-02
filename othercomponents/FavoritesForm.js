@@ -3,8 +3,14 @@ import { db } from '../firebase'; // Assuming you have a firebase.js file export
 import generateUUID from '../utils';
 import { doc, setDoc } from 'firebase/firestore';
 
-const FavoritesForm = ({ favorites, userUid }) => {
+const FavoritesForm = ({ favorites, userUid, setEditList }) => {
   const [editedFavorites, setEditedFavorites] = useState(favorites);
+  const [notification, setNotification] = useState('');
+
+  const showNotification = (message) => {
+    setNotification(message);
+    setTimeout(() => setNotification(''), 5000);
+  };
 
   useEffect(() => {
     setEditedFavorites(favorites);
@@ -53,11 +59,13 @@ const FavoritesForm = ({ favorites, userUid }) => {
 
   const handleSubmit = async () => {
     try {
+      console.log('editedFavoritessssssssss', editedFavorites);
       await setDoc(doc(db, 'Favorites', userUid), { favorites: editedFavorites }, { merge: true });
-      alert('Favorites updated successfully!');
+      showNotification('Favorites updated successfully!');
+      setEditList(false);
     } catch (error) {
       console.error('Error updating favorites:', error);
-      alert('Failed to update favorites.');
+      showNotification('Failed to update favorites.');
     }
   };
 
@@ -78,10 +86,10 @@ const FavoritesForm = ({ favorites, userUid }) => {
     setEditedFavorites(newFavorites);
   };
 
-  // todo add an edit button so it is readonly by default
-
   return (
-    <form onSubmit={(e) => e.preventDefault()}>
+    <form style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}} onSubmit={(e) => e.preventDefault()}>
+      {notification && <div style={{ color: 'green', marginBottom: '20px' }}>{notification}</div>}
+      <button style={{marginBottom: '20px'}} type="button" onClick={handleSubmit}>Save Your Changes</button>
       {editedFavorites.map((list) => (
         <div key={list.id}>
           <input
@@ -130,7 +138,6 @@ const FavoritesForm = ({ favorites, userUid }) => {
     >
       Add New List
     </button>
-      <button type="button" onClick={handleSubmit}>Save Your Changes</button>
     </form>
   );
 };
