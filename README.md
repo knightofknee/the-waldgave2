@@ -33,3 +33,5 @@ so people use the main page to see and edit their own profile, but for others to
 # Read-only Profile page
 
 # Other Considerations:
+
+(upgrading heroku stack)
