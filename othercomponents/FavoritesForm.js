@@ -59,7 +59,6 @@ const FavoritesForm = ({ favorites, userUid, setEditList }) => {
 
   const handleSubmit = async () => {
     try {
-      console.log('editedFavoritessssssssss', editedFavorites);
       await setDoc(doc(db, 'Favorites', userUid), { favorites: editedFavorites }, { merge: true });
       showNotification('Favorites updated successfully!');
       setEditList(false);
@@ -95,7 +94,9 @@ const FavoritesForm = ({ favorites, userUid, setEditList }) => {
           <input
             type="text"
             value={list.name}
-            onChange={(e) => handleNameChange(list.id, e.target.value)}
+            onChange={(e) => {
+              if (e.target.value.length <= 50) {
+              handleNameChange(list.id, e.target.value)}}}
           />
           <button
             type="button"
@@ -110,7 +111,11 @@ const FavoritesForm = ({ favorites, userUid, setEditList }) => {
                 <input
                   type="text"
                   value={entry.value}
-                  onChange={(e) => handleEntryChange(list.id, entry.id, e.target.value)}
+                  onChange={(e) => {
+                    if (e.target.value.length <= 100) {
+                      handleEntryChange(list.id, entry.id, e.target.value);
+                    }
+                  }}
                 />
                 <button
                   type="button"

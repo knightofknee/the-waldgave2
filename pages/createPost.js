@@ -32,7 +32,7 @@ export default function feed () {
 
   return (<div>
     {user ? <WaldHeader page='createPost' /> : <div></div>}
-    <CreatePostComponent />
+    <CreatePostComponent userID={auth.currentUser.uid} />
     <WaldFooter cssname={"createPost"}/>
   </div>)
 }

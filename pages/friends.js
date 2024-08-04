@@ -50,7 +50,7 @@ const [errorMessage2, setErrorMessage2] = useState('');
         }
 
       const profilesCollectionRef = collection(db, 'Profiles');
-      const friendQuery = query(profilesCollectionRef, where('username', '==', name));
+      const friendQuery = query(profilesCollectionRef, where('usernameLower', '==', name.toLowerCase()));
       const querySnapshot = await getDocs(friendQuery);
 
       if (querySnapshot.empty) {
@@ -132,8 +132,6 @@ const [errorMessage2, setErrorMessage2] = useState('');
           const userUid = user.uid;
           const docRef = doc(db, 'Friends', userUid);
           const docSnap = await getDoc(docRef);
-
-          console.log(docSnap.data());
           if (docSnap.exists()) {
             setFriends(docSnap.data().friends);
           }

@@ -23,11 +23,13 @@ export default function EntryView (props) {
     // for auto update we hit after no typing for a few seconds. so todo here is logic for not doing it every change but still definitely doing it, and the call to update the note-user relationship with that note. These can be a separate table for each user, with just entry IDs and notes
   }
 
+  // add link from author to profile view on friends page or a separate profile page
   return (
     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-    <h2>{props.title}</h2>
+    <h2 style={{marginBottom: '10px'}}>{props.title}</h2>
+    <h5 style={{margin: '0 0 10px 0'}}>{props.authorName}</h5>
     <a href={props.link}><span>{props.link}</span></a>
-      <p style={{ whiteSpace: 'pre-wrap' }}>{props.body}</p>
+      <p style={{ whiteSpace: 'pre-wrap', wordBreak: 'break-word' }}>{props.body}</p>
 
     {/* todo add login check here. like if it is your profile, this should not show. if you are not logged in, it should not show. 3 peeps, owner, visitor logged in/out. */}
     {props.showMarkAsRead && (showEntry ? <button type="click" onClick={markAsRead()}>Mark as read</button>

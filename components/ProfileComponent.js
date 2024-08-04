@@ -107,11 +107,7 @@ export default function ProfileComponent ({ resetFriend, ...props}) {
     fetchFavorites();
   }, [props.userID]); // Only run this effect when props.user changes
 
-  // todo get list of favorites from db
-
   // todo check if user is logged in? security?
-
-  // todo edit list of favorites
 
   // todo edit past posts
 
@@ -127,6 +123,8 @@ export default function ProfileComponent ({ resetFriend, ...props}) {
     }
    }
 
+  const [showAll, setShowAll] = useState(false)
+
   return (
     <div style={{display:'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
       <div onClick={resetFriend} className='centeryo'>
@@ -137,20 +135,23 @@ export default function ProfileComponent ({ resetFriend, ...props}) {
       <div>
         <div className='centeryo'>
           {loading ?  <Loading /> : ""}
-          {theProfileEntryList.map(element => {
+          {theProfileEntryList.slice(0, showAll ? undefined : 5).map(element => {
     return (
-      <div key={element.id} style={{ border: '1px solid black', padding: '0 25px', margin: '10px', maxWidth: '800px' }}>
-        <EntryView entryID={element.id} link={element.link} title={element.title} body={element.content} isUnread={element.isUnread} />
+      <div className='postEntry' key={element.id}>
+        <EntryView entryID={element.id} link={element.link} title={element.title} body={element.content} isUnread={element.isUnread} authorName={username} />
         <br/>
       </div>
     )
   })}
+  {theProfileEntryList.length > 5 && <button type='click' onClick={() => setShowAll(!showAll)}>
+        {showAll ? 'Show Less' : 'Show All Posts'}
+      </button>}
         </div>
         <div style={{display:'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', marginBottom: '50px'}}>
           <h3>Most Recommend</h3>
           {demo && <p className='IntroP'>
       Here you can share your favorite things through lists. The default includes some basics so that you can compare to your friends' lists and easily find new media or shared interests. You can also add your own lists to share what you love.</p>}
-      {!editList && <button onClick={() => setEditList(true)}>Edit your lists</button>}
+      {!editList && props.userType == 'profile' && <button onClick={() => setEditList(true)}>Edit your lists</button>}
       {props.userType == 'profile' && editList && <FavoritesForm setEditList={setEditListWrapper} userUid={props.userID} favorites={favorites} />}
       {(props.userType == 'friend' || !editList) && <FavoritesDisplay userID={props.userID} favorites={favorites} />}
           {/* {favorites.map(element => {
@@ -183,6 +184,20 @@ export default function ProfileComponent ({ resetFriend, ...props}) {
           flex-direction: column;
           align-items: center;
           justify-content: center;}
+
+          .postEntry {
+            border: 1px solid black;
+            padding: 0 25px;
+            margin: 10px;
+            max-width: 800px;
+          }
+
+          @media (max-width: 800px) {
+  .postEntry {
+    width: 90%;
+    max-width: 800px;
+  }
+}
       `}</style>
     </div>
   )

@@ -1,12 +1,12 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { auth, db } from '../firebase.js'
-import { collection, addDoc } from 'firebase/firestore';
+import { useUser } from './UserContext';
 import { useRouter } from 'next/router';
-import { getDocs, query, where, orderBy } from 'firebase/firestore';
+import { collection, addDoc, getDocs, query, where, orderBy, getDoc, doc } from 'firebase/firestore';
 
 // todo link to a previous post
 
-export default function CreatePostComponent() {
+export default function CreatePostComponent({ ...props}) {
 
   const [title, setTitle] = useState('');
   const [content, setContent] = useState('');
@@ -50,6 +50,27 @@ export default function CreatePostComponent() {
     textarea.rows = requiredRows < 20 ? 20 : requiredRows;
   }
 
+  const [username, setUsername] = useState(props.username ?? useUser().username)
+
+  useEffect(() => {
+    const uid = props.userID
+
+    if (!uid) {
+      router.push('/Login')
+      return;
+    }
+
+    const fetchData2 = async () => {
+      const profileDocRef = doc(db, 'Profiles', uid);
+      const profileDocSnap = await getDoc(profileDocRef);
+
+      if (profileDocSnap.exists()) {
+        setUsername(profileDocSnap.data().username);
+      }
+    }
+    fetchData2();
+  }, []);
+
 
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -69,7 +90,8 @@ export default function CreatePostComponent() {
       timestamp: Date.now(),
       title: title,
       link: link,
-      tags: slicedTags
+      tags: slicedTags,
+      authorName: username,
     };
     try {
 

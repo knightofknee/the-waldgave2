@@ -9,7 +9,7 @@ import { getDocs, query, collection, where, doc, getDoc } from 'firebase/firesto
 
   const EntryViewItem = React.memo(({ element }) => (
     <div key={element.id} style={{ border: '1px solid black', padding: '10px', margin: '20px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-      <EntryView entryID={element.id} link={element.link} title={element.title} body={element.content} isUnread={element.isUnread} author={element.author}/>
+      <EntryView entryID={element.id} link={element.link} title={element.title} body={element.content} isUnread={element.isUnread} author={element.author} authorName={element.authorName} />
       <br/>
     </div>
   ));

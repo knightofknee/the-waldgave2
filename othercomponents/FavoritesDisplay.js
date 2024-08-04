@@ -1,8 +1,6 @@
 import React from 'react';
 
 const FavoritesDisplay = ({ favorites }) => {
-
-  console.log("FavoritesDisplay", favorites)
   return (
     <div>
       <h2>My Favorites</h2>
