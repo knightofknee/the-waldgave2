@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next build && next start",
     "gog": "git add . && git commit -m 'gog' && git push && git push heroku",
     "gogg": "git push heroku",
     "gogo": "npm run build && npm run start",

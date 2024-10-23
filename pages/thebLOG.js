@@ -55,22 +55,17 @@ So maybe we are just second messengers. We are receivers of an output, but our p
   <br/>
   The photon has wavelike properties as well because photons dont exist in nothingness. Instead, they travel through the electromagnetic field. The particle-like thing affects the universe around itself while being confined to the wave by the universe around it. My theory is this mutual interaction creates the unknown position of the particle-thing, but the momentum of the particle-thing keeps it contained to the wave. It is like the particle-thing is kept in a halfpipe. This gives you the wave behavior, light beams interfere because there is only one electric field. The particle-things don't need to collide because their half-pipes collide.
   </li>
-  <li className="story">
-    (in progress)
-  </li>
+
   <li className="story">
 todo: Winner picks next game, no repeats, any game has rules for what constitutes winning. In Mario kart it would be a cup, 4 races. It can even rely on an arbitrary judge.
-
-Board games with edited rules to make it faster and less predictable ------- make a google doc and link it on blog.
+<br/>
+Board games with edited rules to make it faster and less predictable ------- <a href="https://docs.google.com/spreadsheets/d/1zUOiw-nKfEcuka2geQiGhL_sxP1YhnO0caWXPJyZ_ug/edit?usp=sharing">here's a google doc, add your favorite game(s) or check out other suggestions.</a>
   </li>
   <li className="story">
 
   </li>
   <li className="story">
-
-  </li>
-  <li className="story">
-
+  (in progress)
   </li>
   <li className="story">
 
