@@ -201,14 +201,6 @@ Parking meter pricing should be a supply and demand-based system to maximize uti
 p {
   margin: 1% 5%;
 }
-  @media (max-width: 600px) {
-    div {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-  }
 `}
 </style>
 </div>)}
