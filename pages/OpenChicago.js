@@ -30,16 +30,16 @@ export default function OpenChicago() {
     <h3>Education</h3>
     <p>
       Childcare is the beginning. We need to support our parents, because they are the most important teachers in their children's lives. Stable households are able to spend more energy on their child each day. Like Minnesota's free lunch for everyone, I want free daycare for everyone in Chicago. Maybe it is only free for low-income families, maybe it is still half the price of current childcare options for everyone else, I haven't run the numbers yet. Here I only have Noble Truth 3#, the ideal, and #4 the direction we can start walking right now to get closer to the ideal. Parents are the #1 resource we have to work with, by volume and by impact on the children. (I think this is a good first step for helping parents, but more education and support is a good avenue to explore further)    </p>
-      <p>
-        Teachers. I want childcare as a first step to helping teachers. The other contender for most important resource, good teachers. I want to maximize the % of the budget that goes to good teachers. I've heard people say you can't reason with the CTU, those people are playing the wrong game. I want to appeal directly to teachers. I want to reward the best teachers for teaching, I want some of them to focus on teaching other teachers, but ideally still teaching some classes. I want to give new teachers every advantage possible, to ease them in with the help of our best teachers. I also want to remove bad teachers and other obvious wastes of money. This obsession with whether or not we close schools seems like nonsense given I have never heard the stats being discussed. Seems like a classic network analysis problem to me, what is the trade-off betweeen closing or not for each case? THIS IS WHAT WE NEED. We need these types of models made public. If you want to debate something like this, you need to have the data. Public debate can evolve when we put out tools that make it easy for people to use the same data. I want to make arguments a game of finding exactly where people disagree. I want to make public policy discourse about the ideas, not the people.
-      </p>
-      <p>
-        Since people probably want a direct answer on this, I don't want to get rid of any school model like charter or magnet schools. Maybe they need regulation changes, I have none to focus on now. I do believe neighborhood schools need more support. I think as we get good with public modeling, we start to focus on things like how far is everyone from parks, grocery stores, schools and stuff. This data will really reveal inequalities in the city investment. I believe in the competition that charter schools bring, but we need to be fitting them within OUR long term plans.
-      </p>
+    <p>
+      Teachers. I want childcare as a first step to helping teachers. The other contender for most important resource, good teachers. I want to maximize the % of the budget that goes to good teachers. I've heard people say you can't reason with the CTU, those people are playing the wrong game. I want to appeal directly to teachers. I want to reward the best teachers for teaching, I want some of them to focus on teaching other teachers, but ideally still teaching some classes. I want to give new teachers every advantage possible, to ease them in with the help of our best teachers. I also want to remove bad teachers and other obvious wastes of money. This obsession with whether or not we close schools seems like nonsense given I have never heard the stats being discussed. Seems like a classic network analysis problem to me, what is the trade-off betweeen closing or not for each case? THIS IS WHAT WE NEED. We need these types of models made public. If you want to debate something like this, you need to have the data. Public debate can evolve when we put out tools that make it easy for people to use the same data. I want to make arguments a game of finding exactly where people disagree. I want to make public policy discourse about the ideas, not the people.
+    </p>
+    <p>
+      Since people probably want a direct answer on this, I don't want to get rid of any school model like charter or magnet schools. Maybe they need regulation changes, I have none to focus on now. I do believe neighborhood schools need more support. I think as we get good with public modeling, we start to focus on things like how far is everyone from parks, grocery stores, schools and stuff. This data will really reveal inequalities in the city investment. I believe in the competition that charter schools bring, but we need to be fitting them within OUR long term plans.
+    </p>
       <h3>Transportation</h3>
-      <p><p>
+      <p>
     More trains. In rush hour, trains should be coming every 5-10 minutes. The other day I arrived to Merchandise Mart and a packed platform a little after 5 on a weekday, and the next train didn't come for 20 minutes. Taking a train at rush hour should be a pleasant experience, not a stressful packing of people. The number of people commuting is not a surprise, any crowded route should get more trains. God forbid we over-serve the people.
-  </p></p>
+  </p>
       <p>North/South bike-only street</p>
       <p>Smart traffic light overhaul, less pointless waiting</p>
       <p>Camera system from earlier means fewer crazy people driving on the shoulder. And when you see them on the shoulder, you will KNOW that they are either going to the hospital in a hurry, or are helping fund our dear city.</p>
@@ -49,6 +49,9 @@ export default function OpenChicago() {
       <p>
     Carbon Check- it's like a carbon tax but it isn't a tax because the government gets nothing. We check how much harm people are putting in the air and we charge them. That money goes to a fund, and every month that fund is divided evenly between every citizen. Everyone bears the consequences of these actions, so everyone should be paid to compensate. This can immediately correct incentives. The result? The whole city is incentivized to destory the world less, at ZERO cost. It's just a transfer. This is simply fair, or more accurately, more fair than today. Because we will not be charging the full cost incurred by your gas use. We will be charging a fraction of the cost, and then dividing that fraction evenly. This may seem obvious or too easy, that's because it is the right idea. No more political bullshit, daddy Engineer is here (sry just saw the TCarlson thing).
   </p>
+
+
+
   <h3>BUBI</h3>
   <p>
     Brains Universal Basic Income. Two Universal Basic Income plans, hence BUBI.
@@ -62,6 +65,9 @@ export default function OpenChicago() {
   <p>
     The second UBI is more my own creation. It is an employment contract robot essentially. Do you have something you want to do, that will create value for the city? Chi GUI will hear you out and give a fair deal. So I could say, "I want to make phone apps for the city, I want to be paid X. I'll pay you back at rate Y." Chi-GUI (with human help) would decide the expected value of my work, and my ability to earn going forward, and offers new rates. So the variables are the job itself, the salary, and the payment schedule Y. A job that could contribute to everyone's health would help the person's petition, but they could request to do anyting, if the salary and payment schedule aligned with the person's expected income. That payment schedule would be like "if you are making over 50k, for every dollar you make, you will pay the city 5 cents." You can have as many brackets as you want, you could have a higher amount before you start paying back. At first, Chi-GUI is going to be super selective, it only has so much money to invest. It can start ruthless, where it hires good bets that ensure long term doubling return, inflation-adjusted. Each success would fund 2 more eventually. So at first, Chi-GUI is the shrewd investor, but as it grows it can give better deals. It still wants to profit though, because profit can go to the General Universal Basic Income.
   </p>
+
+
+
 
  <h3>Other things I care about</h3>
   <p>
