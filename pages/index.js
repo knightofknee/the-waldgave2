@@ -39,7 +39,7 @@ export default function Home() {
           The Waldgrave aims to provide the tools to create those spaces for you and your friends,
           and to promote the creation and capture of ideas. --> */}
       <div>
-        <p>The Waldgrave has 5 projects underway in 2024, <Link href="/OpenChicago"> the Chi-GUI Conspiracy </Link> is the first one ready for any sharing. (featuring BUBI). Ongoing efforts include the <Link href="/thebLOG">the bLOG </Link>, <Link href="/TeganAndSara">a music blog</Link>,
+        <p>The Waldgrave has 5 projects underway in 2024, one of them is the Waldgrave Social Media platform linked above. The current web page shows the base concept in action, mobile development is the new priority here. Another one of the projects is <Link href="/OpenChicago">the Chi-GUI Conspiracy </Link>(featuring BUBI), which is just getting started. Ongoing efforts include the <Link href="/thebLOG">the bLOG </Link>, <Link href="/TeganAndSara">a music blog</Link>,
         {/* <!-- <Link href="/readtogether">a bookclub app</Link>,  --> */}
          and a <Link href="/GolfGolf">mini-golf revolution</Link> centered on proving the superiority of profit-minimizing business structures.
         </p>
