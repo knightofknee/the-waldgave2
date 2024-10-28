@@ -39,10 +39,11 @@ export default function Home() {
           The Waldgrave aims to provide the tools to create those spaces for you and your friends,
           and to promote the creation and capture of ideas. --> */}
       <div>
-        <p>The current projects and goals of the Waldgrave include <Link href="/TeganAndSara"> a music blog</Link>,
+        <p>The Waldgrave has 5 projects underway in 2024, <Link href="/OpenChicago"> the Chi-GUI Conspiracy </Link> is the first one ready for any sharing. (featuring BUBI). Ongoing efforts include the <Link href="/thebLOG">the bLOG </Link>, <Link href="/TeganAndSara">a music blog</Link>,
         {/* <!-- <Link href="/readtogether">a bookclub app</Link>,  --> */}
-        <Link href="/Brainstree"> a notes/habits app</Link>, <Link href="/OpenChicago"> turning Chicago into a global leader and eventual Great Lakes Supercity center</Link> (featuring BUBI), <Link href="/SocialSecurityFix">fixing social security</Link>, reducing income equality, <Link href="/ClimateChangeStrats">combatting climate change</Link>,<Link href="/EndOfTheUniverse">how to find aliens inside black holes and survive the heat death of the universe</Link>, and a <Link href="/GolfGolf">mini-golf revolution</Link> centered on proving the superiority of profit-minimizing business structures.
+         and a <Link href="/GolfGolf">mini-golf revolution</Link> centered on proving the superiority of profit-minimizing business structures.
         </p>
+        {/* <Link href="/Brainstree"> a notes/habits app</Link>, , <Link href="/SocialSecurityFix">fixing social security</Link>, reducing income equality, <Link href="/ClimateChangeStrats">combatting climate change</Link>,<Link href="/EndOfTheUniverse">how to find aliens inside black holes and survive the heat death of the universe</Link>, */}
       </div>
       <div>
         {/* <a href="https://ko-fi.com/waldgrave"> */}
