@@ -1,4 +1,5 @@
 import StoryBlock from "../components/StoryBlock";
+import HomeButton from "../components/HomeButton";
 
 //import { getFirestore } from "firebase/firestore";
 //import '../firebase.js';
@@ -23,6 +24,7 @@ export default function thebLOG() {
 
   return (<div>
 <div>
+<HomeButton />
   <h1>the bLOG</h1>
   <h4>The first goal of this blog is to share the best ideas that I come up with or encounter. I would love to research these things in depth and build them out, but I don't have time for everything so instead I share these notes as brain food, inspiration, and hopefully some entertainment. The second goal is to practice longer writing on some of these ideas. </h4>
   {/* <h2>Monday Night Review- 4/17/23</h2>

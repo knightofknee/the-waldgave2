@@ -6,6 +6,7 @@ import FeedComponent from '../components/FeedComponent';
 import Loading from '../components/loading';
 import { useRouter } from 'next/router';
 import WaldHeader from '../components/WaldHeader';
+import HomeButton from '../components/HomeButton';
 
 function Login() {
   const [user, setUser] = useState(null);
@@ -73,6 +74,7 @@ function Login() {
  // need signup and a little styling, maybe session storageff
   return (
     <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', height: '100vh'}}  >
+      <HomeButton />
       <h1>The Waldgrave</h1>
       <h3>Log In</h3>
       {/* <StyledFirebaseAuth uiConfig={uiConfig} firebaseAuth={firebase.auth()} /> */}

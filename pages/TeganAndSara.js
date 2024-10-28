@@ -1,6 +1,7 @@
 import songsData from '../public/TandSSongs'
 import Song from '../components/Song'
 import { useEffect, useState } from 'react';
+import HomeButton from '../components/HomeButton';
 
 export default function TeganAndSara() {
 
@@ -69,6 +70,7 @@ export default function TeganAndSara() {
 
   return (
     <div>
+      <HomeButton />
 <div id="newOuterShell" style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
   <div style={{display:'flex',justifyContent:'center',flexDirection:'column',alignItems:'center'}}>
     <h2>

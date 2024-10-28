@@ -1,7 +1,9 @@
+import HomeButton from '../components/HomeButton'
 
 export default function GolfGolf () {
   return (
 <div>
+<HomeButton />
   <div id="newOuterShell" style={{display:'flex',justifyContent:'center',alignItems:'center', flexDirection:'column'}}>
     <p>
       GolfGolf miniGolf. All about the golf, profit capped at 1%. All other excess money made by Golf Golf miniGolf will be used to cover costs of course upgrades, to lower future prices, or be paid out to the people making GolfGolf happen. Every hole is a banger, both a unique golf challenge and unique theme. Black curtains between. It is byob and has a bar with at-cost+1$ beers and wine. Bartender can charge whatever they want for other things. Every hole has a target you can hit that gives you -1, making a perfect score near impossible. Profit is capped but costs are not. The art staff can choose whatever they find best and push barriers.
