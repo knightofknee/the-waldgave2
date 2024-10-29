@@ -113,7 +113,7 @@ export default function OpenChicago() {
   {/* <p>
     The More Perfect Platform. This is a web platform that we are developing, the goal is to provide a format to collectively improve public policy through the sharing of proposals in a structured forum. All of my future plans for Chicago will be up there and open to criticism and suggestions before I run. Hopefully, we can find some designs that make debate a game of finding exactly where to candidates disagree, as opposed to emphasizing rhetoric and storylines. Eventually I think this can help bring direct democracy to Chicago as well.
   </p> */}
-  <button onClick={() => setExpanded(!expanded)}>
+  <button onClick={() => setExpandedP(!expandedP)}>
           {expandedP ? 'See Less' : 'See More'}
         </button>
   {expandedP && (<p>
