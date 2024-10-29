@@ -6,7 +6,7 @@ export default function OpenChicago() {
   return (
 <div className="container">
   <HomeButton />
-  <div style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center'}}>
+  <div style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center', marginBottom: '5%'}}>
     <h2>Dear Chicago, Welcome to the Chi-GUI Conspiracy</h2>
     <p>I am running for mayor and I want your support. To be brief, you should vote for me because I have the best ideas. I truly believe I have the highest quality and quantity of ideas. If you believe I am wrong, then I don't want your vote, I want to hear your voice. Send me any better ideas, I want them all please and thank you, much appreciated. You only need to know two things about me, 1) I'm a big fan of the buddha, equanimity is a deep belief of mine. The Golden Rule is at the root of my beliefs, I don't believe that I deserve special treatment. I see deep inequality in our city and world. Which brings us to 2) I want to be right. I don't want to prove that my answer is right, I want the right answer. And when I look at the history of Chicago, of cars in American cities, when I see the massive productivity gains of technology that enables one person to make beautiful things that can be shared infinitely at no marginal cost, alongside a stagnant minimum wage, I see trash math. I see propoganda as the leader of policy. I am an engineer, a buddhist, I love quantum physics and neuroscience, I understand a bit of how the whole operation functions. AND SOMETHING SMELLS FUNKY. </p>
     <p>Please use this google forms link here to send me any feedback: <a href="https://forms.gle/xWV5H1nhWJWJynoMA">https://forms.gle/xWV5H1nhWJWJynoMA</a></p>
