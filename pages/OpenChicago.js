@@ -1,4 +1,5 @@
 import HomeButton from "../components/HomeButton"
+import { useState } from 'react';
 
 export default function OpenChicago() {
   const [expandedP, setExpandedP] = useState(false);
@@ -113,7 +114,7 @@ export default function OpenChicago() {
     The More Perfect Platform. This is a web platform that we are developing, the goal is to provide a format to collectively improve public policy through the sharing of proposals in a structured forum. All of my future plans for Chicago will be up there and open to criticism and suggestions before I run. Hopefully, we can find some designs that make debate a game of finding exactly where to candidates disagree, as opposed to emphasizing rhetoric and storylines. Eventually I think this can help bring direct democracy to Chicago as well.
   </p> */}
   <button onClick={() => setExpanded(!expanded)}>
-          {expanded ? 'See Less' : 'See More'}
+          {expandedP ? 'See Less' : 'See More'}
         </button>
   {expandedP && (<p>
   75 year deal, you are saying fuck the voting rights of citizens and elected politicians for the next 74 years. You don't have that right, you never did, any such deal is null and void. Taxation without Representation, DAY 1 SHIT FFS! If my taxes don't go to where my representatives say, THAT IS TAXATION WITHOUT REPRESENTATION. Of course, we might need to make longer term deals for infrastructure or energy as needed, but this was a pure transfer of wealth, from us and our children and their children, to a corrupt governer famous for his corrupt father and the corrupt city council he led.(btw, the investors have already made their money back, with 60 years to go. We aren't defaulting, we are asserting our basic rights and letting the thieves off the hook with a better-than-market return. And you are worried they will cry? I say we offer a Chicago law school student competition to represent the city in any impending lawsuits. The City does not have to spend a dime, we appeal up to the Supreme Court, and accept their decision. Anyone who wants to help the case for free can support the winning students).
