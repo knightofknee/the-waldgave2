@@ -96,7 +96,7 @@ export default function TeganAndSara() {
     <p>
       This album for me isn't about bangers, it's consistently smooth and has a strong theme and message. It is mostly slow and fun for the beginning, bouncy, and then later into the 1+ hour he goes hard. Big Sean hits different here, he is preaching living better, but he's not leaving his fun self behind. He isn't going out as much, but he's still embracing the mix of being a hustler, pimp, player, lover and father. This is a great motivational album, it's like a well-structured sandwich. The meat of it is this positive core message, a few songs talking about his life, growth, and pursuing goals. There's a Kanye diss-track. The rest is the bread and veggies, all working well together, but some songs like the first few are musical carbs keeping the thing together. I think it is a balanced meal, I can loop this album and get something out of it without it interrupting what I'm doing.
     </p>
-    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/4Re8JSuo0lUxYCMjDnafvd?utm_source=generator" width="100%" height="352" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <iframe style={{borderRadius:'12px'}} src="https://open.spotify.com/embed/album/4Re8JSuo0lUxYCMjDnafvd?utm_source=generator" width="100%" height="352" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     <h2>
       K-Love positivity radio, and my modern music equivalent
     </h2>
