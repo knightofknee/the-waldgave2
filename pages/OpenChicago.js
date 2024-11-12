@@ -121,6 +121,9 @@ export default function OpenChicago() {
   <p>
     Too many things have been decided by greed or chaos, we need to demand engineering-based answers. We need to track what works and iteratively improve. Everything possible should be open source. We can mathematically prove that we are making the right decisions with an open process. Any popular competing idea can get its fair shot at proving itself. It's a way of fighting back against corruption by removing the human element at key junctures. It's also a way to combat past injustices, like how the auto industry stole American streets through propoganda and (lobbying)bribes. Use of public space is a pet peeve of mine. I want engineers optimizing how we can best share the space, not some bullshit status quo established by the most manipulative people of their time.
   </p>
+  <p>
+    I will not seek re-election. I would much rather foster the growth of others and shine the light on their work. After 4 years of that, hopefully you guys get some good option to choose from (with ranked choice of course). If not, then I failed and don't deserve another term anyways. I only feel comfortable demanding the throne because I have put in many years of thought and I truly believe that these ideas will have a massive impact if I get the green light. I don't want fame, I'd rather not be recognized on the street. I don't think it's going to be a problem eventually, because once I cover up the light pollution and cut out the bullshit, you guys will be amazed by all of the stars that have been hiding behind wasted artificial light.
+  </p>
 
   {/* future it tracks social media and accepts input from any source, text, email, everything. it would have to bot detect, but it could share facts with people that say something wrong about Chicago, like wrong crime stats or something. */}
 
