@@ -19,7 +19,8 @@ export default function TeganAndSara() {
 
   const midnightSongs = [
     {
-    name: "Lavendar Haze", comments: ["Midnights of all albums is definitely meant to be looped lated at night, this song serves as both the beginning and end. Taylor's answer to life's problems and her immediate goal is love. Impermanence appears in the coming and goings of relationships, but Taylor is in love with love itself."
+    name: "Lavendar Haze", comments: [`Midnights of all albums is definitely meant to be looped lated at night, this song serves as both the beginning and end. Taylor's answer to life's problems and her immediate goal is love. Impermanence appears in the coming and goings of relationships, but Taylor is in love with love itself. Two lyrics here, "I'm damned if I do give a damn what people say, ... I just wanna stay in that lavender haze". And "All they keep asking me (All they keep asking me), Is if I'm gonna be your bride, The only kinda girl they see Is a one-night or a wife". Taylor Swift gets a lot of flack for her many relationships, other people see them as failures, but Taylor is getting what she wants. Love is a source of energy and comfort for her.`,
+      `Love is the most obvious theme of Midnights but the first words of this song give hint of the rest: "(Meet me at midnight) Staring at the ceiling with you, Oh, you don't ever say too much, And you don't really read into, My melancholia". The setting for this album is Taylor alone after midnight. The main relationship of this album is with herself. Taylor finds herself brooding at night, but her own mind is there with her. When she is present with it, she is comforted.`
 
     //   ,"'I'm damned if I do give a damn what people say, ... I just wanna stay in that lavender haze'. Up front, Taylor declares that love itself is her goal. This is her answer to dealing with the reality of nonself, that only the present moment exists, your brain is a 100% product of the past, you are a process running within it. Nihlism feels incomplete to me, nothing has inherent meaning, but we are all connected in a web of cause and effect. Meaning is relative, your choice, but the choices have effects. Taylor walks us through her conscious journey, so this is both the start and the end, a continuous process. The final song Dear Reader gives further context to her choice to remain free in her love."
     // ,
@@ -33,7 +34,30 @@ export default function TeganAndSara() {
     {
     name: "Anti-Hero", comments: ["The struggle with ego. She is afraid that in pursuit of what she wants to be, she will lose the most important part of herself. 'It's me, hi, I'm the problem it's me. At tea time everyone agrees'. Say ego is bad and people tend to agree, but what about in practice? If she doesn't keep it up then she could disappoint many. She is focused on the sun, she is aiming to be something different than herself. 'I'll stare at the sun but never in the mirror'", "Music video: Taylor is straight hallucinating. Imagination is now working against her. She appears to be paranoid as well. Before I thought my later claim about schizophrenia would be seen as too much, but she shows it here. Fun Taylor shows up to save the day. This is the ideal Taylor, popstar Taylor (PT?). regular Taylor can't hang with popstar Taylor and it seems like she might be killed off. They later reconnect and make peace. They both stay and giant Taylor arrives (global stardom? The outfits probably say something, I need a Swiftie). "]},
     {
-    name: "Snow On The Beach", comments: ["Taylor starts succeeding at being present with herself, mastering self love and mindfulness together.", "As a celebrity, Taylor has always had reason to pretend to be happy. But now she is finding herself unabashedly happy on occasion. Love and the excitement make her completely present, feeling 100%. Your brain capacity is limited, the more you focus on the past or future, the less you are able to take in the present."]},
+    name: "Snow On The Beach", comments: [
+
+      `"This scene feels like what I once saw on a screen
+I searched "aurora borealis green"
+I've never seen someone lit from within
+Blurring out my periphery
+My smile is like I won a contest
+And to hide that would be so dishonest
+And it's fine to fake it 'til you make it
+'Til you do, 'til it's true"`,
+
+`"I (I) can't (Can't) speak, afraid to jinx it
+I (I) don't (Don't) even dare to wish it
+But your eyes are flying saucers from another planet
+Now I'm all for you like Janet
+Can this be a real thing? Can it?"`,
+
+`Taylor is talking about 2 potential things. 1 is that she went looking for natural beauty, someone to love, and that person was unabashedly their authentic self, they had self love.`,
+`Thing 2: Taylor made all of these extensive dreams and then worked on them for most of her life. The snow falling on the beach is Taylor self-actualizing, the guy from thing 1 helped her grow her relationship with herself, but the snow isn't about him. The snow is her dreams coming true, she is controlling the weather because she is now a billionaire, which is pretty close to being a real-life Janet.`
+
+      // "Taylor starts succeeding at being present with herself, mastering self love and mindfulness together.", "As a celebrity, Taylor has always had reason to pretend to be happy. But now she is finding herself unabashedly happy on occasion. Love and the excitement make her completely present, feeling 100%. Your brain capacity is limited, the more you focus on the past or future, the less you are able to take in the present."
+
+
+    ]},
     {
     name: "You're On Your Own, Kid", comments: ["TS copes with the isolation of her experience and desire for change. She hoped to find her ideal self in her small town parties. She realizes she has something special but she needs to leave to pursue it. She's realized 'her dreams aren't rare' but she knows she has what it takes, and that she has to go it alone, because that is where the work is done.", ""]},
     {
@@ -90,9 +114,16 @@ export default function TeganAndSara() {
         </p>
       </div>))
     ) : ''}
-
+    <h3>bonus songs: Til Dawn (hits different)</h3>
     <p>
-
+    "I (I) can't (Can't) speak, afraid to jinx it
+I (I) don't (Don't) even dare to wish it
+But your eyes are flying saucers from another planet
+Now, I'm all for you like Janet
+Can this be a real thing? Can it?" Like she just referenced the Good Place Janet guys, she did some philosophy homework. Janet is a being made by heaven able to think anything into existence. She replays "snow on the beach", which has the lyric above. I am at this moment nearly done with season 3 of the good place, if this will get Taylor to see me, can I be your Chidi? With each new album edition, Taylor adds another level of complexity. This mirrors her growth, she is not running aimlessly in her electric forest, Taylor Swift took control of her story. As she stayed focused on the same things, as she kept working and walking with intention, the complexity of her mind and music grew, even if some things remained. The last song is karma being repeated. If there is one flaw that bothers me most with Chidi Anagonye so far, it is that Buddhism has answers to most if not all of his moral quandries but he is a moral philosophy professor who quotes like all of the western philosophers. I may be biased, but with this song choice, Taylor Swift confirms her support of the Buddha. With this song and the following "Lavendar Haze" when the album loops give Taylor's biggest Buddha takeaways. Taylor put in the work, "Ask me what I learned from all those years, Ask me what I earned from all those tears, Ask me why so many fade, but I'm still here". Karma is explained the first time around above. It can help you answer most of life's questions, whether or not to take a particular action. Lavendar Haze is loving kindess in action. There is this idea of trying to love everyone; it is easiest for the people closest to you, with friends, acquantances, strangers and eventually people you dislike or hate. The flip-side can also be useful, lean in to loving the people that it is easiest for you to love. Together you can build a Pure Land type of environment. In Buddhism, that means a place full of people committed to being more mindful. A happy family is the same.
+    </p>
+    <p>
+      Taylor singing to Taylor- this deserves its own section as it seems to take a leading role.
     </p>
     <h2>Big Sean is the best role model in rap</h2>
     <p>
