@@ -100,9 +100,9 @@ Can this be a real thing? Can it?"`,
 <div id="newOuterShell" style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
   <div style={{display:'flex',justifyContent:'center',flexDirection:'column',alignItems:'center'}}>
     <h2>
-      Midnights 3am edition (the Midnight Buddha edition)
+      (In Progress) Midnights 3am edition (the Midnight Buddha edition)
     </h2>
-    <p>This album is very similar to the first album I wrote about here, "Hey, I'm just like you" by Tegan and Sara, because I listened to it on loop for a few months before realizing it was perfectly describing the buddhist concepts I was trying to learn and explain. Taylor Swift takes us along her conscousness journey but this album begins and ends at the same place, so I have to give a brief word before starting: the Buddha's "life is suffering" is basically misinformation when used without prior context. One core truth we know about our universe is that everything is impermanent. The inevitable coming and going of everything comes with inevitable pains. The question becomes, if you can understand your own wiring, what changes would you make? And which ones have you made?</p>
+    <p>This album is very similar to the first album I wrote about here, "Hey, I'm just like you" by Tegan and Sara, because I listened to it on loop for a few months before realizing it was perfectly describing the buddhist concepts I was trying to learn and explain. Taylor Swift takes us along her conscousness journey, operating on several levels at once. The top level is Taylor's relationship with love and its impact on her jouney. But the core of this album is consciousness, self love. Many aspects work for both, but looking at the album with its several editions and hearing the emphasis of the words night after night, I'm convinced this is a buddhist album. I don't know if this is surprising or obvious, I need to consult the true Swifty experts who have looped every album in its era, but I've listened to this album many times now. Many. I am numb to the perspective of a new listener, so I will try to let the lyrics do the talking.</p>
 
     {false ? midnightSongs.map(song=>
       song.comments.map((text, i2)=>(<div>
