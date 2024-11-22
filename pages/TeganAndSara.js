@@ -71,17 +71,17 @@ Can this be a real thing? Can it?"`,
     {
     name: "Labyrinth", comments: ["first paragraph", "second tag"]},
     {
-    name: "Karma", comments: ["Karma is cause and effect. Karma isn't something you believe in, it just describes what is. 'I keep my side of the street clean', I think I know what this means. Be positive and loving to yourself and to those around you, and then they have more energy and love and positivity to give to you. Also, if you hold your phone above your face and drop it, that is karma too. You didn't deserve to be hit in the face, it's not good or bad. It is just the result of an action. And within our relativistic universe, actions can have rippling effects. Love is one of the most memed words of all time so there is a lot of cringe that comes with talking about the power of love. But it's real, science is on team Love. Love and positivity and gratitude and other jesus stuff activates the parasympathetic system and you function better.", "Cats and their relationship with you is a direct result of your interactions."]},
+    name: "Karma", comments: ["Karma is cause and effect. Karma isn't something you believe in, it just describes what is. 'I keep my side of the street clean'. Be positive and loving to yourself and to those around you, and then they have more energy and love and positivity to give to you. Also, if you hold your phone above your face and drop it, that is karma too. You didn't deserve to be hit in the face, it's not good or bad. It is just the result of an action. And within our relativistic universe, actions can have rippling effects. Love is one of the most memed words of all time so there is a lot of cringe that comes with talking about the power of love. But it's real, science is on team Love. Love and positivity and gratitude and other jesus stuff activates the parasympathetic system and you function better.", "Cats and their relationship with you is a direct result of your interactions."]},
     {
     name: "Sweet Nothing", comments: ["first paragraph", "second tag"]},
     {
-    name: "Mastermind", comments: ["first paragraph", "second tag"]},
+    name: "Mastermind", comments: ["Master...Mind. Buddhism is all about mastering your own mind, big win here.", "The original album ends here. As I further research, it seems to get more obvious. Taylor has ended her main task, mastering herself. This control has allowed her to succeed so much. The End."]},
     {
-    name: "Part Two: starting with The Great War", comments: ["The rest of the album is concerned  with Taylor's fallout with her ego, and her embracing the realization of nonself. In the great war of life and fame, she relied on her ego, on her image of her ideal self, the person she was always trying to become.", "In the Great War, "]},
+    name: "Part Two: starting with The Great War", comments: [`As Taylor masters herself, she falls into a classic trap. "The truce was the night I nearly lost you", ego death. Memory garden, say a prayer. We will never go back, you hand was the one I reached for throughout the Great War. The Great War can be a few things, life itself, the achievement of an enlightened peace.`]},
     {
-    name: "Bigger Than The Whole Sky", comments: [`"What could've been would've been, should've been you", this song is an ode to the ego she is leaving in the past. She understands the illusory nature of what she aimed to be. But that doesn't diminish the importance of the self she strived for.`, "It's hard to let go, but that's the only choice to stay moving."]},
+    name: "Bigger Than The Whole Sky", comments: [`"What could've been would've been, should've been you", this song is an ode to the ego she is leaving in the past. She understands the illusory nature of what she aimed to be. But that doesn't diminish the importance of the self she strived for.`, "It's hard to let go, but that's the only choice to stay moving.", "This could also be seen as accepting the daily death of sleep every night if you wanna be dramatic/philosophic."]},
     {
-    name: "Paris", comments: ["Taylor learns to fall in love with herself and the world again. Just by being mindful on her own, half a bottle of champagne in your apartment or wandering the street at night becomes an adventure in a new land.", `lyric proof here? `]},
+    name: "Paris", comments: ["Taylor learns to fall in love with herself and the world again. Just by being mindful on her own, half a bottle of champagne in your apartment or wandering the street at night becomes an adventure in a new land.", `lyric proof here `, ``,``,``]},
     {
     name: "High Infidelity", comments: ["first paragraph", "second tag"]},
     {
@@ -94,6 +94,7 @@ Can this be a real thing? Can it?"`,
 
   // show first entry default, but not all. component takes a song, shows first with expand for more
 
+  let introText = `Synchronicity. I'm going to start off with this concept, and then I'll try to only speak through the lyrics and music videos. Language is limited, we can see its limits when trying to express inner feelings. When we talk about our relationship with your own brains though, the language changes. Trust your gut. The old lesson goes something like this, imagine people blindfolded touching various parts of an elephant. They could all be touching the same thing but they can't know the elephant from one perspective alone. Your brain is limited in how it can communicate with you, so you have to be a good listener. I'm trying to point towards something, and when I listen to this album, I get a lot of synchronicity. I think that's the power of pop music, but after so many late nights listening to Midnights, it's clear to me Taylor is singing about a Buddhist elephant the whole time, so I don't believe I'm doing much more than writing it out. #DreamTeam`
   return (
     <div>
       <HomeButton />
@@ -103,13 +104,15 @@ Can this be a real thing? Can it?"`,
       (In Progress) Midnights 3am edition (the Midnight Buddha edition)
     </h2>
     <p>
-      I'm convinced this album is directly about buddhism. There are different layers like classic love pop song style, but the album doesn't make sense unless these buddhist concepts weren't the center of the show. To convince you, I will try to not argue at all, I will try to just describe the songs.
+      {introText}
+
+      {/* I'm convinced this album is directly about buddhism. There are different layers like classic love pop song style, but the album doesn't make sense unless these buddhist concepts weren't the center of the show. To convince you, I will try to not argue at all, I will try to just describe the songs. */}
 {/*
       This album is very similar to the first album I wrote about here, "Hey, I'm just like you" by Tegan and Sara, because I listened to it on loop for a few months before realizing it was perfectly describing concepts I was exploring elsewhere. Taylor Swift takes us along her conscousness journey, operating on several levels at once. The top level is Taylor's relationship with love and its impact on her jouney. But the core of this album is consciousness, self love. Many aspects work for both, but looking at the album with its several editions and hearing the emphasis of the words night after night, I'm convinced this is a buddhist album. I don't know if this is surprising or obvious, I need to consult the true Swifty experts who have looped every album in its era, but I've listened to this album many times now. Many. I am numb to the perspective of a new listener, so I will try to let the lyrics do the talking. */}
 
       </p>
 
-    {midnightSongs.slice(0,1).map(song=>
+    {midnightSongs.map(song=>
       song.comments.map((text, i2)=>(<div>
 
         {i2 == 0 ? <h4>{song.name}</h4> : ''}
