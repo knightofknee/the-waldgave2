@@ -5,7 +5,7 @@
     "build": "next build",
     "start": "next build && next start",
     "gog": "git add . && git commit -m 'gog' && git push && git push heroku",
-    "gogg": "git push heroku",
+    "goop": "git push heroku",
     "gogo": "npm run build && npm run start",
     "go": "npm run dev",
     "g": "git add . && git commit -m 'g'",
