@@ -32,7 +32,13 @@ export default function TeganAndSara() {
     {
     name: "Maroon", comments: ["Taylor learns how to have a relationship with herself. She loses touch with her inner self and has to relearn how to love herself properly. It is easy to forget this when falling for someone else.", "The way I analyze albums is like the Tegan and Sara post below, I assume the singer is singing from one part of herself to another. T and S ended up being exclusively that, it works well here. She describes a bunch of things that could just be her having fun with her inner self."]},
     {
-    name: "Anti-Hero", comments: ["The struggle with ego. She is afraid that in pursuit of what she wants to be, she will lose the most important part of herself. 'It's me, hi, I'm the problem it's me. At tea time everyone agrees'. Say ego is bad and people tend to agree, but what about in practice? If she doesn't keep it up then she could disappoint many. She is focused on the sun, she is aiming to be something different than herself. 'I'll stare at the sun but never in the mirror'", "Music video: Taylor is straight hallucinating. Imagination is now working against her. She appears to be paranoid as well. Before I thought my later claim about schizophrenia would be seen as too much, but she shows it here. Fun Taylor shows up to save the day. This is the ideal Taylor, popstar Taylor (PT?). regular Taylor can't hang with popstar Taylor and it seems like she might be killed off. They later reconnect and make peace. They both stay and giant Taylor arrives (global stardom? The outfits probably say something, I need a Swiftie). "]},
+    name: "Anti-Hero", comments: [
+      `Music video: Taylor is bored at home. "It's me, hi, I'm the problem it's me." Taylor is bored, staying up late and sleeping into the afternoon. This lonely lifestyle is perfect for fostering her relationship with herself. Taylor's ego is her popstar self. Star Taylor is her best friend when partying and releasing her imagination, but the unhealthy dynamic is on display as well. Star T is seen watching and shaming Taylor while she weighs herself. "There's probably a secretly encoded message that means something ELSE!" That is a line in the video, one of Taylor's many strong hints. It then jumps back into "It's me, hi, I'm the problem it's me", which is a total Buddhism take, ego is the main issue. Attachment to the impermanent. Everything is impermanent, that is the inevitable cause of 'suffering' in life. Ego is the faults you hang on to, like Taylor's late night drinking. Ego is also how you choose to separate yourself from the rest of the world. At the end we see 3 Taylors converge, Star Taylor, who she is trying to be, Regular Taylor who she sees herself as, and Giant Taylor, the ego that is created by her reacting to the world's reaction to her. It's hard for her to interact with the world normally now that people see her as so big. These 3 are able to comfort each other, the obvious disparity is a source of awareness, consciousness.`,
+
+
+      // "old: The struggle with ego. She is afraid that in pursuit of what she wants to be, she will lose the most important part of herself. 'It's me, hi, I'm the problem it's me. At tea time everyone agrees'. Say ego is bad and people tend to agree, but what about in practice? If she doesn't keep it up then she could disappoint many. She is focused on the sun, she is aiming to be something different than herself. 'I'll stare at the sun but never in the mirror'", "old: Music video: Taylor is straight hallucinating. Imagination is now working against her. She appears to be paranoid as well. Before I thought my later claim about schizophrenia would be seen as too much, but she shows it here. Fun Taylor shows up to save the day. This is the ideal Taylor, popstar Taylor (PT?). regular Taylor can't hang with popstar Taylor and it seems like she might be killed off. They later reconnect and make peace. They both stay and giant Taylor arrives (global stardom? The outfits probably say something, I need a Swiftie). "
+
+    ]},
     {
     name: "Snow On The Beach", comments: [
 
@@ -67,7 +73,7 @@ Can this be a real thing? Can it?"`,
     {
     name: "Vigilante Shit", comments: ["", ""]},
     {
-    name: "Bejeweled", comments: ["first paragraph", "second tag"]},
+    name: "Bejeweled", comments: [`Music video: Taylor is in a cinderella story, she doesn't want the man she wants the castle.`, ]},
     {
     name: "Labyrinth", comments: ["first paragraph", "second tag"]},
     {
