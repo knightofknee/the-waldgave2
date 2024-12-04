@@ -1,6 +1,8 @@
 import HomeButton from "../components/HomeButton"
 import { useState } from 'react';
 
+// left aligned text? and description of policies section
+
 export default function OpenChicago() {
   const [expandedP, setExpandedP] = useState(false);
   const [expandedQ, setExpandedQ] = useState(false);
@@ -19,6 +21,9 @@ export default function OpenChicago() {
           <>
     <p>I am running for mayor and I want your support. To be brief, you should vote for me because I have the best ideas. If someone has better ideas, let me know, I want to support and learn from them. I truly believe I have the highest quality and quantity of ideas. If you believe I am wrong, then I don't want your vote, I want to hear your voice. Send me any better ideas, I want them all please and thank you, much appreciated. You only need to know two things about my political philosophy, 1) The golden rule is the core of my beliefs and how I think government should function. For any policy, how would you feel if you were any random person affected? The golden rule alone isn't enough, you have to also factor in other people having different preferences than you, and how to live with uncertainty. Buddhism uses the word Equanimity, it is one of the "4 Immeasurables", alongside loving-kindness, compassion and sympathetic joy. To me, equanimity is impartiality, an accurate understanding of what we share. I see deep inequality in our city and world. Which brings us to 2) I want right answers, implemented iteratively and publicly. Math and science have proven their worth, they are the anti-politics tools. And when I look at the history of Chicago, of cars in American cities, when I see the massive productivity gains of technology that enables one person to make beautiful things that can be shared infinitely at no marginal cost, alongside a stagnant minimum wage, I see trash math. I see propoganda as the leader of policy. I am an engineer, a buddhist, I love quantum physics and neuroscience, I understand a bit of how the whole operation functions. AND SOMETHING SMELLS FUNKY. </p>
     </>)}
+    <p>
+      Below you will find my Chicago Mayoral platform. These are my main plans loosely described, I want to make sure all important topics are covered. These are not highly edited or very specific yet. I'm currently researching urban design. Please let me know if you have concerns that are not addressed or if you have any particular areas you want to see more of.
+    </p>
     <p>Please use this google forms link here to send me any feedback: <a href="https://forms.gle/xWV5H1nhWJWJynoMA">https://forms.gle/xWV5H1nhWJWJynoMA</a></p>
     <h4>A couple initial definitions</h4>
     <button onClick={() => setExpandedDef(!expandedDef)}>
@@ -70,7 +75,7 @@ export default function OpenChicago() {
       Concrete-protected bike lane highways north-south and east-west. Track bike crashes and build more protected bike lanes wherever they seem needed. Map out the active cycling population of Chicago so we can get accurate simulations going and can optimize the bike lane making. This is where I need my Industrial Engineering brothers and sisters to step up and make us an open-source model of the city that anyone can interact with through various interfaces. I want to let people propose alterations based on the results of their changes to the model. Let local people find local improvements.
       </p>
       <p>
-    Carbon Check- it's like a carbon tax but it isn't a tax because the government gets nothing. We check how much harm people are putting in the air and we charge them. That money goes to a fund, and every month that fund is divided evenly between every citizen. Everyone bears the consequences of these actions, so everyone should be paid to compensate. This can immediately correct incentives. The result? The whole city is incentivized to destory the world less, at ZERO cost. It's just a transfer. This is simply fair, or more accurately, more fair than today. Because we will not be charging the full cost incurred by your gas use. We will be charging a fraction of the cost, and then dividing that fraction evenly. This may seem obvious or too easy, that's because it is the right idea. No more political bullshit, daddy Engineer is here (sry just saw the TCarlson thing).
+    Carbon Check- it's like a carbon tax but it isn't a tax because the government gets nothing. We check how much harm people are putting in the air and we charge them. That money goes to a fund, and every month that fund is divided evenly between every citizen. Everyone bears the consequences of these actions, so everyone should be paid to compensate. This can immediately correct incentives. The result? The whole city is incentivized to destory the world less, at ZERO cost. It's just a transfer. This is simply fair, or more accurately, more fair than today. Because we will not be charging the full cost incurred by your gas use. We will be charging a fraction of the cost, and then dividing that fraction evenly. This may seem obvious or too easy, that's because it is the right idea. No more political bullshit, no paying the government. Pure equality. Massive gains with zero infrastructure changes. Do it. Do it now.
   </p>
 
 
@@ -252,6 +257,9 @@ Parking meter pricing should be a supply and demand-based system to maximize uti
 
 <style jsx>
 {`
+h2 {
+  text-align: center;
+  }
 p, ol {
   margin: 1% 5%;
 }
