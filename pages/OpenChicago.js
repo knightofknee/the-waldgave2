@@ -1,5 +1,6 @@
 import HomeButton from "../components/HomeButton"
 import { useState } from 'react';
+import Phases from "../components/Phases";
 
 // left aligned text? and description of policies section
 
@@ -8,11 +9,26 @@ export default function OpenChicago() {
   const [expandedQ, setExpandedQ] = useState(false);
   const [expandedDef, setExpandedDef] = useState(false);
   const [expandedInt, setExpandedInt] = useState(false);
+
+  const phases = [
+    { name: 'Ideation', isActive: true },
+    { name: 'Refinement', isActive: false },
+    { name: 'Secret Invasion', isActive: false },
+    { name: 'Shock and Awe campaign', isActive: false },
+  ];
   return (
 <div className="container">
   <HomeButton />
   <div style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center', marginBottom: '5%'}}>
     <h2>Dear Chicago, Welcome to the Chi-GUI Conspiracy</h2>
+    {/* <h4>Phase</h4>
+    <div style={{display: 'flex', padding: '10px'}}>
+      <div>Ideation</div>
+      <div>Refinement</div>
+      <div>Secret Invasion</div>
+      <div>Shock and Awe campaign</div>
+    </div> */}
+    <Phases />
     <h4>Introduction</h4>
     <button onClick={() => setExpandedInt(!expandedInt)}>
           {expandedInt ? 'Hide' : 'Show'}
