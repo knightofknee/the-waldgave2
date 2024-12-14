@@ -11,44 +11,47 @@ const targetDate = new Date('2026-08-29T00:00:00Z');
 
 function calculateCountdown() {
   const now = new Date();
-  let diffTime = targetDate - now;
-  if (diffTime < 0) {
+  if (now >= targetDate) {
     return { years: 0, months: 0, days: 0, hours: 0, minutes: 0, seconds: 0 };
   }
 
-  // Calculate years, months, days
-  let years = targetDate.getFullYear() - now.getFullYear();
-  let months = targetDate.getMonth() - now.getMonth();
-  let days = targetDate.getDate() - now.getDate();
+  // Start from now and increment step-by-step to find Y, M, D
+  let current = new Date(now.getTime());
 
-  if (days < 0) {
-    months -= 1;
-    const prevMonth = (targetDate.getMonth() === 0) ? 11 : targetDate.getMonth() - 1;
-    const prevMonthYear = (prevMonth === 11) ? targetDate.getFullYear() - 1 : targetDate.getFullYear();
-    const daysInPrevMonth = new Date(prevMonthYear, prevMonth + 1, 0).getDate();
-    days = daysInPrevMonth - now.getDate() + targetDate.getDate();
+  let years = 0;
+  while (true) {
+    const nextYear = new Date(current.getTime());
+    nextYear.setFullYear(nextYear.getFullYear() + 1);
+    if (nextYear > targetDate) break;
+    current = nextYear;
+    years++;
   }
 
-  if (months < 0) {
-    years -= 1;
-    months += 12;
+  let months = 0;
+  while (true) {
+    const nextMonth = new Date(current.getTime());
+    nextMonth.setMonth(nextMonth.getMonth() + 1);
+    if (nextMonth > targetDate) break;
+    current = nextMonth;
+    months++;
   }
 
-  // Create a "intermediate" date by adding the Y, M, D difference to now
-  const intermediateDate = new Date(now);
-  intermediateDate.setFullYear(intermediateDate.getFullYear() + years);
-  intermediateDate.setMonth(intermediateDate.getMonth() + months);
-  intermediateDate.setDate(intermediateDate.getDate() + days);
+  let days = 0;
+  while (true) {
+    const nextDay = new Date(current.getTime());
+    nextDay.setDate(nextDay.getDate() + 1);
+    if (nextDay > targetDate) break;
+    current = nextDay;
+    days++;
+  }
 
-  // Now find the leftover time for hours, minutes, seconds
-  let leftoverDiff = targetDate - intermediateDate;
-  if (leftoverDiff < 0) leftoverDiff = 0; // just in case
-
-  let totalSeconds = Math.floor(leftoverDiff / 1000);
+  // Now the difference should be less than a day
+  const diff = targetDate - current;
+  const totalSeconds = Math.floor(diff / 1000);
   const hours = Math.floor(totalSeconds / 3600);
-  totalSeconds %= 3600;
-  const minutes = Math.floor(totalSeconds / 60);
-  const seconds = totalSeconds % 60;
+  const remainderAfterHours = totalSeconds % 3600;
+  const minutes = Math.floor(remainderAfterHours / 60);
+  const seconds = remainderAfterHours % 60;
 
   return { years, months, days, hours, minutes, seconds };
 }
