@@ -7,45 +7,53 @@ const phases = [
   { name: 'Shock and Awe Campaign', isActive: false },
 ];
 
-const targetDate = new Date('2026-08-29T00:00:00Z');
+const CST_OFFSET_HOURS = 6;
+function toCST(date) {
+  return new Date(date.getTime() - CST_OFFSET_HOURS * 3600 * 1000);
+}
+
+// Target date: midnight CST on 2026-08-29 corresponds to 2026-08-29T06:00:00Z
+// You changed it to 05:00:00Z for your small adjustment, so we'll keep that:
+const originalTargetDate = new Date('2026-08-29T05:00:00Z');
+const targetDate = toCST(originalTargetDate);
 
 function calculateCountdown() {
-  const now = new Date();
-  if (now >= targetDate) {
+  const nowUTC = new Date();
+  const nowCST = toCST(nowUTC);
+
+  if (nowCST >= targetDate) {
     return { years: 0, months: 0, days: 0, hours: 0, minutes: 0, seconds: 0 };
   }
 
-  // Start from now and increment step-by-step to find Y, M, D
-  let current = new Date(now.getTime());
+  let current = new Date(nowCST.getTime());
 
   let years = 0;
   while (true) {
-    const nextYear = new Date(current.getTime());
-    nextYear.setFullYear(nextYear.getFullYear() + 1);
-    if (nextYear > targetDate) break;
-    current = nextYear;
+    const testYear = new Date(current);
+    testYear.setFullYear(testYear.getFullYear() + 1);
+    if (testYear > targetDate) break;
+    current = testYear;
     years++;
   }
 
   let months = 0;
   while (true) {
-    const nextMonth = new Date(current.getTime());
-    nextMonth.setMonth(nextMonth.getMonth() + 1);
-    if (nextMonth > targetDate) break;
-    current = nextMonth;
+    const testMonth = new Date(current);
+    testMonth.setMonth(testMonth.getMonth() + 1);
+    if (testMonth > targetDate) break;
+    current = testMonth;
     months++;
   }
 
   let days = 0;
   while (true) {
-    const nextDay = new Date(current.getTime());
-    nextDay.setDate(nextDay.getDate() + 1);
-    if (nextDay > targetDate) break;
-    current = nextDay;
+    const testDay = new Date(current);
+    testDay.setDate(testDay.getDate() + 1);
+    if (testDay > targetDate) break;
+    current = testDay;
     days++;
   }
 
-  // Now the difference should be less than a day
   const diff = targetDate - current;
   const totalSeconds = Math.floor(diff / 1000);
   const hours = Math.floor(totalSeconds / 3600);
@@ -66,6 +74,14 @@ export default function Phases() {
     return () => clearInterval(interval);
   }, []);
 
+  const y = String(countdown.years);
+  const M = String(countdown.months);
+  const d = String(countdown.days);
+  // Pad hours, minutes, and seconds to always be two digits
+  const H = String(countdown.hours).padStart(2, '0');
+  const m = String(countdown.minutes).padStart(2, '0');
+  const s = String(countdown.seconds).padStart(2, '0');
+
   return (
     <div style={{
       display: 'flex',
@@ -73,7 +89,7 @@ export default function Phases() {
       gap: '10px',
       backgroundColor: 'rgb(220, 170, 210)'
     }}>
-      {phases.map((phase, index) => {
+      {phases.map(phase => {
         const activeStyle = phase.isActive
           ? {
               backgroundColor: 'rgb(235, 215, 235)',
@@ -91,31 +107,31 @@ export default function Phases() {
 
         return (
           <div
-            key={index}
+            key={phase.name}
             style={{
               padding: '5px 10px',
               borderRadius: '5px',
               ...activeStyle,
-              cursor: phase.isActive ? 'default' : 'pointer',
+              cursor: 'default',
               position: isShockAndAwe ? 'relative' : 'static'
             }}
           >
             {phase.name}
-
             {isShockAndAwe && (
               <div
                 style={{
                   position: 'absolute',
-                  top: '100%',       // place directly below the box
-                  left: '50%',       // center horizontally below the box
+                  top: '100%',
+                  left: '50%',
                   transform: 'translate(-50%, 5px)',
                   color: 'rgb(40, 40, 40)',
                   fontSize: '0.85em',
                   whiteSpace: 'nowrap',
-                  fontWeight: 'normal'
+                  fontWeight: 'normal',
+                  //fontFamily: 'monospace' // optional: monospace to ensure consistent width
                 }}
               >
-                {countdown.years}:{countdown.months}:{countdown.days}:{countdown.hours}:{countdown.minutes}:{countdown.seconds}
+                {y}:{M}:{d}:{H}:{m}:{s}
               </div>
             )}
           </div>
