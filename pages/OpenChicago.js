@@ -1,6 +1,7 @@
 import HomeButton from "../components/HomeButton"
 import { useState } from 'react';
 import Phases from "../components/Phases";
+import LatestNews from "../components/LatestNews";
 
 // left aligned text? and description of policies section
 
@@ -29,6 +30,7 @@ export default function OpenChicago() {
       <div>Shock and Awe campaign</div>
     </div> */}
     <Phases />
+    <LatestNews />
     <h4>Introduction</h4>
     <button onClick={() => setExpandedInt(!expandedInt)}>
           {expandedInt ? 'Hide' : 'Show'}
