@@ -25,13 +25,13 @@ export default function thebLOG() {
   return (<div>
 <div>
 <HomeButton />
-  <h1>the bLOG</h1>
-  <h4>The first goal of this blog is to share the best ideas that I come up with or encounter. I would love to research these things in depth and build them out, but I don't have time for everything so instead I share these notes as brain food, inspiration, and hopefully some entertainment. The second goal is to practice longer writing on some of these ideas. </h4>
-  {/* <h2>Monday Night Review- 4/17/23</h2>
-  <p>MNR TLDR: I try to record the best ideas I have or that I hear. The base concept is that your memory has no magic that makes you remember your best ideas and forget all your bad ideas. But with just a few words, you can create a memory file for yourself. A quick note in your phone can bring you back to a train of thought at any time. Monday Night Review is my process for reviewing these notes on a regular basis. My volume of ideas far exceeds my capacity to execute them, so I want to develop the habit of sharing them. I want to get more elaborate over time and make youtube videos, but for now I'm just going to focus on sharing what content I can and Auto-GPT will fill in the rest.</p>
-  <p></p> */}
+  <h1>the b-LOGS</h1>
+  <h4> </h4>
+  <h2>Monday Night Review</h2>
+  <p>MNR TLDR: I try to record the best ideas I have or that I hear. The base concept is that your memory has no magic that makes you remember your best ideas and forget all your bad ideas. But with just a few words, you can create a memory file for yourself. A quick note in your phone can bring you back to a train of thought at any time. Monday Night Review is my process for reviewing these notes on a regular basis. My volume of ideas far exceeds my capacity to execute them, so I want to develop the habit of sharing them. I want to get more elaborate over time and make youtube videos, but for now I'm just going to focus on sharing what content I can and Auto-GPT will fill in the rest. I hope to make a habit of doing this every Monday night, streaming on youtube. I am over a year behind, but that just means I have a full best year's worth of ideas to hand out each week.</p>
+  <p></p>
 
-<h4>(I am currently focused on a particular group of 4 projects. I want to keep trickling out random notes on Monday nights, but I will otherwise be in Retrograde)</h4>
+{/* <h4>(I am currently focused on a particular group of 4 projects. I want to keep trickling out random notes on Monday nights, but I will otherwise be in Retrograde)</h4> */}
   <h5>October Random Notes</h5>
 <ol className="randomNotes">
 
