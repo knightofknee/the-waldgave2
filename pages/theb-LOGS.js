@@ -28,7 +28,7 @@ export default function thebLOG() {
   <h1>the b-LOGS</h1>
   <h4> </h4>
   <h2>Monday Night Review</h2>
-  <p>MNR TLDR: I try to record the best ideas I have or that I hear. The base concept is that your memory has no magic that makes you remember your best ideas and forget all your bad ideas. But with just a few words, you can create a memory file for yourself. A quick note in your phone can bring you back to a train of thought at any time. Monday Night Review is my process for reviewing these notes on a regular basis. My volume of ideas far exceeds my capacity to execute them, so I want to develop the habit of sharing them. I want to get more elaborate over time and make youtube videos, but for now I'm just going to focus on sharing what content I can and Auto-GPT will fill in the rest. I hope to make a habit of doing this every Monday night, streaming on youtube. I am over a year behind, but that just means I have a full best year's worth of ideas to hand out each week.</p>
+  <p>MNR TLDR: I try to record the best ideas I have or that I hear. The base concept is that your memory has no magic that makes you remember your best ideas and forget all your bad ideas. But with just a few words, you can create a memory file for yourself. A quick note in your phone can bring you back to a train of thought at any time. These notes can be the best things you come up with and the best things you hear from someone else. Monday Night Review is my process for reviewing these notes on a regular basis. My volume of ideas far exceeds my capacity to execute them, so I want to develop the habit of sharing them. I want to get more elaborate over time and make youtube videos, but for now I'm just going to focus on sharing what content I can and Auto-GPT will fill in the rest. I hope to make a habit of doing this every Monday night, streaming on youtube. I am over a year behind, but that just means I have a full best year's worth of ideas to hand out each week.</p>
   <p></p>
 
 {/* <h4>(I am currently focused on a particular group of 4 projects. I want to keep trickling out random notes on Monday nights, but I will otherwise be in Retrograde)</h4> */}
@@ -62,6 +62,16 @@ So maybe we are just second messengers. We are receivers of an output, but our p
 todo: Winner picks next game, no repeats, any game has rules for what constitutes winning. In Mario kart it would be a cup, 4 races. It can even rely on an arbitrary judge.
 <br/>
 Board games with edited rules to make it faster and less predictable ------- <a href="https://docs.google.com/spreadsheets/d/1zUOiw-nKfEcuka2geQiGhL_sxP1YhnO0caWXPJyZ_ug/edit?usp=sharing">here's a google doc, add your favorite game(s) or check out other suggestions.</a>
+  </li>
+  <li className="story">
+  The cost of context switching.
+  <br/>
+Tax it. Any notification?
+<br/>
+Part of why phone surveys are ridiculous. That's free real estate inside somebody's brain. If you want freedom of mind, you cannot have unchecked freedom of other things. Protect the people. Help them by getting the junk out of the way. Make ads opt-in only. Put it in your ar system if you so choose. But then default should be to give the citizens and visitors an ideal experience.
+  </li>
+  <li className="story">
+  I am the wave, you only see my particles.
   </li>
   <li className="story">
 
