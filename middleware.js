@@ -8,6 +8,10 @@ export function middleware(req) {
     url.pathname = '/chigui'; // Redirect to the case-sensitive route
     return NextResponse.rewrite(url);
   }
+  if (url.pathname === '/OpenChicago' || url.pathname === '/openchicago') {
+    url.pathname = '/chigui'; // Redirect to the case-sensitive route
+    return NextResponse.rewrite(url);
+  }
   if (url.pathname === '/teganandsara' || url.pathname.toLowerCase() === '/TeganandSara') {
     url.pathname = '/TeganAndSara'; // Redirect to the case-sensitive route
     return NextResponse.rewrite(url);
