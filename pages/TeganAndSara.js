@@ -115,17 +115,18 @@ And now that I know, I wish you'd left me wondering`, `Sex, alcohol and drugs ar
 
   // show first entry default, but not all. component takes a song, shows first with expand for more
 
-  let introText = `Synchronicity. I'm going to start off with this concept, and then I'll try to only speak through the lyrics and music videos. Language is limited, we can see its limits when trying to express inner feelings. When we talk about our relationship with your own brains though, the language changes. Trust your gut. The old lesson goes something like this, imagine people blindfolded touching various parts of an elephant. They could all be touching the same animal but they can't know the elephant from one perspective alone. Your brain is limited in how it can communicate with you, so you have to be a good listener. I'm trying to point towards something, and when I listen to this album, I get a lot of synchronicity. I think that's the power of pop music, but after so many late nights listening to Midnights, it's clear to me Taylor is singing about a Buddhist elephant the whole time, so I don't believe I'm doing much more than writing it out. My qualifications: I am no true Swifty, but I have been listening to Midnights a LOT. I'm only top 2% of Spotify Taylor Swift listeners in 2024, but I am top 0.005% in listens to the first song of Midnights, Lavendar Haze. And I often started the album in the middle on The Great War! I am a true Midnights Swifty. I listened to this album for months just because I loved it. Then I began realizing how well the lyrics fit the Buddhist and neuroscience ideas I've been learning and trying to explain. That was sometime in 2023. I've since spent many late nights letting this album wash over me, many private dance parties. Hear is what I here.`
+  let introText = `Synchronicity. I'm going to start off with this concept, and then I'll try to only speak through the lyrics and music videos. Carl Jung made up the word to describe the subconscious talking, or "the simultaneous occurence of two different psychic states." Language is limited, we can see its limits when trying to express inner feelings. When we talk about our relationship with your own brains though, the language changes. Trust your gut. The old lesson goes something like this, imagine people blindfolded touching various parts of an elephant. They could all be touching the same animal but they can't know the elephant from one perspective alone. Your brain is limited in how it can communicate with you, so you have to be a good listener. I'm trying to point towards something, and when I listen to this album, I get a lot of synchronicity. I think that's the power of pop music, but after so many late nights listening to Midnights, it's clear to me Taylor is singing about a Buddhist elephant the whole time, so I don't believe I'm doing much more than writing it out. My qualifications: I am no true Swifty, but I have been listening to Midnights a LOT. I'm only top 2% of Spotify Taylor Swift listeners in 2024, but I am top 0.005% in listens to the first song of Midnights, Lavendar Haze. And I often started the album in the middle on The Great War! I am a true Midnights Swifty. I listened to this album for months just because I loved it. Then I began realizing how well the lyrics fit the Buddhist and neuroscience ideas I've been learning and trying to explain. That was sometime in 2023. I've since spent many late nights letting this album wash over me, many private dance parties. Hear is what I here.`
   return (
-    <div>
+    <div className='container'>
       <HomeButton />
-<div id="newOuterShell" style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
-  <div style={{display:'flex',justifyContent:'center',flexDirection:'column',alignItems:'center'}}>
+  <div style={{display:'flex',flexDirection:'column', alignItems:'center'}}>
     <h2>
       (In Progress) Midnights 3am edition (the Midnight Buddha edition)
     </h2>
     <p>
-      {introText}
+      {introText} {/* min/max option here */}
+
+
 
       {/* I'm convinced this album is directly about buddhism. There are different layers like classic love pop song style, but the album doesn't make sense unless these buddhist concepts weren't the center of the show. To convince you, I will try to not argue at all, I will try to just describe the songs. */}
 {/*
@@ -134,7 +135,7 @@ And now that I know, I wish you'd left me wondering`, `Sex, alcohol and drugs ar
       </p>
 
     {midnightSongs.map(song=>
-      song.comments.map((text, i2)=>(<div>
+      song.comments.slice(0,0).map((text, i2)=>(<div>
 
         {i2 == 0 ? <h4>{song.name}</h4> : ''}
 
@@ -151,10 +152,30 @@ But your eyes are flying saucers from another planet
 Now, I'm all for you like Janet
 Can this be a real thing? Can it?" Like she just referenced the Good Place Janet guys, she did some philosophy homework. Janet is a being made by heaven able to think anything into existence. She replays "snow on the beach", which has the lyric above. I am at this moment nearly done with season 3 of the good place, if this will get Taylor to see me, can I be your Chidi? With each new album edition, Taylor adds another level of complexity. This mirrors her growth, she is not running aimlessly in her electric forest, Taylor Swift took control of her story. As she stayed focused on the same things, as she kept working and walking with intention, the complexity of her mind and music grew, even if some things remained. The last song is karma being repeated. If there is one flaw that bothers me most with Chidi Anagonye so far, it is that Buddhism has answers to most if not all of his moral quandries but he is a moral philosophy professor who quotes like all of the western philosophers. I may be biased, but with this song choice, Taylor Swift confirms her support of the Buddha. With this song and the following "Lavendar Haze" when the album loops give Taylor's biggest Buddha takeaways. Taylor put in the work, "Ask me what I learned from all those years, Ask me what I earned from all those tears, Ask me why so many fade, but I'm still here". Karma is explained the first time around above. It can help you answer most of life's questions, whether or not to take a particular action. Lavendar Haze is loving kindess in action. There is this idea of trying to love everyone; it is easiest for the people closest to you, with friends, acquantances, strangers and eventually people you dislike or hate. The flip-side can also be useful, lean in to loving the people that it is easiest for you to love. Together you can build a Pure Land type of environment. In Buddhism, that means a place full of people committed to being more mindful. A happy family is the same.
     </p>
-    <p>run through titles as a recap TLDR?</p>
+    {/* <p>run through titles as a recap TLDR?</p>
     <p>
       Taylor singing to Taylor- this deserves its own section as it seems to take a leading role.
-    </p>
+    </p> */}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <h2>Big Sean is the best role model in rap</h2>
     <p>
       This album for me isn't about bangers, it's consistently smooth and has a strong theme and message. It is mostly slow and fun for the beginning, bouncy, and then later into the 1+ hour he goes hard. Big Sean hits different here, he is preaching living better, but he's not leaving his fun self behind. He isn't going out as much, but he's still embracing the mix of being a hustler, pimp, player, lover and father. This is a great motivational album, it's like a well-structured sandwich. The meat of it is this positive core message, a few songs talking about his life, growth, and pursuing goals. There's a Kanye diss-track. The rest is the bread and veggies, all working well together, but some songs like the first few are musical carbs keeping the thing together. I think it is a balanced meal, I can loop this album and get something out of it without it interrupting what I'm doing. It's stacks on stacks on stacks like a BLT.
@@ -395,7 +416,6 @@ Go ahead and choose"
   {visibleLyrics && <div style={{position:'sticky',top:'20px', maxHeight:'500px', overflow:'hidden', overflowY:'auto'}}>
     <Song lyrics={song} expandLyrics={expandLyrics}/>
   </div>}
-</div>
 
   {/* <script crossOrigin="" src='//genius.com/songs/4726856/embed.js'></script> */}
 
@@ -405,13 +425,15 @@ p {
   margin: 1% 5%;
 }
 
-h4 {
+h4, h2 {
   text-align: center;
 }
 
 iframe {
   margin: 2% 0;
 }
+
+
 `}
 </style>
 </div>)}
