@@ -97,6 +97,9 @@ export default function OpenChicago() {
       <p>
     Carbon Check- it's like a carbon tax but it isn't a tax because the government gets nothing. We check how much harm people are putting in the air and we charge them. That money goes to a fund, and every month that fund is divided evenly between every citizen. Everyone bears the consequences of these actions, so everyone should be paid to compensate. This can immediately correct incentives. The result? The whole city is incentivized to destory the world less, at ZERO cost. It's just a transfer. This is simply fair, or more accurately, more fair than today. Because we will not be charging the full cost incurred by your gas use. We will be charging a fraction of the cost, and then dividing that fraction evenly. This may seem obvious or too easy, that's because it is the right idea. No more political bullshit, no paying the government. Pure equality. Massive gains with zero infrastructure changes. Do it. Do it now.
   </p>
+  <p>
+    Long-term plan for Lakeshore Drive. Strategic landfilling for the people. We build more land at strategic places to expand Chicago eastward onto land that cannot be built upon. It's an investment that greedy politicians or developers can't spoil. We also reroute LSD westward as the rest of the transit wins allow us to reduce traffic. First LSD can be routed through the Columbus area, eventually down and out of the way like the trains there. The goal is to create a car-free connection between the city and the lake and all it has to offer with the parks as well. Wouldn't it be cool if someone could arrive at Millenium station and walk straight to Millenium park and onto the beach without having to worry about getting hit by a car? Our architecture is even more beautiful when you can safely look up to see it.
+  </p>
 
 
 
