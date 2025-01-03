@@ -123,6 +123,7 @@ And now that I know, I wish you'd left me wondering`, `Sex, alcohol and drugs ar
     <h2>
       (In Progress) Midnights 3am edition (the Midnight Buddha edition)
     </h2>
+    <h4>Intro</h4>
     <p>
       {introText} {/* min/max option here */}
 
@@ -133,8 +134,8 @@ And now that I know, I wish you'd left me wondering`, `Sex, alcohol and drugs ar
       This album is very similar to the first album I wrote about here, "Hey, I'm just like you" by Tegan and Sara, because I listened to it on loop for a few months before realizing it was perfectly describing concepts I was exploring elsewhere. Taylor Swift takes us along her conscousness journey, operating on several levels at once. The top level is Taylor's relationship with love and its impact on her jouney. But the core of this album is consciousness, self love. Many aspects work for both, but looking at the album with its several editions and hearing the emphasis of the words night after night, I'm convinced this is a buddhist album. I don't know if this is surprising or obvious, I need to consult the true Swifty experts who have looped every album in its era, but I've listened to this album many times now. Many. I am numb to the perspective of a new listener, so I will try to let the lyrics do the talking. */}
 
       </p>
-      <h4>TLDR of the base story layer, by title name:</h4>
-      <p>Lavendar Haze is inspiration and a state of mind Taylor gets from romance. Maroon is the unexpected deep love, </p>
+      <h4>First let's TLDR the album by title name, before adding my theories:</h4>
+      <p><strong>Lavendar Haze</strong> is the state of mind Taylor gets from her romantic partners. She is criticized for relationships that don't end in marriage, but she is able to get what she wants, someone who is able to provide comfort and inspiration. <strong>Maroon</strong> is deep love, the kind that is a lasting memory. These two colors define the main 2 types of relationships T has, and now we explore them through Taylor's romantic journey. <strong>Anti-Hero</strong> grounds this journey in personal growth. Creativity and fame have consequences, and that busy world is the setting in which Taylor's love story takes place. <strong>Snow On The Beach</strong> is tricky, I have 2 direct interpretations (my Buddha one is wild). The first is a perfect first meeting. Love at first sight, everything you dreamed of coming to life. The second is this is the first time Taylor met John Mayor, her celebrity crush. The impossible comes true, more to say on this relationship later. We get a time jump here. <strong>You're On Your Own Kid</strong> starts the story, Taylor dedicating herself to her romantic dreams but failing to get the attention of the one she was crushing on. That rejection pushed Taylor to work on herself and her music instead. She fell in love with that. <strong>Midnight Rain</strong> is the other side of the same coin, Taylor gets the love she wanted, but she was already on a different path pursuing her career, she couldn't stay.<strong>Question...?</strong> is hard to fit in, it is kind of about the drama of relationships, and how it could be fixed with the right attitude. <strong>Vigilante Shit</strong> is about dressing for revenge, taking power. Question...? kind of has T taking control of the narrative through wit, but now she's growing into her own power. <strong>Bejeweled</strong> is a continuation of Vigilante Shit but positive. Taylor is asserting herself and shining on her own. <strong>Labyrinth</strong> is a turn, Taylor felt like she was hardened but now she has fallen in love again.</p>
 
     {midnightSongs.map(song=>
       song.comments.slice(0,0).map((text, i2)=>(<div>
