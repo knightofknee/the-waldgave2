@@ -32,7 +32,7 @@ export default function TeganAndSara() {
 
     ]},
     {
-    name: "Snow On The Beach", comments: [
+    name: "Snow On The Beach", comments: [ //synchronicity!!!!!!
 
       `"This scene feels like what I once saw on a screen
 I searched "aurora borealis green"
@@ -120,6 +120,7 @@ And now that I know, I wish you'd left me wondering`, `Sex, alcohol and drugs ar
     <div className='container'>
       <HomeButton />
   <div style={{display:'flex',flexDirection:'column', alignItems:'center'}}>
+    <>
     <h2>
       (In Progress) Midnights 3am edition (the Midnight Buddha edition)
     </h2>
@@ -137,7 +138,7 @@ And now that I know, I wish you'd left me wondering`, `Sex, alcohol and drugs ar
       <h4>First let's TLDR the album by title name, before adding my theories:</h4>
       <p><strong>Lavendar Haze</strong> is the state of mind Taylor gets from her romantic partners. She is criticized for relationships that don't end in marriage, but she is able to get what she wants, comfort and inspiration. <strong>Maroon</strong> is deep love, the kind that is a lasting memory. These two colors define the main 2 types of relationships T has, and now we explore them through Taylor's romantic journey. <strong>Anti-Hero</strong> grounds this journey in personal growth. Creativity and fame have consequences, and that busy world is the setting in which Taylor's love story takes place. <strong>Snow On The Beach</strong> is tricky, I have 2 direct interpretations (my Buddha one is wild). The first is a perfect first meeting. Love at first sight, everything you dreamed of coming to life. The second is this is the first time Taylor met John Mayor, her celebrity crush. The impossible comes true, more to say on this relationship later. We get a time jump here. <strong>You're On Your Own Kid</strong> starts the story, Taylor dedicating herself to her romantic dreams but failing to get the attention of the one she was crushing on. That rejection pushed Taylor towards music, she fell in love with that. <strong>Midnight Rain</strong> is the other side of the same coin, Taylor gets the love she wanted, but she was already on a different path pursuing her career, she couldn't stay.<strong>Question...?</strong> is hard to fit in, it is kind of about the drama of relationships, and how it could be fixed with the right attitude. <strong>Vigilante Shit</strong> is about dressing for revenge, taking power. Question...? kind of has T taking control of the narrative through wit, but now she's growing into her own power. <strong>Bejeweled</strong> is a continuation of Vigilante Shit but positive. Taylor is asserting herself and shining on her own. <strong>Labyrinth</strong> is a turn, Taylor felt like she was hardened but now she has fallen in love again. <strong>Karma</strong> is one of the lessons Taylor learned from her years of relationships. <strong>Sweet Nothing</strong> is Taylor celebrating destressing through love. She has learned to leave the toxicity behind and now gets pure comfort from her partner. In <strong>Mastermind</strong>, Taylor writes her own story having perfected her craft. There ends the story, the original album ends. Taylor dropped the 3am edition by surprise at 3am that same night, with 7 more songs.</p>
       <p>
-        We start with <strong>The Great War</strong>, a love story across the struggle of life? fame? love?(editor pls). <strong>Bigger Than The Whole Sky</strong> follows up with the end of this relationship despite the potential. She suffers and feels her sadness is contagious. <strong>Paris</strong> is Taylor back on her game. After having reached Mastermind status, she uses her experience to full success and suffers the inevitable heartbreak she causes herself, inherent to any success that doesn't end in marriage and forever. Now Taylor is free and at the height of her powers. She is Paris, the peak of romance, wherever she goes.
+        We start with <strong>The Great War</strong>, a love story across the struggle of life? fame? love?(editor pls). <strong>Bigger Than The Whole Sky</strong> follows up with the end of this relationship despite the potential. She suffers and feels her sadness is contagious. <strong>Paris</strong> is Taylor back on her game. After having reached Mastermind status, she uses her experience to full success and suffers the inevitable heartbreak she causes herself, inherent to any success that doesn't end in marriage and forever. Now Taylor is free and at the height of her powers. She is Paris, the peak of romance, wherever she goes. Next up is the first of a trio focused on New Taylor problems. <strong>High Infidelity</strong> is trauma from past love that still lingers, in this case her relationship with John Mayer when she was 19 and he was 32. It was a 'Snow on the Beach' moment that lead to something questionable. <strong>Glitch</strong> is Lavendar Haze turning Maroon?<strong> Would've, Could've, Should've</strong> is maybe the Mayer song? <strong>Dear Reader</strong> is Taylor's final advice from all those years. If you loop the album, it goes back to Lavendar Haze and Maroon, the two types of love Taylor pursues.
       </p>
 
     {midnightSongs.map(song=>
@@ -150,6 +151,7 @@ And now that I know, I wish you'd left me wondering`, `Sex, alcohol and drugs ar
         </p>
       </div>))
     )}
+    </>
     {/* <h3>bonus songs: Til Dawn (hits different)</h3>
     <p>
     "I (I) can't (Can't) speak, afraid to jinx it

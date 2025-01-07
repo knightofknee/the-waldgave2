@@ -74,7 +74,7 @@ Part of why phone surveys are ridiculous. That's free real estate inside somebod
   I am the wave, you only see my particles.
   </li>
   <li className="story">
-
+  The cost of context switching. Tax it. Ads are only moral if they are opt-in. We need that consent because our brains have no firewall or real defense against ads.
   </li>
   <li className="story">
   (in progress)
