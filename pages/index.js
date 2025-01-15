@@ -13,9 +13,9 @@ export default function Home() {
     <div className="hello">
       <h1 style={{zIndex:2}}>The Waldgrave Welcomes You</h1>
       <div className='smackThat'>
-      <Link href="/Login" style={{margin: '30px'}}><span>This way to responsible social media</span>
+      {/* <Link href="/Login" style={{margin: '30px'}}><span>This way to responsible social media</span>
       <div style={{ display: 'block', margin: '0 auto' }}><img className="bigw" src="thew1.png" style={{ maxWidth: '100%', display: 'block', margin: '0 auto' }}/>
-      </div></Link>
+      </div></Link> */}
       </div>
 
       <h2>Core Values</h2>
