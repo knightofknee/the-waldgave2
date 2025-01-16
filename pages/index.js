@@ -113,9 +113,9 @@ export default function Home() {
         </div>
       </div>
       <div>
-        <Link href="/Story">
+        <a href="https://ko-fi.com/waldgrave">
           <img style={{width:'2rem'}} src="/thew2.png"/>
-        </Link>
+        </a>
       </div>
       <div>
         <h4>What is Good?</h4>
