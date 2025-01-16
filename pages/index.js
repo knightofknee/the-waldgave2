@@ -12,11 +12,11 @@ export default function Home() {
   <div>
     <div className="hello">
       <h1 style={{zIndex:2}}>The Waldgrave Welcomes You</h1>
-      <div className='smackThat'>
-      {/* <Link href="/Login" style={{margin: '30px'}}><span>This way to responsible social media</span>
+      {/* <div className='smackThat'>
+      <Link href="/Login" style={{margin: '30px'}}><span>This way to responsible social media</span>
       <div style={{ display: 'block', margin: '0 auto' }}><img className="bigw" src="thew1.png" style={{ maxWidth: '100%', display: 'block', margin: '0 auto' }}/>
-      </div></Link> */}
-      </div>
+      </div></Link>
+      </div> */}
 
       <h2>Core Values</h2>
       <ul>
@@ -39,7 +39,9 @@ export default function Home() {
           The Waldgrave aims to provide the tools to create those spaces for you and your friends,
           and to promote the creation and capture of ideas. --> */}
       <div>
-        <p>The Waldgrave has a few projects with deliverables in 2025, one of them is the <Link href="/Login">Waldgrave Social Media platform</Link>, social media minimized. The current web page shows the base concept in action, the mobile app is under construction. Another one of the projects is <Link href="/chigui">the Chi-GUI Conspiracy </Link>(featuring BUBI), which is just getting started. Ongoing efforts include the <Link href="/theb-LOGS">the b-LOGS</Link>, focused on the Monday Night Review series, and <Link href="/TeganAndSara">a music blog</Link>. Ongoing ideation continues with the <Link href="/GolfGolf">mini-golf revolution</Link> centered on proving the superiority of profit-minimizing business structures. Prototyping that is a Q4 goal, but any interest in working on or funding the project is welcome (pay money in money, profits to the producers. GolfGolfminiGolf will guarantee a return above inflation, but no guarantee on when, and no ownership (keys) to the money monkeys).
+        <p>The Waldgrave has a few projects with deliverables in 2025, one of them is the <Link href="/Login">Waldgrave Social Media platform</Link>, social media minimized. The current web page shows the base concept in action, the mobile app is under construction. Another one of the projects is <Link href="/chigui">the Chi-GUI Conspiracy </Link>(featuring BUBI), which is just getting started &#129323;. Ongoing efforts include the <Link href="/theb-LOGS">the b-LOGS</Link>, focused on the Monday Night Review series, and <Link href="/TeganAndSara">a music blog</Link>. GolfGolfminiGolf is on the Q4 wishlist, a <Link href="/GolfGolf">mini-golf revolution</Link> centered on proving the superiority of profit-minimizing business structures.
+{/*
+        Prototyping that is a Q4 goal, but any interest in working on or funding the project is welcome (pay money in money, profits to the producers. GolfGolfminiGolf will guarantee a return above inflation, but no guarantee on when, and no ownership (keys) to the money monkeys). */}
         </p>
         {/* <Link href="/Brainstree"> a notes/habits app</Link>, , <Link href="/SocialSecurityFix">fixing social security</Link>, reducing income equality, <Link href="/ClimateChangeStrats">combatting climate change</Link>,<Link href="/EndOfTheUniverse">how to find aliens inside black holes and survive the heat death of the universe</Link>, */}
       </div>
