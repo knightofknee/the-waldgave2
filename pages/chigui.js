@@ -78,10 +78,34 @@ export default function OpenChicago() {
     <ol><li>The team of everyone who wants to achieve the same dreams as you.</li>
     <li>The team of everyone who supports you or would support you and your dreams if they knew you.</li>
     </ol>
-      <p>I gotta say, my squad really shows up. I feel so much confidence because I love my dream team. I know my homies love me, and I believe in them. I know I'm not the only one who cries seeing homelessness in 2024. I know I'm not the only one who thinks about the billions of humans that won't ever exist if we continue to pour a single chemical in the air (CO2 + sunlight = higher temperatures. The math is so damn simple, we just ignore it). I know that I'm not the only driver in the city who would bike instead, if I felt safe on our streets. I'm putting together a team. The Chicago Dream Team. Everyone who wants to contribute to a better city is welcome. Mass civic involvement hasn't really progressed in the digital age since American Idol started the fan vote via texting. We need to make it as easy as possible to participate on the team.</p>
+      <p>I gotta say, my squad really shows up. I feel so much confidence because I love my dream team. I know my homies love me, and I believe in them. I know I'm not the only one who cries seeing homelessness in 2024. I know I'm not the only one who thinks about the billions of humans that won't ever exist if we continue to pour a single chemical in the air (CO2 + sunlight = higher temperatures. The math is so damn simple, we just ignore it). I know that I'm not the only driver in the city who would bike instead, if I felt safe on our streets. I'm putting together a team. The Chicago Dream Team. Everyone who wants to contribute to a better city is welcome. Mass civic involvement hasn't really progressed in the digital age since American Idol started the fan vote via texting. We need to make it as easy as possible to participate on the team, I need captains.</p>
     </>)}
     <h3 id="safety">Safety First</h3>
-    <p>Two easy wins here. Cameras on cops, and cameras on streets. I'm an engineer, any good work needs both a good target and good implementation. What I propose here are two systems. The first monitors all active police. Think about this, I just went on Twitch and selected a random game from the front page, "DRAGON BALL: Sparking! ZERO". I scroll down past 100 different live streamers and streamer 101 still had 6 viewers he was actively interacting with. The streamer is not paying Twitch, there was a 30 second ad. We have the infrastructure to let anyone in the world stream for free. Streaming cops doing their jobs should be easy.</p>
+    <p>Two easy wins here. Cameras on cops, and cameras on streets. First let's outline the rewards and costs, then 4 Truths them together.
+    </p>
+    <ol>
+      <li>
+        I want to put cameras on every active duty officer, and to use that information as effectively as possible. The peak of what this has to offer is perfected policing, maximizing support to officers on the street. This means responsibilities get pushed to the command center whenever possible. If an officer is in a stressful situation, a heart rate monitor could have told HQ 5 minutes ago. The call center officer would guide the field officer, 'Coptana' if you will. Instead of just blaming the youngest workers in the system, why not expose the decision-making process and intervene at the appropriate level? Other city services can be tied in as well. The main costs here have to do with resistance to change and the loss of privacy to the officers. The cost of equipment should not be high, everyone is already walking around with a fancy camera in their pocket, I refuse to believe we can't bootstrap something cheap. So the primary effort on this item is to make this helpful and nice to use for officers.
+        </li>
+        <li>
+          Street camera footage can remain unseen for like 99.9% of the time. If we make an open source system that only lets the one approved algorithm run on it, then it stays 100% private. If the algorithm identifies a major crime or if the police are investigating a particular location, then the footage is reviewed.
+        </li>
+    </ol>
+    4 Noble Truths Breakdown:
+    <ol>
+      <li>
+        Where are we today? There is a deep distrust of police in Chicago and elsewhere. The officers themselves have trust problems and trauma from working in this stressful environment. We are at the top of spending per capita while also being understaffed by 12% of our budgeted positions. The streets of Chicago are not private today, doorbell cameras line the streets. Any person anywhere could be filming you out their window. (I don't mean to scare, but if we automate the easy stuff then cops can focus on the creeps)
+      </li>
+      <li>
+        How did we get here? ----police history lesson ------ fred Hampton,
+      </li>
+      <li>What's ideal? Max safety, max privacy, highest quality of policing. I want other cities sending their best to be trained by our best (4money). Your data will be more secure because we will have an algorithm tracking all use of all files. No 'slipping in to peak at a file' undetected.</li>
+      <li>How do we get there? We get cops cameras, and we start working with them to find the best places to start intervening.</li>
+    </ol>
+    {/* <p>
+      I'm an engineer, any good work needs both a good target and good implementation. What I propose here are two systems. The first monitors all active police. Think about this, I just went on Twitch and selected a random game from the front page, "DRAGON BALL: Sparking! ZERO". I scroll down past 100 different live streamers and streamer 101 still had 6 viewers he was actively interacting with. The streamer is not paying Twitch, there was a 30 second ad. We have the infrastructure to let anyone in the world stream for free. Streaming cops doing their jobs should be easy.
+
+      </p> */}
     <p>Cop body cams should be an amazing tool for them. Every cop should have support all the time. Experienced cops who can't work in the field anymore can provide live support to other cops. It can even be like a call center, all officers can have their heartrate monitored alongside sound and video. Here are some potential scenarios:</p>
     {/* If they enter a difficult scenario, the police call center could be alerted live, by a button press or from one of these other data points. */}
     <ol>
