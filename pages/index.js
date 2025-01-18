@@ -39,7 +39,7 @@ export default function Home() {
           The Waldgrave aims to provide the tools to create those spaces for you and your friends,
           and to promote the creation and capture of ideas. --> */}
       <div>
-        <p>The Waldgrave has a few projects with deliverables in 2025, one of them is the <Link href="/Login">Waldgrave Social Media platform</Link>, social media minimized. The current web page shows the base concept in action, the mobile app is under construction. Another one of the projects is <Link href="/chigui">the Chi-GUI Conspiracy </Link>(featuring BUBI), which is just getting started &#129323;. Ongoing efforts include the <Link href="/theb-LOGS">the b-LOGS</Link>, focused on the Monday Night Review series, and <Link href="/TeganAndSara">a music blog</Link>. GolfGolfminiGolf is on the Q4 wishlist, a <Link href="/GolfGolf">mini-golf revolution</Link> centered on proving the superiority of profit-minimizing business structures.
+        <p>The Waldgrave has a few projects with deliverables in 2025, one of them is the <Link href="/Login">Waldgrave Social Media platform</Link>, social media minimized. The current web page shows the base concept in action, the mobile app is under construction. Another one of the projects is <Link href="/chigui">the Chi-GUI Conspiracy </Link>(featuring BUBI), which is just getting started &#129323;. Ongoing efforts include the <Link href="/theb-LOGS">the b-LOGS</Link>, focused on the Monday Night Review series, and <Link href="/TeganAndSara">a music blog</Link> (The Midnight Buddha in progress). GolfGolfminiGolf is on the Q4 wishlist, a <Link href="/GolfGolf">mini-golf revolution</Link> centered on proving the superiority of profit-minimizing business structures.
 {/*
         Prototyping that is a Q4 goal, but any interest in working on or funding the project is welcome (pay money in money, profits to the producers. GolfGolfminiGolf will guarantee a return above inflation, but no guarantee on when, and no ownership (keys) to the money monkeys). */}
         </p>
@@ -53,15 +53,15 @@ export default function Home() {
       <h2>Wacky Wednesday FAQ</h2>
       <div>
         <h4>Why is Wacky Wednesday?</h4>
-        <p>Open creativity needs you to create an open space for it. And it is a fun way to hang out with friends and talk. </p>
+        <p style={{textAlign: 'center'}}>Open creativity needs you to create an open space for it. And it is a fun way to hang out with friends and talk. </p>
       </div>
       <div>
         <h4>How is Wacky Wednesday?</h4>
-        <p>Through creativity, weird and effort. Creativity comes easy when you put in the Effort to set up an environment where you can comfortably be Weird</p>
+        <p style={{textAlign: 'center'}}>Through creativity, weird and effort. Creativity comes easy when you put in the Effort to set up an environment where you can comfortably be Weird</p>
       </div>
       <div>
         <h4>Who is Wacky Wednesday?</h4>
-        <p>You, or You and your friends, or You and some potential new friends</p>
+        <p style={{textAlign: 'center'}}>You, or You and your friends, or You and some potential new friends</p>
       </div>
       <div>
         <h4>What is a Wacky Wednesday</h4>
@@ -155,7 +155,7 @@ export default function Home() {
         }
         p {
           margin: 1% 5%;
-          text-align: center;
+          text-align: left;
         }
 
 
