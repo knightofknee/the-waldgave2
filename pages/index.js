@@ -1,5 +1,6 @@
 //import styles from '../styles/Home.css';
 import Link from 'next/link'
+import WordWithExplanation from '../gptcomponents/WordWithExplanation'
 
 export default function Home() {
   return (
@@ -72,13 +73,15 @@ export default function Home() {
         <div style={{display:'flex', alignItems:'baseline'}}>
           <div className='defNum'>1)</div>
           <div className="defList">
-            Originally used to refer to an officer having jurisdiction over a royal forest during the times of the Holy Roman Empire. You need to be the Waldgrave of your own electric forest. Understand the nature of your brain and navigate accordingly. Impermanence, nonself, dependent origination. These are base realities of our forest. If you learn how to navigate your forest effectively, it will forever flourish.
+            Originally used to refer to an officer having jurisdiction over a royal forest during the times of the Holy Roman Empire. We all live within our own unique copy of the most complicated thing in the universe. Your brain is a vast electric forest that you always wander. While you are there, why not be the Waldgrave of your own electric forest? Understand the nature of your brain and navigate accordingly. Impermanence, nonself, dependent origination. These are base realities of our forest. If you learn how to navigate your forest effectively, it will forever flourish. Every new experience, every return of old memories, you shape your forest, continually recycling waste and growing more extensive and complex.
+
+            {/* <WordWithExplanation word={"Better"} explanation={"Keep your brain clean like teeth. Your teeth have 2 modes, they are either in survival mode because you have food stuck somewhere or from a drink. Or if your teeth are clean, they enter growth mode and repair damage. This is why you need to floss and brush your teeth daily. Food you don't floss out keeps your whole mouth in survival mode. The flouride from brushing your teeth helps promote the growth mode. If you pick food out of your teeth and rinse your mouth with water after food or drink, you can have the same effect. Your brain is the same, keep it clean so your subconscious stays focused. Meditation is how you can brush and floss, therapy is regular cleanings."} />. */}
           </div>
         </div>
           <div style={{display:'flex', alignItems:'baseline'}}>
           <div className='defNum'>2)</div>
           <div className='defList'>
-            The Waldgrave social media is a safe meeting place for people to share their paths through the Vast Thought Forest. A place to share both cool places you have found in the Forest, and share the path that you walked as well. And only walking is allowed on the Waldgrave social media. No more than 2 posts in a week. Equal opportunity social media, fully in your control. No pushing other content on you, private by default. You can do whatever in your own neck of the woods with your profile, list your favorite things, journal, or endlessly shitpost, it is your space. But none of that will be seen unless someone visits your page or you use one of your 2 weekly posts to highlight your latest gems.
+            The Waldgrave social media is a safe meeting place for people to share their paths through the Vast Thought Forest. A place to share both cool places you have found in the Forest, and share the path that you walked as well. And only walking is allowed on the Waldgrave social media. No more than 2 posts in a week. Equal opportunity social media, fully in your control. No pushing other content on you, private by default. You can do whatever in your own neck of the woods with your profile, list your favorite things, journal, shitpost, it is your space. But none of that will be seen unless someone visits your page or you use one of your 2 weekly posts to highlight your latest gems.
           </div>
         </div>
         <div style={{display:'flex', alignItems:'baseline'}}>
