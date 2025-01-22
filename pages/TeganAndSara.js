@@ -182,7 +182,15 @@ Can this be a real thing? Can it?" Like she just referenced the Good Place Janet
 
 
 
-
+    <h2>Kendrick GNX</h2>
+    <p>I've been looping this a lot, it goes pretty hard. Kendrick running 6 miles every morning making me feel bad about the title earlier.</p>
+    <h2>Other in progress</h2>
+    <p>
+      Last Wednesday by Chris Webby, I haven't had too many playthroughs yet, but it's pretty strong. Just please, do yourself a favor and start on the song FSU. The album is 1 hour 45 minutes, give the album a fair shot before Webby triggers you.
+    </p>
+    <p>
+      Logic has a new EP, 14 minutes. A posthumous Mac Miller album was released at the same time, he recorded it in 2014. It is more musical than rap focused, it's beautiful in a way I need more time listening to describe.
+    </p>
 
     <h2>Big Sean is the best role model in rap</h2>
     <p>

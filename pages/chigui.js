@@ -33,7 +33,7 @@ export default function OpenChicago() {
 
     <h4>Introduction</h4>
     <p>
-    I am running for mayor and I want your support. To be direct, I want to run because I have the best platform. If someone has better ideas, let me know, I want to support and learn from them. One of the apps I want to build is called the More Perfect Platform, I will be using this experience and everything I make for myself in order to help others advance their ideas. In that spirit, please send me feedback on both the platform and any ideas you have around better organizing policy discussion.
+    I am running for mayor and I want your support. You should vote for me because I'm building the best platform. If someone has better ideas, let me know, I want to support and learn from them. One of my apps (I am a software engineer) in development is called the More Perfect Platform, I will be using this experience and everything I make for myself in order to help others advance their ideas. In that spirit, please send me feedback on both the platform and any ideas you have around better organizing policy discussion. I'd prefer to stay at home and continue working on myself and my apps, but I feel compelled to point out how we can do much better. We continue climate genocide of the future unlucky billions, to only harm ourselves at the same time. We continue leading the nation in segregation. Lots stay empty and abandoned with housing costs rising. We have a police force that is both overworked and undertrained, in need of support and oversight.
 
 
 
