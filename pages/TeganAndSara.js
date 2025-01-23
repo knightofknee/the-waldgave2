@@ -183,7 +183,7 @@ Can this be a real thing? Can it?" Like she just referenced the Good Place Janet
 
 
     <h2>Kendrick GNX</h2>
-    <p>I've been looping this a lot, it goes pretty hard. Kendrick running 6 miles every morning making me feel bad about the title earlier.</p>
+    <p>I've been looping this a lot, it goes hard. Kendrick running 6 miles every morning making me feel bad about the Big Sean title earlier. But I stand by it in context, Kendrick was mid-Drake beef with only Mr. Morale since 2017. I am so thankful to Drake for the beef because Kendrick had been looking for a rap battle for a while. 'Not Like Us' is looking prophetic, not just with Diddy but with the accelerating class war. Shareholders and non-shareholders is captor, owner language. There are people who make money from what they do, and there are people who make money by having money. The second group buys a % of future profits from what the first group does. My proposal: money should be paid in money, not ownership. To compromise, half of all profits minimum should go to the people who actually run the business, labor.</p>
     <h2>Other in progress</h2>
     <p>
       Last Wednesday by Chris Webby, I haven't had too many playthroughs yet, but it's pretty strong. Just please, do yourself a favor and start on the song FSU. The album is 1 hour 45 minutes, give the album a fair shot before Webby triggers you.
