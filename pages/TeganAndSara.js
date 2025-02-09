@@ -32,7 +32,7 @@ export default function TeganAndSara() {
 
     ]},
     {
-    name: "Snow On The Beach", comments: [
+    name: "Snow On The Beach", comments: [ //synchronicity!!!!!!
 
       `"This scene feels like what I once saw on a screen
 I searched "aurora borealis green"
@@ -120,9 +120,11 @@ And now that I know, I wish you'd left me wondering`, `Sex, alcohol and drugs ar
     <div className='container'>
       <HomeButton />
   <div style={{display:'flex',flexDirection:'column', alignItems:'center'}}>
+    <>
     <h2>
       (In Progress) Midnights 3am edition (the Midnight Buddha edition)
     </h2>
+    <h4>Intro</h4>
     <p>
       {introText} {/* min/max option here */}
 
@@ -133,8 +135,11 @@ And now that I know, I wish you'd left me wondering`, `Sex, alcohol and drugs ar
       This album is very similar to the first album I wrote about here, "Hey, I'm just like you" by Tegan and Sara, because I listened to it on loop for a few months before realizing it was perfectly describing concepts I was exploring elsewhere. Taylor Swift takes us along her conscousness journey, operating on several levels at once. The top level is Taylor's relationship with love and its impact on her jouney. But the core of this album is consciousness, self love. Many aspects work for both, but looking at the album with its several editions and hearing the emphasis of the words night after night, I'm convinced this is a buddhist album. I don't know if this is surprising or obvious, I need to consult the true Swifty experts who have looped every album in its era, but I've listened to this album many times now. Many. I am numb to the perspective of a new listener, so I will try to let the lyrics do the talking. */}
 
       </p>
-      <h4>TLDR of the base story layer, by title name:</h4>
-      <p>Lavendar Haze is inspiration and a state of mind Taylor gets from romance. Maroon is the unexpected deep love, </p>
+      <h4>First let's TLDR the album by title name, before adding my theories:</h4>
+      <p><strong>Lavendar Haze</strong> is the state of mind Taylor gets from her romantic partners. She is criticized for relationships that don't end in marriage, but she is able to get what she wants, comfort and inspiration. <strong>Maroon</strong> is deep love, the kind that is a lasting memory. These two colors define the main 2 types of relationships T has, and now we explore them through Taylor's romantic journey. <strong>Anti-Hero</strong> grounds this journey in personal growth. Creativity and fame have consequences, and that busy world is the setting in which Taylor's love story takes place. <strong>Snow On The Beach</strong> is tricky, I have 2 direct interpretations (my Buddha one is wild). The first is a perfect first meeting. Love at first sight, everything you dreamed of coming to life. The second is this is the first time Taylor met John Mayor, her celebrity crush. The impossible comes true, more to say on this relationship later. We get a time jump here. <strong>You're On Your Own Kid</strong> starts the story, Taylor dedicating herself to her romantic dreams but failing to get the attention of the one she was crushing on. That rejection pushed Taylor towards music, she fell in love with that. <strong>Midnight Rain</strong> is the other side of the same coin, Taylor gets the love she wanted, but she was already on a different path pursuing her career, she couldn't stay. <strong>Question...?</strong> is hard to fit in, it is kind of about the drama of relationships, and how it could be fixed with the right attitude. <strong>Vigilante Shit</strong> is about dressing for revenge, taking power. Question...? kind of has T taking control of the narrative through wit, but now she's growing into her own power. <strong>Bejeweled</strong> is a continuation of Vigilante Shit but positive. Taylor is asserting herself and shining on her own. <strong>Labyrinth</strong> is a turn, Taylor felt like she was hardened but now she has fallen in love again. <strong>Karma</strong> is one of the lessons Taylor learned from her years of relationships. <strong>Sweet Nothing</strong> is Taylor celebrating destressing through love. She has learned to leave the toxicity behind and now gets pure comfort from her partner. In <strong>Mastermind</strong>, Taylor writes her own story having perfected her craft. There ends the story, the original album ends. Taylor dropped the 3am edition by surprise at 3am that same night, with 7 more songs.</p>
+      <p>
+        We start with <strong>The Great War</strong>, a love story across the struggle of life? fame? love?(editor pls). <strong>Bigger Than The Whole Sky</strong> follows up with the end of this relationship despite the potential. She suffers and feels her sadness is contagious. <strong>Paris</strong> is Taylor back on her game. After having reached Mastermind status, she uses her experience to full success and suffers the inevitable heartbreak she causes herself, inherent to any success that doesn't end in marriage and forever. Now Taylor is free and at the height of her powers. She is Paris, the peak of romance, wherever she goes. Next up is the first of a trio focused on New Taylor problems. <strong>High Infidelity</strong> describes some of the possible problems, like being judged or neglected. <strong>Glitch</strong> is Lavendar Haze turning Maroon, this is a good problem to have now.<strong> Would've, Could've, Should've</strong> is trauma from past love that still lingers, in this case her relationship with John Mayer when she was 19 and he was 32. It was a 'Snow on the Beach' moment that lead to something questionable. <strong>Dear Reader</strong> is Taylor's final advice from all those years of love. If you loop the album, it goes back to Lavendar Haze and Maroon, the two types of love Taylor pursues. 217 days later Taylor releases the 'Til Dawn' edition with a new song, <strong>Hits Different</strong>. It's about an inevitable consequences of a successful relationship that ends, and dealing with new levels of heartbreak. The music is upbeat, Taylor is sad but for good reasons. I hope that after reading the below song by song breakdown, Midnights will hit different for you.
+      </p>
 
     {midnightSongs.map(song=>
       song.comments.slice(0,0).map((text, i2)=>(<div>
@@ -146,6 +151,7 @@ And now that I know, I wish you'd left me wondering`, `Sex, alcohol and drugs ar
         </p>
       </div>))
     )}
+    </>
     {/* <h3>bonus songs: Til Dawn (hits different)</h3>
     <p>
     "I (I) can't (Can't) speak, afraid to jinx it
@@ -176,7 +182,15 @@ Can this be a real thing? Can it?" Like she just referenced the Good Place Janet
 
 
 
-
+    <h2>Kendrick GNX</h2>
+    <p>I've been looping this a lot, it goes hard. Kendrick running 6 miles every morning making me feel bad about the Big Sean title earlier. But I stand by it in context, Kendrick was mid-Drake beef with only Mr. Morale since 2017. I am so thankful to Drake for the beef because Kendrick had been looking for a rap battle for a while. 'Not Like Us' is looking prophetic, not just with Diddy but with the accelerating class war. Shareholders and non-shareholders is captor, owner language. There are people who make money from what they do, and there are people who make money by having money. The second group buys a % of future profits from what the first group does. My proposal: money should be paid in money, not ownership. To compromise, half of all profits minimum should go to the people who actually run the business, labor.</p>
+    <h2>Other in progress</h2>
+    <p>
+      Last Wednesday by Chris Webby, I haven't had too many playthroughs yet, but it's pretty strong. Just please, do yourself a favor and start on the song FSU. The album is 1 hour 45 minutes, give the album a fair shot before Webby triggers you.
+    </p>
+    <p>
+      Logic has a new EP, 14 minutes. A posthumous Mac Miller album was released at the same time, he recorded it in 2014. It is more musical than rap focused, it's beautiful in a way I need more time listening to describe.
+    </p>
 
     <h2>Big Sean is the best role model in rap</h2>
     <p>

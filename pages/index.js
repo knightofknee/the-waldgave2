@@ -1,5 +1,6 @@
 //import styles from '../styles/Home.css';
 import Link from 'next/link'
+import WordWithExplanation from '../gptcomponents/WordWithExplanation'
 
 export default function Home() {
   return (
@@ -12,11 +13,11 @@ export default function Home() {
   <div>
     <div className="hello">
       <h1 style={{zIndex:2}}>The Waldgrave Welcomes You</h1>
-      <div className='smackThat'>
+      {/* <div className='smackThat'>
       <Link href="/Login" style={{margin: '30px'}}><span>This way to responsible social media</span>
       <div style={{ display: 'block', margin: '0 auto' }}><img className="bigw" src="thew1.png" style={{ maxWidth: '100%', display: 'block', margin: '0 auto' }}/>
       </div></Link>
-      </div>
+      </div> */}
 
       <h2>Core Values</h2>
       <ul>
@@ -39,9 +40,9 @@ export default function Home() {
           The Waldgrave aims to provide the tools to create those spaces for you and your friends,
           and to promote the creation and capture of ideas. --> */}
       <div>
-        <p>The Waldgrave has 5 projects underway in 2024, one of them is the Waldgrave Social Media platform linked above. The current web page shows the base concept in action, mobile development is the new priority here. Another one of the projects is <Link href="/chigui">the Chi-GUI Conspiracy </Link>(featuring BUBI), which is just getting started. Ongoing efforts include the <Link href="/theb-LOGS">the b-LOGS </Link>, <Link href="/TeganAndSara">a music blog</Link>,
-        {/* <!-- <Link href="/readtogether">a bookclub app</Link>,  --> */}
-         and a <Link href="/GolfGolf">mini-golf revolution</Link> centered on proving the superiority of profit-minimizing business structures.
+        <p>The Waldgrave has a few projects with deliverables in 2025, one of them is the <Link href="/Login">Waldgrave Social Media platform</Link>, social media minimized. The current web page shows the base concept in action, the mobile app is under construction. Another one of the projects is <Link href="/chigui">the Chi-GUI Conspiracy </Link>(featuring BUBI), which is just getting started &#129323;. Ongoing efforts include the <Link href="/theb-LOGS">the b-LOGS</Link>, focused on the Monday Night Review series, and <Link href="/TeganAndSara">a music blog</Link> (The Midnight Buddha in progress). GolfGolfminiGolf is on the Q4 wishlist, a <Link href="/GolfGolf">mini-golf revolution</Link> centered on proving the superiority of profit-minimizing business structures.
+{/*
+        Prototyping that is a Q4 goal, but any interest in working on or funding the project is welcome (pay money in money, profits to the producers. GolfGolfminiGolf will guarantee a return above inflation, but no guarantee on when, and no ownership (keys) to the money monkeys). */}
         </p>
         {/* <Link href="/Brainstree"> a notes/habits app</Link>, , <Link href="/SocialSecurityFix">fixing social security</Link>, reducing income equality, <Link href="/ClimateChangeStrats">combatting climate change</Link>,<Link href="/EndOfTheUniverse">how to find aliens inside black holes and survive the heat death of the universe</Link>, */}
       </div>
@@ -53,32 +54,34 @@ export default function Home() {
       <h2>Wacky Wednesday FAQ</h2>
       <div>
         <h4>Why is Wacky Wednesday?</h4>
-        <p>Open creativity needs you to create an open space for it. And it is a fun way to hang out with friends and talk. </p>
+        <p style={{textAlign: 'center'}}>Open creativity needs you to create an open space for it. And it is a fun way to hang out with friends and talk. </p>
       </div>
       <div>
         <h4>How is Wacky Wednesday?</h4>
-        <p>Through creativity, weird and effort. Creativity comes easy when you put in the Effort to set up an environment where you can comfortably be Weird</p>
+        <p style={{textAlign: 'center'}}>Through creativity, weird and effort. Creativity comes easy when you put in the Effort to set up an environment where you can comfortably be Weird</p>
       </div>
       <div>
         <h4>Who is Wacky Wednesday?</h4>
-        <p>You, or You and your friends, or You and some potential new friends</p>
+        <p style={{textAlign: 'center'}}>You, or You and your friends, or You and some potential new friends</p>
       </div>
       <div>
         <h4>What is a Wacky Wednesday</h4>
-        <p>It is an event in which you and any number of friends gather together for some creativity and socializing. I recommend some open art and/or music time as a base, ideally with a creative event of any sort. The event can be whatever, some past examples include an improv excercises, painting, song writing and karaoke. Anything that involves creativity or learning works. Besides that, the only other major element is creating a space where everyone involved feels as comfortable as possible to create and share with no judgement. Improv group exercises can be a great first or second Wacky Wednesday to help the group get in the "yes and..." mindset. Process over product, the goal is to give everyone space to explore.</p>
+        <p>It is an event in which you and any number of friends gather together for some creativity and socializing. I recommend some open art and/or music time as a base, ideally with a creative event of any sort. The event can be whatever, some past examples include an improv excercises, painting, song writing and karaoke. Anything that involves creativity or learning works. Besides that, the only other major element is creating a space where everyone involved feels as comfortable as possible to create and share with no judgement. Improv group exercises can be a great first or second Wacky Wednesday to help the group get in the "yes and..." mindset. Process over product, the goal is to give everyone space to explore. There is this idea I heard that you should aim to mess up ~15% of the time in many efforts, based on several studies. Like dribbling a basketball, you should lose it occasionally if you are pushing yourself. When you sit down to do wacky wednesday art, start with putting media to paper without a product in mind.</p>
       </div>
       <h2>What is the Waldgrave?</h2>
       <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'start', textAlign: 'left',margin: '0 auto', width: '80%'}}>
         <div style={{display:'flex', alignItems:'baseline'}}>
           <div className='defNum'>1)</div>
           <div className="defList">
-            Originally used to refer to an officer having jurisdiction over a royal forest during the times of the Holy Roman Empire. You need to be the Waldgrave of your own electric forest. Understand the nature of your brain and navigate accordingly. Impermanence, nonself, dependent origination. These are base realities of our forest. If you learn how to navigate your forest effectively, it will forever flourish.
+            Originally used to refer to an officer having jurisdiction over a royal forest during the times of the Holy Roman Empire. We all live within our own unique copy of the most complicated thing in the universe. Your brain is a vast electric forest that you always wander. While you are there, why not be the Waldgrave of your own electric forest? Understand the nature of your brain and navigate accordingly. Impermanence, nonself, dependent origination. These are base realities of our forest. If you learn how to navigate your forest effectively, it will forever flourish. Every new experience, every return of old memories, you shape your forest, continually recycling waste and growing more extensive and complex.
+
+            {/* <WordWithExplanation word={"Better"} explanation={"Keep your brain clean like teeth. Your teeth have 2 modes, they are either in survival mode because you have food stuck somewhere or from a drink. Or if your teeth are clean, they enter growth mode and repair damage. This is why you need to floss and brush your teeth daily. Food you don't floss out keeps your whole mouth in survival mode. The flouride from brushing your teeth helps promote the growth mode. If you pick food out of your teeth and rinse your mouth with water after food or drink, you can have the same effect. Your brain is the same, keep it clean so your subconscious stays focused. Meditation is how you can brush and floss, therapy is regular cleanings."} />. */}
           </div>
         </div>
           <div style={{display:'flex', alignItems:'baseline'}}>
           <div className='defNum'>2)</div>
           <div className='defList'>
-            The Waldgrave social media is a safe meeting place for people to share their paths through the Vast Thought Forest. A place to share both cool places you have found in the Forest, and share the path that you walked as well. And only walking is allowed on the Waldgrave social media. No more than 2 posts in a week. Equal opportunity social media, fully in your control. No pushing other content on you, private by default. You can do whatever in your own neck of the woods with your profile, list your favorite things, journal, or endlessly shitpost, it is your space. But none of that will be seen unless someone visits your page or you use one of your 2 weekly posts to highlight your latest gems.
+            The Waldgrave social media is a safe meeting place for people to share their paths through the Vast Thought Forest. A place to share both cool places you have found in the Forest, and share the path that you walked as well. And only walking is allowed on the Waldgrave social media. No more than 2 posts in a week. Equal opportunity social media, fully in your control. No pushing other content on you, private by default. You can do whatever in your own neck of the woods with your profile, list your favorite things, journal, shitpost, it is your space. But none of that will be seen unless someone visits your page or you use one of your 2 weekly posts to highlight your latest gems.
           </div>
         </div>
         <div style={{display:'flex', alignItems:'baseline'}}>
@@ -113,9 +116,9 @@ export default function Home() {
         </div>
       </div>
       <div>
-        <Link href="/Story">
+        <a href="https://ko-fi.com/waldgrave">
           <img style={{width:'2rem'}} src="/thew2.png"/>
-        </Link>
+        </a>
       </div>
       <div>
         <h4>What is Good?</h4>
@@ -155,7 +158,7 @@ export default function Home() {
         }
         p {
           margin: 1% 5%;
-          text-align: center;
+          text-align: left;
         }
 
 
