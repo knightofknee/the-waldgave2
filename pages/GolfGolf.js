@@ -29,7 +29,7 @@ export default function GolfGolf () {
         Every hole has a bonus point and unique golf challenge, so a perfect score is achievable but very difficult. (in full form, these trigger special effects)
       </li>
       <li>
-        Hole order is flexible and managed by an algorithm so that you aren't needlessly waiting.
+        Hole order is flexible and managed by an algorithm so that you aren't needlessly waiting. Passing is automated, and entertainment is given to the waiting groups.
       </li>
       <li>
         New mechanics are introduced gradually and can return, so the holes can climb in complexity. The front 9 introduces new concepts, and the back 9 uses those concepts as its base tools to combine with a theme.
@@ -39,7 +39,7 @@ export default function GolfGolf () {
     <h5>Front 9</h5>
     <ol>
       <li>
-        Timing Gates. The exact nature of these is TBD but the idea is a small rapberry pi computer or something similar controls doors that have timings that fit the scenario, whether that be consistent, matched to music, or following a pattern. Is that better than a bunch of windmills? Ideally, we would have the theme of the hole dictate what the timing gate looks like.
+        Timing Gates. The exact nature of these is TBD but the idea is a small raspberry pi computer or something similar controls doors that have timings that fit the scenario, whether that be consistent, matched to music, or following a pattern. Is that better than a bunch of windmills? Ideally, we would have the theme of the hole dictate what the timing gate looks like.
       </li>
       <li>
         Magnets. So we put magnets in the balls, and then magnets on the hole. The magnets will be hidden, but their field will (usually) be indicated visually with color or field lines. On other holes these can provide excitement to the 'greens' sections. Every hole has a start that lands you somewhere on the green if you get past part 1. The magnets will help use create more varied greens.
@@ -54,16 +54,16 @@ export default function GolfGolf () {
         Timing elements controlled by the user. Like a pad you jump on that can launch your ball,
       </li>
       <li>
-        Varied ball types. You could start with one ball type and based on your shot off the tee you could get different ball types, or different holes could have different balls to match the design and theme. This teaching hole would have a couple of separate areas where you take one shot with each type of ball if you make the minimum score.
+        Varied ball types. You could start with one ball type and based on your shot off the tee you could get different ball types, or different holes could have different balls to match the design and theme. This teaching hole would have a couple of separate areas where you take one shot with each type of ball if you make the minimum score. OR, these balls could be introduced at different holes like unlocked power-ups that can be used in the future. (best score ever keeps all their balls?)
       </li>
       <li>
         Hazards/Varied surfaces. Could we emulate different levels of grass? Hazards of unknown quality via some chemistry class experiments? Rough patches could be used to make shots that would otherwise involve hitting too hard.
       </li>
       <li>
-
+        Mini-golf as a story-telling medium. A plot point per successful stroke? Maybe whoever gets there first triggers the event or message. Live actor? They could be hidden in the room with a bunch of props meant to look like they are a person. The players are told there is an active character, maybe based on clues from earlier. Or there could be multiple hiding options?
       </li>
       <li>
-
+        Escape room format. It is time travel themed, so at the bend you can watch your past or future selves failing or nailing the hole. (the infrared ID described in Other Ideas could be used to animate the players so as to provide anonymity). 
       </li>
     </ol>
     <h5>Back 9</h5>
@@ -88,18 +88,31 @@ export default function GolfGolf () {
       Cat themed hole. Use cat toys and cat-based decision-making.
       </li>
       <li>
-
+        Volcano hole. It is Scientology-themed (alien souls in volcanoes), explains their accurate backstory.
       </li>
       <li>
-
+        Psych ward themed one, maybe the Scientologists put you in one.
       </li>
       <li>
-
+        Everything put together into a hole. Your result gives you a # of shots at the Hole for Glory. It shoots out into the air into a protected part of the bar area.
       </li>
     </ol>
     <h2>Other Ideas</h2>
-    <p>GolfGolf will not give ownership to any investor. If we take money, we will charge a higher price until the investor gets X% return on their money and we will then lower prices. This format seems simple but it means that capital doesn't own anything, and they don't get anything until we make money. This is a healthy exchange. Capital can assess the risk and bet a fixed amount of money on a venture that guarantees a fixed rate if it succeeds.</p>
+    <p>GolfGolf will not give ownership to any investor. If we take money, we will charge a higher price until the investor gets X% return on their money and we will then lower prices. This format seems simple but it means that capital doesn't own anything, and they don't get anything until we make money. This is a healthy exchange. Capital can assess the risk and bet a fixed amount of money on a venture that guarantees a fixed rate if it succeeds. That's a fair deal. Ownership going to people who don't make a product is absolute ass. Unimaginative, sociopathic capitalism isn't the only flavor.</p>
+    <p>Infrared space ID? We could track the balls on a screen</p>
+    <p>Trivia questions that impact the 'wind' aka a fan.</p>
+    <p>Bonus round, while riding a slow moving golf cart you try to hit several lined-up balls.</p>
+    <p>Ownership is local, over time employees and frequent guests get an ownership stake.</p>
+    <p>Themed bar stops. The course keeps snaking back every 3 to 6 holes to a different side of the bar. From the course they appear as different bars, maybe the bartenders wear different hats in each. Or themed cart girls (and boys).</p>
+    <p>Hidden doors between holes. The Electric Forest Emporium does this well.</p>
+    <p>Mario Party Mode. Maybe this is some nights, maybe it is based on business. Mini-games between holes, they can affect the setup of the hole. This could also be used dynamically when a group has to wait for others. Think carnival games, team-building exercises.</p>
+    <p>Blindfold for teamwork?</p>
+
+
     <p>For now, feedback can be submitted <a href="https://forms.gle/MqrbNVa29HF1C1pq7">here</a></p>
+
+    <h2>Other Holes?</h2>
+    <p>French Bistro Hole?</p>
   </div>
 
 <style jsx>

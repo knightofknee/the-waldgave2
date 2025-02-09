@@ -19,6 +19,12 @@ class MyApp extends App {
     if (window.location.pathname === '/Friends') {
       Router.push('/friends')
     }
+    if (window.location.pathname === '/musicblog') {
+      Router.push('/TeganAndSara')
+    }
+    if (window.location.pathname === '/music') {
+      Router.push('/TeganAndSara')
+    }
   }
 
   render() {
