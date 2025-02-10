@@ -121,6 +121,10 @@ And now that I know, I wish you'd left me wondering`, `Sex, alcohol and drugs ar
       <HomeButton />
   <div style={{display:'flex',flexDirection:'column', alignItems:'center'}}>
     <>
+    <h2>My list of albums that I have listened to on repeat</h2>
+
+    <p><a href='https://docs.google.com/spreadsheets/d/1IyOyuEmOvrHCzou6IhIrqOw9B-Qokp2Kdfk7hq2JeUc/edit?usp=sharing'>google sheet here</a>, this is not yet exhaustive.
+    </p>
     <h2>
       (In Progress) Midnights 3am edition (the Midnight Buddha edition)
     </h2>
