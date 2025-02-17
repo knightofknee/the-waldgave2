@@ -180,6 +180,9 @@ export default function OpenChicago() {
   <p>
     We can be very selective with who we give money to at the start. I would propose a mix of prioritizing deals that will pay it forward manyfold alongside people wanting to work in professions we need. We could support teachers, nurses, nannies and other caregivers, by investing in their education and long-term health. This could be algorithmic, based on labor stats.
   </p>
+  <h3>Housing</h3>
+  <p>We need to define the ideal city block and make a new building code that reflects that. It can be dynamic to let wards have some flexibility, but we also need universal standards to avoid enabling NIMBY bimbly bullshit at every turn.</p>
+  <p>One minimum consideration is SRO's, single room occupancy housing. Homeless complain about homeless shelters not being safe or private. People get their already limited belongings stolen often. I'd like to see an SRO minimum for wards based on population size. It's a pathetic shame that we have these ongoing problems with homeless in parks. We don't need to engineer new solutions, we only need to bring back ones we've abandoned. It's like the Harold's Chicken rotating bullet-proof glass, a threat of violence is something we can work around. The <a href="https://newrepublic.com/article/161808/ewing-annex-hotel-housing-crisis-chicago">Ewing Annex Hotel</a> had a version of this.</p>
 
 
 
