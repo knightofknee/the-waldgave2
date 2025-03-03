@@ -2,6 +2,7 @@ import HomeButton from "../components/HomeButton"
 import { useState } from 'react';
 import Phases from "../components/Phases";
 import LatestNews from "../components/LatestNews";
+import ChicagoParkingLease from "../gpTea/ChicagoParkingLease";
 
 // left aligned text? and description of policies section
 
@@ -239,7 +240,7 @@ export default function OpenChicago() {
         )}
 
 
-  <h2>(Bonus Parking Rant)</h2>
+  <h2>(Bonus Parking Rant lead by GPTea)</h2>
   {/* <p>Chi GUI will hear all. Chicago LLM helps fascilitate something like the more perfect platform, it could publish questions like an FAQ maintained live. You could ensure that people are heard and questions answered, or at least you'd have perfect stats on it. Any user that is registered with an ID or something proving they are Chicagoan shaping the bot, future it tracks social media and accepts input from any source, text, email, everything. it would have to bot detect, but it could share facts with people that say something wrong about Chicago, like wrong crime stats or something.</p> */}
   {/* <p>
     More trains. In rush hour, trains should be coming every 5-10 minutes. The other day I arrived to Merchandise Mart and a packed platform a little after 5 on a weekday, and the next train didn't come for 20 minutes. Taking a train at rush hour should be a pleasant experience, not a stressful packing of people. The number of people commuting is not a surprise, any crowded route should get more trains. God forbid we over-serve the people.
@@ -250,14 +251,18 @@ export default function OpenChicago() {
   <button onClick={() => setExpandedP(!expandedP)}>
           {expandedP ? 'See Less' : 'See More'}
         </button>
-  {expandedP && (<p>
+  {expandedP && (
+    <div>
+      <ChicagoParkingLease>
+    <p>
   75 year deal, you are saying fuck the voting rights of citizens and elected politicians for the next 74 years. You don't have that right, you never did, any such deal is null and void. Taxation without Representation, DAY 1 SHIT FFS! If my taxes don't go to where my representatives say, THAT IS TAXATION WITHOUT REPRESENTATION. Of course, we might need to make longer term deals for infrastructure or energy as needed, but this was a pure transfer of wealth, from us and our children and their children, to a corrupt governer famous for his corrupt father and the corrupt city council he led.(btw, the investors have already made their money back, with 60 years to go. We aren't defaulting, we are asserting our basic rights and letting the thieves off the hook with a better-than-market return. And you are worried they will cry? I say we offer a Chicago law school student competition to represent the city in any impending lawsuits. The City does not have to spend a dime, we appeal up to the Supreme Court, and accept their decision. Anyone who wants to help the case for free can support the winning students). (if you are looking for another legal angle, they charge "convenience fees", even though they are not inconvenienced in the slightest per transaction in any way that would earn that money)
 <br/>
 Parking meter pricing should be a supply and demand-based system to maximize utilization of limited space. THAT is the real goal, so it should be the goal variable. If there is plenty of parking available in an area, then the price should be low to none. As availability goes down, the price can rise to the max. It looks like Chicago still sets pricing, yet it went up?? Why is our government fucking us so hard on this? Change the pricing model immediately, and stop paying Abu Dhabi + Redoma SARL, who share the company that is the largest owner of our parking in a 49.9/50.1 split. You know Abu Dhabi, but why does 'Redoma SARL' have a controlling interest over the city of Chicao's streets? I google 'chicago tribune Redoma SARL', nothing. Not one webpage with the name of the biggest owner of our street parking, who we are sending hundreds of millions of dollars to every year? I think a few of those dollars stay here in the wrong pockets. And elsewhere, because I don't see any other identification of Redoma SARL online. Like the Epstein of Chicago, do people really not care or are the capable people afraid? I threw this conspiracy around a little in the Chicago subreddit, and someone sent me a link saying that Allianz, a european company. They wouldn't say where they got the information from, but it was a link to a 60 page pdf that on page 19 just said Redoma SARL on one line item. Some Jason Bourne shit.
 <br/>
 GPT has given me some more info. It confirmed that Allianz, the German insurance company, is the ultimate controlling owner, the business structure is a little more obscured than I thought but effectively the same. What are the Germans in charge of your street parking famous for? In 2012, they heavily investing in agricultural commodities, contributing to food price volatility and hunger in developing countries. In 2020, they denied claims related to the pandemic, especially in the hospitality sector. In 2022 they committed securities fraud and were fined $6 billion dollars. In 2023, the state of Washington fined them for denying claims again, this time based on undisclosed mental health exclusions in their travel insurance policies. And in 2024, their North American branch had a data breach, including names and policy numbers. Reminder, a german bank loved giving Trump money when no one else would, and did business with other notables like laundering Russian money, THE Jeffrey Epstein (fined $150 million for compliance failures related to this one man), and the LIBOR rate-fixing scandal. Evil Germans. AKA FUCKING NAZIS. I HATE GERMAN NAZIS. Especially when they come to Illinois to fuck us. Literal Illinois Nazis controlling our streets. You ready to stop this shit now?
 {/* Here's the fat, easy win. We stop paying them, serving two main purposes. 1- We the people of today are the only ones with the right to act and decide today. We will challenge the legality of the previous sellout deal. 2- Redoma SARL and friends will have to show themselves. I will not tolerate Chicago money going to terrorists, Russia and North Korea. I can't prove that it is, but that cannot be the burden of proof here. You have to prove that you aren't knowingly doing business with terrorists, stuffing your head in the sand is no excuse. */}
-  </p>)}
+  </p>
+  </div>)}
   {/* <p>
     Carbon Check- it's like a carbon tax but it isn't a tax because the government gets nothing. We check how much harm people are putting in the air and we charge them. That money goes to a fund, and every month that fund is divided evenly between every citizen. Everyone bears the consequences of these actions, so everyone should be paid to compensate. This can immediately correct incentives.
   </p> */}
