@@ -126,7 +126,7 @@ And now that I know, I wish you'd left me wondering`, `Sex, alcohol and drugs ar
     <p><a href='https://docs.google.com/spreadsheets/d/1IyOyuEmOvrHCzou6IhIrqOw9B-Qokp2Kdfk7hq2JeUc/edit?usp=sharing'>google sheet here</a>, this is not yet exhaustive.
     </p>
     <h2>
-      (In Progress) Midnights 3am edition (the Midnight Buddha edition)
+      Taylor Swift's Midnights 3am edition (the Midnight Buddha edition)
     </h2>
     <h4>Intro</h4>
     <p>
@@ -146,7 +146,7 @@ And now that I know, I wish you'd left me wondering`, `Sex, alcohol and drugs ar
       <p><strong>Lavendar Haze</strong> explains the reward Taylor gets from romance, this blissful state that spurs her imagination. She enjoys the benefits of love without marriage. When Taylor is up late at night, the lavender haze helps with her imagination. In the music video, her date is asleep while Taylor is having a grand time with her own mind.
 
        {/* She is criticized for relationships that don't end in marriage, but she is able to get what she wants, comfort and inspiration. */}
-        <strong> Maroon</strong> is deeper love, a new color to play with, the kind that can cause pain and lasting memories. These two colors define the main 2 types of relationships T has, and now we explore them through Taylor's romantic journey. <strong>Anti-Hero</strong> is about how Taylor relates to being a relative monster. Creativity and fame have consequences, and that busy world is the setting in which Taylor's love story takes place. <strong>Snow On The Beach</strong> is a seeming miracle, a dream come to life. This can also be seen as watching karma coming together, maybe with the hand of a Mastermind? As mentioned at the top, John Mayer might haunt this song. That's part of why this song is repeated on the Til Dawn version, when Taylor can make her own miracles come to life.
+        <strong> Maroon</strong> is deeper love, a new color to play with, the kind that can cause pain and lasting memories. These two colors define the main 2 types of relationships T has, and now we explore them through Taylor's romantic journey. One comes with a tangible benefit no matter the results, and the second brings pain through rumination. <strong>Anti-Hero</strong> is about how Taylor relates to being a relative monster. Creativity and fame have consequences, and that busy world is the setting in which Taylor's love story takes place. <strong>Snow On The Beach</strong> is a seeming miracle, a dream come to life. This can also be seen as watching karma coming together, maybe with the hand of a Mastermind? As mentioned at the top, John Mayer might haunt this song. That's part of why this song is repeated on the Til Dawn version, when Taylor can make her own miracles come to life.
 
         </p>
 
@@ -156,11 +156,11 @@ And now that I know, I wish you'd left me wondering`, `Sex, alcohol and drugs ar
          </p>
          <p>
 
-          <strong>Bejeweled</strong> is a continuation of Vigilante Shit but positive. Taylor is asserting herself and shining on her own, she's having fun with it. She's diamond strong, doing her own thing. <strong>Labyrinth, </strong>
+          <strong>Bejeweled</strong> is a continuation of Vigilante Shit but positive. Taylor is asserting herself and shining on her own, she's having fun with it. She's diamond strong, cleaning up her act, doing her own thing. <strong>Labyrinth, </strong>
 
-        Taylor is trapped within her own mind. She has built a kingdom in her mind but now she's fallen in love again. Her lavender kingdom is falling to new maroon love.
+        Taylor is trapped within her own mind. She has built a kingdom in her mind but now she's fallen in love again. Her lavender kingdom is falling to new maroon love. Despite growth, she is hitting the same cycle of issues.
 
-         <strong>Karma</strong> is one of the lessons Taylor learned from her years of relationships. This is her consciousness journey. The Witness, the part of you that is always there aware, Taylor sits back and sees her journey. She sees how true the law of Karma is. Karma is the science of cause and effect. The 3-person relationship is as unsolved as the 3 body problem. But we know good vibes travel. <strong>Sweet Nothing</strong> is Taylor celebrating destressing through love. She has learned to leave the toxicity behind and now gets pure comfort from her partner. With her prolonged focus on ego through career, Taylor is tired and has found new relief. In <strong>Mastermind</strong>, Taylor writes her own story having perfected her craft. There ends the story, the original album ends. Taylor dropped the 3am edition by surprise at 3am that same night, with 7 more songs.</p>
+         <strong>Karma</strong> is one of the lessons Taylor learned from her years of relationships. This is her consciousness journey. The Witness, the part of you that is always there aware, Taylor sits back and sees her journey. She sees how true the law of Karma is. Karma is the science of cause and effect. (The 3-person relationship is as unsolved as the 3 body problem). But we know good vibes travel. <strong>Sweet Nothing</strong> is Taylor celebrating destressing through love. She has learned to leave the toxicity behind and now gets pure comfort from her partner. With her prolonged focus on ego through career, Taylor is tired and has found new relief. In <strong>Mastermind</strong>, Taylor writes her own story having perfected her craft. There ends the story, the original album ends. Taylor dropped the 3am edition by surprise at 3am that same night, with 7 more songs.</p>
       <p>
         We start with <strong>The Great War</strong>, dealing with fame and love mixing, The Swift army is strong. Taylor nearly loses a relationship with their attack, Joe Alwyn in this case.  <strong>Bigger Than The Whole Sky</strong> follows up with the end of a relationship despite the potential. She suffers and feels her sadness is contagious. <strong>Paris</strong> is Taylor back on her game. After having reached Mastermind status, she is now able to achieve peak imagination and fun in the present. She is in Paris, the peak of romance, wherever she goes. <strong>High Infidelity</strong>
 
