@@ -141,7 +141,7 @@ And now that I know, I wish you'd left me wondering`, `Sex, alcohol and drugs ar
       </p>
       <h4>General theory</h4>
       <p>
-      Midnights is Taylor reflecting on her love life and the consciousness journey it brought to her over the course of her life. Taylor outlines the album in the first 4 songs. She defines 2 kinds of love and then talks about the related struggles. She grows while she cycles through these struggles for the rest of the album.Taylor also references her relationship with John Mayer, which began when she was 19. The power dynamic was messed up, but he gave her the first snow on the beach moment. Only later did she understand the setup. Rumination is a trend, her best memories turned against her.
+      Midnights is Taylor reflecting on her love life and the consciousness journey it brought to her. Taylor outlines the album in the first 4 songs. She defines 2 kinds of love and then talks about the related struggles. She grows while she cycles through these struggles for the rest of the album.Taylor also references her relationship with John Mayer, which began when she was 19. The power dynamic was messed up, but he gave her the first snow on the beach moment. Only later did she understand the setup. Rumination is a trend, her best memories turned against her.
       </p>
       <p><strong>Lavendar Haze</strong> explains the reward Taylor gets from romance, this blissful state that spurs her imagination. She enjoys the benefits of love without marriage. When Taylor is up late at night, the lavender haze helps with her imagination. In the music video, her date is asleep while Taylor is having a grand time with her own mind.
 
@@ -219,7 +219,7 @@ Can this be a real thing? Can it?" Like she just referenced the Good Place Janet
     <p>I've been looping this a lot, it goes hard. Kendrick running 6 miles every morning making me feel bad about the Big Sean title earlier. But I stand by it in context, Kendrick was mid-Drake beef with only Mr. Morale since 2017. I am so thankful to Drake for the beef because Kendrick had been looking for a rap battle for a while. 'Not Like Us' is looking prophetic, not just with Diddy but with the accelerating class war. Shareholders and non-shareholders is captor, owner language. There are people who make money from what they do, and there are people who make money by having money. The second group buys a % of future profits from what the first group does. My proposal: money should be paid in money, not ownership. To compromise, half of all profits minimum should go to the people who actually run the business, labor.</p>
     <h2>Other in progress</h2>
     <p>
-      Last Wednesday by Chris Webby, I haven't had too many playthroughs yet, but it's pretty strong. Just please, do yourself a favor and start on the song FSU. The album is 1 hour 45 minutes, give the album a fair shot before Webby triggers you.
+      Last Wednesday by Chris Webby, another strong album.
     </p>
     <p>
       Logic has a new EP, 14 minutes. A posthumous Mac Miller album was released at the same time, he recorded it in 2014. It is more musical than rap focused, it's beautiful in a way I need more time listening to describe.
