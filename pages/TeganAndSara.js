@@ -175,7 +175,7 @@ And now that I know, I wish you'd left me wondering`, `Sex, alcohol and drugs ar
          If you loop the album, it goes back to Lavendar Haze and Maroon, the two types of love Taylor pursues. These 2 colors stand as Taylor's answers to life's hardest questions. In a relative world, Taylor finds meaning in the fun of romance and the world of love. 217 days later Taylor releases the 'Til Dawn' edition with a new song, <strong>Hits Different</strong>. It's about an inevitable consequences of a successful relationship that ends, and dealing with new levels of heartbreak. The music is upbeat, Taylor is sad but for good reasons. I hope that after reading the below song by song breakdown, Midnights will hit different for you.
       </p>
 
-      <p>TLDR, Taylor Swift gets an imagination boost from romance however it goes. If love does appear, its strength comes with potential future pain. Taylor finds herself amidst this cycle. With a heightened awareness and the past left in the past, Taylor is able to better handle the waves of emotion.</p>
+      <p>TLDR, Taylor Swift gets an imagination boost from romance however it goes. If love does appear, its strength comes with potential future pain. Taylor finds herself amidst this cycle. With a heightened awareness and the past left in the past, Taylor is able to better handle the waves of emotion with a (midnight) buddhist mindset.</p>
 
     {midnightSongs.map(song=>
       song.comments.slice(0,0).map((text, i2)=>(<div>
