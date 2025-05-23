@@ -143,7 +143,7 @@ And now that I know, I wish you'd left me wondering`, `Sex, alcohol and drugs ar
       </p>
       <h4>General theory</h4>
       <p>
-      Midnights is Taylor reflecting on her love life and the consciousness journey it brought to her. Taylor outlines the album in the first 4 songs. She defines 2 kinds of love and then talks about the related struggles. She grows while she cycles through these struggles for the rest of the album.Taylor also references her relationship with John Mayer, which began when she was 19. The power dynamic was messed up, but he gave her the first snow on the beach moment. Only later did she understand the setup. Rumination is a trend, her best memories turned against her. Taylor gives us a gift by giving voice to the different benefits and struggles of love.
+      Midnights is Taylor reflecting on her love life and the consciousness journey it brought to her. Taylor outlines the album in the first 4 songs. She defines 2 kinds of love and then talks about the related struggles. She grows while she cycles through these struggles for the rest of the album.Taylor also references her relationship with John Mayer, which began when she was 19. The power dynamic was messed up, but he gave her the first snow on the beach moment. Only later did she understand the setup, and it haunts her. Rumination is a trend, her best memories turned against her. Taylor gives us a gift by giving name to the different benefits and struggles of love.
       </p>
       <p><strong>Lavendar Haze</strong> explains the reward Taylor gets from romance, this blissful state that spurs her imagination. She enjoys the benefits of love without marriage. When Taylor is up late at night, the lavender haze helps with her imagination. In the music video, her date is asleep while Taylor is having a grand time with her own mind.
 
@@ -174,6 +174,8 @@ And now that I know, I wish you'd left me wondering`, `Sex, alcohol and drugs ar
 </p><p>
          If you loop the album, it goes back to Lavendar Haze and Maroon, the two types of love Taylor pursues. These 2 colors stand as Taylor's answers to life's hardest questions. In a relative world, Taylor finds meaning in the fun of romance and the world of love. 217 days later Taylor releases the 'Til Dawn' edition with a new song, <strong>Hits Different</strong>. It's about an inevitable consequences of a successful relationship that ends, and dealing with new levels of heartbreak. The music is upbeat, Taylor is sad but for good reasons. I hope that after reading the below song by song breakdown, Midnights will hit different for you.
       </p>
+
+      <p>TLDR, Taylor Swift gets an imagination boost from romance however it goes. If love does appear, its strength comes with potential future pain. Taylor finds herself amidst this cycle. With a heightened awareness and the past left in the past, Taylor is able to better handle the waves of emotion.</p>
 
     {midnightSongs.map(song=>
       song.comments.slice(0,0).map((text, i2)=>(<div>
