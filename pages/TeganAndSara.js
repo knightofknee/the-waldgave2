@@ -216,7 +216,10 @@ Can this be a real thing? Can it?" Like she just referenced the Good Place Janet
 
 
 
-
+      <h2>A Taylor Swift Conspiracy hidden in side G: The Tortured Poets Department</h2>
+      <p>
+        <a href='https://open.spotify.com/playlist/62XfjMaoZtStJ2wQeBw8TA?si=xWf6GgFISvSP1E9E2h7_qA'>Playlist link</a>. So I was gifted a used copy of this album before I had anything to play it on. So I got my first vinyl player and went through this album one side at a time. The final side G is all amazing songs, an order not found on spotify (outside of the linked playlist). The lyrics are quite cryptic, hinting at a larger conspiracy.
+      </p>
       <h2>Kesha's Rainbow</h2>
       <p>This is Kesha post dr luke. It's an amazing album, strong throughout and supercharged. I'm surprised I hadn't heard this album earlier.</p>
     <h2>Kendrick GNX</h2>
