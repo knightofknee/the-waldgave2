@@ -77,7 +77,14 @@ Part of why phone surveys are ridiculous. That's free real estate inside somebod
   The cost of context switching. Tax it. Ads are only moral if they are opt-in. We need that consent because our brains have no firewall or real defense against ads.
   </li>
   <li className="story">
-  (in progress)
+    freestyle rap is like pilot wave theory.
+{/* // restarting here in 2025 */}
+  </li>
+  <li className="story">
+
+  </li>
+  <li className="story">
+
   </li>
   <li className="story">
 
