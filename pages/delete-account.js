@@ -1,7 +1,12 @@
 import { useEffect, useMemo, useState } from "react";
 import Head from "next/head";
 import { useRouter } from "next/router";
-import { onAuthStateChanged, deleteUser, reauthenticateWithPopup, GoogleAuthProvider } from "firebase/auth";
+import {
+  onAuthStateChanged,
+  deleteUser,
+  reauthenticateWithPopup,
+  GoogleAuthProvider,
+} from "firebase/auth";
 import {
   collection,
   deleteDoc,
@@ -15,11 +20,11 @@ import { auth, db } from "../firebase";
 
 export default function DeleteAccountPage() {
   const router = useRouter();
-  const [uid, setUid] = useState<string | null>(null);
+  const [uid, setUid] = useState(null);
   const [checkingAuth, setCheckingAuth] = useState(true);
   const [confirmText, setConfirmText] = useState("");
   const [busy, setBusy] = useState(false);
-  const [error, setError] = useState<string | null>(null);
+  const [error, setError] = useState(null);
   const [done, setDone] = useState(false);
 
   useEffect(() => {
@@ -30,12 +35,11 @@ export default function DeleteAccountPage() {
     return () => unsub();
   }, []);
 
-  const canDelete = useMemo(
-    () => confirmText.trim().toUpperCase() === "DELETE" && !!uid && !busy,
-    [confirmText, uid, busy]
-  );
+  const canDelete = useMemo(() => {
+    return confirmText.trim().toUpperCase() === "DELETE" && !!uid && !busy;
+  }, [confirmText, uid, busy]);
 
-  async function deleteFirestoreData(userUid: string) {
+  async function deleteFirestoreData(userUid) {
     // 1) Delete profile
     const profileRef = doc(db, "Profiles", userUid);
     // 2) Delete friend list doc
@@ -51,15 +55,14 @@ export default function DeleteAccountPage() {
     postsSnap.forEach((d) => batch.delete(doc(db, "Posts", d.id)));
     await batch.commit();
 
-    // NOTE: If other users have this user in their Friends arrays as objects,
-    // that reference cannot be queried with array-contains on a property.
-    // If your “Settings > Delete account” flow also removes you from others’ lists
-    // via a Cloud Function, that will still run the same way. If not, consider
-    // adding a CF to clean up reverse edges.
+    // NOTE: Reverse edges (removing you from others' lists) are best handled
+    // by a Cloud Function if your app uses them.
   }
 
   async function handleDelete() {
-    if (!uid || !auth.currentUser) return;
+    const user = auth.currentUser;
+    if (!uid || !user) return;
+
     setBusy(true);
     setError(null);
 
@@ -68,23 +71,24 @@ export default function DeleteAccountPage() {
       await deleteFirestoreData(uid);
 
       // Delete the Auth user last
-      await deleteUser(auth.currentUser);
+      await deleteUser(user);
 
       setDone(true);
-      // Optionally sign-out redirect after a short pause
       setTimeout(() => router.replace("/"), 800);
-    } catch (e: any) {
-      // If we hit requires-recent-login, prompt reauth (Google popup by default).
+    } catch (e) {
       if (e?.code === "auth/requires-recent-login") {
         try {
           const provider = new GoogleAuthProvider();
-          await reauthenticateWithPopup(auth.currentUser!, provider);
-          // Retry after successful reauth
+          const cur = auth.currentUser;
+          if (!cur) throw new Error("No authenticated user for reauthentication.");
+          await reauthenticateWithPopup(cur, provider);
+
           await deleteFirestoreData(uid);
-          await deleteUser(auth.currentUser!);
+          await deleteUser(cur);
+
           setDone(true);
           setTimeout(() => router.replace("/"), 800);
-        } catch (reauthErr: any) {
+        } catch (reauthErr) {
           setError(reauthErr?.message || "Reauthentication failed.");
         }
       } else {
