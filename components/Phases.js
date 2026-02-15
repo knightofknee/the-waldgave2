@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 
 const phases = [
-  { name: 'Ideation', isActive: true },
-  { name: 'Refinement', isActive: false },
+  { name: 'Ideation', isActive: false },
+  { name: 'Refinement', isActive: true },
   { name: 'Secret Invasion', isActive: false },
   { name: 'Shock and Awe Campaign', isActive: false },
 ];
