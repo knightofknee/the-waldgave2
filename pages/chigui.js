@@ -91,20 +91,22 @@ export default function OpenChicago() {
          I feel so much confidence because I love my dream team. I know my homies love me, and I believe in them, even if they don't know me. I know I'm not the only one who cries seeing homelessness in 2024. I know I'm not the only one who thinks about the billions of humans that won't ever exist if we continue to pour a single chemical in the air (CO2 + sunlight = higher temperatures. all added CO2 is more contribution to future suffering). I know that I'm not the only driver in the city who would bike instead, if I felt safe on our streets. I'm putting together a team. The Chicago Dream Team. Everyone who wants to contribute to a better city is welcome. Mass civic involvement hasn't really progressed in the digital age since American Idol started the fan vote via texting. We need to make it as easy as possible to participate on the team, I need captains. From my reading of Happy City by Charles Montgomery, making our streets walkable and green in innovative ways might be the single most important thing we could do. I'm hoping wards can all adopt whatever fits them best. The variety of our gardens should match that of our architecture.</p> */}
     {/* </>)} */}
     <h3>Policies</h3>
-    <ul style={{margin: '1% 5%'}}>
-      <li><b>Safety:</b> Cameras for police and streets with privacy‑preserving oversight systems.</li>
-      <li><b>Education:</b> Free daycare, stronger support systems for teachers, and better onboarding for the new teachers that deserve extra care as a vital resource.</li>
-      <li><b>Transportation:</b> More frequent trains and buses, protected bike lanes, and smarter traffic systems. No more waiting forever at lights with no one there.</li>
-      <li><b>BUBI:</b> “Brains Universal Basic Income” — financial stability plus investment contracts for people building value for the city.</li>
-      <li><b>Housing:</b> Updated building code goals and expanded SRO housing to reduce homelessness.</li>
-      <li><b>Land Tax Reform:</b> Replace property tax with a land value tax to reward development and discourage speculation.</li>
-      <li><b>Public Amenities:</b> Clean and accessible public bathrooms across the city.</li>
-      <li><b>Historical Justice:</b> A prominent Fred Hampton memorial and acknowledgment of past injustices.</li>
-      <li><b>Night Sky Initiative:</b> Reduce light pollution to reveal more stars and improve urban lighting design.</li>
-      <li><b>Chicago Bears Deal:</b> Keep the team in the city by trading some public ownership of the team in return for Bears control of the stadium and land.</li>
-      <li><b>Parking Lease Reform:</b> Challenge the parking meter deal and move toward dynamic pricing optimizing on demand management (get free parking if the street is never more than 70% full while you are parked there).</li>
-      <li><b>Chi-GUI Civic Platform:</b> A Chicago-focused public interface and LLM to help residents interact with city services.</li>
-      <li><b>Process Reforms:</b> Ranked-choice voting, open data models, and engineering-driven policy decisions.</li>
+    <ul style={{margin: '2% 5%', listStyle: 'none', padding: 0}}>
+      <li style={{marginBottom: '14px', paddingBottom: '10px', borderBottom: '1px solid #eee'}}><b>Safety:</b> Cameras for police and streets with privacy‑preserving oversight systems.</li>
+      <li style={{marginBottom: '14px', paddingBottom: '10px', borderBottom: '1px solid #eee'}}><b>Education:</b> Free daycare, stronger support systems for teachers, and better onboarding for the new teachers that deserve extra care as a vital resource.</li>
+      <li style={{marginBottom: '14px', paddingBottom: '10px', borderBottom: '1px solid #eee'}}><b>Transportation:</b> More frequent trains and buses, protected bike lanes, and smarter traffic systems. No more waiting forever at lights with no one there.</li>
+      <li style={{marginBottom: '14px', paddingBottom: '10px', borderBottom: '1px solid #eee'}}><b>BUBI:</b> “Brains Universal Basic Income” — financial stability plus investment contracts for people building value for the city.</li>
+      <li style={{marginBottom: '14px', paddingBottom: '10px', borderBottom: '1px solid #eee'}}><b>Housing:</b> Updated building code goals and expanded SRO housing to reduce homelessness.</li>
+      <li style={{marginBottom: '14px', paddingBottom: '10px', borderBottom: '1px solid #eee'}}><b>Land Tax Reform:</b> Replace property tax with a land value tax to reward development and discourage speculation.</li>
+      <li style={{marginBottom: '14px', paddingBottom: '10px', borderBottom: '1px solid #eee'}}><b>Public Amenities:</b> Clean and accessible public bathrooms across the city.</li>
+      <li style={{marginBottom: '14px', paddingBottom: '10px', borderBottom: '1px solid #eee'}}><b>Historical Justice:</b> A prominent Fred Hampton memorial and acknowledgment of past injustices.</li>
+      <li style={{marginBottom: '14px', paddingBottom: '10px', borderBottom: '1px solid #eee'}}><b>Night Sky Initiative:</b> Reduce light pollution to reveal more stars and improve urban lighting design.</li>
+      <li style={{marginBottom: '14px', paddingBottom: '10px', borderBottom: '1px solid #eee'}}><b>Chicago Bears Deal:</b> Keep the team in the city by trading some public ownership of the team in return for Bears control of the stadium and land.</li>
+      <li style={{marginBottom: '14px', paddingBottom: '10px', borderBottom: '1px solid #eee'}}><b>Parking Lease Reform:</b> Challenge the parking meter deal and move toward dynamic pricing optimizing on demand management (get free parking if the street is never more than 70% full while you are parked there).</li>
+      <li style={{marginBottom: '14px', paddingBottom: '10px', borderBottom: '1px solid #eee'}}><b>Chi-GUI Civic Platform:</b> A Chicago-focused public interface and LLM to help residents interact with city services.</li>
+      <li style={{marginBottom: '14px', paddingBottom: '10px', borderBottom: '1px solid #eee'}}><b>Process Reforms:</b> Ranked-choice voting, open data models, and engineering-driven policy decisions.</li>
+      <li style={{marginBottom: '14px', paddingBottom: '10px', borderBottom: '1px solid #eee'}}><b>El digital signs</b> They should always show the next trains for each line, that information should never disappear, especially not for an ad that is nonconsensually forced upon our riders.</li>
+      <li style={{marginBottom: '14px', paddingBottom: '10px', borderBottom: '1px solid #eee'}}><b>No more late night revving of engines and screeching of tires</b> We can use cameras mixed with microphones to easily detect and punish noise violations. It affects people's health.</li>
     </ul>
     <h3 id="safety">Safety First</h3>
     <p>Two easy wins here. Cameras on cops, and cameras on streets. First let's outline the rewards and required regulation.
