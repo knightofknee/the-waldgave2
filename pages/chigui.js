@@ -92,21 +92,21 @@ export default function OpenChicago() {
     {/* </>)} */}
     <h3>Policies</h3>
     <ul style={{margin: '2% 5%', listStyle: 'none', padding: 0}}>
-      <li style={{marginBottom: '14px', paddingBottom: '10px', borderBottom: '1px solid #eee'}}><b>Safety:</b> Cameras for police and streets with privacy‑preserving oversight systems.</li>
-      <li style={{marginBottom: '14px', paddingBottom: '10px', borderBottom: '1px solid #eee'}}><b>Education:</b> Free daycare, stronger support systems for teachers, and better onboarding for the new teachers that deserve extra care as a vital resource.</li>
-      <li style={{marginBottom: '14px', paddingBottom: '10px', borderBottom: '1px solid #eee'}}><b>Transportation:</b> More frequent trains and buses, protected bike lanes, and smarter traffic systems. No more waiting forever at lights with no one there.</li>
-      <li style={{marginBottom: '14px', paddingBottom: '10px', borderBottom: '1px solid #eee'}}><b>BUBI:</b> “Brains Universal Basic Income” — financial stability plus investment contracts for people building value for the city.</li>
-      <li style={{marginBottom: '14px', paddingBottom: '10px', borderBottom: '1px solid #eee'}}><b>Housing:</b> Updated building code goals and expanded SRO housing to reduce homelessness.</li>
-      <li style={{marginBottom: '14px', paddingBottom: '10px', borderBottom: '1px solid #eee'}}><b>Land Tax Reform:</b> Replace property tax with a land value tax to reward development and discourage speculation.</li>
-      <li style={{marginBottom: '14px', paddingBottom: '10px', borderBottom: '1px solid #eee'}}><b>Public Amenities:</b> Clean and accessible public bathrooms across the city.</li>
-      <li style={{marginBottom: '14px', paddingBottom: '10px', borderBottom: '1px solid #eee'}}><b>Historical Justice:</b> A prominent Fred Hampton memorial and acknowledgment of past injustices.</li>
-      <li style={{marginBottom: '14px', paddingBottom: '10px', borderBottom: '1px solid #eee'}}><b>Night Sky Initiative:</b> Reduce light pollution to reveal more stars and improve urban lighting design.</li>
-      <li style={{marginBottom: '14px', paddingBottom: '10px', borderBottom: '1px solid #eee'}}><b>Chicago Bears Deal:</b> Keep the team in the city by trading some public ownership of the team in return for Bears control of the stadium and land.</li>
-      <li style={{marginBottom: '14px', paddingBottom: '10px', borderBottom: '1px solid #eee'}}><b>Parking Lease Reform:</b> Challenge the parking meter deal and move toward dynamic pricing optimizing on demand management (get free parking if the street is never more than 70% full while you are parked there).</li>
-      <li style={{marginBottom: '14px', paddingBottom: '10px', borderBottom: '1px solid #eee'}}><b>Chi-GUI Civic Platform:</b> A Chicago-focused public interface and LLM to help residents interact with city services.</li>
-      <li style={{marginBottom: '14px', paddingBottom: '10px', borderBottom: '1px solid #eee'}}><b>Process Reforms:</b> Ranked-choice voting, open data models, and engineering-driven policy decisions.</li>
-      <li style={{marginBottom: '14px', paddingBottom: '10px', borderBottom: '1px solid #eee'}}><b>El digital signs</b> They should always show the next trains for each line, that information should never disappear, especially not for an ad that is nonconsensually forced upon our riders.</li>
-      <li style={{marginBottom: '14px', paddingBottom: '10px', borderBottom: '1px solid #eee'}}><b>No more late night revving of engines and screeching of tires</b> We can use cameras mixed with microphones to easily detect and punish noise violations. It affects people's health.</li>
+      <li className="policyItem"><b>Safety:</b> Cameras for police and streets with privacy‑preserving oversight systems.</li>
+      <li className="policyItem"><b>Education:</b> Free daycare, stronger support systems for teachers, and better onboarding for the new teachers that deserve extra care as a vital resource.</li>
+      <li className="policyItem"><b>Transportation:</b> More frequent trains and buses, protected bike lanes, and smarter traffic systems. No more waiting forever at lights with no one there.</li>
+      <li className="policyItem"><b>BUBI:</b> “Brains Universal Basic Income” — financial stability plus investment contracts for people building value for the city.</li>
+      <li className="policyItem"><b>Housing:</b> Updated building code goals and expanded SRO housing to reduce homelessness.</li>
+      <li className="policyItem"><b>Land Tax Reform:</b> Replace property tax with a land value tax to reward development and discourage speculation.</li>
+      <li className="policyItem"><b>Public Amenities:</b> Clean and accessible public bathrooms across the city.</li>
+      <li className="policyItem"><b>Historical Justice:</b> A prominent Fred Hampton memorial and acknowledgment of past injustices.</li>
+      <li className="policyItem"><b>Night Sky Initiative:</b> Reduce light pollution to reveal more stars and improve urban lighting design.</li>
+      <li className="policyItem"><b>Chicago Bears Deal:</b> Keep the team in the city by trading some public ownership of the team in return for Bears control of the stadium and land.</li>
+      <li className="policyItem"><b>Parking Lease Reform:</b> Challenge the parking meter deal and move toward dynamic pricing optimizing on demand management (get free parking if the street is never more than 70% full while you are parked there).</li>
+      <li className="policyItem"><b>Chi-GUI Civic Platform:</b> A Chicago-focused public interface and LLM to help residents interact with city services.</li>
+      <li className="policyItem"><b>Process Reforms:</b> Ranked-choice voting, open data models, and engineering-driven policy decisions.</li>
+      <li className="policyItem"><b>El digital signs</b> They should always show the next trains for each line, that information should never disappear, especially not for an ad that is nonconsensually forced upon our riders.</li>
+      <li className="policyItem"><b>No more late night revving of engines and screeching of tires</b> We can use cameras mixed with microphones to easily detect and punish noise violations. It affects people's health.</li>
     </ul>
     <h3 id="safety">Safety First</h3>
     <p>Two easy wins here. Cameras on cops, and cameras on streets. First let's outline the rewards and required regulation.
@@ -154,7 +154,7 @@ export default function OpenChicago() {
     <p>
       Childcare is the beginning. We need to support our parents, because they are the most important teachers in their children's lives. Stable households are able to spend more energy on their child each day. I want free daycare for everyone in Chicago. No matter our resources, we can do some form of this, and expand as we can. </p>
     <p>
-      Teachers. I want childcare as a first step to helping teachers. The other contender for most important resource, good teachers. I want to maximize the % of the budget that goes to good teachers. I've heard people say you can't reason with the CTU, those people are playing the wrong game. I want to appeal directly to teachers. I want to reward the best teachers for teaching, I want some of them to focus on teaching other teachers, but ideally still teaching some classes. I want to give new teachers every advantage possible, to ease them in with the help of our best teachers. I also want to remove bad teachers and other obvious wastes of money. This obsession with whether or not we close schools seems like nonsense given it seems like a classic network analysis problem to me, what is the trade-off betweeen closing or not for each case? We need these types of models made public.
+      Teachers. I want childcare as a first step to helping teachers. The other contender for most important resource, good teachers. I want to maximize the % of the budget that goes to good teachers. I've heard people say you can't reason with the CTU, those people are playing the wrong game. I want to appeal directly to teachers. I want to reward the best teachers for teaching, I want some of them to focus on teaching other teachers, while ideally still teaching some classes. I want to give new teachers every advantage possible, to ease them in with the help of our best teachers. I also want to remove bad teachers and other obvious wastes of money. This obsession with whether or not we close schools seems like nonsense given it is a classic network analysis problem, what is the trade-off betweeen closing or not for each case? We need these types of models made public.
       
       
        {/* If you want to debate something like this, you need to have the data. Public debate can evolve when we put out tools that make it easy for people to use the same data. I want to make arguments a game of finding exactly where people disagree. I want to make public policy discourse about the ideas, not the people. */}
@@ -386,6 +386,11 @@ h2 {
 p, ol {
   margin: 1% 5%;
 }
+  .policyItem {
+    margin-bottom: 14px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+  }
   @media (max-width: 600px) {
           .container {
             padding: 0 5%;
