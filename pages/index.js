@@ -146,6 +146,9 @@ export default function Home() {
 
   <footer style={{margin: '2em'}}>
       The Wacky Wednesday Waldgrave - Carl's Isle Productions
+      <div style={{marginTop: '0.5em'}}>
+        <Link href="/bekinPrivacy" style={{fontSize: '10px', color: '#999'}}>Privacy Policy</Link>
+      </div>
   </footer>
 
       <style jsx>{
