@@ -3,8 +3,9 @@ import WaldFooter from '../components/WaldFooter'
 export default function aboutWaldgrave() {
   return (
     <div className="container">
-      <p><strong>Privacy Policy — Waldgrave's Bekin application</strong><br/>Last updated: August 18, 2025</p>
+      <p><strong>Privacy Policy — Waldgrave's Bekin application and Escape from Hades IRL</strong><br/>Last updated: March 19, 2026</p>
 <p>The Waldgrave's BeKin platform is a social availability app that lets you light a beacon for friends, view friends' beacons, and post to a friends-only feed. This policy explains what we collect, how we use it, and your choices.</p>
+<p>Escape from Hades IRL is a habit tracking and notes app. It stores your habit and notes data locally and on our servers to provide the service. We never share your data with third parties or use it for any purpose beyond providing the app's functionality, unless you explicitly grant permission for us to use anonymized data for aggregate statistics.</p>
 <p><strong>Information we collect</strong>: account information (email, display name/username); your social graph (friends you add, stored as user IDs and display names); content you create (posts, optional links, timestamps) and your beacon status (active/expired and optional message); device data needed to deliver push notifications if you opt in (a device push token); and basic diagnostics and logs to keep the service reliable. We do not collect precise location.</p>
 <p><strong>How we use information</strong>: to create and maintain your account; to show beacons and a friends-only feed; to send push notifications you enable (e.g., when a friend lights a beacon); to secure and troubleshoot the service; and to comply with legal obligations.</p>
 <p><strong>Sharing and disclosure</strong>: we do not sell your personal information or use it for third-party targeted advertising. We share data only with service providers that help operate the app, including Google Firebase (Authentication, Firestore, optional Cloud Storage) and Expo (push notifications infrastructure). Content you create is visible to your friends according to app settings.</p>
