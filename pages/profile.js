@@ -1,44 +1,15 @@
-import { useState, useEffect } from 'react'
-import ProfileComponent from '../components/ProfileComponent'
-import { auth } from '../firebase'
-import router from 'next/router'
-import Loading from '../components/loading'
-import WaldFooter from '../components/WaldFooter'
-import WaldHeader from '../components/WaldHeader'
-
-export default function profile () {
-
-  const entries = [{title: "first post: example", link: "https://waldgrave.com", body: "the waldgrave grows", date: new Date(Date.parse("2024-05-11T22:00:00.000-05:00")), isUnread: true, id: "23weeeee", starred: false}, {title: "second post: wowoowwo", link: "https://waldgrave.com/Login", body: "the login goes", date: new Date(Date.parse("2024-05-11T22:01:00.000-05:00")), isUnread: false, id: "whatdoIDslooklike?", starred: true}];
-
-  const [theProfileEntryList, setTheProfileEntryList] = useState(entries)
-  const [user, setUser] = useState(true);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const unsubscribe = auth.onAuthStateChanged((user) => {
-      if (user) {
-        // User is signed in
-        setUser(user);
-        setLoading(false);
-      } else {
-        // User is signed out
-        router.push('/Login');
-      }
-    });
-
-    // Cleanup subscription on unmount
-    return () => unsubscribe();
-  }, []);
-
-  if (loading) {
-    return <Loading />
-  }
-
+export default function Profile() {
   return (
-    <div>
-      <WaldHeader page='profile' />
-      <ProfileComponent userID={auth.currentUser.uid} userType='profile' />
-      <WaldFooter cssname='profile' />
+    <div style={{ textAlign: 'center', padding: '4rem 1rem' }}>
+      <h1>410 - Gone</h1>
+      <p>This page has been permanently removed.</p>
+      <p>The Waldgrave social media is now available as an <a href="https://apps.apple.com/us/app/bekin-by-the-waldgrave/id6746952014">iOS app</a>.</p>
+      <p><a href="/">Back to home</a></p>
     </div>
-  )
+  );
 }
+
+Profile.getInitialProps = ({ res }) => {
+  if (res) res.statusCode = 410;
+  return {};
+};

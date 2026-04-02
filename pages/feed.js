@@ -1,38 +1,15 @@
-import FeedComponent from "../components/FeedComponent";
-import { useState, useEffect } from 'react';
-import Link from 'next/link';
-import Loading from '../components/loading';
-import { auth } from '../firebase';
-import router from 'next/router';
-import WaldFooter from "../components/WaldFooter";
-import WaldHeader from "../components/WaldHeader";
-
-export default function feed () {
-  const [user, setUser] = useState(true);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const unsubscribe = auth.onAuthStateChanged((user) => {
-      if (user) {
-        // User is signed in
-        setUser(user);
-        setLoading(false);
-      } else {
-        // User is signed out
-        router.push('/Login');
-      }
-    });
-
-    return () => unsubscribe();
-  }, []);
-
-  if (loading) {
-    return <Loading />
-  }
-
-  return (<div>
-    {user ? <WaldHeader page='feed' /> : <div></div>}
-    <FeedComponent />
-    <WaldFooter />
-  </div>)
+export default function Feed() {
+  return (
+    <div style={{ textAlign: 'center', padding: '4rem 1rem' }}>
+      <h1>410 - Gone</h1>
+      <p>This page has been permanently removed.</p>
+      <p>The Waldgrave social media is now available as an <a href="https://apps.apple.com/us/app/bekin-by-the-waldgrave/id6746952014">iOS app</a>.</p>
+      <p><a href="/">Back to home</a></p>
+    </div>
+  );
 }
+
+Feed.getInitialProps = ({ res }) => {
+  if (res) res.statusCode = 410;
+  return {};
+};
