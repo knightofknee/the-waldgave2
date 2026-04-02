@@ -179,7 +179,7 @@ export default function Home() {
           margin: 0 10px;
         }
         a {
-          color: #42b983;
+          color: #1a6b4a;
         }
 
         .purple-circle {
