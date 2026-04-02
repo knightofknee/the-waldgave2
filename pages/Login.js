@@ -9,10 +9,6 @@ export default function Login() {
   );
 }
 
-export async function getServerSideProps() {
-  return { props: {}, };
-}
-
 Login.getInitialProps = ({ res }) => {
   if (res) res.statusCode = 410;
   return {};
