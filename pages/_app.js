@@ -5,10 +5,10 @@ import { UserProvider } from '../components/UserContext'
 class MyApp extends App {
   componentDidMount() {
     if (window.location.pathname === '/musicblog') {
-      Router.push('/TeganAndSara')
+      Router.push('/CarlsCommentary')
     }
     if (window.location.pathname === '/music') {
-      Router.push('/TeganAndSara')
+      Router.push('/CarlsCommentary')
     }
   }
 
