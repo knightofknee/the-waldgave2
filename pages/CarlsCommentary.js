@@ -3,7 +3,7 @@ import Song from '../components/Song'
 import { useEffect, useState } from 'react';
 import HomeButton from '../components/HomeButton';
 
-export default function TeganAndSara() {
+export default function CarlsCommentary() {
 
   const songs = songsData;
 
@@ -118,6 +118,19 @@ And now that I know, I wish you'd left me wondering`, `Sex, alcohol and drugs ar
   // Synchronicity. I'm going to start off with this concept, and then I'll try to only speak through the lyrics and music videos. Carl Jung made up the word to describe the subconscious talking, or "the simultaneous occurence of two different psychic states." Language is limited, we can see its limits when trying to express inner feelings. When we talk about our relationship with your own brains though, the language changes. Trust your gut. The old lesson goes something like this, imagine people blindfolded touching various parts of an elephant. They could all be touching the same animal but they can't know the elephant from one perspective alone. Your brain is limited in how it can communicate with you, so you have to be a good listener. I'm trying to point towards something, and when I listen to this album, I get a lot of synchronicity. I think that's the power of pop music, but after so many late nights listening to Midnights, it's clear to me Taylor is singing about a Buddhist elephant the whole time, so I don't believe I'm doing much more than writing it out.
 
   let introText = `My qualifications: I am no true Swifty, but I have been listening to Midnights a LOT. I'm only top 2% of Spotify Taylor Swift listeners in 2024, but I am top 0.005% in listens to the first song of Midnights, Lavendar Haze. And I often started the album in the middle on The Great War! I am a true Midnights Swifty. I listened to this album for months just because I loved it. Then I began realizing how well the lyrics fit the Buddhist and neuroscience ideas I've been learning and trying to explain. That was sometime in 2023. I've since spent many late nights letting this album wash over me, many private dance parties. Heres's what I hear.`
+
+
+
+
+
+
+
+
+
+
+
+
+
   return (
     <div className='container'>
       <HomeButton />
@@ -125,8 +138,10 @@ And now that I know, I wish you'd left me wondering`, `Sex, alcohol and drugs ar
     <>
     <h2>My list of albums that I have listened to on repeat</h2>
 
-    <p><a href='https://docs.google.com/spreadsheets/d/1IyOyuEmOvrHCzou6IhIrqOw9B-Qokp2Kdfk7hq2JeUc/edit?usp=sharing'>google sheet here</a>, this is not yet exhaustive.
+    <p><a href='https://docs.google.com/spreadsheets/d/1IyOyuEmOvrHCzou6IhIrqOw9B-Qokp2Kdfk7hq2JeUc/edit?usp=sharing'>google sheet here</a>, a work in progress.
     </p>
+    <h2>Chance - Star Line</h2>
+      <p>This album puts the vibe in vibe coding. And this is an album, it flows well. On the surface, I think some people will not like this album because it isn't as poppy as older Chance, you have to actually listen to it in album form. No one song sticks out as a single. It tells a story, and the high quality stays high the whole time (except for maybe one guest verse). Chance doesn't miss, he just has changed between albums. His last album, The Big Day, was misunderstood, as I explained in its own post below. If you start that album at the 8th track Roo, you can see the album is about personal growth, marriage is just one big marker of that growth. And like this album, it's all bangers. This album is for vibing, not really for partying. It's too lyrical, and the mood isn't quite right for it. Chance has a lot to say. I highly recommend it for walking, dancing at home, or putting it in the background while working.</p>
     <h2>
       Taylor Swift's Midnights 3am edition (the Midnight Buddha edition)
     </h2>
