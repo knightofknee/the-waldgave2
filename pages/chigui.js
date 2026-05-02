@@ -114,7 +114,7 @@ export default function OpenChicago() {
     </ul>
 
 
-    <h3 id="safety">Safety First</h3>
+    {/* <h3 id="safety">Safety First</h3>
     <p>Two easy wins here. Cameras on cops, and cameras on streets. First let's outline the rewards and required regulation.
     </p>
     <ol >
@@ -124,7 +124,7 @@ export default function OpenChicago() {
         <li>
           Street camera footage can remain unseen for like 99.9% of the time. If we make an open source system that only lets the one approved algorithm run on it, then it stays 100% private. If the algorithm identifies a major crime or if the police are investigating a particular location, then the footage is reviewed. (You could be notified if the footage on your block is used for something, and contribute your doorbell camera feed) It could be a Ward opt-in by vote system. So while I believe the privacy concerns can be addressed on several fronts, the concern remains. Privacy relies upon proper implementation to avoid abuse. One reward is safer streets without relying on the CPD officers, letting them focus on other work. No more late night revving of engines and screeching of tires. Sound pollution should not be tolerated, it seems like it would be easy to enfoce with a camera system (plus a shotspotter that actually works. The city should pay someone to build us a functional system). Speeding should be incrementally punished, so as new cameras are added punishment starts small or is waived, but repeat offenders get higher fines, eventually leading to a suspended license. The cost is the loss of privacy, but with the right implementation, we can minimize the loss and maximize safety. 
         </li>
-    </ol>
+    </ol> */}
     {/* 4 Noble Truths Breakdown (in progress):
     <ol>
       <li>
@@ -172,7 +172,7 @@ export default function OpenChicago() {
       I want to invest in our teachers and our students. As I said before, the number one resource for our students are their parents. BUBI, described in its own section below, is for the parents. We can build stability for all, a warm bed and a full stomach at rock bottom. A single parent won't have to work 2 jobs just to get by. More parents could choose to spend their time with their children, to the benefit of all of us.
     </p>
     <p>
-      I don't want to get rid of any school model like charter or magnet schools. Maybe they need regulation changes, I have none to focus on now. I do believe neighborhood schools need more support. I think as we get good with public modeling, we start to focus on things like how far is everyone from parks, grocery stores, and schools. This data will really reveal inequalities in the city investment. I believe in the competition that charter schools bring, but we need to be fitting them within OUR long term plans.
+      I don't want to get rid of any school model like charter or magnet schools. The variety helps us learn what is best. Maybe they need regulation changes, I have none to focus on now. I do believe neighborhood schools need more support. I think as we get good with public modeling, we start to focus on things like how far is everyone from parks, grocery stores, and schools. This data will really reveal inequalities in the city investment. I believe in the competition that charter schools bring, but we need to be fitting them within OUR long term plans.
     </p>
       <h3>Transportation</h3>
       <p>
