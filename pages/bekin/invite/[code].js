@@ -6,9 +6,7 @@ import { useRouter } from "next/router";
 // visitor to the right store, and surface the invite code so they can finish connecting after they
 // sign up (the app also tries to recover it from the clipboard automatically).
 const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=com.waldgrave.bekin";
-// TODO: replace REPLACE_WITH_APPSTORE_ID with BeKin's numeric App Store id once it's published
-// (e.g. https://apps.apple.com/app/id1234567890).
-const APP_STORE_URL = "https://apps.apple.com/app/idREPLACE_WITH_APPSTORE_ID";
+const APP_STORE_URL = "https://apps.apple.com/app/id6746952014";
 
 export default function BekinInvite() {
   const router = useRouter();
