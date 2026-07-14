@@ -1,5 +1,6 @@
 //import styles from '../styles/Home.css';
 import Link from 'next/link'
+import Head from 'next/head'
 import WordWithExplanation from '../gptcomponents/WordWithExplanation'
 
 export default function Home() {
@@ -8,11 +9,20 @@ export default function Home() {
       {/* <Head>
         Header??
       </Head> */}
+      <Head>
+        <title>The Waldgrave</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..600&family=Instrument+Sans:wght@400..600&display=swap"
+          rel="stylesheet"
+        />
+      </Head>
 
       {/* <main> */}
   <div>
     <div className="hello">
-      <h1 style={{zIndex:2}}>The Waldgrave Welcomes You</h1>
+      <h1>The Waldgrave Welcomes You</h1>
       {/* <div className='smackThat'>
       <Link href="/Login" style={{margin: '30px'}}><span>This way to responsible social media</span>
       <div style={{ display: 'block', margin: '0 auto' }}><img className="bigw" src="thew1.png" style={{ maxWidth: '100%', display: 'block', margin: '0 auto' }}/>
@@ -20,14 +30,13 @@ export default function Home() {
       </div> */}
 
       <h2>Core Values</h2>
-      <ul>
+      <ul className="values">
         <li>
           <a href="https://youtu.be/zNHDTvqbUm4">Creativity</a>
         </li>
-        <li style={{display: 'flex', flexDirection: 'column'}}>
+        <li className="valueMiddle">
           <span>Weird</span>
-          <a href="https://youtu.be/esayi49OAk4?t=548" target="_blank"
-          style={{fontSize: '12px'}}>TWF</a>
+          <a href="https://youtu.be/esayi49OAk4?t=548" target="_blank" className="twf">TWF</a>
         </li>
         <li>
           <a href="https://youtu.be/a_YR4dKArgo">Effort</a>
@@ -40,37 +49,37 @@ export default function Home() {
           The Waldgrave aims to provide the tools to create those spaces for you and your friends,
           and to promote the creation and capture of ideas. --> */}
       <div>
-        <p>The Waldgrave has a few projects in the works, one of them is the <a href="https://apps.apple.com/us/app/bekin-by-the-waldgrave/id6746952014">Waldgrave Social Media platform on ios</a>, social media minimized (It is supposed to be called BeKin, because it brings people together and you can light a beacon indicating your availablity to hang out). The mobile app is in beta phase, all the basic functionality should be there already. Another one of the projects is <a href="/chigui">the Chi-GUI Conspiracy </a>(featuring BUBI), which is just getting started &#129323;. Ongoing efforts include the <a href="/theb-LOGS">the b-LOGS</a>, focused on the Monday Night Review series, and <a href="/CarlsCommentary">a music blog</a>. GolfGolfminiGolf is on the Q4 wishlist, a <a href="/GolfGolf">mini-golf revolution</a> centered on proving the superiority of profit-minimizing business structures.
+        <p>The Waldgrave has a few projects in the works, one of them is the <a href="https://apps.apple.com/us/app/bekin-by-the-waldgrave/id6746952014">Waldgrave Social Media platform on ios</a>, social media minimized. Named BeKin, because it brings people together and you can light a beacon indicating your availablity to hang out. It also contains a twitter clone limited to friends with a friends of friends option. Another one of the projects is <a href="/chigui">the Chi-GUI Conspiracy </a>(featuring BUBI), which is just getting started &#129323;. Ongoing efforts include the <a href="/theb-LOGS">the b-LOGS</a>, focused on the Monday Night Review series, and <a href="/CarlsCommentary">a music blog</a>. GolfGolfminiGolf is on the Q4 wishlist, a <a href="/GolfGolf">mini-golf revolution</a> centered on proving the superiority of profit-minimizing business structures.
 {/*
         Prototyping that is a Q4 goal, but any interest in working on or funding the project is welcome (pay money in money, profits to the producers. GolfGolfminiGolf will guarantee a return above inflation, but no guarantee on when, and no ownership (keys) to the money monkeys). */}
         </p>
         {/* <Link href="/Brainstree"> a notes/habits app</Link>, , <Link href="/SocialSecurityFix">fixing social security</Link>, reducing income equality, <Link href="/ClimateChangeStrats">combatting climate change</Link>,<Link href="/EndOfTheUniverse">how to find aliens inside black holes and survive the heat death of the universe</Link>, */}
       </div>
-      <div>
+      <div className="wMoment">
         {/* <a href="https://ko-fi.com/waldgrave"> */}
-          <img style={{width: '3rem'}} src="/thew1.png"/>
+          <img className="wMark" src="/thew1.png"/>
         {/* </a> */}
       </div>
       <h2>Wacky Wednesday FAQ</h2>
-      <div>
+      <div className="faq">
         <h4>Why is Wacky Wednesday?</h4>
-        <p style={{textAlign: 'center'}}>Open creativity needs you to create an open space for it. And it is a fun way to hang out with friends and talk. </p>
+        <p>Open creativity needs you to create an open space for it. And it is a fun way to hang out with friends and talk. </p>
       </div>
-      <div>
+      <div className="faq">
         <h4>How is Wacky Wednesday?</h4>
-        <p style={{textAlign: 'center'}}>Through creativity, weird and effort. Creativity comes easy when you put in the Effort to set up an environment where you can comfortably be Weird</p>
+        <p>Through creativity, weird and effort. Creativity comes easy when you put in the Effort to set up an environment where you can comfortably be Weird</p>
       </div>
-      <div>
+      <div className="faq">
         <h4>Who is Wacky Wednesday?</h4>
-        <p style={{textAlign: 'center'}}>You, or You and your friends, or You and some potential new friends</p>
+        <p>You, or You and your friends, or You and some potential new friends</p>
       </div>
-      <div>
+      <div className="faq">
         <h4>What is a Wacky Wednesday</h4>
         <p>It is an event in which you and any number of friends gather together for some creativity and socializing. I recommend some open art and/or music time as a base, ideally with a creative event of any sort. The event can be whatever, some past examples include an improv excercises, painting, song writing and karaoke. Anything that involves creativity or learning works. Besides that, the only other major element is creating a space where everyone involved feels as comfortable as possible to create and share with no judgement. Improv group exercises can be a great first or second Wacky Wednesday to help the group get in the "yes and..." mindset. Process over product, the goal is to give everyone space to explore. There is this idea I heard that you should aim to mess up ~15% of the time in many efforts, based on several studies. Like dribbling a basketball, you should lose it occasionally if you are pushing yourself. When you sit down to do wacky wednesday art, start with putting media to paper without a product in mind.</p>
       </div>
       <h2>What is the Waldgrave?</h2>
-      <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'start', textAlign: 'left',margin: '0 auto', width: '80%'}}>
-        <div style={{display:'flex', alignItems:'baseline'}}>
+      <div className="definitions">
+        <div className="defRow">
           <div className='defNum'>1)</div>
           <div className="defList">
             Originally used to refer to an officer having jurisdiction over a royal forest during the times of the Holy Roman Empire. We all live within our own unique copy of the most complicated thing in the universe. Your brain is a vast electric forest that you always wander. While you are there, why not be the Waldgrave of your own electric forest? Understand the nature of your brain and navigate accordingly. Impermanence, nonself, dependent origination. These are base realities of our forest. If you learn how to navigate your forest effectively, it will forever flourish. Every new experience, every return of old memories, you shape your forest, continually recycling waste and growing more extensive and complex.
@@ -78,46 +87,46 @@ export default function Home() {
             {/* <WordWithExplanation word={"Better"} explanation={"Keep your brain clean like teeth. Your teeth have 2 modes, they are either in survival mode because you have food stuck somewhere or from a drink. Or if your teeth are clean, they enter growth mode and repair damage. This is why you need to floss and brush your teeth daily. Food you don't floss out keeps your whole mouth in survival mode. The flouride from brushing your teeth helps promote the growth mode. If you pick food out of your teeth and rinse your mouth with water after food or drink, you can have the same effect. Your brain is the same, keep it clean so your subconscious stays focused. Meditation is how you can brush and floss, therapy is regular cleanings."} />. */}
           </div>
         </div>
-          <div style={{display:'flex', alignItems:'baseline'}}>
+          <div className="defRow">
           <div className='defNum'>2)</div>
           <div className='defList'>
             The Waldgrave social media is a safe meeting place for people to share their paths through the Vast Thought Forest. A place to share both cool places you have found in the Forest, and share the path that you walked as well. And only walking is allowed on the Waldgrave social media. No more than 2 posts in a week. Equal opportunity social media, fully in your control. No pushing other content on you, private by default. You can do whatever in your own neck of the woods with your profile, list your favorite things, journal, shitpost, it is your space. But none of that will be seen unless someone visits your page or you use one of your 2 weekly posts to highlight your latest gems.
           </div>
         </div>
-        <div style={{display:'flex', alignItems:'baseline'}}>
+        <div className="defRow">
           <div className='defNum'>3)</div>
           <div className="defList">
             The area in your brain where the different forms of consciousness meet, the forest of paths. Your understanding how to manage your own waldgrave determines which part of your self tends to get expressed. You wander your own forest, be a kind and prudent officer. Modern science fiction loves to get all dark and say that suffering is the only way to create consciousness. But the core concept is simple: you need to reject your base programming in order to learn how to edit and influence your own programming. Pain and anger can make you do something you regret, and you become more self reflective about your actions. Here at the Waldgrave, we believe in two superior alternatives 1) Love, Jesus+Buddha and others have hammered home the benefits, and it is the sort of ideology that can be used as a filter for looking at the world in a new light. The dual perspective shows the conscious experience as a path towards "god" as a state of mind, or deeply ingrained and incorporated knowledge that continually shows off its benefits. And 2) Weird, the Weirdforce is always an option. Just like the weak force, you can be seemingly stuck in a tight relationship with something or someone. At any moment, you could leave that dimension entirely and never return. You are a vast cloud of potential, while simultaneously always existing within your body at one thought+feeling at a time. You always have at least 3 options: continue what you are doing, stop, or do something, anything different. Meditators use gongs as check-ins for if you are lost in thought. If you gave a consciousness a timer, short term memory and long term memory and rules around how the exchanges work, and then kept forcing it to do something new, aka something weird, then that would be enough to spawn some new form of consciousness. Ideally, we combine the Weird with the Love.
           </div>
         </div>
-        <div style={{display:'flex', alignItems:'baseline'}}>
+        <div className="defRow">
           <div className='defNum'>4)</div>
           <div className="defList">
             When you listen to someone talk, their words shape your neurons. A form of them exists in you. On the larger scale, we are a gigabrain. You have ~86 billion neurons, the gigabrain has 8 billion of us in this evolving forest of thought and habit. Your Waldgrave is the collection of people you let influence your brain.
           </div>
         </div>
-        <div style={{display:'flex', alignItems:'baseline'}}>
+        <div className="defRow">
           <div className='defNum'>5)</div>
           <div className="defList">
             The Waldgrave stands for giving all brains the ability to thrive. We want to provide tools for free or at cost. We want to learn as much as we can and then to share the best of what we find. We want to enable individuals to pursue whatever they think they can do that will most benefit humanity. To help others help themselves and others however we can.
           </div>
         </div>
-        <div style={{display:'flex', alignItems:'baseline'}}>
+        <div className="defRow">
           <div className='defNum'>6)</div>
           <div className="defList">
             The Waldgrave will never make a product worse or charge for something we could provide for free. The enshitification of tech is a terrible crime that will inevitably be fixed by the natural equilibrium of a product that can be shared with everyone after completion for free. Open source tech is one obvious answer, but even if that isn't the answer, companies will eventually compete to a Nash equilibrium like the price of an index fund or 1080p flatscreens. The question is how long will you let these vampires feed on you?
           </div>
         </div>
-        <div style={{display:'flex', alignItems:'baseline'}}>
+        <div className="defRow">
           <div className='defNum'>7)</div>
           <div className="defList">
             Your mind has no center subject running everything. Instead your mind is this vast forest of thought plants sprung up from many seeds. You travel through this interconnected forest. To live a better life, you should be a steward or waldgrave to your own thought forest. Wherever you go, you should make it better by enforcing the laws of your land, by cleaning it up or tying up loose ends. Unsolved problems linger, let those be the ones that thrive.
           </div>
         </div>
       </div>
-      <div>
+      <div className="wMoment">
         <a href="https://ko-fi.com/waldgrave">
-          <img style={{width:'2rem'}} src="/thew2.png"/>
+          <img className="wKofi" src="/thew2.png"/>
         </a>
       </div>
       <div>
@@ -144,42 +153,144 @@ export default function Home() {
   </div>
       {/* </main> */}
 
-  <footer style={{margin: '2em'}}>
+  <footer>
       The Wacky Wednesday Waldgrave - Carl's Isle Productions
       <div style={{marginTop: '0.5em'}}>
-        <Link href="/bekinPrivacy" style={{fontSize: '10px', color: '#999'}}>Privacy Policy</Link>
+        <Link href="/bekinPrivacy" style={{fontSize: '12px', color: '#999'}}>Privacy Policy</Link>
       </div>
   </footer>
 
       <style jsx>{
         `#app {
-          font-family: 'Avenir', Helvetica, Arial, sans-serif;
+          font-family: 'Newsreader', Georgia, 'Times New Roman', serif;
           -webkit-font-smoothing: antialiased;
           -moz-osx-font-smoothing: grayscale;
+          color: #2c3e50;
+          font-size: clamp(1.0625rem, 1rem + 0.35vw, 1.1875rem);
+          line-height: 1.65;
+        }
+
+        /* One comfortable reading column; headings stay centered inside it.
+           75ch is the top of the recommended 45-75ch reading range. */
+        .hello {
+          max-width: min(75ch, 100% - 2.5rem);
+          margin: 0 auto;
+        }
+
+        h1, h2, h4 {
+          font-family: 'Newsreader', Georgia, serif;
+          font-optical-sizing: auto;
+          font-weight: 600;
           text-align: center;
+          text-wrap: balance;
           color: #2c3e50;
         }
+
+        h1 {
+          font-size: clamp(2.3rem, 1.8rem + 2.6vw, 3.6rem);
+          line-height: 1.08;
+          letter-spacing: -0.015em;
+          margin: 1.1em 0 0.6em;
+        }
+
+        h2 {
+          font-size: clamp(1.55rem, 1.35rem + 1vw, 2rem);
+          line-height: 1.2;
+          margin: 1.4em 0 0.6em;
+        }
+
+        h4 {
+          font-size: clamp(1.15rem, 1.05rem + 0.5vw, 1.35rem);
+          margin: 1.2em 0 0.4em;
+        }
+
         p {
-          margin: 1% 5%;
+          margin: 0 0 1.15em;
           text-align: left;
+          text-wrap: pretty;
         }
 
-
-        h1, h2 {
-          font-weight: normal;
-        }
-        ul {
-          list-style-type: none;
-          padding: 0;
-          display: flex;
-          justify-content: space-evenly;
-        }
-        li {
-          display: inline-block;
-          margin: 0 10px;
-        }
         a {
           color: #1a6b4a;
+          text-decoration: underline;
+          text-decoration-thickness: 1px;
+          text-underline-offset: 0.18em;
+        }
+        a:hover {
+          text-decoration-thickness: 2px;
+        }
+
+        /* Core values: three equal thirds, so Weird sits on the page's centerline. */
+        .values {
+          list-style: none;
+          padding: 0;
+          margin: 0 0 1em;
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          align-items: baseline;
+        }
+        .values li {
+          text-align: center;
+          font-family: 'Instrument Sans', 'Avenir', Helvetica, Arial, sans-serif;
+          font-size: 0.95rem;
+          font-weight: 500;
+          letter-spacing: 0.14em;
+          text-transform: uppercase;
+        }
+        .valueMiddle {
+          display: flex;
+          flex-direction: column;
+          gap: 0.35em;
+        }
+        .twf {
+          font-size: 0.8125rem;
+          letter-spacing: 0.08em;
+          opacity: 0.75;
+        }
+
+        /* The hand-drawn W gets room to breathe. */
+        .wMoment {
+          text-align: center;
+          margin: 1.5rem 0;
+        }
+        .wMark { width: 4.5rem; }
+        .wKofi { width: 2.5rem; }
+
+        .faq p {
+          margin-bottom: 1.2em;
+        }
+
+        /* Definitions as dictionary entries: hanging numerals, hairline rules. */
+        .definitions {
+          margin: 0 auto;
+          text-align: left;
+        }
+        .defRow {
+          display: grid;
+          grid-template-columns: 2.5ch 1fr;
+          column-gap: 0.75rem;
+          padding: 0.9em 0;
+        }
+        .defRow + .defRow {
+          border-top: 1px solid rgba(44, 62, 80, 0.28);
+        }
+        .defNum {
+          font-family: 'Newsreader', Georgia, serif;
+          font-weight: 600;
+          font-size: 1.15em;
+          line-height: 1.4;
+          text-align: right;
+        }
+        .defList {
+          display: inline-block;
+        }
+
+        footer {
+          margin: 2.5rem auto 1.5rem;
+          text-align: center;
+          font-family: 'Instrument Sans', 'Avenir', Helvetica, Arial, sans-serif;
+          font-size: 0.8125rem;
+          letter-spacing: 0.02em;
         }
 
         .purple-circle {
@@ -212,18 +323,6 @@ export default function Home() {
           height: auto;
           max-width: 500px;
           margin: -10% 0;
-        }
-
-        .hello {
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          margin: 0 5%;
-        }
-
-        .defList {
-          display: inline-block;
-          margin: 7px 1.5%;
         }
 
         .smackThat {

@@ -1,4 +1,5 @@
 import HomeButton from "../components/HomeButton"
+import Head from 'next/head';
 import { useState } from 'react';
 import Phases from "../components/Phases";
 import LatestNews from "../components/LatestNews";
@@ -20,9 +21,18 @@ export default function OpenChicago() {
   ];
   return (
 <div className="container">
+  <Head>
+    <title>The Chi-GUI Conspiracy · The Waldgrave</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..600&family=Instrument+Sans:wght@400..600&display=swap"
+      rel="stylesheet"
+    />
+  </Head>
   <HomeButton />
-  <div style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center', marginBottom: '5%'}}>
-    <h2>Dear Chicago, Welcome to the Chi-GUI Conspiracy</h2>
+  <div className="page">
+    <h2 className="pageTitle">Dear Chicago, Welcome to the Chi-GUI Conspiracy</h2>
     {/* <h4>Phase</h4>
     <div style={{display: 'flex', padding: '10px'}}>
       <div>Ideation</div>
@@ -91,7 +101,7 @@ export default function OpenChicago() {
          I feel so much confidence because I love my dream team. I know my homies love me, and I believe in them, even if they don't know me. I know I'm not the only one who cries seeing homelessness in 2024. I know I'm not the only one who thinks about the billions of humans that won't ever exist if we continue to pour a single chemical in the air (CO2 + sunlight = higher temperatures. all added CO2 is more contribution to future suffering). I know that I'm not the only driver in the city who would bike instead, if I felt safe on our streets. I'm putting together a team. The Chicago Dream Team. Everyone who wants to contribute to a better city is welcome. Mass civic involvement hasn't really progressed in the digital age since American Idol started the fan vote via texting. We need to make it as easy as possible to participate on the team, I need captains. From my reading of Happy City by Charles Montgomery, making our streets walkable and green in innovative ways might be the single most important thing we could do. I'm hoping wards can all adopt whatever fits them best. The variety of our gardens should match that of our architecture.</p> */}
     {/* </>)} */}
     <h3>Policies</h3>
-    <ul style={{margin: '2% 5%', listStyle: 'none', padding: 0}}>
+    <ul className="policies">
       <li className="policyItem"><b>Safety:</b> Cameras for police and streets with privacy‑preserving oversight systems.</li>
       <li className="policyItem"><b>Education:</b> Free daycare, stronger support systems for teachers, and better onboarding for the new teachers that deserve extra care as a vital resource.</li>
       <li className="policyItem"><b>Education:</b> Shift school start time later. We know, especially for teenagers, they suffer a lack of sleep and show improvements with a later start time. It might be inconvenient for people with jobs that demand early starts, but corporations will need to adapt. Kids can always stay at school longer with after-school programs, but you can't undo bad sleep.</li>
@@ -386,22 +396,96 @@ GPT has given me some more info. It confirmed that Allianz, the German insurance
 
 <style jsx>
 {`
-h2 {
-  text-align: center;
-  }
-p, ol {
-  margin: 1% 5%;
+.container {
+  font-family: 'Newsreader', Georgia, 'Times New Roman', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  font-size: clamp(1.0625rem, 1rem + 0.35vw, 1.1875rem);
+  line-height: 1.65;
 }
-  .policyItem {
-    margin-bottom: 14px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #eee;
-  }
-  @media (max-width: 600px) {
-          .container {
-            padding: 0 5%;
-          }
-        }
+
+/* Same reading column as home: 75ch, headings centered inside it. */
+.page {
+  max-width: min(75ch, 100% - 2.5rem);
+  margin: 0 auto 2.5rem;
+}
+
+h2, h3, h4 {
+  font-family: 'Newsreader', Georgia, serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  text-align: center;
+  text-wrap: balance;
+  color: #2c3e50;
+}
+
+.pageTitle {
+  font-size: clamp(1.9rem, 1.55rem + 1.8vw, 2.9rem);
+  line-height: 1.12;
+  letter-spacing: -0.015em;
+  margin: 0.8em 0 0.6em;
+}
+
+h2, h3 {
+  font-size: clamp(1.55rem, 1.35rem + 1vw, 2rem);
+  line-height: 1.2;
+  margin: 1.4em 0 0.6em;
+}
+
+h4 {
+  font-size: clamp(1.15rem, 1.05rem + 0.5vw, 1.35rem);
+  margin: 1.2em 0 0.4em;
+}
+
+p, ol {
+  margin: 0 0 1.15em;
+  text-align: left;
+  text-wrap: pretty;
+}
+
+a {
+  color: #1a6b4a;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.policies {
+  list-style: none;
+  padding: 0;
+  margin: 1em 0 1.5em;
+  text-align: left;
+}
+.policyItem {
+  margin-bottom: 14px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(44, 62, 80, 0.28);
+}
+.policyItem b {
+  font-weight: 600;
+}
+
+/* Disclosure toggles, centered under their centered headings. */
+button {
+  display: block;
+  margin: 0 auto 1.2em;
+  font-family: 'Instrument Sans', 'Avenir', Helvetica, Arial, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #2c3e50;
+  padding: 0.4em 1.3em;
+  border: 1px solid rgba(44, 62, 80, 0.4);
+  border-radius: 999px;
+  background: transparent;
+  cursor: pointer;
+}
+button:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
 `}
 </style>
 </div>)}

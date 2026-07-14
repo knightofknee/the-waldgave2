@@ -82,61 +82,65 @@ export default function Phases() {
   const m = String(countdown.minutes).padStart(2, '0');
   const s = String(countdown.seconds).padStart(2, '0');
 
+  const uiFont = "'Instrument Sans', 'Avenir', Helvetica, Arial, sans-serif";
+
   return (
     <div style={{
       display: 'flex',
-      padding: '10px',
-      gap: '10px',
-      backgroundColor: 'rgb(220, 170, 210)'
+      flexDirection: 'column',
+      alignItems: 'center',
+      gap: '8px',
+      padding: '10px'
     }}>
-      {phases.map(phase => {
-        const activeStyle = phase.isActive
-          ? {
-              backgroundColor: 'rgb(235, 215, 235)',
-              border: '2px solid rgb(150, 80, 150)',
-              color: 'rgb(40, 40, 40)',
-              fontWeight: 'bold'
-            }
-          : {
-              backgroundColor: 'rgb(245, 235, 245)',
-              border: '1px solid rgb(200, 200, 200)',
-              color: 'rgb(120, 120, 120)'
-            };
+      <div style={{
+        display: 'flex',
+        flexWrap: 'wrap',
+        justifyContent: 'center',
+        gap: '8px'
+      }}>
+        {phases.map(phase => {
+          const activeStyle = phase.isActive
+            ? {
+                backgroundColor: 'rgb(235, 215, 235)',
+                border: '2px solid rgb(150, 80, 150)',
+                color: 'rgb(40, 40, 40)',
+                fontWeight: 600
+              }
+            : {
+                backgroundColor: 'rgb(245, 235, 245)',
+                border: '1px solid rgb(200, 200, 200)',
+                color: 'rgb(120, 120, 120)'
+              };
 
-        const isShockAndAwe = phase.name === 'Shock and Awe Campaign';
-
-        return (
-          <div
-            key={phase.name}
-            style={{
-              padding: '5px 10px',
-              borderRadius: '5px',
-              ...activeStyle,
-              cursor: 'default',
-              position: isShockAndAwe ? 'relative' : 'static'
-            }}
-          >
-            {phase.name}
-            {isShockAndAwe && (
-              <div
-                style={{
-                  position: 'absolute',
-                  top: '100%',
-                  left: '50%',
-                  transform: 'translate(-50%, 5px)',
-                  color: 'rgb(40, 40, 40)',
-                  fontSize: '0.85em',
-                  whiteSpace: 'nowrap',
-                  fontWeight: 'normal',
-                  //fontFamily: 'monospace' // optional: monospace to ensure consistent width
-                }}
-              >
-                {y}:{M}:{d}:{H}:{m}:{s}
-              </div>
-            )}
-          </div>
-        );
-      })}
+          return (
+            <div
+              key={phase.name}
+              style={{
+                padding: '6px 14px',
+                borderRadius: '999px',
+                fontFamily: uiFont,
+                fontSize: '0.85rem',
+                letterSpacing: '0.02em',
+                ...activeStyle,
+                cursor: 'default'
+              }}
+            >
+              {phase.name}
+            </div>
+          );
+        })}
+      </div>
+      <div
+        style={{
+          color: 'rgb(40, 40, 40)',
+          fontSize: '0.85em',
+          fontFamily: uiFont,
+          fontVariantNumeric: 'tabular-nums', // steady digits, no per-second jitter
+          whiteSpace: 'nowrap'
+        }}
+      >
+        {y}:{M}:{d}:{H}:{m}:{s}
+      </div>
     </div>
   );
 }
