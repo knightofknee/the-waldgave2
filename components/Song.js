@@ -17,6 +17,21 @@ export default function Song (props) {
 p {
   margin: 0 5%;
 }
+
+button {
+  font-family: 'Instrument Sans', 'Avenir', Helvetica, Arial, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #2c3e50;
+  padding: 0.4em 1.3em;
+  border: 1px solid rgba(44, 62, 80, 0.4);
+  border-radius: 999px;
+  background: transparent;
+  cursor: pointer;
+}
+button:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
 `}
 </style>
 

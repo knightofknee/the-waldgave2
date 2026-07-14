@@ -1,5 +1,6 @@
 import songsData from '../public/TandSSongs'
 import Song from '../components/Song'
+import Head from 'next/head';
 import { useEffect, useState } from 'react';
 import HomeButton from '../components/HomeButton';
 
@@ -133,10 +134,19 @@ And now that I know, I wish you'd left me wondering`, `Sex, alcohol and drugs ar
 
   return (
     <div className='container'>
+      <Head>
+        <title>Carl's Commentary · The Waldgrave</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..600&family=Instrument+Sans:wght@400..600&display=swap"
+          rel="stylesheet"
+        />
+      </Head>
       <HomeButton />
-  <div style={{display:'flex',flexDirection:'column', alignItems:'center'}}>
+  <div className="page">
     <>
-    <h2>My list of albums that I have listened to on repeat</h2>
+    <h2 className="pageTitle">My list of albums that I have listened to on repeat</h2>
 
     <p><a href='https://docs.google.com/spreadsheets/d/1IyOyuEmOvrHCzou6IhIrqOw9B-Qokp2Kdfk7hq2JeUc/edit?usp=sharing'>google sheet here</a>, a work in progress.
     </p>
@@ -486,7 +496,7 @@ Go ahead and choose"
       <div id='rg_embed_link_4726856' className='rg_embed_link' data-song-id='4726856'>Read <a href='https://genius.com/Tegan-and-sara-hold-my-breath-until-i-die-lyrics'>“Hold My Breath Until I Die” by Tegan and Sara</a> on Genius</div>
     </div>
   </div>
-  {visibleLyrics && <div style={{position:'sticky',top:'20px', maxHeight:'500px', overflow:'hidden', overflowY:'auto'}}>
+  {visibleLyrics && <div style={{position:'sticky',top:'20px', maxHeight:'500px', overflow:'hidden', overflowY:'auto', background:'rgba(255, 255, 255, 0.35)', border:'1px solid rgba(44, 62, 80, 0.28)', borderRadius:'10px', padding:'0.75rem 1rem', maxWidth:'min(75ch, 100% - 2.5rem)', margin:'0 auto'}}>
     <Song lyrics={song} expandLyrics={expandLyrics}/>
   </div>}
 
@@ -494,19 +504,107 @@ Go ahead and choose"
 
 <style jsx>
 {`
-p {
-  margin: 1% 5%;
+.container {
+  font-family: 'Newsreader', Georgia, 'Times New Roman', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  font-size: clamp(1.0625rem, 1rem + 0.35vw, 1.1875rem);
+  line-height: 1.65;
+}
+
+/* Same reading column as home/chigui; keeps the page's centered-flex
+   positioning so nothing moves, just narrows to a readable measure. */
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: min(75ch, 100% - 2.5rem);
+  margin: 0 auto 2.5rem;
+}
+
+h2, h3, h4, h5 {
+  font-family: 'Newsreader', Georgia, serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  text-wrap: balance;
+  color: #2c3e50;
+}
+
+.pageTitle {
+  font-size: clamp(1.9rem, 1.55rem + 1.8vw, 2.9rem);
+  line-height: 1.12;
+  letter-spacing: -0.015em;
+  margin: 0.8em 0 0.6em;
+}
+
+h2 {
+  font-size: clamp(1.55rem, 1.35rem + 1vw, 2rem);
+  line-height: 1.2;
+  margin: 1.4em 0 0.6em;
+}
+
+h4 {
+  font-size: clamp(1.15rem, 1.05rem + 0.5vw, 1.35rem);
+  margin: 1.2em 0 0.4em;
+}
+
+h5 {
+  font-size: clamp(1.05rem, 1rem + 0.35vw, 1.2rem);
+  margin: 1.2em 0 0.3em;
 }
 
 h4, h2 {
   text-align: center;
 }
 
-iframe {
-  margin: 2% 0;
+p {
+  margin: 0 0 1.15em;
+  text-wrap: pretty;
 }
 
+a {
+  color: #1a6b4a;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+a:hover {
+  text-decoration-thickness: 2px;
+}
 
+strong {
+  font-weight: 600;
+}
+
+ol {
+  margin: 0 0 1.15em;
+  text-align: left;
+}
+ol li {
+  margin-bottom: 0.5em;
+}
+
+button {
+  font-family: 'Instrument Sans', 'Avenir', Helvetica, Arial, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #2c3e50;
+  padding: 0.4em 1.3em;
+  border: 1px solid rgba(44, 62, 80, 0.4);
+  border-radius: 999px;
+  background: transparent;
+  cursor: pointer;
+  margin-bottom: 0.6em;
+}
+button:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+iframe {
+  margin: 1.5rem 0;
+  max-width: 100%;
+}
 `}
 </style>
 </div>)}

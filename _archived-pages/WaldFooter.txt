@@ -1,3 +1,5 @@
+// Archived 2026-07-13. App-era footer (Waldgrave / Philosophy / Q&A forum links + Log Out) from when the phone app was on the web. Only rendered by aboutWaldgrave.txt, archived alongside.
+
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { auth } from '../firebase'

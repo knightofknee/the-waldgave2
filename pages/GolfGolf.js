@@ -1,12 +1,23 @@
 import HomeButton from '../components/HomeButton'
+import Head from 'next/head'
 
 export default function GolfGolf () {
   return (
-<div>
+<div className="container">
+<Head>
+  <title>GolfGolf miniGolf · The Waldgrave</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..600&family=Instrument+Sans:wght@400..600&display=swap"
+    rel="stylesheet"
+  />
+</Head>
 <HomeButton />
-  <div id="newOuterShell" style={{display:'flex',justifyContent:'center',alignItems:'center', flexDirection:'column'}}>
+  <div id="newOuterShell" className="page">
+    <h1 className="pageTitle">GolfGolf miniGolf</h1>
     <p>
-      GolfGolf miniGolf. All about the golf, profit capped at 1%. All other excess money made by Golf Golf miniGolf will be used to cover costs of course upgrades, to lower future prices, or be paid out to the people making GolfGolf happen. Every hole is a banger, both a unique golf challenge and unique theme. Black curtains between. It is byob and has a bar with at-cost+1$ beers and wine. Bartender can charge whatever they want for other things. Every hole has a target you can hit that gives you -1, making a perfect score near impossible. Profit is capped but costs are not. The art staff can choose whatever they find best and push barriers.
+      All about the golf, profit capped at 1%. All other excess money made by Golf Golf miniGolf will be used to cover costs of course upgrades, to lower future prices, or be paid out to the people making GolfGolf happen. Every hole is a banger, both a unique golf challenge and unique theme. Black curtains between. It is byob and has a bar with at-cost+1$ beers and wine. Bartender can charge whatever they want for other things. Every hole has a target you can hit that gives you -1, making a perfect score near impossible. Profit is capped but costs are not. The art staff can choose whatever they find best and push barriers.
 
 
       {/* Highest level of investment: you never really wait because you spend set time on holes just watching what happens while you are there. Someone could be changing the hole while you are on it, like a an avalanche or slowly cracking ice. Wait times can also be reduced because you don't know your next hole until you finish your current one. This is so that you can be moved around a slow group and then go back to that hole later. Utilization is maxed and wait time is minimized. Also we can anticipate slowdowns and time out little mini art events. */}
@@ -117,12 +128,80 @@ export default function GolfGolf () {
 
 <style jsx>
 {`
+.container {
+  font-family: 'Newsreader', Georgia, 'Times New Roman', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  font-size: clamp(1.0625rem, 1rem + 0.35vw, 1.1875rem);
+  line-height: 1.65;
+}
+
+/* Same reading column as the rest of the site; keeps the page's
+   centered-flex positioning, just narrows to a readable measure. */
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: min(75ch, 100% - 2.5rem);
+  margin: 0 auto 2.5rem;
+}
+
+h1, h2, h5 {
+  font-family: 'Newsreader', Georgia, serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  text-align: center;
+  text-wrap: balance;
+  color: #2c3e50;
+}
+
+.pageTitle {
+  font-size: clamp(1.9rem, 1.55rem + 1.8vw, 2.9rem);
+  line-height: 1.12;
+  letter-spacing: -0.015em;
+  margin: 0.4em 0 0.7em;
+}
+
+h2 {
+  font-size: clamp(1.55rem, 1.35rem + 1vw, 2rem);
+  line-height: 1.2;
+  margin: 1.4em 0 0.6em;
+}
+
+h5 {
+  font-size: clamp(1.05rem, 1rem + 0.35vw, 1.2rem);
+  margin: 1.2em 0 0.3em;
+}
+
 p {
-  margin: 1% 5%;
+  margin: 0 0 1.15em;
+  text-align: left;
+  text-wrap: pretty;
+}
+
+ol {
+  margin: 0 0 1.15em;
+  text-align: left;
+}
+ol li {
+  margin-bottom: 0.6em;
+}
+
+a {
+  color: #1a6b4a;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+a:hover {
+  text-decoration-thickness: 2px;
 }
 
 iframe {
-  margin: 2% 0;
+  margin: 1.5rem 0;
+  max-width: 100%;
 }
 `}
 </style>

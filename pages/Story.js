@@ -1,6 +1,17 @@
+import Head from 'next/head'
+
 export default function Story() {
-  return (<div>
-  <div style={{display:'flex', flexDirection:'column', justifyContent:'center'}}>
+  return (<div className="container">
+  <Head>
+    <title>Story · The Waldgrave</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..600&family=Instrument+Sans:wght@400..600&display=swap"
+      rel="stylesheet"
+    />
+  </Head>
+  <div className="page">
 
 <h3>New Chapter 1</h3>
 <p>
@@ -37,7 +48,7 @@ does the Doc make him a pianist?
   <p>
     (Interviews with patients follow)
   </p>
-  <div style={{display:'flex',flexDirection:'column'}}>
+  <div className="dialogue">
     <span>""</span>
     <span></span>
     <span></span>
@@ -60,10 +71,42 @@ does the Doc make him a pianist?
 
 <style jsx>
 {`
-p {
-  margin: 1% 5%;
+.container {
+  font-family: 'Newsreader', Georgia, 'Times New Roman', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  font-size: clamp(1.0625rem, 1rem + 0.35vw, 1.1875rem);
+  line-height: 1.65;
 }
-</style>
+
+.page {
+  max-width: min(75ch, 100% - 2.5rem);
+  margin: 0 auto 2.5rem;
+}
+
+h3 {
+  font-family: 'Newsreader', Georgia, serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: clamp(1.55rem, 1.35rem + 1vw, 2rem);
+  line-height: 1.2;
+  text-align: center;
+  text-wrap: balance;
+  color: #2c3e50;
+  margin: 1.4em 0 0.6em;
+}
+
+p {
+  margin: 0 0 1.15em;
+  text-align: left;
+  text-wrap: pretty;
+}
+
+.dialogue span {
+  display: block;
+  margin-bottom: 0.55em;
+}
 `}
 </style>
 </div>)}

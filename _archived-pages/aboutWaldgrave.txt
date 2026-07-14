@@ -1,3 +1,5 @@
+// Archived 2026-07-13. The old "Philosophy of the platform" page for the social media app — nothing linked to it. Contains the platform manifesto ("A feed that ends") and a commented-out anti-big-tech rant collection worth mining later.
+
 import WaldFooter from '../components/WaldFooter'
 
 export default function aboutWaldgrave() {

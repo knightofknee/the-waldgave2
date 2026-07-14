@@ -1,3 +1,5 @@
+// Archived 2026-07-13. Barely a page, but may have useful content for future queries about CLIMATE CHANGE: the global Big Board concept — ranked list of top climate causes vs best available tools, easiest wins first, interactive like the social security model.
+
 
 export default function ClimateChangeStrats() {
   return (<div>

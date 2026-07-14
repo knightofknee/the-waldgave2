@@ -1,5 +1,3 @@
-import WaldFooter from '../components/WaldFooter'
-
 export default function aboutWaldgrave() {
   return (
     <div className="container">

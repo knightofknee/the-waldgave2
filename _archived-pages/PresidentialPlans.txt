@@ -1,3 +1,5 @@
+// Archived 2026-07-13. Barely a page, but may have useful content for future queries about PRESIDENTIAL / FEDERAL PLANS: day-1 open publication of all taxpayer-funded research, US.Github (government open source), plus a commented Congress-sets-goals note and a dead-SCSS animated divider experiment.
+
 
 export default function PresidentialPlans () {
     return(

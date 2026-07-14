@@ -1,3 +1,5 @@
+// Archived 2026-07-13. Barely a page, but may have useful content for future queries about SOCIAL SECURITY: the education-first framing (why SS exists, how Congress gutted the fund) and the idea of a graphing/visualization tool for exploring alternate-history fund sizes.
+
 
 export default function SocialSecurityFix () {
   return (
