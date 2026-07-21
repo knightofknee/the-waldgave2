@@ -2,11 +2,18 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 
 // When the app IS installed, iOS Universal Links / Android App Links open BeKin directly and this
-// page never loads. Reaching this page means the app is (probably) not installed — so we send the
-// visitor to the right store, and surface the invite code so they can finish connecting after they
-// sign up (the app also tries to recover it from the clipboard automatically).
+// page never loads. Reaching this page means the app is (probably) not installed, so we send the
+// visitor to the right store. Invites are LINK-ONLY: no visible codes, no clipboard handoff. After
+// installing, the visitor taps the invite link again and the app connects the two automatically.
 const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=com.waldgrave.bekin";
 const APP_STORE_URL = "https://apps.apple.com/app/id6746952014";
+// Fire-and-forget beacon so a fresh iOS install can claim this invite on first launch (Apple
+// passes nothing through the App Store; the app matches by IP and asks the user to confirm).
+const RECORD_VISIT_URL = "https://us-central1-waldgrave-profiles.cloudfunctions.net/recordInviteVisit";
+
+// Android: the Play Store passes `referrer` through install, so the app auto-connects at signup.
+const playUrlFor = (code) =>
+  code ? `${PLAY_STORE_URL}&referrer=${encodeURIComponent(`bekin_invite=${code}`)}` : PLAY_STORE_URL;
 
 export default function BekinInvite() {
   const router = useRouter();
@@ -21,12 +28,17 @@ export default function BekinInvite() {
     const isAndroid = /Android/i.test(ua);
     setPlatform(isIOS ? "ios" : isAndroid ? "android" : "other");
 
-    // Best-effort: leave the code on the clipboard so a brand-new install can auto-recover it.
-    if (code && typeof navigator !== "undefined" && navigator.clipboard?.writeText) {
-      navigator.clipboard.writeText(code).catch(() => {});
+    // iOS only: Android's install referrer already carries the code deterministically.
+    if (code && isIOS) {
+      fetch(RECORD_VISIT_URL, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ code }),
+        keepalive: true,
+      }).catch(() => {});
     }
 
-    const target = isIOS ? APP_STORE_URL : isAndroid ? PLAY_STORE_URL : null;
+    const target = isIOS ? APP_STORE_URL : isAndroid ? playUrlFor(code) : null;
     if (target) {
       const t = setTimeout(() => {
         window.location.href = target;
@@ -43,14 +55,6 @@ export default function BekinInvite() {
         with you.
       </p>
 
-      {code ? (
-        <div className="codeCard">
-          <span className="codeLabel">Your invite code</span>
-          <span className="code">{code}</span>
-          <span className="codeHint">Enter this when you sign up to connect automatically.</span>
-        </div>
-      ) : null}
-
       <div className="cta">
         {platform !== "android" && (
           <a className="btn primary" href={APP_STORE_URL}>
@@ -58,7 +62,7 @@ export default function BekinInvite() {
           </a>
         )}
         {platform !== "ios" && (
-          <a className="btn primary" href={PLAY_STORE_URL}>
+          <a className="btn primary" href={playUrlFor(code)}>
             Get it on Google Play
           </a>
         )}
@@ -68,6 +72,10 @@ export default function BekinInvite() {
           </a>
         ) : null}
       </div>
+
+      {code ? (
+        <p className="hint">After installing, tap your friend&apos;s link again and you&apos;ll be connected automatically.</p>
+      ) : null}
 
       <p className="redirect">Taking you to the store…</p>
 
@@ -95,30 +103,10 @@ export default function BekinInvite() {
           color: #555;
           margin-bottom: 2em;
         }
-        .codeCard {
-          display: inline-flex;
-          flex-direction: column;
-          gap: 0.35em;
-          padding: 1.2em 2em;
-          border: 2px dashed #2f6fed;
-          border-radius: 16px;
-          margin-bottom: 2em;
-        }
-        .codeLabel {
-          font-size: 0.8em;
-          text-transform: uppercase;
-          letter-spacing: 0.08em;
+        .hint {
           color: #6b7280;
-        }
-        .code {
-          font-size: 2.4em;
-          font-weight: 800;
-          letter-spacing: 0.18em;
-          color: #2f6fed;
-        }
-        .codeHint {
-          font-size: 0.85em;
-          color: #6b7280;
+          font-size: 0.9em;
+          margin-bottom: 1em;
         }
         .cta {
           display: flex;
