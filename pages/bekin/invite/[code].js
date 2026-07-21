@@ -8,7 +8,7 @@ import { useRouter } from "next/router";
 const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=com.waldgrave.bekin";
 const APP_STORE_URL = "https://apps.apple.com/app/id6746952014";
 // Fire-and-forget beacon so a fresh iOS install can claim this invite on first launch (Apple
-// passes nothing through the App Store; the app matches by IP and asks the user to confirm).
+// passes nothing through the App Store; the app matches by IP and auto-connects, then celebrates).
 const RECORD_VISIT_URL = "https://us-central1-waldgrave-profiles.cloudfunctions.net/recordInviteVisit";
 
 // Android: the Play Store passes `referrer` through install, so the app auto-connects at signup.
