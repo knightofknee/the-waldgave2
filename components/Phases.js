@@ -68,6 +68,7 @@ export default function Phases() {
   const [countdown, setCountdown] = useState(calculateCountdown());
 
   useEffect(() => {
+    setCountdown(calculateCountdown());
     const interval = setInterval(() => {
       setCountdown(calculateCountdown());
     }, 1000);
@@ -131,6 +132,9 @@ export default function Phases() {
         })}
       </div>
       <div
+        // Server-rendered time differs from the client's by a few seconds;
+        // the mount effect above corrects it immediately at hydration.
+        suppressHydrationWarning
         style={{
           color: 'rgb(40, 40, 40)',
           fontSize: '0.85em',
@@ -139,7 +143,7 @@ export default function Phases() {
           whiteSpace: 'nowrap'
         }}
       >
-        {y}:{M}:{d}:{H}:{m}:{s}
+        {`${y}:${M}:${d}:${H}:${m}:${s}`}
       </div>
     </div>
   );

@@ -441,7 +441,6 @@ h4 {
 p, ol {
   margin: 0 0 1.15em;
   text-align: left;
-  text-wrap: pretty;
 }
 
 a {

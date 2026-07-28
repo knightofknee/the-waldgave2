@@ -207,7 +207,6 @@ export default function Home() {
         p {
           margin: 0 0 1.15em;
           text-align: left;
-          text-wrap: pretty;
         }
 
         a {
