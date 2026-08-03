@@ -11,19 +11,19 @@ export default function DirectDemocracyTerms() {
         <p>These terms govern your use of direct democracy, a civic engagement app for Chicago built by The Waldgrave. By creating an account or using the app, you agree to them.</p>
 
         <h2>What the App Is (and Isn&apos;t)</h2>
-        <p>direct democracy is an independent civic platform. It is not affiliated with, endorsed by, or operated by the City of Chicago, any government body, or any elected official. Votes and tallies in the app are expressions of community sentiment — they are not official elections, referenda, or government records, and they have no legal effect.</p>
+        <p>direct democracy is an independent civic platform. It is not affiliated with, endorsed by, or operated by the City of Chicago, any government body, or any elected official. Votes and tallies in the app are expressions of community sentiment - they are not official elections, referenda, or government records, and they have no legal effect.</p>
 
         <h2>Your Account</h2>
-        <p>You must be at least 13 years old. You are responsible for your account and for keeping your sign-in method secure. One person may verify their identity on only one account. You may delete your account at any time from the profile tab.</p>
+        <p>You must be at least 13 years old. You are responsible for your account and for keeping your sign-in method secure. One person may verify their identity on only one account. You may delete your account at any time from Settings.</p>
 
         <h2>Community Conduct</h2>
-        <p>You agree not to: harass, threaten, or defame others; post spam, scams, or deliberately misleading content; impersonate any person or official; attempt to manipulate tallies, grades, or verification; or use the platform for anything unlawful. Concerns, comments, and questions should be about civic issues — not personal attacks.</p>
+        <p>You agree not to: harass, threaten, or defame others; post spam, scams, or deliberately misleading content; impersonate any person or official; attempt to manipulate tallies, grades, or verification; or use the platform for anything unlawful. Concerns, comments, and questions should be about civic issues - not personal attacks.</p>
 
         <h2>Moderation</h2>
         <p>Users can report content and block other users. The operators review reports and may remove content or accounts that violate these terms. Questions that an official has answered become part of that official&apos;s public record and generally are not removed at the asker&apos;s request.</p>
 
         <h2>Your Content</h2>
-        <p>You own what you write. By posting, you grant The Waldgrave a non-exclusive license to display it within the platform under your pseudonymous display name. If you delete your account, posted content remains under its pseudonym and cast ballots remain counted, as described in the Privacy Policy.</p>
+        <p>You own what you write. By posting, you grant The Waldgrave a non-exclusive license to display it within the platform under your pseudonymous display name. If you delete your account, posted content is re-attributed to [deleted] and cast ballots remain counted, as described in the Privacy Policy.</p>
 
         <h2>Officials&apos; Report Cards</h2>
         <p>Grades, approval ratings, and answer scores shown for elected officials are computed from community votes and judgments by the methods described in the app. They are community opinion, not statements of fact by The Waldgrave.</p>

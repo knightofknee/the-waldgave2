@@ -9,7 +9,7 @@ export default function DirectDemocracy() {
       <div className="features">
         <div className="feature">
           <h3>The Big Board</h3>
-          <p>Raise the issues that matter and vote them by priority — critical to low — to rank what the whole city cares about. Every result shows the general vote and the verified vote side by side.</p>
+          <p>Raise the issues that matter and vote them by priority - critical to low - to rank what the whole city cares about. Every result shows the general vote and the verified vote side by side.</p>
         </div>
         <div className="feature">
           <h3>Your Ward</h3>
@@ -17,11 +17,11 @@ export default function DirectDemocracy() {
         </div>
         <div className="feature">
           <h3>Real Answers</h3>
-          <p>Ask officials anything. The community — never the politician — judges whether a response answered the question, and every official carries a public report card.</p>
+          <p>Ask officials anything. The community - never the politician - judges whether a response answered the question, and every official carries a public report card.</p>
         </div>
         <div className="feature">
           <h3>Anonymous by Design</h3>
-          <p>Identity verification is handled by a third party; the app only ever knows verified yes/no, your ward, and registered-voter status. Your real name is never shown.</p>
+          <p>Identity verification is handled by a third party; the app only ever knows verified yes/no and your ward. Your real name is never shown.</p>
         </div>
       </div>
 
