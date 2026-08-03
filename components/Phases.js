@@ -1,12 +1,5 @@
 import React, { useEffect, useState } from 'react';
 
-const phases = [
-  { name: 'Ideation', isActive: false },
-  { name: 'Refinement', isActive: true },
-  { name: 'Secret Invasion', isActive: false },
-  { name: 'Shock and Awe Campaign', isActive: false },
-];
-
 const CST_OFFSET_HOURS = 6;
 function toCST(date) {
   return new Date(date.getTime() - CST_OFFSET_HOURS * 3600 * 1000);
@@ -64,7 +57,7 @@ function calculateCountdown() {
   return { years, months, days, hours, minutes, seconds };
 }
 
-export default function Phases() {
+export default function Phases({ phases }) {
   const [countdown, setCountdown] = useState(calculateCountdown());
 
   useEffect(() => {
