@@ -14,10 +14,10 @@ export default function DirectDemocracyPrivacy() {
         <p>Your email address and password hash, used only for signing in (or your Google/Apple account identifier if you sign in with them); a display name you choose - it is a pseudonym, and your real name is never shown to anyone, even after verification; the content you post (concerns, comments, questions, ballots, and judgments); and participation counters (votes cast, concerns raised) that power in-app milestones.</p>
 
         <h2>Identity Verification</h2>
-        <p>If you choose to verify, verification is performed by Persona, a third-party identity service. Your government ID and address go to Persona, never to us. We receive and store only the verdict: a verified yes/no flag and your ward number. We never see or store your documents, your address, or your legal name. One verified identity can back only one account.</p>
+        <p>If you choose to verify, verification is performed by Didit, a third-party identity service. Your government ID and address go to Didit, never to us. We receive and store only the verdict: a verified yes/no flag, your ward number, and a unique identifier that stops one person from verifying two accounts. We never see or store your documents, your address, or your legal name. The identifier is deleted with your account.</p>
 
         <h2>What We Never Do</h2>
-        <p>We do not sell your personal information. We do not use your data for advertising. We do not share your content or identity data with third parties beyond the service providers that run the app (Google Firebase for data storage and Persona for verification).</p>
+        <p>We do not sell your personal information. We do not use your data for advertising. We do not share your content or identity data with third parties beyond the service providers that run the app (Google Firebase for data storage and Didit for verification).</p>
 
         <h2>Who Can See What</h2>
         <p>Your profile is readable only by you. Content you post publicly carries your display name and a verified badge - nothing more. Your individual ballots and judgments are readable only by you; everyone else sees only aggregate tallies. Reports you file are visible only to the platform operators.</p>

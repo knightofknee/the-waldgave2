@@ -68,13 +68,10 @@ export default function Phases({ phases }) {
     return () => clearInterval(interval);
   }, []);
 
-  const y = String(countdown.years);
-  const M = String(countdown.months);
-  const d = String(countdown.days);
-  // Pad hours, minutes, and seconds to always be two digits
-  const H = String(countdown.hours).padStart(2, '0');
-  const m = String(countdown.minutes).padStart(2, '0');
-  const s = String(countdown.seconds).padStart(2, '0');
+  // Drop leading zero units (years, months, ...) but always keep at least H:mm:ss.
+  const units = [countdown.years, countdown.months, countdown.days, countdown.hours, countdown.minutes, countdown.seconds];
+  while (units.length > 3 && units[0] === 0) units.shift();
+  const display = units.map((v, i) => (i === 0 ? String(v) : String(v).padStart(2, '0'))).join(':');
 
   const uiFont = "'Instrument Sans', 'Avenir', Helvetica, Arial, sans-serif";
 
@@ -136,7 +133,7 @@ export default function Phases({ phases }) {
           whiteSpace: 'nowrap'
         }}
       >
-        {`${y}:${M}:${d}:${H}:${m}:${s}`}
+        {display}
       </div>
     </div>
   );

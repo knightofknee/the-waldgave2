@@ -39,9 +39,12 @@ export default function OpenChicago() {
     </div> */}
     <Phases phases={phases} />
 
-    <h4>Introduction</h4>
+    <blockquote className="epigraph">
+      <p>&ldquo;We shall overcome because Carl<del>y</del>(is)le is right: &lsquo;no lie can live forever.&rsquo;&rdquo;</p>
+      <cite>Rev. Dr. Martin Luther King Jr., &ldquo;Remaining Awake Through a Great Revolution,&rdquo; National Cathedral, Washington, D.C., March 31, 1968</cite>
+    </blockquote>
     <p>
-    Hello, my name is Brian Carlisle, and I am running for mayor. No man is an island. I believe in the people of Chicago, which is why I think the job is easier than it looks (this used to be a harder sell, but Mamdani is proving you can just take the easy wins that have been sitting there waiting for someone to step up). The three most important issues facing this city are public safety, the cost of living (housing above all), and a budget that pensions and old debts are eating alive. All three get the full treatment below, alongside everything else I want to push for. I also have a parallel goal, to enable and highlight the best of us who get things done.
+    Hello, my name is Brian Carlisle, and I am running for mayor. No man is an island, and I believe in the people of Chicago, which is why I think the job is easier than it looks (this used to be a harder sell, but Mamdani is proving you can just take the easy wins sitting right there). Three of my top concerns are public safety, the cost of living (housing above all), and the budget (mostly the pension debt), but I am not limited to those. There is a list below. I want to find the people here who can get things done and hand them the keys.
 
 
 
@@ -71,8 +74,8 @@ export default function OpenChicago() {
     <h3>
       Chicago Platform
     </h3>
-    <p style={{textAlign: 'center'}}>Please use this google forms link here to send me any feedback: <a href="https://forms.gle/xWV5H1nhWJWJynoMA">https://forms.gle/xWV5H1nhWJWJynoMA</a></p>
-    <p>I can't do this alone. If you like the policies below and want to help, send this link to others who might be interested. If you want to directly help, <a href="https://forms.gle/zovJHB9DLAzYY7Rz7">sign up here</a>. If we get 100 volunteers, I will send out the petition and instructions.</p>
+    <p style={{textAlign: 'center'}}>Please send me any feedback <a href="https://forms.gle/xWV5H1nhWJWJynoMA">here</a>.</p>
+    <p>I can't do this alone. If you like the policies below, send this link to someone. If you want to directly help, <a href="https://forms.gle/zovJHB9DLAzYY7Rz7">sign up here</a>. If we get 100 volunteers, I will send out the petition and instructions.</p>
     <nav className="toc">
       <b>Jump to:</b> <a href="#health-home">Health &amp; Home</a> · <a href="#safety">Safety</a> · <a href="#money">The Money</a> · <a href="#getting-around">Getting Around</a> · <a href="#schools">Schools &amp; Kids</a> · <a href="#quality">Quality of Life</a> · <a href="#people">Our People</a> · <a href="#springfield">Springfield Fights</a> · <a href="#experiments">Experiments</a>
       <br />
@@ -462,6 +465,28 @@ h2, h3 {
 h4 {
   font-size: clamp(1.15rem, 1.05rem + 0.5vw, 1.35rem);
   margin: 1.2em 0 0.4em;
+}
+
+/* Opening epigraph: reads as a straight, sober citation. That's the joke. */
+.epigraph {
+  margin: 2em auto 2.2em;
+  max-width: 58ch;
+  text-align: center;
+}
+.epigraph p {
+  font-style: italic;
+  text-align: center;
+  text-wrap: balance;
+  margin-bottom: 0.5em;
+}
+.epigraph del {
+  text-decoration-thickness: 2px;
+}
+.epigraph cite {
+  font-family: 'Instrument Sans', 'Avenir', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-size: 0.85rem;
+  color: rgba(44, 62, 80, 0.75);
 }
 
 /* Policy group headers: small caps in the UI font, so they read as
