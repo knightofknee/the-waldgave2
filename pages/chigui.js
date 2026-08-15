@@ -60,6 +60,9 @@ export default function OpenChicago() {
     !!!******
      I don't think I'm always right, I invite you to ignore the 30% of what I say that you dislike the most. In exchange, I ask that you take the other 70% seriously. Can we carve off the global 30% and agree upon a Venn Tesseract, the clear direction to move towards with each step? */}
      </p>
+    <p>
+    I&apos;m a software engineer, and this whole platform is the engineering mindset applied to a city. Find where the system is failing, look up who already fixed it (Newark did our lead pipes, Houston did our homelessness, Pittsburgh did our traffic lights), copy what worked, measure it in public, and iterate. Engineers don&apos;t get to say &ldquo;it&apos;s complicated&rdquo; and go home&mdash;the thing has to actually work. I want a city government held to the same standard as the software you use every day: when it breaks, someone&apos;s on call, and the fix ships this week, not in 2076.
+    </p>
 
 
 
