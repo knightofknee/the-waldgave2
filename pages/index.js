@@ -29,6 +29,26 @@ export default function Home() {
       </div></Link>
       </div> */}
 
+      <h2>Projects</h2>
+      <div className="products">
+        <a className="product" href="https://apps.apple.com/us/app/bekin-by-the-waldgrave/id6746952014" target="_blank" rel="noopener noreferrer">
+          <span className="productName">BeKin</span>
+          <span className="productBlurb">friends-only social media</span>
+        </a>
+        <Link className="product" href="/chigui">
+          <span className="productName">Mayoral Platform</span>
+          <span className="productBlurb">the Chi-GUI Conspiracy</span>
+        </Link>
+        <a className="product" href="https://apps.apple.com/us/app/escape-from-hades-irl/id6760863438" target="_blank" rel="noopener noreferrer">
+          <span className="productName">Escape from Hades IRL</span>
+          <span className="productBlurb">habit management</span>
+        </a>
+        <Link className="product" href="/directdemocracy">
+          <span className="productName">direct democracy: Chicago</span>
+          <span className="productBlurb">coming soon to the App Store</span>
+        </Link>
+      </div>
+
       <h2>Core Values</h2>
       <ul className="values">
         <li>
@@ -217,6 +237,52 @@ export default function Home() {
         }
         a:hover {
           text-decoration-thickness: 2px;
+        }
+
+        /* Top products: a 2x2 board of front doors, above the values. */
+        .products {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 0.75rem;
+          margin: 0.5em 0 1.5em;
+        }
+        .products :global(.product) {
+          display: flex;
+          flex-direction: column;
+          gap: 0.3em;
+          padding: 0.95rem 1.1rem;
+          border: 1px solid rgba(44, 62, 80, 0.28);
+          border-radius: 3px;
+          text-decoration: none;
+          color: #1a6b4a;
+          transition: background-color 0.15s ease, border-color 0.15s ease;
+        }
+        .products :global(.product:hover) {
+          background-color: #f8d8e8;
+          border-color: #f7b8c8;
+        }
+        .productName {
+          font-family: 'Newsreader', Georgia, serif;
+          font-weight: 600;
+          font-size: 1.15rem;
+          line-height: 1.2;
+          text-decoration: underline;
+          text-decoration-thickness: 1px;
+          text-underline-offset: 0.18em;
+        }
+        .productBlurb {
+          font-family: 'Instrument Sans', 'Avenir', Helvetica, Arial, sans-serif;
+          font-size: 0.75rem;
+          letter-spacing: 0.1em;
+          text-transform: uppercase;
+          color: #2c3e50;
+          opacity: 0.7;
+        }
+
+        @media (max-width: 560px) {
+          .products {
+            grid-template-columns: 1fr;
+          }
         }
 
         /* Core values: three equal thirds, so Weird sits on the page's centerline. */

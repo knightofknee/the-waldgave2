@@ -72,7 +72,9 @@ export default function DirectDemocracy() {
         }
         .feature h3 {
           margin-top: 0;
-          color: #41B6E6;
+          color: #0B4A6F;
+          font-weight: 600;
+          letter-spacing: 0.01em;
         }
         .feature p {
           line-height: 1.55;
