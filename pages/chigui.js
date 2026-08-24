@@ -44,7 +44,7 @@ export default function OpenChicago() {
       <cite>Rev. Dr. Martin Luther King Jr., &ldquo;Remaining Awake Through a Great Revolution,&rdquo; National Cathedral, Washington, D.C., March 31, 1968</cite>
     </blockquote>
     <p>
-    Hello, my name is Brian Carlisle, and I am running for mayor. No man is an island, and I believe in the people of Chicago, which is why I think the job is easier than it looks (this used to be a harder sell, but Mamdani is proving you can just take the easy wins sitting right there). Three of my top concerns are public safety, the cost of living (housing above all), and the budget (mostly the pension debt), but I am not limited to those. There is a list below. I want to find the people here who can get things done and hand them the keys.
+    Hello, my name is Brian Carlisle, and I am running for mayor. No man is an island, and I believe in the people of Chicago, which is why I think the job is easier than it looks. This used to be a harder sell, but Mamdani is proving there is an orchard of low-hanging fruit waiting for the picking. Three of my top concerns are public safety, the cost of living (housing above all), and the budget (mostly the pension debt), but I am not limited to those. There is a list below. I want to find the people here who can get things done and hand them the keys.
 
 
 
