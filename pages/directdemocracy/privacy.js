@@ -5,7 +5,7 @@ export default function DirectDemocracyPrivacy() {
     <div className="container">
       <h1>Privacy Policy</h1>
       <p className="subtitle">direct democracy</p>
-      <p className="updated">Last updated: August 2, 2026</p>
+      <p className="updated">Last updated: August 20, 2026</p>
 
       <div className="content">
         <p>direct democracy is a civic engagement app for Chicago built by The Waldgrave. It is designed to know as little about you as possible while still keeping the vote honest. This policy explains what we collect, how we use it, and your choices.</p>
@@ -14,7 +14,11 @@ export default function DirectDemocracyPrivacy() {
         <p>Your email address and password hash, used only for signing in (or your Google/Apple account identifier if you sign in with them); a display name you choose - it is a pseudonym, and your real name is never shown to anyone, even after verification; the content you post (concerns, comments, questions, ballots, and judgments); and participation counters (votes cast, concerns raised) that power in-app milestones.</p>
 
         <h2>Identity Verification</h2>
-        <p>If you choose to verify, verification is performed by Didit, a third-party identity service. Your government ID and address go to Didit, never to us. We receive and store only the verdict: a verified yes/no flag, your ward number, and a unique identifier that stops one person from verifying two accounts. We never see or store your documents, your address, or your legal name. The identifier is deleted with your account.</p>
+        <p>If you choose to verify, verification is performed by Didit, a third-party identity service. Your government ID, address, and face data go to Didit, never to us. We receive and store only the verdict: a verified yes/no flag, your ward number, and a unique identifier that stops one person from verifying two accounts. We never see or store your documents, your address, your legal name, or your face. The identifier is deleted with your account.</p>
+
+        <h2>Face Data</h2>
+        <p>During optional identity verification, Didit&apos;s verification flow asks you to take a selfie for a liveness check and compares your face to the photo on your government ID. This face data (the selfie images and any facial geometry derived from them) is captured inside Didit&apos;s verification flow and transmitted directly to Didit&apos;s servers. It is never sent to, received by, or stored on our servers. We do not collect, use, store, share, or sell face data, and we never see it - the only thing Didit sends back to us is the verification verdict described above, which contains no biometric information.</p>
+        <p>Didit uses your face data solely to confirm that you are a real, live person and that the ID you presented is yours. Didit does not use it for advertising or sell it, and retains it only as long as needed to complete verification and meet its legal obligations, after which it is deleted in accordance with Didit&apos;s privacy policy, available at <a href="https://didit.me/privacy-policy/">didit.me/privacy-policy</a>. You can contact Didit (or us, and we will pass the request along) to ask that your verification data be deleted.</p>
 
         <h2>What We Never Do</h2>
         <p>We do not sell your personal information. We do not use your data for advertising. We do not share your content or identity data with third parties beyond the service providers that run the app (Google Firebase for data storage and Didit for verification).</p>
