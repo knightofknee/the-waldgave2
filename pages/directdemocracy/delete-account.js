@@ -23,6 +23,17 @@ export default function DirectDemocracyDeleteAccount() {
         <h2>If you cannot sign in</h2>
         <p>Deletion is only available from inside your account - that is how we know the request comes from the account&apos;s owner. If you have lost your password, your account is always recoverable through your email: on the sign-in screen, use <strong>&quot;email me a sign-in link&quot;</strong> or reset your password, then delete the account from Settings as above.</p>
 
+        <h2>Delete some of your data without deleting your account</h2>
+        <p>You can remove individual pieces of your data at any time from inside the app, signed in as yourself:</p>
+        <ul>
+          <li><strong>Comments:</strong> open the comment and delete it.</li>
+          <li><strong>Concerns:</strong> open your concern and withdraw it - its votes and comments go with it.</li>
+          <li><strong>Questions to officials:</strong> open your question and withdraw it while it is unanswered. Once an official has responded, the exchange is part of their public record.</li>
+          <li><strong>Votes and judgments:</strong> retract or change them from the item you voted on.</li>
+          <li><strong>Verification:</strong> removing your verification entirely is done by deleting the account.</li>
+        </ul>
+        <p>Deletions apply immediately, and aggregate tallies are recomputed without your data.</p>
+
         <h2>What is deleted</h2>
         <ul>
           <li>Your sign-in credentials and Firebase Authentication record</li>
