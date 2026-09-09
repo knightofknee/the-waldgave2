@@ -1,12 +1,28 @@
 [
   {
-    "relation": [ "delegate_permission/common.handle_all_urls" ],
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "com.waldgrave.bekin",
       "sha256_cert_fingerprints": [
         "6D:3B:19:3A:00:C7:7C:DC:3B:3F:0F:93:86:2D:10:57:CE:4A:8C:FB:23:80:E4:05:BB:EE:D2:29:01:1A:51:1F",
         "A0:07:52:1F:26:32:B5:76:8E:56:C8:03:7D:11:54:21:01:9A:B0:27:E5:70:98:34:34:60:AC:34:8F:E4:2F:2A"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.briancarlisle.directdemocracy",
+      "sha256_cert_fingerprints": [
+        "90:F5:1E:DE:1F:F0:DB:86:96:18:31:80:96:D1:EC:47:13:19:1B:F7:3D:19:99:2C:1B:6E:42:E1:61:B4:85:82",
+        "FA:81:6A:12:23:70:84:40:68:41:C4:C5:83:C1:9A:63:B6:F8:BB:94:D9:92:C3:E9:3E:62:03:7A:AD:B8:DB:53",
+        "1E:F3:9F:B0:F9:E6:5A:5C:3F:A2:8B:12:8A:96:0A:3B:A2:9E:EC:19:3C:C5:CB:1D:B1:19:C0:83:59:65:8B:A8"
       ]
     }
   }

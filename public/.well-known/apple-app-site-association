@@ -5,6 +5,16 @@
       {
         "appID": "R3H7M2M4F5.com.knightofknee.bekin8",
         "paths": [ "/bekin/invite/*" ]
+      },
+      {
+        "appIDs": [ "R3H7M2M4F5.com.briancarlisle.directdemocracy" ],
+        "components": [
+          {
+            "/": "/directdemocracy/auth",
+            "?": { "mode": "signIn" },
+            "comment": "Firebase email sign-in links open the app; password reset and other modes stay in the browser"
+          }
+        ]
       }
     ]
   }
