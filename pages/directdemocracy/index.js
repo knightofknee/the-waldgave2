@@ -1,5 +1,16 @@
 import Link from 'next/link'
 
+// Builds up to 1.0.10 use this page as the continue URL for Firebase email
+// sign-in links; Firebase's handler forwards the link's parameters here.
+// Send those on to the handoff page, which opens the app.
+export async function getServerSideProps({ query, resolvedUrl }) {
+  if (query.mode === 'signIn' && query.oobCode) {
+    const q = resolvedUrl.indexOf('?')
+    return { redirect: { destination: '/directdemocracy/auth' + (q >= 0 ? resolvedUrl.slice(q) : ''), permanent: false } }
+  }
+  return { props: {} }
+}
+
 export default function DirectDemocracy() {
   return (
     <div className="container">
