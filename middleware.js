@@ -1,16 +1,27 @@
 import { NextResponse } from 'next/server';
 
+// True aliases only: a different name for the same page. Keys must be lowercase.
+// Plain case differences (/carlscommentary → /CarlsCommentary) are handled
+// automatically by the route map below, so they don't belong here.
 const aliases = {
-  '/chigui': '/chigui',
   '/openchicago': '/chigui',
-  '/carlscommentary': '/CarlsCommentary',
 };
+
+// Generated in next.config.js from the pages folder at build time.
+const { static: staticRoutes, dynamic: dynamicPrefixes } = JSON.parse(process.env.CASE_ROUTES);
 
 export function middleware(req) {
   const url = req.nextUrl;
-  const target = aliases[url.pathname.toLowerCase()];
+  const original = url.pathname;
+  const lower = original.toLowerCase();
 
-  if (target && url.pathname !== target) {
+  let target = aliases[lower] ?? staticRoutes[lower];
+  if (!target) {
+    const hit = dynamicPrefixes.find(([lowerPrefix]) => lower.startsWith(lowerPrefix));
+    if (hit) target = hit[1] + original.slice(hit[0].length);
+  }
+
+  if (target && target !== original) {
     url.pathname = target;
     return NextResponse.rewrite(url);
   }
