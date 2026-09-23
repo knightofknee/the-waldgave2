@@ -39,10 +39,9 @@ export default function OpenChicago() {
     </div> */}
     <Phases phases={phases} />
 
-    <blockquote className="epigraph">
-      <p>&ldquo;We shall overcome because Carl<del>y</del>(is)le is right: &lsquo;no lie can live forever.&rsquo;&rdquo;</p>
-      <cite>Rev. Dr. Martin Luther King Jr., &ldquo;Remaining Awake Through a Great Revolution,&rdquo; National Cathedral, Washington, D.C., March 31, 1968</cite>
-    </blockquote>
+    <aside className="tldr">
+      <p><b>TLDR:</b> Put an engineer in the Mayor&rsquo;s office. Politicians have had their turn. I meditate every day, I will drop the ego and build the Chicago dream team. I define dream team as all people working towards the same goal. I dream of a better Chicago, and I know I am not alone.</p>
+    </aside>
     <p>
     Hello, my name is Brian Carlisle, and I am running for mayor. No man is an island, and I believe in the people of Chicago, which is why I think the job is easier than it looks. This used to be a harder sell, but Mamdani is proving there is an orchard of low-hanging fruit waiting for the picking. Three of my top concerns are public safety, the cost of living (housing above all), and the budget (mostly the pension debt), but I am not limited to those. There is a list below. I want to find the people here who can get things done and hand them the keys.
 
@@ -61,7 +60,7 @@ export default function OpenChicago() {
      I don't think I'm always right, I invite you to ignore the 30% of what I say that you dislike the most. In exchange, I ask that you take the other 70% seriously. Can we carve off the global 30% and agree upon a Venn Tesseract, the clear direction to move towards with each step? */}
      </p>
     <p>
-    I&apos;m a software engineer, and this whole platform is the engineering mindset applied to a city. Find where the system is failing, look up which city already solved a version of it, copy what worked, measure it in public, and iterate. None of that is hypothetical: Newark replaced all its lead lines in under three years, Houston cut its homeless population by more than half, and Pittsburgh cut travel times 25% with adaptive signals. Engineers don&apos;t get to say &ldquo;it&apos;s complicated&rdquo; and go home&mdash;the thing has to actually work. I want a city government held to the same standard as the software you use every day: when it breaks, someone&apos;s on call, and a fix is delivered in a week, not in 2076.
+    I&apos;m a software engineer, and this platform is the engineering mindset applied to a city. Find where the system is failing, look up which city already solved a version of it, copy what worked, measure it in public, and iterate. None of that is hypothetical: Newark replaced all its lead lines in under three years, Houston cut its homeless population by more than half, and Pittsburgh cut travel times 25% with adaptive signals. Engineers don&apos;t get to say &ldquo;it&apos;s complicated&rdquo; and go home&mdash;the thing has to actually work. I want a city government held to the same standard as the software you use every day: when it breaks, someone&apos;s on call, and a fix is delivered in a week, not in 2076.
     </p>
 
 
@@ -470,26 +469,29 @@ h4 {
   margin: 1.2em 0 0.4em;
 }
 
-/* Opening epigraph: reads as a straight, sober citation. That's the joke. */
-.epigraph {
-  margin: 2em auto 2.2em;
-  max-width: 58ch;
-  text-align: center;
+/* TLDR: the first thing people read, and for some the only thing.
+   Borrows a deeper take on the active phase pill's purple so it belongs to the page. */
+.tldr {
+  margin: 1.6em 0 2em;
+  padding: 0.85em 1.2em 0.9em;
+  background: rgba(150, 80, 150, 0.1);
+  border-left: 4px solid rgb(115, 45, 115);
+  border-radius: 0 8px 8px 0;
 }
-.epigraph p {
-  font-style: italic;
-  text-align: center;
-  text-wrap: balance;
-  margin-bottom: 0.5em;
+.tldr p {
+  margin: 0;
+  text-align: left;
+  font-size: 1.06em;
+  line-height: 1.55;
+  text-wrap: pretty;
 }
-.epigraph del {
-  text-decoration-thickness: 2px;
-}
-.epigraph cite {
+.tldr b {
   font-family: 'Instrument Sans', 'Avenir', Helvetica, Arial, sans-serif;
-  font-style: normal;
-  font-size: 0.85rem;
-  color: rgba(44, 62, 80, 0.75);
+  font-size: 0.8em;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: rgb(115, 45, 115);
+  margin-right: 0.4em;
 }
 
 /* Policy group headers: small caps in the UI font, so they read as
